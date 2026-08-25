@@ -65,9 +65,10 @@
 
 <script>
 const fmt$ = x => '$' + Number(x).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+const RAW='https://raw.githubusercontent.com/OktaCapital/Remindme/claude%2Fenhance-chat-app-VRiuD/paperbot/state.json';
 async function load(){
   try{
-    const r = await fetch('state.json?t='+Date.now());
+    const r = await fetch(RAW+'?t='+Date.now());
     const s = await r.json();
     const eq = s.equity ?? 1000;
     document.getElementById('eq').textContent = fmt$(eq);
