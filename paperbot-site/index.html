@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>rfL15v Paper Trader — Live</title>
+<style>
+  :root{--bg:#0d1117;--card:#161b22;--border:#30363d;--txt:#e6edf3;--dim:#8b949e;
+        --green:#3fb950;--red:#f85149;--amber:#d29922;--blue:#58a6ff}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--txt);font-family:'SF Mono',Consolas,monospace;padding:24px;max-width:1100px;margin:auto}
+  h1{font-size:18px;margin-bottom:4px}
+  .sub{color:var(--dim);font-size:12px;margin-bottom:20px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:20px}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:14px}
+  .card .label{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px}
+  .card .value{font-size:22px;font-weight:bold}
+  .card .delta{font-size:12px;margin-top:4px}
+  .up{color:var(--green)} .down{color:var(--red)} .neu{color:var(--amber)}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th{color:var(--dim);text-align:left;font-weight:normal;font-size:11px;text-transform:uppercase;padding:8px 10px;border-bottom:1px solid var(--border)}
+  td{padding:8px 10px;border-bottom:1px solid #21262d}
+  .section{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:6px 4px;margin-bottom:20px}
+  .section h2{font-size:13px;color:var(--dim);padding:10px 10px 4px;text-transform:uppercase;letter-spacing:.5px}
+  svg{display:block;width:100%}
+  .badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px}
+  .badge.long{background:#12351c;color:var(--green)}
+  .badge.tp{background:#12351c;color:var(--green)} .badge.sl{background:#3d1418;color:var(--red)}
+  .badge.time{background:#33290f;color:var(--amber)}
+  footer{color:var(--dim);font-size:11px;margin-top:8px;line-height:1.6}
+</style>
+</head>
+<body>
+<h1>rfL15v · Altcoin Perp Paper Trader</h1>
+<div class="sub">RSI(14)&lt;15 + volume capitulation &rarr; LONG only &middot; TP +2% / SL &minus;3% &middot; $1000 start &middot; $10 risk/trade &middot; fee 0.05%/side &middot; <span id="upd">loading&hellip;</span></div>
+
+<div class="grid">
+  <div class="card"><div class="label">Equity</div><div class="value" id="eq">—</div><div class="delta" id="eqd">—</div></div>
+  <div class="card"><div class="label">Closed Trades</div><div class="value" id="nt">—</div></div>
+  <div class="card"><div class="label">Win Rate</div><div class="value" id="wr">—</div></div>
+  <div class="card"><div class="label">Open Positions</div><div class="value" id="op">—</div></div>
+</div>
+
+<div class="section">
+  <h2>Equity Curve</h2>
+  <svg id="chart" viewBox="0 0 1000 180" preserveAspectRatio="none"></svg>
+</div>
+
+<div class="section">
+  <h2>Open Positions</h2>
+  <table><thead><tr><th>Symbol</th><th>Entry</th><th>Mark</th><th>PnL%</th><th>Age</th></tr></thead>
+  <tbody id="posbody"><tr><td colspan="5" style="color:var(--dim)">—</td></tr></tbody></table>
+</div>
+
+<div class="section">
+  <h2>Trade History</h2>
+  <table><thead><tr><th>Closed</th><th>Symbol</th><th>Entry</th><th>Exit</th><th>Return</th><th>PnL</th><th>Exit Reason</th></tr></thead>
+  <tbody id="trbody"><tr><td colspan="7" style="color:var(--dim)">—</td></tr></tbody></table>
+</div>
+
+<footer>
+  Forward test of backtest candidate rfL15v (IS PF 1.09 / OOS PF 2.41, WR 64-80%, maxDD 3-5%).<br>
+  Orders are SIMULATED against live Binance prices — no real funds at risk. Success gate: ≥30 closed trades with WR ≥55% before real capital.
+</footer>
+
+<script>
+const fmt$ = x => '$' + Number(x).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+async function load(){
+  try{
+    const r = await fetch('state.json?t='+Date.now());
+    const s = await r.json();
+    const eq = s.equity ?? 1000;
+    document.getElementById('eq').textContent = fmt$(eq);
+    const d = eq-1000;
+    const ed = document.getElementById('eqd');
+    ed.textContent = (d>=0?'+':'') + fmt$(d).slice(0) + ' (' + (d>=0?'+':'') + (d/10).toFixed(1) + '%)';
+    ed.className = 'delta ' + (d>0?'up':d<0?'down':'neu');
+    const tr = s.trades || [];
+    document.getElementById('nt').textContent = tr.length;
+    const wins = tr.filter(t=>t.pnl>0).length;
+    document.getElementById('wr').textContent = tr.length ? Math.round(wins/tr.length*100)+'%' : '—';
+    const pos = Object.keys(s.positions||{});
+    document.getElementById('op').textContent = pos.length;
+    // equity curve
+    let cum=1000; const pts=[cum];
+    tr.forEach(t=>{cum+=t.pnl; pts.push(cum)});
+    pts.push(eq);
+    const svg=document.getElementById('chart');
+    if(pts.length>1){
+      const mn=Math.min(...pts), mx=Math.max(...pts), pad=(mx-mn)||1;
+      const W=1000,H=170,P=12;
+      const xy=pts.map((v,i)=>[P+i*(W-2*P)/(pts.length-1), H-P-(v-mn)/(pad)*(H-2*P)]);
+      const line=xy.map(p=>p.join(',')).join(' ');
+      const last=xy[xy.length-1];
+      const col=cum>=1000?'#3fb950':'#f85149';
+      svg.innerHTML=`<polyline points="${line}" fill="none" stroke="${col}" stroke-width="2"/>
+        <line x1="${P}" y1="${H-P-(1000-mn)/pad*(H-2*P)}" x2="${W-P}" y2="${H-P-(1000-mn)/pad*(H-2*P)}" stroke="#30363d" stroke-dasharray="4 4"/>
+        <circle cx="${last[0]}" cy="${last[1]}" r="4" fill="${col}"/>`;
+    } else { svg.innerHTML='<text x="500" y="90" text-anchor="middle" fill="#8b949e">belum ada trade — menunggu sinyal pertama</text>'; }
+    // positions
+    const pb=document.getElementById('posbody');
+    if(pos.length===0){pb.innerHTML='<tr><td colspan="5" style="color:var(--dim)">kosong — menunggu sinyal RSI<15</td></tr>';}
+    else{
+      pb.innerHTML='';
+      pos.forEach(sym=>{
+        const p=s.positions[sym];
+        const ageH=((Date.now()-new Date(p.opened).getTime())/3600000).toFixed(1);
+        pb.innerHTML+=`<tr><td>${sym}</td><td>$${p.entry}</td><td>—</td>
+          <td><span class="badge long">LONG</span></td><td>${ageH}j</td></tr>`;
+      });
+    }
+    // trades
+    const tb=document.getElementById('trbody');
+    if(tr.length===0){tb.innerHTML='<tr><td colspan="7" style="color:var(--dim)">belum ada trade tertutup</td></tr>';}
+    else{
+      tb.innerHTML='';
+      [...tr].reverse().slice(0,25).forEach(t=>{
+        const cls=t.pnl>=0?'up':'down';
+        tb.innerHTML+=`<tr><td style="color:var(--dim)">${(t.closed||'').slice(5,16)}</td>
+          <td>${t.sym}</td><td>$${t.entry}</td><td>$${t.exit}</td>
+          <td class="${cls}">${(t.ret*100>=0?'+':'')}${(t.ret*100).toFixed(2)}%</td>
+          <td class="${cls}">${t.pnl>=0?'+':''}$${t.pnl.toFixed(2)}</td>
+          <td><span class="badge ${t.reason}">${t.reason}</span></td></tr>`;
+      });
+    }
+    document.getElementById('upd').textContent='update: '+new Date().toLocaleTimeString('id-ID');
+  }catch(e){
+    document.getElementById('upd').textContent='gagal load: '+e.message;
+  }
+}
+load(); setInterval(load,10000);
+</script>
+</body>
+</html>
