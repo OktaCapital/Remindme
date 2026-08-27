@@ -1,17 +1,6 @@
 {
- "equity": 991.9966666666667,
- "positions": {
-  "RIVERUSDT": {
-   "entry": 1.755,
-   "notional": 333.33,
-   "opened": "2026-08-27T12:00:06.123758+00:00",
-   "opened_ms": 1787832006123,
-   "signal_bar": 1787817600000,
-   "dir_long": true,
-   "rsi": 10.294,
-   "vol_ratio": 3.777
-  }
- },
+ "equity": 998.3266666666667,
+ "positions": {},
  "trades": [
   {
    "sym": "OPUSDT",
@@ -52,6 +41,16 @@
    "reason": "sl",
    "opened": "2026-08-27T08:04:44.069539+00:00",
    "closed": "2026-08-27T08:36:44.970299+00:00"
+  },
+  {
+   "sym": "RIVERUSDT",
+   "entry": 1.755,
+   "exit": 1.7901,
+   "ret": 0.019,
+   "pnl": 6.33,
+   "reason": "tp",
+   "opened": "2026-08-27T12:00:06.123758+00:00",
+   "closed": "2026-08-27T12:30:06.623516+00:00"
   }
  ],
  "last_signal_bar": {
@@ -63,18 +62,7 @@
  "last_day": "2026-08-27",
  "started": "2026-08-25T05:23:49.738812+00:00",
  "research": {
-  "positions": {
-   "RIVERUSDT": {
-    "entry": 1.755,
-    "notional": 333.33,
-    "opened": "2026-08-27T12:00:06.123758+00:00",
-    "opened_ms": 1787832006123,
-    "signal_bar": 1787817600000,
-    "dir_long": true,
-    "rsi": 10.294,
-    "vol_ratio": 3.777
-   }
-  },
+  "positions": {},
   "trades": [
    {
     "sym": "OPUSDT",
@@ -115,6 +103,16 @@
     "reason": "sl",
     "opened": "2026-08-27T08:04:44.069539+00:00",
     "closed": "2026-08-27T08:36:44.970299+00:00"
+   },
+   {
+    "sym": "RIVERUSDT",
+    "entry": 1.755,
+    "exit": 1.7901,
+    "ret": 0.019,
+    "pnl": 6.33,
+    "reason": "tp",
+    "opened": "2026-08-27T12:00:06.123758+00:00",
+    "closed": "2026-08-27T12:30:06.623516+00:00"
    }
   ],
   "last_signal_bar": {
@@ -604,9 +602,9 @@
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-27T12:28:06.525267+00:00",
+  "last_ok": "2026-08-27T12:34:06.720414+00:00",
   "last_error": null,
-  "monitor_ok": 1,
+  "monitor_ok": 0,
   "monitor_failed": 0
  }
 }
