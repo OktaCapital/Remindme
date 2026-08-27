@@ -1,5 +1,5 @@
 {
- "equity": 1118.596666666666,
+ "equity": 1124.9266666666658,
  "positions": {
   "JSTUSDT": {
    "entry": 0.09902,
@@ -80,6 +80,16 @@
    "dir_long": true,
    "rsi": 12.605,
    "vol_ratio": 1.632
+  },
+  "SUNUSDT": {
+   "entry": 0.016841,
+   "notional": 333.33,
+   "opened": "2026-08-27T18:26:45.765976+00:00",
+   "opened_ms": 1787855205765,
+   "signal_bar": 1787854800000,
+   "dir_long": true,
+   "rsi": 3.03,
+   "vol_ratio": 1.355
   }
  },
  "trades": [
@@ -322,6 +332,16 @@
    "reason": "tp",
    "opened": "2026-08-27T18:20:45.690010+00:00",
    "closed": "2026-08-27T18:22:45.703568+00:00"
+  },
+  {
+   "sym": "GRTUSDT",
+   "entry": 0.01774,
+   "exit": 0.018094799999999998,
+   "ret": 0.019,
+   "pnl": 6.33,
+   "reason": "tp",
+   "opened": "2026-08-27T18:26:45.765976+00:00",
+   "closed": "2026-08-27T18:28:45.797277+00:00"
   }
  ],
  "last_signal_bar": {
@@ -344,7 +364,9 @@
   "PROVEUSDT": "1787854200000",
   "KAITOUSDT": "1787854200000",
   "BANUSDT": "1787854200000",
-  "FORMUSDT": "1787854500000"
+  "FORMUSDT": "1787854500000",
+  "SUNUSDT": "1787854800000",
+  "GRTUSDT": "1787854800000"
  },
  "consec_err": 0,
  "last_day": "2026-08-27",
@@ -426,7 +448,9 @@
    "PROVEUSDT": "1787854200000",
    "KAITOUSDT": "1787854200000",
    "BANUSDT": "1787854200000",
-   "FORMUSDT": "1787854500000"
+   "FORMUSDT": "1787854500000",
+   "SUNUSDT": "1787854800000",
+   "GRTUSDT": "1787854800000"
   }
  },
  "universe": {
@@ -962,17 +986,17 @@
   "m30_entry_ok": 461,
   "m30_entry_failed": 0,
   "m30_entry_signals": 0,
-  "last_scan_bar_m5": "1787854500000",
+  "last_scan_bar_m5": "1787854800000",
   "m5_ok": 514,
   "m5_failed": 0,
-  "m5_entry_signals": 23
+  "m5_entry_signals": 36
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-27T18:24:45.723896+00:00",
+  "last_ok": "2026-08-27T18:28:45.797277+00:00",
   "last_error": null,
-  "monitor_ok": 8,
+  "monitor_ok": 10,
   "monitor_failed": 0
  }
 }
