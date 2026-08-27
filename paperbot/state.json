@@ -90,6 +90,16 @@
    "dir_long": true,
    "rsi": 7.407,
    "vol_ratio": 2.55
+  },
+  "GRAMUSDT": {
+   "entry": 1.416,
+   "notional": 333.33,
+   "opened": "2026-08-27T23:46:54.786001+00:00",
+   "opened_ms": 1787874414785,
+   "signal_bar": 1787874000000,
+   "dir_long": true,
+   "rsi": 13.043,
+   "vol_ratio": 2.611
   }
  },
  "trades": [
@@ -810,7 +820,8 @@
   "VELVETUSDT": "1787869800000",
   "ONUSDT": "1787870400000",
   "JELLYJELLYUSDT": "1787872200000",
-  "PLAYUSDT": "1787873700000"
+  "PLAYUSDT": "1787873700000",
+  "GRAMUSDT": "1787874000000"
  },
  "consec_err": 0,
  "last_day": "2026-08-27",
@@ -918,7 +929,8 @@
    "VELVETUSDT": "1787869800000",
    "ONUSDT": "1787870400000",
    "JELLYJELLYUSDT": "1787872200000",
-   "PLAYUSDT": "1787873700000"
+   "PLAYUSDT": "1787873700000",
+   "GRAMUSDT": "1787874000000"
   }
  },
  "universe": {
@@ -1454,17 +1466,17 @@
   "m30_entry_ok": 461,
   "m30_entry_failed": 0,
   "m30_entry_signals": 0,
-  "last_scan_bar_m5": "1787873700000",
+  "last_scan_bar_m5": "1787874000000",
   "m5_ok": 514,
   "m5_failed": 0,
-  "m5_entry_signals": 2
+  "m5_entry_signals": 1
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-27T23:44:54.722881+00:00",
+  "last_ok": "2026-08-27T23:48:54.854666+00:00",
   "last_error": null,
-  "monitor_ok": 9,
+  "monitor_ok": 10,
   "monitor_failed": 0
  }
 }
