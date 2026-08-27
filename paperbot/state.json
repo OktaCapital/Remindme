@@ -30,9 +30,32 @@
  "last_day": "2026-08-27",
  "started": "2026-08-25T05:23:49.738812+00:00",
  "research": {
-  "positions": {},
-  "trades": [],
-  "last_signal_bar": {}
+  "positions": {
+   "APTUSDT": {
+    "entry": 0.5625,
+    "notional": 333.33,
+    "opened": "2026-08-26T00:17:36.276342+00:00",
+    "opened_ms": 1787703456276,
+    "signal_bar": 1787688000000,
+    "dir_long": true
+   }
+  },
+  "trades": [
+   {
+    "sym": "OPUSDT",
+    "entry": 0.09836,
+    "exit": 0.0954092,
+    "ret": -0.031,
+    "pnl": -10.33,
+    "reason": "sl",
+    "opened": "2026-08-26T20:00:07.256190+00:00",
+    "closed": "2026-08-27T05:47:09.180516+00:00"
+   }
+  ],
+  "last_signal_bar": {
+   "APTUSDT": "1787688000000",
+   "OPUSDT": "1787760000000"
+  }
  },
  "universe": {
   "symbols": [],
@@ -41,5 +64,6 @@
   "eligible_count": 0,
   "scan_ok": 0,
   "scan_failed": 0
- }
+ },
+ "schema_version": 2
 }
