@@ -1,5 +1,5 @@
 {
- "equity": 1220.7963646862022,
+ "equity": 1227.1263646862021,
  "positions": {
   "JSTUSDT": {
    "entry": 0.09902,
@@ -80,6 +80,16 @@
    "dir_long": true,
    "rsi": 11.613,
    "vol_ratio": 1.541
+  },
+  "BTCDOMUSDT": {
+   "entry": 5322.3,
+   "notional": 333.33,
+   "opened": "2026-08-27T19:40:47.203496+00:00",
+   "opened_ms": 1787859647203,
+   "signal_bar": 1787859300000,
+   "dir_long": true,
+   "rsi": 7.921,
+   "vol_ratio": 1.549
   }
  },
  "trades": [
@@ -502,6 +512,16 @@
    "reason": "tp",
    "opened": "2026-08-27T19:36:47.109607+00:00",
    "closed": "2026-08-27T19:38:47.140423+00:00"
+  },
+  {
+   "sym": "PROMUSDT",
+   "entry": 4.515,
+   "exit": 4.6053,
+   "ret": 0.019,
+   "pnl": 6.33,
+   "reason": "tp",
+   "opened": "2026-08-27T19:40:47.203496+00:00",
+   "closed": "2026-08-27T19:42:47.232068+00:00"
   }
  ],
  "last_signal_bar": {
@@ -536,8 +556,9 @@
   "ACUUSDT": "1787856900000",
   "RUNEUSDT": "1787857200000",
   "MEUSDT": "1787858100000",
-  "PROMUSDT": "1787859000000",
-  "BLUAIUSDT": "1787859000000"
+  "PROMUSDT": "1787859300000",
+  "BLUAIUSDT": "1787859000000",
+  "BTCDOMUSDT": "1787859300000"
  },
  "consec_err": 0,
  "last_day": "2026-08-27",
@@ -631,8 +652,9 @@
    "ACUUSDT": "1787856900000",
    "RUNEUSDT": "1787857200000",
    "MEUSDT": "1787858100000",
-   "PROMUSDT": "1787859000000",
-   "BLUAIUSDT": "1787859000000"
+   "PROMUSDT": "1787859300000",
+   "BLUAIUSDT": "1787859000000",
+   "BTCDOMUSDT": "1787859300000"
   }
  },
  "universe": {
@@ -1168,7 +1190,7 @@
   "m30_entry_ok": 461,
   "m30_entry_failed": 0,
   "m30_entry_signals": 0,
-  "last_scan_bar_m5": "1787859000000",
+  "last_scan_bar_m5": "1787859300000",
   "m5_ok": 514,
   "m5_failed": 0,
   "m5_entry_signals": 3
@@ -1176,9 +1198,9 @@
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-27T19:38:47.140423+00:00",
+  "last_ok": "2026-08-27T19:44:47.259050+00:00",
   "last_error": null,
-  "monitor_ok": 10,
+  "monitor_ok": 9,
   "monitor_failed": 0
  }
 }
