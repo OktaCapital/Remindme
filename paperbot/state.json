@@ -80,6 +80,16 @@
    "dir_long": true,
    "rsi": 13.333,
    "vol_ratio": 2.155
+  },
+  "ONUSDT": {
+   "entry": 0.2478,
+   "notional": 333.33,
+   "opened": "2026-08-27T22:46:53.694354+00:00",
+   "opened_ms": 1787870813694,
+   "signal_bar": 1787870400000,
+   "dir_long": true,
+   "rsi": 7.407,
+   "vol_ratio": 2.55
   }
  },
  "trades": [
@@ -747,7 +757,8 @@
   "TRXUSDT": "1787866800000",
   "MORPHOUSDT": "1787867400000",
   "ARCUSDT": "1787868300000",
-  "VELVETUSDT": "1787869800000"
+  "VELVETUSDT": "1787869800000",
+  "ONUSDT": "1787870400000"
  },
  "consec_err": 0,
  "last_day": "2026-08-27",
@@ -852,7 +863,8 @@
    "TRXUSDT": "1787866800000",
    "MORPHOUSDT": "1787867400000",
    "ARCUSDT": "1787868300000",
-   "VELVETUSDT": "1787869800000"
+   "VELVETUSDT": "1787869800000",
+   "ONUSDT": "1787870400000"
   }
  },
  "universe": {
@@ -1388,17 +1400,17 @@
   "m30_entry_ok": 461,
   "m30_entry_failed": 0,
   "m30_entry_signals": 0,
-  "last_scan_bar_m5": "1787870100000",
+  "last_scan_bar_m5": "1787870400000",
   "m5_ok": 514,
   "m5_failed": 0,
-  "m5_entry_signals": 0
+  "m5_entry_signals": 1
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-27T22:44:53.652813+00:00",
+  "last_ok": "2026-08-27T22:48:53.720465+00:00",
   "last_error": null,
-  "monitor_ok": 8,
+  "monitor_ok": 9,
   "monitor_failed": 0
  }
 }
