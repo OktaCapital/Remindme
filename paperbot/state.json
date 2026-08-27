@@ -1,5 +1,5 @@
 {
- "equity": 1273.8213341056255,
+ "equity": 1280.1513341056254,
  "positions": {
   "USDCUSDT": {
    "entry": 0.999481,
@@ -622,6 +622,16 @@
    "reason": "tp",
    "opened": "2026-08-27T21:26:49.693246+00:00",
    "closed": "2026-08-27T21:28:50.178700+00:00"
+  },
+  {
+   "sym": "FILUSDT",
+   "entry": 0.7078,
+   "exit": 0.721956,
+   "ret": 0.019,
+   "pnl": 6.33,
+   "reason": "tp",
+   "opened": "2026-08-27T21:30:50.697154+00:00",
+   "closed": "2026-08-27T21:32:51.346796+00:00"
   }
  ],
  "last_signal_bar": {
@@ -662,7 +672,8 @@
   "ORDERUSDT": "1787859900000",
   "MINAUSDT": "1787862900000",
   "KITEUSDT": "1787863800000",
-  "AKEUSDT": "1787865600000"
+  "AKEUSDT": "1787865600000",
+  "FILUSDT": "1787865900000"
  },
  "consec_err": 0,
  "last_day": "2026-08-27",
@@ -762,7 +773,8 @@
    "ORDERUSDT": "1787859900000",
    "MINAUSDT": "1787862900000",
    "KITEUSDT": "1787863800000",
-   "AKEUSDT": "1787865600000"
+   "AKEUSDT": "1787865600000",
+   "FILUSDT": "1787865900000"
   }
  },
  "universe": {
@@ -1292,13 +1304,13 @@
   "h1_ok": 514,
   "h1_failed": 0,
   "h1_signals_found": 0,
-  "last_scan_bar_m30": "1787862600000",
-  "m30_ok": 10,
+  "last_scan_bar_m30": "1787864400000",
+  "m30_ok": 8,
   "m30_failed": 0,
   "m30_entry_ok": 461,
   "m30_entry_failed": 0,
   "m30_entry_signals": 0,
-  "last_scan_bar_m5": "1787865600000",
+  "last_scan_bar_m5": "1787865900000",
   "m5_ok": 514,
   "m5_failed": 0,
   "m5_entry_signals": 1
@@ -1306,9 +1318,9 @@
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-27T21:28:50.178700+00:00",
+  "last_ok": "2026-08-27T21:34:51.923543+00:00",
   "last_error": null,
-  "monitor_ok": 9,
+  "monitor_ok": 8,
   "monitor_failed": 0
  }
 }
