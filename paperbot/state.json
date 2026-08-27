@@ -1,5 +1,5 @@
 {
- "equity": 1162.9066666666654,
+ "equity": 1176.01260025521,
  "positions": {
   "JSTUSDT": {
    "entry": 0.09902,
@@ -50,16 +50,6 @@
    "dir_long": true,
    "rsi": 8.696,
    "vol_ratio": 4.858
-  },
-  "PROVEUSDT": {
-   "entry": 0.1711,
-   "notional": 333.33,
-   "opened": "2026-08-27T18:16:45.586748+00:00",
-   "opened_ms": 1787854605586,
-   "signal_bar": 1787854200000,
-   "dir_long": true,
-   "rsi": 10.0,
-   "vol_ratio": 2.375
   },
   "KAITOUSDT": {
    "entry": 0.3165,
@@ -402,6 +392,36 @@
    "reason": "tp",
    "opened": "2026-08-27T18:56:46.409824+00:00",
    "closed": "2026-08-27T18:58:46.441554+00:00"
+  },
+  {
+   "sym": "PROVEUSDT",
+   "entry": 0.1711,
+   "exit": 0.1715,
+   "ret": 0.00134,
+   "pnl": 0.45,
+   "reason": "trail_rsi",
+   "opened": "2026-08-27T18:16:45.586748+00:00",
+   "closed": "2026-08-27T19:00:46.556754+00:00"
+  },
+  {
+   "sym": "SXTUSDT",
+   "entry": 0.008304,
+   "exit": 0.008470080000000001,
+   "ret": 0.019,
+   "pnl": 6.33,
+   "reason": "tp",
+   "opened": "2026-08-27T19:00:46.556754+00:00",
+   "closed": "2026-08-27T19:02:46.506647+00:00"
+  },
+  {
+   "sym": "ACUUSDT",
+   "entry": 0.13803,
+   "exit": 0.14079060000000002,
+   "ret": 0.019,
+   "pnl": 6.33,
+   "reason": "tp",
+   "opened": "2026-08-27T19:00:46.556754+00:00",
+   "closed": "2026-08-27T19:02:46.506647+00:00"
   }
  ],
  "last_signal_bar": {
@@ -431,7 +451,9 @@
   "ZORAUSDT": "1787855700000",
   "PRLUSDT": "1787856000000",
   "HOLOUSDT": "1787856300000",
-  "LSKUSDT": "1787856600000"
+  "LSKUSDT": "1787856600000",
+  "SXTUSDT": "1787856900000",
+  "ACUUSDT": "1787856900000"
  },
  "consec_err": 0,
  "last_day": "2026-08-27",
@@ -520,7 +542,9 @@
    "ZORAUSDT": "1787855700000",
    "PRLUSDT": "1787856000000",
    "HOLOUSDT": "1787856300000",
-   "LSKUSDT": "1787856600000"
+   "LSKUSDT": "1787856600000",
+   "SXTUSDT": "1787856900000",
+   "ACUUSDT": "1787856900000"
   }
  },
  "universe": {
@@ -1046,27 +1070,27 @@
   "scan_ok": 514,
   "scan_failed": 0,
   "signals_found": 0,
-  "last_scan_bar_h1": "1787850000000",
+  "last_scan_bar_h1": "1787853600000",
   "h1_ok": 514,
   "h1_failed": 0,
   "h1_signals_found": 0,
-  "last_scan_bar_m30": "1787853600000",
+  "last_scan_bar_m30": "1787855400000",
   "m30_ok": 9,
   "m30_failed": 0,
   "m30_entry_ok": 461,
   "m30_entry_failed": 0,
   "m30_entry_signals": 0,
-  "last_scan_bar_m5": "1787856600000",
+  "last_scan_bar_m5": "1787856900000",
   "m5_ok": 514,
   "m5_failed": 0,
-  "m5_entry_signals": 3
+  "m5_entry_signals": 2
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-27T18:58:46.441554+00:00",
+  "last_ok": "2026-08-27T19:04:46.538682+00:00",
   "last_error": null,
-  "monitor_ok": 10,
+  "monitor_ok": 8,
   "monitor_failed": 0
  }
 }
