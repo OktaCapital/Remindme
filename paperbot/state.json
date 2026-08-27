@@ -1,5 +1,5 @@
 {
- "equity": 1201.3326002552096,
+ "equity": 1208.1363646862023,
  "positions": {
   "JSTUSDT": {
    "entry": 0.09902,
@@ -40,16 +40,6 @@
    "dir_long": true,
    "rsi": 11.111,
    "vol_ratio": 1.566
-  },
-  "SONICUSDT": {
-   "entry": 0.02065,
-   "notional": 333.33,
-   "opened": "2026-08-27T18:16:45.586748+00:00",
-   "opened_ms": 1787854605586,
-   "signal_bar": 1787854200000,
-   "dir_long": true,
-   "rsi": 8.696,
-   "vol_ratio": 4.858
   },
   "KAITOUSDT": {
    "entry": 0.3165,
@@ -472,6 +462,26 @@
    "reason": "tp",
    "opened": "2026-08-27T19:20:46.816051+00:00",
    "closed": "2026-08-27T19:22:46.859654+00:00"
+  },
+  {
+   "sym": "SONICUSDT",
+   "entry": 0.02065,
+   "exit": 0.0207,
+   "ret": 0.00142,
+   "pnl": 0.47,
+   "reason": "trail_rsi",
+   "opened": "2026-08-27T18:16:45.586748+00:00",
+   "closed": "2026-08-27T19:30:47.021382+00:00"
+  },
+  {
+   "sym": "PROMUSDT",
+   "entry": 4.418,
+   "exit": 4.50636,
+   "ret": 0.019,
+   "pnl": 6.33,
+   "reason": "tp",
+   "opened": "2026-08-27T19:30:47.021382+00:00",
+   "closed": "2026-08-27T19:32:47.029736+00:00"
   }
  ],
  "last_signal_bar": {
@@ -505,7 +515,8 @@
   "SXTUSDT": "1787857200000",
   "ACUUSDT": "1787856900000",
   "RUNEUSDT": "1787857200000",
-  "MEUSDT": "1787858100000"
+  "MEUSDT": "1787858100000",
+  "PROMUSDT": "1787858700000"
  },
  "consec_err": 0,
  "last_day": "2026-08-27",
@@ -598,7 +609,8 @@
    "SXTUSDT": "1787857200000",
    "ACUUSDT": "1787856900000",
    "RUNEUSDT": "1787857200000",
-   "MEUSDT": "1787858100000"
+   "MEUSDT": "1787858100000",
+   "PROMUSDT": "1787858700000"
   }
  },
  "universe": {
@@ -1128,23 +1140,23 @@
   "h1_ok": 514,
   "h1_failed": 0,
   "h1_signals_found": 0,
-  "last_scan_bar_m30": "1787855400000",
+  "last_scan_bar_m30": "1787857200000",
   "m30_ok": 9,
   "m30_failed": 0,
   "m30_entry_ok": 461,
   "m30_entry_failed": 0,
   "m30_entry_signals": 0,
-  "last_scan_bar_m5": "1787858400000",
+  "last_scan_bar_m5": "1787858700000",
   "m5_ok": 514,
   "m5_failed": 0,
-  "m5_entry_signals": 0
+  "m5_entry_signals": 1
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-27T19:28:46.946948+00:00",
+  "last_ok": "2026-08-27T19:34:47.040693+00:00",
   "last_error": null,
-  "monitor_ok": 9,
+  "monitor_ok": 8,
   "monitor_failed": 0
  }
 }
