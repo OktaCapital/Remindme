@@ -1,5 +1,5 @@
 {
- "equity": 1093.2766666666662,
+ "equity": 1105.936666666666,
  "positions": {
   "JSTUSDT": {
    "entry": 0.09902,
@@ -40,6 +40,46 @@
    "dir_long": true,
    "rsi": 11.111,
    "vol_ratio": 1.566
+  },
+  "SONICUSDT": {
+   "entry": 0.02065,
+   "notional": 333.33,
+   "opened": "2026-08-27T18:16:45.586748+00:00",
+   "opened_ms": 1787854605586,
+   "signal_bar": 1787854200000,
+   "dir_long": true,
+   "rsi": 8.696,
+   "vol_ratio": 4.858
+  },
+  "PROVEUSDT": {
+   "entry": 0.1711,
+   "notional": 333.33,
+   "opened": "2026-08-27T18:16:45.586748+00:00",
+   "opened_ms": 1787854605586,
+   "signal_bar": 1787854200000,
+   "dir_long": true,
+   "rsi": 10.0,
+   "vol_ratio": 2.375
+  },
+  "KAITOUSDT": {
+   "entry": 0.3165,
+   "notional": 333.33,
+   "opened": "2026-08-27T18:16:45.586748+00:00",
+   "opened_ms": 1787854605586,
+   "signal_bar": 1787854200000,
+   "dir_long": true,
+   "rsi": 11.765,
+   "vol_ratio": 2.772
+  },
+  "BANUSDT": {
+   "entry": 0.07395,
+   "notional": 333.33,
+   "opened": "2026-08-27T18:16:45.586748+00:00",
+   "opened_ms": 1787854605586,
+   "signal_bar": 1787854200000,
+   "dir_long": true,
+   "rsi": 12.605,
+   "vol_ratio": 1.632
   }
  },
  "trades": [
@@ -242,6 +282,26 @@
    "reason": "tp",
    "opened": "2026-08-27T18:10:45.520375+00:00",
    "closed": "2026-08-27T18:12:45.508256+00:00"
+  },
+  {
+   "sym": "TUTUSDT",
+   "entry": 0.0523,
+   "exit": 0.053346,
+   "ret": 0.019,
+   "pnl": 6.33,
+   "reason": "tp",
+   "opened": "2026-08-27T18:16:45.586748+00:00",
+   "closed": "2026-08-27T18:18:45.631215+00:00"
+  },
+  {
+   "sym": "CCUSDT",
+   "entry": 0.11202,
+   "exit": 0.1142604,
+   "ret": 0.019,
+   "pnl": 6.33,
+   "reason": "tp",
+   "opened": "2026-08-27T18:16:45.586748+00:00",
+   "closed": "2026-08-27T18:18:45.631215+00:00"
   }
  ],
  "last_signal_bar": {
@@ -256,10 +316,14 @@
   "SUSDT": "1787847300000",
   "KOMAUSDT": "1787853600000",
   "CHIPUSDT": "1787851500000",
-  "CCUSDT": "1787853600000",
-  "TUTUSDT": "1787853900000",
+  "CCUSDT": "1787854200000",
+  "TUTUSDT": "1787854200000",
   "AVAUSDT": "1787853600000",
-  "MEGAUSDT": "1787853600000"
+  "MEGAUSDT": "1787853600000",
+  "SONICUSDT": "1787854200000",
+  "PROVEUSDT": "1787854200000",
+  "KAITOUSDT": "1787854200000",
+  "BANUSDT": "1787854200000"
  },
  "consec_err": 0,
  "last_day": "2026-08-27",
@@ -333,10 +397,14 @@
    "SUSDT": "1787847300000",
    "KOMAUSDT": "1787853600000",
    "CHIPUSDT": "1787851500000",
-   "CCUSDT": "1787853600000",
-   "TUTUSDT": "1787853900000",
+   "CCUSDT": "1787854200000",
+   "TUTUSDT": "1787854200000",
    "AVAUSDT": "1787853600000",
-   "MEGAUSDT": "1787853600000"
+   "MEGAUSDT": "1787853600000",
+   "SONICUSDT": "1787854200000",
+   "PROVEUSDT": "1787854200000",
+   "KAITOUSDT": "1787854200000",
+   "BANUSDT": "1787854200000"
   }
  },
  "universe": {
@@ -872,17 +940,17 @@
   "m30_entry_ok": 461,
   "m30_entry_failed": 0,
   "m30_entry_signals": 0,
-  "last_scan_bar_m5": "1787853900000",
+  "last_scan_bar_m5": "1787854200000",
   "m5_ok": 514,
   "m5_failed": 0,
-  "m5_entry_signals": 2
+  "m5_entry_signals": 7
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-27T18:14:45.518900+00:00",
+  "last_ok": "2026-08-27T18:18:45.631215+00:00",
   "last_error": null,
-  "monitor_ok": 4,
+  "monitor_ok": 10,
   "monitor_failed": 0
  }
 }
