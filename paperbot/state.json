@@ -20,6 +20,16 @@
    "dir_long": true,
    "rsi": 2.985,
    "vol_ratio": 9.543
+  },
+  "SUSDT": {
+   "entry": 0.03014,
+   "notional": 333.33,
+   "opened": "2026-08-27T16:20:39.793463+00:00",
+   "opened_ms": 1787847639793,
+   "signal_bar": 1787847300000,
+   "dir_long": true,
+   "rsi": 14.948,
+   "vol_ratio": 2.071
   }
  },
  "trades": [
@@ -132,7 +142,8 @@
   "FFUSDT": "1787842800000",
   "TAUSDT": "1787843400000",
   "USDCUSDT": "1787845200000",
-  "CAPUSDT": "1787845500000"
+  "CAPUSDT": "1787845500000",
+  "SUSDT": "1787847300000"
  },
  "consec_err": 0,
  "last_day": "2026-08-27",
@@ -202,7 +213,8 @@
    "FFUSDT": "1787842800000",
    "TAUSDT": "1787843400000",
    "USDCUSDT": "1787845200000",
-   "CAPUSDT": "1787845500000"
+   "CAPUSDT": "1787845500000",
+   "SUSDT": "1787847300000"
   }
  },
  "universe": {
@@ -738,17 +750,17 @@
   "m30_entry_ok": 461,
   "m30_entry_failed": 0,
   "m30_entry_signals": 0,
-  "last_scan_bar_m5": "1787847000000",
+  "last_scan_bar_m5": "1787847300000",
   "m5_ok": 514,
   "m5_failed": 0,
-  "m5_entry_signals": 0
+  "m5_entry_signals": 1
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-27T16:18:39.672894+00:00",
+  "last_ok": "2026-08-27T16:24:39.837683+00:00",
   "last_error": null,
-  "monitor_ok": 2,
+  "monitor_ok": 3,
   "monitor_failed": 0
  }
 }
