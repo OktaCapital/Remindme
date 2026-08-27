@@ -1,5 +1,5 @@
 {
- "equity": 1150.2466666666655,
+ "equity": 1156.5766666666655,
  "positions": {
   "JSTUSDT": {
    "entry": 0.09902,
@@ -382,6 +382,16 @@
    "reason": "tp",
    "opened": "2026-08-27T18:46:46.186026+00:00",
    "closed": "2026-08-27T18:48:46.211970+00:00"
+  },
+  {
+   "sym": "HOLOUSDT",
+   "entry": 0.06387,
+   "exit": 0.0651474,
+   "ret": 0.019,
+   "pnl": 6.33,
+   "reason": "tp",
+   "opened": "2026-08-27T18:50:46.311577+00:00",
+   "closed": "2026-08-27T18:52:46.305047+00:00"
   }
  ],
  "last_signal_bar": {
@@ -409,7 +419,8 @@
   "GRTUSDT": "1787855100000",
   "IOUSDT": "1787855400000",
   "ZORAUSDT": "1787855700000",
-  "PRLUSDT": "1787856000000"
+  "PRLUSDT": "1787856000000",
+  "HOLOUSDT": "1787856300000"
  },
  "consec_err": 0,
  "last_day": "2026-08-27",
@@ -496,7 +507,8 @@
    "GRTUSDT": "1787855100000",
    "IOUSDT": "1787855400000",
    "ZORAUSDT": "1787855700000",
-   "PRLUSDT": "1787856000000"
+   "PRLUSDT": "1787856000000",
+   "HOLOUSDT": "1787856300000"
   }
  },
  "universe": {
@@ -1032,17 +1044,17 @@
   "m30_entry_ok": 461,
   "m30_entry_failed": 0,
   "m30_entry_signals": 0,
-  "last_scan_bar_m5": "1787856000000",
+  "last_scan_bar_m5": "1787856300000",
   "m5_ok": 514,
   "m5_failed": 0,
-  "m5_entry_signals": 3
+  "m5_entry_signals": 5
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-27T18:48:46.211970+00:00",
+  "last_ok": "2026-08-27T18:54:46.361162+00:00",
   "last_error": null,
-  "monitor_ok": 10,
+  "monitor_ok": 9,
   "monitor_failed": 0
  }
 }
