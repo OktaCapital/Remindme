@@ -10,6 +10,16 @@
    "dir_long": true,
    "rsi": 10.494,
    "vol_ratio": 1.297
+  },
+  "USDCUSDT": {
+   "entry": 0.999481,
+   "notional": 333.33,
+   "opened": "2026-08-27T15:46:39.073221+00:00",
+   "opened_ms": 1787845599073,
+   "signal_bar": 1787845200000,
+   "dir_long": true,
+   "rsi": 2.985,
+   "vol_ratio": 9.543
   }
  },
  "trades": [
@@ -110,7 +120,8 @@
   "RIVERUSDT": "1787817600000",
   "JSTUSDT": "1787838000000",
   "FFUSDT": "1787842800000",
-  "TAUSDT": "1787843400000"
+  "TAUSDT": "1787843400000",
+  "USDCUSDT": "1787845200000"
  },
  "consec_err": 0,
  "last_day": "2026-08-27",
@@ -178,7 +189,8 @@
   "last_signal_bar_m5": {
    "JSTUSDT": "1787838000000",
    "FFUSDT": "1787842800000",
-   "TAUSDT": "1787843400000"
+   "TAUSDT": "1787843400000",
+   "USDCUSDT": "1787845200000"
   }
  },
  "universe": {
@@ -661,17 +673,17 @@
   "m30_entry_ok": 461,
   "m30_entry_failed": 0,
   "m30_entry_signals": 0,
-  "last_scan_bar_m5": "1787844900000",
+  "last_scan_bar_m5": "1787845200000",
   "m5_ok": 461,
   "m5_failed": 0,
-  "m5_entry_signals": 0
+  "m5_entry_signals": 1
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-27T15:44:39.004758+00:00",
+  "last_ok": "2026-08-27T15:48:39.111522+00:00",
   "last_error": null,
-  "monitor_ok": 1,
+  "monitor_ok": 2,
   "monitor_failed": 0
  }
 }
