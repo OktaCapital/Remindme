@@ -1,5 +1,5 @@
 {
- "equity": 1029.976666666667,
+ "equity": 1036.3066666666668,
  "positions": {
   "JSTUSDT": {
    "entry": 0.09902,
@@ -132,6 +132,16 @@
    "reason": "tp",
    "opened": "2026-08-27T15:50:39.189293+00:00",
    "closed": "2026-08-27T15:52:39.162759+00:00"
+  },
+  {
+   "sym": "KOMAUSDT",
+   "entry": 0.013392,
+   "exit": 0.01365984,
+   "ret": 0.019,
+   "pnl": 6.33,
+   "reason": "tp",
+   "opened": "2026-08-27T17:20:41.148108+00:00",
+   "closed": "2026-08-27T17:22:41.190062+00:00"
   }
  ],
  "last_signal_bar": {
@@ -143,7 +153,8 @@
   "TAUSDT": "1787843400000",
   "USDCUSDT": "1787845200000",
   "CAPUSDT": "1787845500000",
-  "SUSDT": "1787847300000"
+  "SUSDT": "1787847300000",
+  "KOMAUSDT": "1787850900000"
  },
  "consec_err": 0,
  "last_day": "2026-08-27",
@@ -214,7 +225,8 @@
    "TAUSDT": "1787843400000",
    "USDCUSDT": "1787845200000",
    "CAPUSDT": "1787845500000",
-   "SUSDT": "1787847300000"
+   "SUSDT": "1787847300000",
+   "KOMAUSDT": "1787850900000"
   }
  },
  "universe": {
@@ -750,15 +762,15 @@
   "m30_entry_ok": 461,
   "m30_entry_failed": 0,
   "m30_entry_signals": 0,
-  "last_scan_bar_m5": "1787850600000",
+  "last_scan_bar_m5": "1787850900000",
   "m5_ok": 514,
   "m5_failed": 0,
-  "m5_entry_signals": 0
+  "m5_entry_signals": 1
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-27T17:18:41.094453+00:00",
+  "last_ok": "2026-08-27T17:24:41.502221+00:00",
   "last_error": null,
   "monitor_ok": 3,
   "monitor_failed": 0
