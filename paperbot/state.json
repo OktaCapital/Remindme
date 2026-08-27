@@ -1,5 +1,5 @@
 {
- "equity": 1229.456364686202,
+ "equity": 1242.1713341056259,
  "positions": {
   "USDCUSDT": {
    "entry": 0.999481,
@@ -71,16 +71,6 @@
    "rsi": 11.613,
    "vol_ratio": 1.541
   },
-  "BTCDOMUSDT": {
-   "entry": 5322.3,
-   "notional": 333.33,
-   "opened": "2026-08-27T19:40:47.203496+00:00",
-   "opened_ms": 1787859647203,
-   "signal_bar": 1787859300000,
-   "dir_long": true,
-   "rsi": 7.921,
-   "vol_ratio": 1.549
-  },
   "MINAUSDT": {
    "entry": 0.06386,
    "notional": 333.33,
@@ -90,16 +80,6 @@
    "dir_long": true,
    "rsi": 14.375,
    "vol_ratio": 2.719
-  },
-  "KITEUSDT": {
-   "entry": 0.12441,
-   "notional": 333.33,
-   "opened": "2026-08-27T20:56:48.476145+00:00",
-   "opened_ms": 1787864208476,
-   "signal_bar": 1787863800000,
-   "dir_long": true,
-   "rsi": 14.089,
-   "vol_ratio": 2.376
   }
  },
  "trades": [
@@ -562,6 +542,36 @@
    "reason": "sl",
    "opened": "2026-08-27T13:46:32.702202+00:00",
    "closed": "2026-08-27T20:54:48.447739+00:00"
+  },
+  {
+   "sym": "BTCDOMUSDT",
+   "entry": 5322.3,
+   "exit": 5328.5,
+   "ret": 0.00016,
+   "pnl": 0.05,
+   "reason": "trail_rsi",
+   "opened": "2026-08-27T19:40:47.203496+00:00",
+   "closed": "2026-08-27T21:00:48.580240+00:00"
+  },
+  {
+   "sym": "KITEUSDT",
+   "entry": 0.12441,
+   "exit": 0.12689820000000002,
+   "ret": 0.019,
+   "pnl": 6.33,
+   "reason": "tp",
+   "opened": "2026-08-27T20:56:48.476145+00:00",
+   "closed": "2026-08-27T21:00:48.580240+00:00"
+  },
+  {
+   "sym": "AKEUSDT",
+   "entry": 0.007235,
+   "exit": 0.0073797,
+   "ret": 0.019,
+   "pnl": 6.33,
+   "reason": "tp",
+   "opened": "2026-08-27T21:00:48.580240+00:00",
+   "closed": "2026-08-27T21:02:48.581224+00:00"
   }
  ],
  "last_signal_bar": {
@@ -601,7 +611,8 @@
   "BTCDOMUSDT": "1787859300000",
   "ORDERUSDT": "1787859900000",
   "MINAUSDT": "1787862900000",
-  "KITEUSDT": "1787863800000"
+  "KITEUSDT": "1787863800000",
+  "AKEUSDT": "1787864100000"
  },
  "consec_err": 0,
  "last_day": "2026-08-27",
@@ -700,7 +711,8 @@
    "BTCDOMUSDT": "1787859300000",
    "ORDERUSDT": "1787859900000",
    "MINAUSDT": "1787862900000",
-   "KITEUSDT": "1787863800000"
+   "KITEUSDT": "1787863800000",
+   "AKEUSDT": "1787864100000"
   }
  },
  "universe": {
@@ -1226,27 +1238,27 @@
   "scan_ok": 514,
   "scan_failed": 0,
   "signals_found": 0,
-  "last_scan_bar_h1": "1787857200000",
+  "last_scan_bar_h1": "1787860800000",
   "h1_ok": 514,
   "h1_failed": 0,
   "h1_signals_found": 0,
-  "last_scan_bar_m30": "1787860800000",
+  "last_scan_bar_m30": "1787862600000",
   "m30_ok": 10,
   "m30_failed": 0,
   "m30_entry_ok": 461,
   "m30_entry_failed": 0,
   "m30_entry_signals": 0,
-  "last_scan_bar_m5": "1787863800000",
+  "last_scan_bar_m5": "1787864100000",
   "m5_ok": 514,
   "m5_failed": 0,
-  "m5_entry_signals": 3
+  "m5_entry_signals": 1
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-27T20:58:48.511320+00:00",
+  "last_ok": "2026-08-27T21:04:48.615316+00:00",
   "last_error": null,
-  "monitor_ok": 10,
+  "monitor_ok": 8,
   "monitor_failed": 0
  }
 }
