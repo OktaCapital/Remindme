@@ -1,5 +1,5 @@
 {
- "equity": 1233.456364686202,
+ "equity": 1239.786364686202,
  "positions": {
   "JSTUSDT": {
    "entry": 0.09902,
@@ -91,15 +91,15 @@
    "rsi": 7.921,
    "vol_ratio": 1.549
   },
-  "BLUAIUSDT": {
-   "entry": 0.011699,
+  "MINAUSDT": {
+   "entry": 0.06386,
    "notional": 333.33,
-   "opened": "2026-08-27T20:00:47.623632+00:00",
-   "opened_ms": 1787860847623,
-   "signal_bar": 1787860500000,
+   "opened": "2026-08-27T20:40:48.244390+00:00",
+   "opened_ms": 1787863248244,
+   "signal_bar": 1787862900000,
    "dir_long": true,
-   "rsi": 7.143,
-   "vol_ratio": 2.786
+   "rsi": 14.375,
+   "vol_ratio": 2.719
   }
  },
  "trades": [
@@ -542,6 +542,16 @@
    "reason": "tp",
    "opened": "2026-08-27T19:50:47.381494+00:00",
    "closed": "2026-08-27T19:52:47.403549+00:00"
+  },
+  {
+   "sym": "BLUAIUSDT",
+   "entry": 0.011699,
+   "exit": 0.01193298,
+   "ret": 0.019,
+   "pnl": 6.33,
+   "reason": "tp",
+   "opened": "2026-08-27T20:00:47.623632+00:00",
+   "closed": "2026-08-27T20:40:48.244390+00:00"
   }
  ],
  "last_signal_bar": {
@@ -579,7 +589,8 @@
   "PROMUSDT": "1787859300000",
   "BLUAIUSDT": "1787860500000",
   "BTCDOMUSDT": "1787859300000",
-  "ORDERUSDT": "1787859900000"
+  "ORDERUSDT": "1787859900000",
+  "MINAUSDT": "1787862900000"
  },
  "consec_err": 0,
  "last_day": "2026-08-27",
@@ -676,7 +687,8 @@
    "PROMUSDT": "1787859300000",
    "BLUAIUSDT": "1787860500000",
    "BTCDOMUSDT": "1787859300000",
-   "ORDERUSDT": "1787859900000"
+   "ORDERUSDT": "1787859900000",
+   "MINAUSDT": "1787862900000"
   }
  },
  "universe": {
@@ -1212,15 +1224,15 @@
   "m30_entry_ok": 461,
   "m30_entry_failed": 0,
   "m30_entry_signals": 0,
-  "last_scan_bar_m5": "1787862600000",
+  "last_scan_bar_m5": "1787862900000",
   "m5_ok": 514,
   "m5_failed": 0,
-  "m5_entry_signals": 1
+  "m5_entry_signals": 2
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-27T20:38:48.205224+00:00",
+  "last_ok": "2026-08-27T20:44:48.280073+00:00",
   "last_error": null,
   "monitor_ok": 10,
   "monitor_failed": 0
