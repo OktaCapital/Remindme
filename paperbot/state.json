@@ -1,5 +1,5 @@
 {
- "equity": 1305.4713341056251,
+ "equity": 1311.833757664344,
  "positions": {
   "USDCUSDT": {
    "entry": 0.999481,
@@ -61,16 +61,6 @@
    "rsi": 3.03,
    "vol_ratio": 1.355
   },
-  "SXTUSDT": {
-   "entry": 0.008323,
-   "notional": 333.33,
-   "opened": "2026-08-27T19:06:46.605726+00:00",
-   "opened_ms": 1787857606605,
-   "signal_bar": 1787857200000,
-   "dir_long": true,
-   "rsi": 11.613,
-   "vol_ratio": 1.541
-  },
   "MINAUSDT": {
    "entry": 0.06386,
    "notional": 333.33,
@@ -80,16 +70,6 @@
    "dir_long": true,
    "rsi": 14.375,
    "vol_ratio": 2.719
-  },
-  "TRXUSDT": {
-   "entry": 0.3372,
-   "notional": 333.33,
-   "opened": "2026-08-27T21:46:52.617290+00:00",
-   "opened_ms": 1787867212617,
-   "signal_bar": 1787866800000,
-   "dir_long": true,
-   "rsi": 7.463,
-   "vol_ratio": 3.251
   },
   "ARCUSDT": {
    "entry": 0.06789,
@@ -692,6 +672,26 @@
    "reason": "tp",
    "opened": "2026-08-27T21:56:52.807488+00:00",
    "closed": "2026-08-27T21:58:52.837976+00:00"
+  },
+  {
+   "sym": "TRXUSDT",
+   "entry": 0.3372,
+   "exit": 0.33757,
+   "ret": 0.0001,
+   "pnl": 0.03,
+   "reason": "trail_rsi",
+   "opened": "2026-08-27T21:46:52.617290+00:00",
+   "closed": "2026-08-27T22:30:53.443979+00:00"
+  },
+  {
+   "sym": "SXTUSDT",
+   "entry": 0.008323,
+   "exit": 0.00848946,
+   "ret": 0.019,
+   "pnl": 6.33,
+   "reason": "tp",
+   "opened": "2026-08-27T19:06:46.605726+00:00",
+   "closed": "2026-08-27T22:32:53.455127+00:00"
   }
  ],
  "last_signal_bar": {
@@ -1370,23 +1370,23 @@
   "h1_ok": 514,
   "h1_failed": 0,
   "h1_signals_found": 0,
-  "last_scan_bar_m30": "1787866200000",
-  "m30_ok": 9,
+  "last_scan_bar_m30": "1787868000000",
+  "m30_ok": 10,
   "m30_failed": 0,
   "m30_entry_ok": 461,
   "m30_entry_failed": 0,
   "m30_entry_signals": 0,
-  "last_scan_bar_m5": "1787869200000",
+  "last_scan_bar_m5": "1787869500000",
   "m5_ok": 514,
   "m5_failed": 0,
-  "m5_entry_signals": 1
+  "m5_entry_signals": 0
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-27T22:28:53.385433+00:00",
+  "last_ok": "2026-08-27T22:34:53.487345+00:00",
   "last_error": null,
-  "monitor_ok": 10,
+  "monitor_ok": 8,
   "monitor_failed": 0
  }
 }
