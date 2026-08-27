@@ -1,5 +1,5 @@
 {
- "equity": 1324.4937576643438,
+ "equity": 1333.4449570031134,
  "positions": {
   "USDCUSDT": {
    "entry": 0.999481,
@@ -90,16 +90,6 @@
    "dir_long": true,
    "rsi": 7.407,
    "vol_ratio": 2.55
-  },
-  "JELLYJELLYUSDT": {
-   "entry": 0.05641,
-   "notional": 333.33,
-   "opened": "2026-08-27T23:16:54.227470+00:00",
-   "opened_ms": 1787872614227,
-   "signal_bar": 1787872200000,
-   "dir_long": true,
-   "rsi": 7.042,
-   "vol_ratio": 4.232
   }
  },
  "trades": [
@@ -732,6 +722,26 @@
    "reason": "tp",
    "opened": "2026-08-27T22:50:53.773242+00:00",
    "closed": "2026-08-27T22:52:53.800612+00:00"
+  },
+  {
+   "sym": "JELLYJELLYUSDT",
+   "entry": 0.05641,
+   "exit": 0.05691,
+   "ret": 0.00786,
+   "pnl": 2.62,
+   "reason": "trail_rsi",
+   "opened": "2026-08-27T23:16:54.227470+00:00",
+   "closed": "2026-08-27T23:30:54.507509+00:00"
+  },
+  {
+   "sym": "PLAYUSDT",
+   "entry": 0.03565,
+   "exit": 0.036363,
+   "ret": 0.019,
+   "pnl": 6.33,
+   "reason": "tp",
+   "opened": "2026-08-27T23:30:54.507509+00:00",
+   "closed": "2026-08-27T23:32:54.511830+00:00"
   }
  ],
  "last_signal_bar": {
@@ -779,7 +789,8 @@
   "ARCUSDT": "1787868300000",
   "VELVETUSDT": "1787869800000",
   "ONUSDT": "1787870400000",
-  "JELLYJELLYUSDT": "1787872200000"
+  "JELLYJELLYUSDT": "1787872200000",
+  "PLAYUSDT": "1787873100000"
  },
  "consec_err": 0,
  "last_day": "2026-08-27",
@@ -886,7 +897,8 @@
    "ARCUSDT": "1787868300000",
    "VELVETUSDT": "1787869800000",
    "ONUSDT": "1787870400000",
-   "JELLYJELLYUSDT": "1787872200000"
+   "JELLYJELLYUSDT": "1787872200000",
+   "PLAYUSDT": "1787873100000"
   }
  },
  "universe": {
@@ -1416,23 +1428,23 @@
   "h1_ok": 514,
   "h1_failed": 0,
   "h1_signals_found": 0,
-  "last_scan_bar_m30": "1787869800000",
-  "m30_ok": 9,
+  "last_scan_bar_m30": "1787871600000",
+  "m30_ok": 10,
   "m30_failed": 0,
   "m30_entry_ok": 461,
   "m30_entry_failed": 0,
   "m30_entry_signals": 0,
-  "last_scan_bar_m5": "1787872800000",
+  "last_scan_bar_m5": "1787873100000",
   "m5_ok": 514,
   "m5_failed": 0,
-  "m5_entry_signals": 0
+  "m5_entry_signals": 3
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-27T23:28:54.437726+00:00",
+  "last_ok": "2026-08-27T23:34:54.531789+00:00",
   "last_error": null,
-  "monitor_ok": 10,
+  "monitor_ok": 9,
   "monitor_failed": 0
  }
 }
