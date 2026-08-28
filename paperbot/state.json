@@ -1,5 +1,5 @@
 {
- "equity": 1606.3148735009922,
+ "equity": 1612.6448735009922,
  "positions": {
   "USDCUSDT": {
    "entry": 0.999481,
@@ -1272,6 +1272,16 @@
    "reason": "sl",
    "opened": "2026-08-28T04:40:08.298459+00:00",
    "closed": "2026-08-28T05:12:21.116208+00:00"
+  },
+  {
+   "sym": "CYSUSDT",
+   "entry": 0.7716,
+   "exit": 0.787032,
+   "ret": 0.019,
+   "pnl": 6.33,
+   "reason": "tp",
+   "opened": "2026-08-28T05:26:23.405418+00:00",
+   "closed": "2026-08-28T05:28:23.430012+00:00"
   }
  ],
  "last_signal_bar": {
@@ -1346,7 +1356,8 @@
   "CLOUSDT": "1787888400000",
   "B2USDT": "1787888700000",
   "AIAUSDT": "1787891700000",
-  "IOTAUSDT": "1787892000000"
+  "IOTAUSDT": "1787892000000",
+  "CYSUSDT": "1787894400000"
  },
  "consec_err": 0,
  "last_day": "2026-08-28",
@@ -1480,7 +1491,8 @@
    "CLOUSDT": "1787888400000",
    "B2USDT": "1787888700000",
    "AIAUSDT": "1787891700000",
-   "IOTAUSDT": "1787892000000"
+   "IOTAUSDT": "1787892000000",
+   "CYSUSDT": "1787894400000"
   }
  },
  "universe": {
@@ -2017,17 +2029,17 @@
   "m30_entry_ok": 461,
   "m30_entry_failed": 0,
   "m30_entry_signals": 0,
-  "last_scan_bar_m5": "1787894100000",
+  "last_scan_bar_m5": "1787894400000",
   "m5_ok": 515,
   "m5_failed": 0,
-  "m5_entry_signals": 0
+  "m5_entry_signals": 5
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-28T05:24:23.348706+00:00",
+  "last_ok": "2026-08-28T05:28:23.430012+00:00",
   "last_error": null,
-  "monitor_ok": 9,
+  "monitor_ok": 10,
   "monitor_failed": 0
  }
 }
