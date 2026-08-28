@@ -1,16 +1,6 @@
 {
- "equity": 1656.6068869468431,
+ "equity": 1662.936886946843,
  "positions": {
-  "AVAUSDT": {
-   "entry": 0.2101,
-   "notional": 333.33,
-   "opened": "2026-08-27T18:06:45.405874+00:00",
-   "opened_ms": 1787854005405,
-   "signal_bar": 1787853600000,
-   "dir_long": true,
-   "rsi": 11.111,
-   "vol_ratio": 1.566
-  },
   "BANUSDT": {
    "entry": 0.07395,
    "notional": 333.33,
@@ -1415,6 +1405,16 @@
    "reason": "tp",
    "opened": "2026-08-28T07:56:26.613258+00:00",
    "closed": "2026-08-28T07:58:26.609773+00:00"
+  },
+  {
+   "sym": "AVAUSDT",
+   "entry": 0.2101,
+   "exit": 0.21430200000000002,
+   "ret": 0.019,
+   "pnl": 6.33,
+   "reason": "tp",
+   "opened": "2026-08-27T18:06:45.405874+00:00",
+   "closed": "2026-08-28T08:16:27.096745+00:00"
   }
  ],
  "last_signal_bar": {
@@ -2165,7 +2165,7 @@
   "m30_entry_ok": 461,
   "m30_entry_failed": 0,
   "m30_entry_signals": 0,
-  "last_scan_bar_m5": "1787904300000",
+  "last_scan_bar_m5": "1787904600000",
   "m5_ok": 509,
   "m5_failed": 0,
   "m5_entry_signals": 0
@@ -2173,9 +2173,9 @@
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-28T08:14:27.034769+00:00",
+  "last_ok": "2026-08-28T08:18:27.111006+00:00",
   "last_error": null,
-  "monitor_ok": 10,
+  "monitor_ok": 9,
   "monitor_failed": 0
  }
 }
