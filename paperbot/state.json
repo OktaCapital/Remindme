@@ -1,5 +1,5 @@
 {
- "equity": 1637.9502169468433,
+ "equity": 1637.6168869468434,
  "positions": {
   "AVAUSDT": {
    "entry": 0.2101,
@@ -80,16 +80,6 @@
    "dir_long": true,
    "rsi": 13.235,
    "vol_ratio": 1.33
-  },
-  "USDCUSDT": {
-   "entry": 0.999352,
-   "notional": 333.33,
-   "opened": "2026-08-28T06:50:24.758812+00:00",
-   "opened_ms": 1787899824758,
-   "signal_bar": 1787899500000,
-   "dir_long": true,
-   "rsi": 0.0,
-   "vol_ratio": 2.213
   },
   "KERNELUSDT": {
    "entry": 0.03814,
@@ -1370,6 +1360,21 @@
    "reason": "tp",
    "opened": "2026-08-28T07:30:25.878514+00:00",
    "closed": "2026-08-28T07:32:25.907258+00:00"
+  },
+  {
+   "sym": "USDCUSDT",
+   "entry": 0.999352,
+   "exit": 0.999352,
+   "ret": -0.001,
+   "pnl": -0.33333,
+   "reason": "manual_exclude_nonaltcoin",
+   "opened": "2026-08-28T06:50:24.758812+00:00",
+   "opened_ms": 1787899824758,
+   "closed_ms": 1787902996866,
+   "dir_long": true,
+   "rsi": 0.0,
+   "vol_ratio": 2.213,
+   "layer": "main"
   }
  ],
  "last_signal_bar": {
@@ -1628,7 +1633,6 @@
    "BMTUSDT",
    "LITUSDT",
    "ONDOUSDT",
-   "PAXGUSDT",
    "XMRUSDT",
    "CHIPUSDT",
    "BCHUSDT",
@@ -1649,11 +1653,9 @@
    "STXUSDT",
    "DOTUSDT",
    "SPXUSDT",
-   "JUPUSDT",
    "FETUSDT",
    "POLUSDT",
    "APTUSDT",
-   "XAUTUSDT",
    "ACEUSDT",
    "CRVUSDT",
    "ONTUSDT",
@@ -1807,7 +1809,6 @@
    "POPCATUSDT",
    "ARKMUSDT",
    "PIPPINUSDT",
-   "SYRUPUSDT",
    "FIDAUSDT",
    "HOLOUSDT",
    "GRTUSDT",
@@ -1818,7 +1819,6 @@
    "HUSDT",
    "MANAUSDT",
    "EGLDUSDT",
-   "USDCUSDT",
    "MEGAUSDT",
    "MEMEUSDT",
    "DODOXUSDT",
@@ -1857,7 +1857,6 @@
    "EPICUSDT",
    "KSMUSDT",
    "EDGEUSDT",
-   "BTCDOMUSDT",
    "ASTRUSDT",
    "ALICEUSDT",
    "PTBUSDT",
@@ -1969,7 +1968,6 @@
    "USUALUSDT",
    "VANAUSDT",
    "1MBABYDOGEUSDT",
-   "FRAXUSDT",
    "SOLVUSDT",
    "FLUIDUSDT",
    "SPACEUSDT",
@@ -2123,7 +2121,7 @@
   "m30_entry_ok": 461,
   "m30_entry_failed": 0,
   "m30_entry_signals": 0,
-  "last_scan_bar_m5": "1787902200000",
+  "last_scan_bar_m5": "1787902500000",
   "m5_ok": 515,
   "m5_failed": 0,
   "m5_entry_signals": 1
@@ -2131,9 +2129,9 @@
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-28T07:38:26.176476+00:00",
+  "last_ok": "2026-08-28T07:44:26.200168+00:00",
   "last_error": null,
-  "monitor_ok": 10,
+  "monitor_ok": 9,
   "monitor_failed": 0
  }
 }
