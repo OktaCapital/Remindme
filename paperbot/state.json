@@ -10,9 +10,9 @@
    "dir_long": true,
    "rsi": 12.605,
    "vol_ratio": 1.632,
-   "mark": 0.07306,
+   "mark": 0.07318,
    "mark_src": "fapi",
-   "u_pnl": -4.0117,
+   "u_pnl": -3.4708,
    "spot": null
   },
   "SUNUSDT": {
@@ -38,9 +38,9 @@
    "dir_long": true,
    "rsi": 13.333,
    "vol_ratio": 2.155,
-   "mark": 0.06845,
+   "mark": 0.06782,
    "mark_src": "fapi",
-   "u_pnl": 2.7495,
+   "u_pnl": -0.3437,
    "spot": null
   },
   "GRAMUSDT": {
@@ -52,9 +52,9 @@
    "dir_long": true,
    "rsi": 13.043,
    "vol_ratio": 2.611,
-   "mark": 1.408,
+   "mark": 1.406,
    "mark_src": "spot",
-   "u_pnl": -1.8832,
+   "u_pnl": -2.354,
    "spot": "GRAMUSDT"
   },
   "QNTUSDT": {
@@ -80,9 +80,9 @@
    "dir_long": true,
    "rsi": 0.0,
    "vol_ratio": 1.611,
-   "mark": 0.001464,
-   "mark_src": "fapi",
-   "u_pnl": 2.2925,
+   "mark": 0.001463,
+   "mark_src": "spot",
+   "u_pnl": 2.0633,
    "spot": "TLMUSDT"
   },
   "IOTAUSDT": {
@@ -94,9 +94,9 @@
    "dir_long": true,
    "rsi": 13.235,
    "vol_ratio": 1.33,
-   "mark": 0.04142,
-   "mark_src": "fapi",
-   "u_pnl": 5.3143,
+   "mark": 0.0415,
+   "mark_src": "spot",
+   "u_pnl": 5.9684,
    "spot": "IOTAUSDT"
   },
   "KERNELUSDT": {
@@ -108,9 +108,9 @@
    "dir_long": true,
    "rsi": 8.911,
    "vol_ratio": 2.497,
-   "mark": 0.03806,
-   "mark_src": "fapi",
-   "u_pnl": -0.6992,
+   "mark": 0.0381,
+   "mark_src": "spot",
+   "u_pnl": -0.3496,
    "spot": "KERNELUSDT"
   },
   "RIVERUSDT": {
@@ -122,9 +122,9 @@
    "dir_long": true,
    "rsi": 8.571,
    "vol_ratio": 10.686,
-   "mark": 1.705,
+   "mark": 1.706,
    "mark_src": "fapi",
-   "u_pnl": 1.1772,
+   "u_pnl": 1.3733,
    "spot": null
   },
   "FOLKSUSDT": {
@@ -136,9 +136,9 @@
    "dir_long": true,
    "rsi": 12.088,
    "vol_ratio": 3.148,
-   "mark": 2.124,
+   "mark": 2.08,
    "mark_src": "fapi",
-   "u_pnl": 0.9443,
+   "u_pnl": -5.9804,
    "spot": null
   }
  },
@@ -1779,7 +1779,7 @@
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-28T08:27:38Z",
+  "last_ok": "2026-08-28T08:30:18Z",
   "last_error": null,
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -1788,12 +1788,12 @@
   "signals": 0,
   "entries": 0,
   "exits": 0,
-  "ws_msgs": 6,
-  "ws_ticks": 6,
+  "ws_msgs": 189,
+  "ws_ticks": 189,
   "signal_scans": 0,
   "started": "2026-08-28T08:27:11Z",
   "note": "spot WS prices + futures REST signals (fstream blocked)",
-  "last_ok": "2026-08-28T08:27:38Z"
+  "last_ok": "2026-08-28T08:30:18Z"
  },
  "mode": "hybrid_spotws_futures_rest"
 }
