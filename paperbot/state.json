@@ -1,5 +1,5 @@
 {
- "equity": 1358.275663216635,
+ "equity": 1347.945663216635,
  "positions": {
   "USDCUSDT": {
    "entry": 0.999481,
@@ -90,16 +90,6 @@
    "dir_long": true,
    "rsi": 11.111,
    "vol_ratio": 1.794
-  },
-  "KMNOUSDT": {
-   "entry": 0.02899,
-   "notional": 333.33,
-   "opened": "2026-08-28T00:08:55.355321+00:00",
-   "opened_ms": 1787875735355,
-   "signal_bar": 1787875200000,
-   "dir_long": true,
-   "rsi": 11.966,
-   "vol_ratio": 3.068
   }
  },
  "trades": [
@@ -802,6 +792,16 @@
    "reason": "tp",
    "opened": "2026-08-27T20:40:48.244390+00:00",
    "closed": "2026-08-28T00:08:55.355321+00:00"
+  },
+  {
+   "sym": "KMNOUSDT",
+   "entry": 0.02899,
+   "exit": 0.028120299999999997,
+   "ret": -0.031,
+   "pnl": -10.33,
+   "reason": "sl",
+   "opened": "2026-08-28T00:08:55.355321+00:00",
+   "closed": "2026-08-28T00:44:56.034585+00:00"
   }
  ],
  "last_signal_bar": {
@@ -1497,7 +1497,7 @@
   "m30_entry_ok": 461,
   "m30_entry_failed": 0,
   "m30_entry_signals": 0,
-  "last_scan_bar_m5": "1787877000000",
+  "last_scan_bar_m5": "1787877300000",
   "m5_ok": 511,
   "m5_failed": 0,
   "m5_entry_signals": 1
@@ -1505,7 +1505,7 @@
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-28T00:38:55.935981+00:00",
+  "last_ok": "2026-08-28T00:44:56.034585+00:00",
   "last_error": null,
   "monitor_ok": 10,
   "monitor_failed": 0
