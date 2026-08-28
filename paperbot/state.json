@@ -1,5 +1,5 @@
 {
- "equity": 1398.5856632166344,
+ "equity": 1395.0948735009947,
  "positions": {
   "USDCUSDT": {
    "entry": 0.999481,
@@ -20,16 +20,6 @@
    "dir_long": true,
    "rsi": 11.111,
    "vol_ratio": 1.566
-  },
-  "KAITOUSDT": {
-   "entry": 0.3165,
-   "notional": 333.33,
-   "opened": "2026-08-27T18:16:45.586748+00:00",
-   "opened_ms": 1787854605586,
-   "signal_bar": 1787854200000,
-   "dir_long": true,
-   "rsi": 11.765,
-   "vol_ratio": 2.772
   },
   "BANUSDT": {
    "entry": 0.07395,
@@ -80,16 +70,6 @@
    "dir_long": true,
    "rsi": 6.977,
    "vol_ratio": 1.715
-  },
-  "MEGAUSDT": {
-   "entry": 0.03902,
-   "notional": 333.33,
-   "opened": "2026-08-28T00:04:55.279472+00:00",
-   "opened_ms": 1787875495279,
-   "signal_bar": 1787875200000,
-   "dir_long": true,
-   "rsi": 11.111,
-   "vol_ratio": 1.794
   },
   "TLMUSDT": {
    "entry": 0.001454,
@@ -892,6 +872,36 @@
    "reason": "tp",
    "opened": "2026-08-28T02:16:03.500377+00:00",
    "closed": "2026-08-28T02:18:03.534741+00:00"
+  },
+  {
+   "sym": "KAITOUSDT",
+   "entry": 0.3165,
+   "exit": 0.3173,
+   "ret": 0.00153,
+   "pnl": 0.51,
+   "reason": "trail_rsi",
+   "opened": "2026-08-27T18:16:45.586748+00:00",
+   "closed": "2026-08-28T02:30:03.982095+00:00"
+  },
+  {
+   "sym": "MEGAUSDT",
+   "entry": 0.03902,
+   "exit": 0.0378494,
+   "ret": -0.031,
+   "pnl": -10.33,
+   "reason": "sl",
+   "opened": "2026-08-28T00:04:55.279472+00:00",
+   "closed": "2026-08-28T02:32:03.946541+00:00"
+  },
+  {
+   "sym": "ROBOUSDT",
+   "entry": 0.01307,
+   "exit": 0.0133314,
+   "ret": 0.019,
+   "pnl": 6.33,
+   "reason": "tp",
+   "opened": "2026-08-28T02:30:03.982095+00:00",
+   "closed": "2026-08-28T02:32:03.946541+00:00"
   }
  ],
  "last_signal_bar": {
@@ -946,7 +956,8 @@
   "KMNOUSDT": "1787878200000",
   "UAIUSDT": "1787879400000",
   "ESPUSDT": "1787883000000",
-  "TLMUSDT": "1787883300000"
+  "TLMUSDT": "1787883300000",
+  "ROBOUSDT": "1787883900000"
  },
  "consec_err": 0,
  "last_day": "2026-08-28",
@@ -1060,7 +1071,8 @@
    "KMNOUSDT": "1787878200000",
    "UAIUSDT": "1787879400000",
    "ESPUSDT": "1787883000000",
-   "TLMUSDT": "1787883300000"
+   "TLMUSDT": "1787883300000",
+   "ROBOUSDT": "1787883900000"
   }
  },
  "universe": {
@@ -1587,23 +1599,23 @@
   "h1_ok": 511,
   "h1_failed": 0,
   "h1_signals_found": 0,
-  "last_scan_bar_m30": "1787880600000",
-  "m30_ok": 9,
+  "last_scan_bar_m30": "1787882400000",
+  "m30_ok": 10,
   "m30_failed": 0,
   "m30_entry_ok": 461,
   "m30_entry_failed": 0,
   "m30_entry_signals": 0,
-  "last_scan_bar_m5": "1787883600000",
+  "last_scan_bar_m5": "1787883900000",
   "m5_ok": 511,
   "m5_failed": 0,
-  "m5_entry_signals": 38
+  "m5_entry_signals": 145
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-28T02:28:03.807214+00:00",
+  "last_ok": "2026-08-28T02:34:03.968828+00:00",
   "last_error": null,
-  "monitor_ok": 10,
+  "monitor_ok": 8,
   "monitor_failed": 0
  }
 }
