@@ -90,6 +90,16 @@
    "dir_long": true,
    "rsi": 12.5,
    "vol_ratio": 3.34
+  },
+  "IOTAUSDT": {
+   "entry": 0.04077,
+   "notional": 333.33,
+   "opened": "2026-08-28T04:46:08.424974+00:00",
+   "opened_ms": 1787892368424,
+   "signal_bar": 1787892000000,
+   "dir_long": true,
+   "rsi": 13.235,
+   "vol_ratio": 1.33
   }
  },
  "trades": [
@@ -1335,7 +1345,8 @@
   "JTOUSDT": "1787888100000",
   "CLOUSDT": "1787888400000",
   "B2USDT": "1787888700000",
-  "AIAUSDT": "1787891700000"
+  "AIAUSDT": "1787891700000",
+  "IOTAUSDT": "1787892000000"
  },
  "consec_err": 0,
  "last_day": "2026-08-28",
@@ -1468,7 +1479,8 @@
    "JTOUSDT": "1787888100000",
    "CLOUSDT": "1787888400000",
    "B2USDT": "1787888700000",
-   "AIAUSDT": "1787891700000"
+   "AIAUSDT": "1787891700000",
+   "IOTAUSDT": "1787892000000"
   }
  },
  "universe": {
@@ -2005,7 +2017,7 @@
   "m30_entry_ok": 461,
   "m30_entry_failed": 0,
   "m30_entry_signals": 0,
-  "last_scan_bar_m5": "1787891700000",
+  "last_scan_bar_m5": "1787892000000",
   "m5_ok": 515,
   "m5_failed": 0,
   "m5_entry_signals": 1
@@ -2013,9 +2025,9 @@
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-28T04:44:08.316869+00:00",
+  "last_ok": "2026-08-28T04:48:08.448250+00:00",
   "last_error": null,
-  "monitor_ok": 9,
+  "monitor_ok": 10,
   "monitor_failed": 0
  }
 }
