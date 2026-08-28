@@ -1,5 +1,5 @@
 {
- "equity": 1373.2656632166347,
+ "equity": 1379.5956632166346,
  "positions": {
   "USDCUSDT": {
    "entry": 0.999481,
@@ -842,6 +842,16 @@
    "reason": "tp",
    "opened": "2026-08-28T01:16:56.751814+00:00",
    "closed": "2026-08-28T01:18:56.783992+00:00"
+  },
+  {
+   "sym": "ESPUSDT",
+   "entry": 0.08548,
+   "exit": 0.0871896,
+   "ret": 0.019,
+   "pnl": 6.33,
+   "reason": "tp",
+   "opened": "2026-08-28T01:56:02.884223+00:00",
+   "closed": "2026-08-28T01:58:02.878700+00:00"
   }
  ],
  "last_signal_bar": {
@@ -894,7 +904,8 @@
   "GRAMUSDT": "1787874000000",
   "QNTUSDT": "1787875200000",
   "KMNOUSDT": "1787878200000",
-  "UAIUSDT": "1787879400000"
+  "UAIUSDT": "1787879400000",
+  "ESPUSDT": "1787881800000"
  },
  "consec_err": 0,
  "last_day": "2026-08-28",
@@ -1006,7 +1017,8 @@
    "GRAMUSDT": "1787874000000",
    "QNTUSDT": "1787875200000",
    "KMNOUSDT": "1787878200000",
-   "UAIUSDT": "1787879400000"
+   "UAIUSDT": "1787879400000",
+   "ESPUSDT": "1787881800000"
   }
  },
  "universe": {
@@ -1539,17 +1551,17 @@
   "m30_entry_ok": 461,
   "m30_entry_failed": 0,
   "m30_entry_signals": 0,
-  "last_scan_bar_m5": "1787881500000",
+  "last_scan_bar_m5": "1787881800000",
   "m5_ok": 511,
   "m5_failed": 0,
-  "m5_entry_signals": 0
+  "m5_entry_signals": 1
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-28T01:54:02.758306+00:00",
+  "last_ok": "2026-08-28T01:58:02.878700+00:00",
   "last_error": null,
-  "monitor_ok": 9,
+  "monitor_ok": 10,
   "monitor_failed": 0
  }
 }
