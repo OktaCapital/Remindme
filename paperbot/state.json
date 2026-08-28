@@ -1,5 +1,5 @@
 {
- "equity": 1346.1049570031132,
+ "equity": 1351.945663216635,
  "positions": {
   "USDCUSDT": {
    "entry": 0.999481,
@@ -10,16 +10,6 @@
    "dir_long": true,
    "rsi": 2.985,
    "vol_ratio": 9.543
-  },
-  "SUSDT": {
-   "entry": 0.03014,
-   "notional": 333.33,
-   "opened": "2026-08-27T16:20:39.793463+00:00",
-   "opened_ms": 1787847639793,
-   "signal_bar": 1787847300000,
-   "dir_long": true,
-   "rsi": 14.948,
-   "vol_ratio": 2.071
   },
   "AVAUSDT": {
    "entry": 0.2101,
@@ -80,16 +70,6 @@
    "dir_long": true,
    "rsi": 13.333,
    "vol_ratio": 2.155
-  },
-  "ONUSDT": {
-   "entry": 0.2478,
-   "notional": 333.33,
-   "opened": "2026-08-27T22:46:53.694354+00:00",
-   "opened_ms": 1787870813694,
-   "signal_bar": 1787870400000,
-   "dir_long": true,
-   "rsi": 7.407,
-   "vol_ratio": 2.55
   },
   "GRAMUSDT": {
    "entry": 1.416,
@@ -772,6 +752,26 @@
    "reason": "tp",
    "opened": "2026-08-27T23:40:54.664251+00:00",
    "closed": "2026-08-27T23:42:54.691042+00:00"
+  },
+  {
+   "sym": "SUSDT",
+   "entry": 0.03014,
+   "exit": 0.0304,
+   "ret": 0.00763,
+   "pnl": 2.54,
+   "reason": "trail_rsi",
+   "opened": "2026-08-27T16:20:39.793463+00:00",
+   "closed": "2026-08-28T00:00:55.318189+00:00"
+  },
+  {
+   "sym": "ONUSDT",
+   "entry": 0.2478,
+   "exit": 0.2505,
+   "ret": 0.0099,
+   "pnl": 3.3,
+   "reason": "trail_rsi",
+   "opened": "2026-08-27T22:46:53.694354+00:00",
+   "closed": "2026-08-28T00:00:55.318189+00:00"
   }
  ],
  "last_signal_bar": {
@@ -823,7 +823,7 @@
   "PLAYUSDT": "1787873700000",
   "GRAMUSDT": "1787874000000"
  },
- "consec_err": 0,
+ "consec_err": 1,
  "last_day": "2026-08-27",
  "started": "2026-08-25T05:23:49.738812+00:00",
  "research": {
@@ -1460,7 +1460,7 @@
   "h1_ok": 514,
   "h1_failed": 0,
   "h1_signals_found": 0,
-  "last_scan_bar_m30": "1787871600000",
+  "last_scan_bar_m30": "1787873400000",
   "m30_ok": 10,
   "m30_failed": 0,
   "m30_entry_ok": 461,
@@ -1473,9 +1473,9 @@
  },
  "schema_version": 2,
  "health": {
-  "status": "ok",
+  "status": "error",
   "last_ok": "2026-08-27T23:58:55.000650+00:00",
-  "last_error": null,
+  "last_error": "<urlopen error timed out>",
   "monitor_ok": 10,
   "monitor_failed": 0
  }
