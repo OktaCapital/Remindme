@@ -1,5 +1,5 @@
 {
- "equity": 1458.394873500994,
+ "equity": 1471.0548735009938,
  "positions": {
   "USDCUSDT": {
    "entry": 0.999481,
@@ -1002,6 +1002,26 @@
    "reason": "tp",
    "opened": "2026-08-28T02:56:04.604818+00:00",
    "closed": "2026-08-28T02:58:04.668251+00:00"
+  },
+  {
+   "sym": "SPORTFUNUSDT",
+   "entry": 0.0248,
+   "exit": 0.025296,
+   "ret": 0.019,
+   "pnl": 6.33,
+   "reason": "tp",
+   "opened": "2026-08-28T03:00:05.485316+00:00",
+   "closed": "2026-08-28T03:02:05.763258+00:00"
+  },
+  {
+   "sym": "AKTUSDT",
+   "entry": 0.5428,
+   "exit": 0.5536559999999999,
+   "ret": 0.019,
+   "pnl": 6.33,
+   "reason": "tp",
+   "opened": "2026-08-28T03:00:05.485316+00:00",
+   "closed": "2026-08-28T03:02:05.763258+00:00"
   }
  ],
  "last_signal_bar": {
@@ -1065,7 +1085,9 @@
   "MOODENGUSDT": "1787885100000",
   "FLOWUSDT": "1787885100000",
   "CVCUSDT": "1787885400000",
-  "MASKUSDT": "1787885400000"
+  "MASKUSDT": "1787885400000",
+  "SPORTFUNUSDT": "1787885700000",
+  "AKTUSDT": "1787885700000"
  },
  "consec_err": 0,
  "last_day": "2026-08-28",
@@ -1188,7 +1210,9 @@
    "MOODENGUSDT": "1787885100000",
    "FLOWUSDT": "1787885100000",
    "CVCUSDT": "1787885400000",
-   "MASKUSDT": "1787885400000"
+   "MASKUSDT": "1787885400000",
+   "SPORTFUNUSDT": "1787885700000",
+   "AKTUSDT": "1787885700000"
   }
  },
  "universe": {
@@ -1711,27 +1735,27 @@
   "scan_ok": 511,
   "scan_failed": 0,
   "signals_found": 0,
-  "last_scan_bar_h1": "1787878800000",
+  "last_scan_bar_h1": "1787882400000",
   "h1_ok": 511,
   "h1_failed": 0,
   "h1_signals_found": 0,
-  "last_scan_bar_m30": "1787882400000",
-  "m30_ok": 10,
+  "last_scan_bar_m30": "1787884200000",
+  "m30_ok": 8,
   "m30_failed": 0,
   "m30_entry_ok": 461,
   "m30_entry_failed": 0,
   "m30_entry_signals": 0,
-  "last_scan_bar_m5": "1787885400000",
+  "last_scan_bar_m5": "1787885700000",
   "m5_ok": 511,
   "m5_failed": 0,
-  "m5_entry_signals": 107
+  "m5_entry_signals": 20
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-28T02:58:04.668251+00:00",
+  "last_ok": "2026-08-28T03:04:05.822201+00:00",
   "last_error": null,
-  "monitor_ok": 10,
+  "monitor_ok": 8,
   "monitor_failed": 0
  }
 }
