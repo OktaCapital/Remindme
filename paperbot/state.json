@@ -1,5 +1,5 @@
 {
- "equity": 1631.5419668375864,
+ "equity": 1637.9502169468433,
  "positions": {
   "AVAUSDT": {
    "entry": 0.2101,
@@ -80,16 +80,6 @@
    "dir_long": true,
    "rsi": 13.235,
    "vol_ratio": 1.33
-  },
-  "BTCDOMUSDT": {
-   "entry": 5345.2,
-   "notional": 333.33,
-   "opened": "2026-08-28T06:30:24.040012+00:00",
-   "opened_ms": 1787898624040,
-   "signal_bar": 1787898300000,
-   "dir_long": true,
-   "rsi": 2.762,
-   "vol_ratio": 1.279
   },
   "USDCUSDT": {
    "entry": 0.999352,
@@ -1350,6 +1340,26 @@
    "dir_long": true,
    "rsi": 2.985,
    "vol_ratio": 9.543
+  },
+  {
+   "sym": "BTCDOMUSDT",
+   "entry": 5345.2,
+   "exit": 5351.8,
+   "ret": 0.00023,
+   "pnl": 0.08,
+   "reason": "trail_rsi",
+   "opened": "2026-08-28T06:30:24.040012+00:00",
+   "closed": "2026-08-28T07:30:25.878514+00:00"
+  },
+  {
+   "sym": "ARIAUSDT",
+   "entry": 0.03429,
+   "exit": 0.0349758,
+   "ret": 0.019,
+   "pnl": 6.33,
+   "reason": "tp",
+   "opened": "2026-08-28T07:30:25.878514+00:00",
+   "closed": "2026-08-28T07:32:25.907258+00:00"
   }
  ],
  "last_signal_bar": {
@@ -1426,7 +1436,8 @@
   "AIAUSDT": "1787891700000",
   "IOTAUSDT": "1787892000000",
   "CYSUSDT": "1787894700000",
-  "VVVUSDT": "1787895300000"
+  "VVVUSDT": "1787895300000",
+  "ARIAUSDT": "1787901900000"
  },
  "consec_err": 0,
  "last_day": "2026-08-28",
@@ -1562,7 +1573,8 @@
    "AIAUSDT": "1787891700000",
    "IOTAUSDT": "1787892000000",
    "CYSUSDT": "1787894700000",
-   "VVVUSDT": "1787895300000"
+   "VVVUSDT": "1787895300000",
+   "ARIAUSDT": "1787901900000"
   }
  },
  "universe": {
@@ -2093,23 +2105,23 @@
   "h1_ok": 515,
   "h1_failed": 0,
   "h1_signals_found": 0,
-  "last_scan_bar_m30": "1787898600000",
+  "last_scan_bar_m30": "1787900400000",
   "m30_ok": 10,
   "m30_failed": 0,
   "m30_entry_ok": 461,
   "m30_entry_failed": 0,
   "m30_entry_signals": 0,
-  "last_scan_bar_m5": "1787901600000",
+  "last_scan_bar_m5": "1787901900000",
   "m5_ok": 515,
   "m5_failed": 0,
-  "m5_entry_signals": 3
+  "m5_entry_signals": 1
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-28T07:28:25.853165+00:00",
+  "last_ok": "2026-08-28T07:34:25.965134+00:00",
   "last_error": null,
-  "monitor_ok": 10,
+  "monitor_ok": 9,
   "monitor_failed": 0
  }
 }
