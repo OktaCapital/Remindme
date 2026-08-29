@@ -13,12 +13,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1788004800000,
-   "mark": 0.8415,
+   "mark": 0.8436,
    "mark_src": "fapi",
-   "u_pnl": 2.3938,
+   "u_pnl": 3.2316,
    "spot": "DOTUSDT",
-   "last_mark_ms": 1788037503762,
-   "age_h": 8.074
+   "last_mark_ms": 1788037800107,
+   "age_h": 8.157
   },
   "BCHUSDT": {
    "entry": 245.06,
@@ -32,12 +32,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1788004800000,
-   "mark": 246.3,
-   "mark_src": "spot",
-   "u_pnl": 1.6866,
+   "mark": 246.52,
+   "mark_src": "fapi",
+   "u_pnl": 1.9859,
    "spot": "BCHUSDT",
-   "last_mark_ms": 1788037504099,
-   "age_h": 7.267
+   "last_mark_ms": 1788037802368,
+   "age_h": 7.35
   },
   "ICPUSDT": {
    "entry": 2.488,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788023400000,
-   "mark": 2.499,
-   "mark_src": "fapi",
-   "u_pnl": 1.4737,
+   "mark": 2.493,
+   "mark_src": "spot",
+   "u_pnl": 0.6699,
    "spot": "ICPUSDT",
-   "last_mark_ms": 1788037505956,
-   "age_h": 3.832
+   "last_mark_ms": 1788037806260,
+   "age_h": 3.915
   },
   "LTCUSDT": {
    "entry": 48.75,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788025200000,
-   "mark": 48.85,
+   "mark": 48.87,
    "mark_src": "spot",
-   "u_pnl": 0.6838,
+   "u_pnl": 0.8205,
    "spot": "LTCUSDT",
-   "last_mark_ms": 1788037504838,
-   "age_h": 3.323
+   "last_mark_ms": 1788037804007,
+   "age_h": 3.406
   },
   "GRVTUSDT": {
    "entry": 0.1717,
@@ -89,12 +89,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788026100000,
-   "mark": 0.1725,
+   "mark": 0.1735,
    "mark_src": "fapi",
-   "u_pnl": 1.5531,
+   "u_pnl": 3.4944,
    "spot": null,
-   "last_mark_ms": 1788037505956,
-   "age_h": 3.083
+   "last_mark_ms": 1788037804504,
+   "age_h": 3.166
   },
   "BICOUSDT": {
    "entry": 0.02196,
@@ -112,8 +112,8 @@
    "mark_src": "fapi",
    "u_pnl": 1.5179,
    "spot": "BICOUSDT",
-   "last_mark_ms": 1788037503762,
-   "age_h": 2.83
+   "last_mark_ms": 1788037804504,
+   "age_h": 2.914
   },
   "VELVETUSDT": {
    "entry": 0.1077,
@@ -127,12 +127,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788030000000,
-   "mark": 0.1065,
+   "mark": 0.1063,
    "mark_src": "fapi",
-   "u_pnl": -3.714,
+   "u_pnl": -4.333,
    "spot": null,
-   "last_mark_ms": 1788037505956,
-   "age_h": 2.0
+   "last_mark_ms": 1788037804504,
+   "age_h": 2.083
   },
   "DEXEUSDT": {
    "entry": 2.263,
@@ -146,12 +146,31 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788036600000,
-   "mark": 2.222,
+   "mark": 2.215,
    "mark_src": "fapi",
-   "u_pnl": -6.0391,
+   "u_pnl": -7.0702,
    "spot": "DEXEUSDT",
-   "last_mark_ms": 1788037505956,
-   "age_h": 0.164
+   "last_mark_ms": 1788037800107,
+   "age_h": 0.246
+  },
+  "NILUSDT": {
+   "entry": 0.05425,
+   "notional": 333.33,
+   "opened_ms": 1788037524701,
+   "opened": "2026-08-29T21:05:24Z",
+   "entry_time": "2026-08-29T21:05:24Z",
+   "dir_long": true,
+   "rsi": 8.501,
+   "vol_ratio": 1.465,
+   "tf": "5m",
+   "interval": "5m",
+   "signal_bar": 1788037200000,
+   "mark": 0.05426,
+   "mark_src": "fapi",
+   "u_pnl": 0.0614,
+   "spot": "NILUSDT",
+   "last_mark_ms": 1788037800107,
+   "age_h": 0.077
   }
  },
  "trades": [
@@ -3505,7 +3524,8 @@
   "BTRUSDT": "1788015600000",
   "ICPUSDT": "1788023400000",
   "GRVTUSDT": "1788026100000",
-  "DEXEUSDT": "1788036600000"
+  "DEXEUSDT": "1788036600000",
+  "NILUSDT": "1788037200000"
  },
  "consec_err": 0,
  "last_day": "2026-08-28",
@@ -3739,21 +3759,21 @@
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-29T21:05:06Z",
+  "last_ok": "2026-08-29T21:10:06Z",
   "last_error": null,
   "monitor_ok": 9,
   "monitor_failed": 0
  },
  "stats": {
-  "signals": 104,
-  "entries": 104,
+  "signals": 105,
+  "entries": 105,
   "exits": 106,
-  "ws_msgs": 1344921,
-  "ws_ticks": 1344921,
-  "signal_scans": 1298,
+  "ws_msgs": 1345660,
+  "ws_ticks": 1345660,
+  "signal_scans": 1305,
   "started": "2026-08-28T08:27:11Z",
   "note": "spot WS prices + futures REST signals (fstream blocked)",
-  "last_ok": "2026-08-29T21:05:02Z"
+  "last_ok": "2026-08-29T21:10:06Z"
  },
  "mode": "hybrid_spotws_futures_rest"
 }
