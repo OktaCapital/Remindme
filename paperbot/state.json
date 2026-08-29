@@ -13,12 +13,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1788004800000,
-   "mark": 0.843,
+   "mark": 0.8427,
    "mark_src": "fapi",
-   "u_pnl": 2.9922,
+   "u_pnl": 2.8725,
    "spot": "DOTUSDT",
-   "last_mark_ms": 1788031202457,
-   "age_h": 6.324
+   "last_mark_ms": 1788031507093,
+   "age_h": 6.409
   },
   "BCHUSDT": {
    "entry": 245.06,
@@ -32,12 +32,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1788004800000,
-   "mark": 247.47,
+   "mark": 247.41,
    "mark_src": "fapi",
-   "u_pnl": 3.2781,
+   "u_pnl": 3.1965,
    "spot": "BCHUSDT",
-   "last_mark_ms": 1788031202457,
-   "age_h": 5.517
+   "last_mark_ms": 1788031502832,
+   "age_h": 5.6
   },
   "ICPUSDT": {
    "entry": 2.488,
@@ -52,11 +52,11 @@
    "interval": "5m",
    "signal_bar": 1788023400000,
    "mark": 2.511,
-   "mark_src": "fapi",
+   "mark_src": "spot",
    "u_pnl": 3.0814,
    "spot": "ICPUSDT",
-   "last_mark_ms": 1788031206761,
-   "age_h": 2.082
+   "last_mark_ms": 1788031508638,
+   "age_h": 2.166
   },
   "LTCUSDT": {
    "entry": 48.75,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788025200000,
-   "mark": 48.89,
+   "mark": 48.88,
    "mark_src": "spot",
-   "u_pnl": 0.9573,
+   "u_pnl": 0.8889,
    "spot": "LTCUSDT",
-   "last_mark_ms": 1788031207258,
-   "age_h": 1.574
+   "last_mark_ms": 1788031507887,
+   "age_h": 1.657
   },
   "GRVTUSDT": {
    "entry": 0.1717,
@@ -89,12 +89,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788026100000,
-   "mark": 0.1696,
+   "mark": 0.1691,
    "mark_src": "fapi",
-   "u_pnl": -4.0768,
+   "u_pnl": -5.0475,
    "spot": null,
-   "last_mark_ms": 1788031206761,
-   "age_h": 1.333
+   "last_mark_ms": 1788031507093,
+   "age_h": 1.416
   },
   "BICOUSDT": {
    "entry": 0.02196,
@@ -108,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788027000000,
-   "mark": 0.02209,
-   "mark_src": "spot",
-   "u_pnl": 1.9733,
+   "mark": 0.02197,
+   "mark_src": "fapi",
+   "u_pnl": 0.1518,
    "spot": "BICOUSDT",
-   "last_mark_ms": 1788031202632,
-   "age_h": 1.08
+   "last_mark_ms": 1788031502832,
+   "age_h": 1.163
   },
   "VELVETUSDT": {
    "entry": 0.1077,
@@ -127,12 +127,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788030000000,
-   "mark": 0.1087,
+   "mark": 0.1082,
    "mark_src": "fapi",
-   "u_pnl": 3.095,
+   "u_pnl": 1.5475,
    "spot": null,
-   "last_mark_ms": 1788031206761,
-   "age_h": 0.25
+   "last_mark_ms": 1788031507093,
+   "age_h": 0.334
   }
  },
  "trades": [
@@ -3663,15 +3663,15 @@
    "NEARUSDT",
    "DOSUSDT",
    "AAVEUSDT",
-   "MOVRUSDT",
    "COTIUSDT",
+   "MOVRUSDT",
    "CHIPUSDT",
    "BCHUSDT",
    "TRXUSDT",
    "DASHUSDT",
    "PENGUUSDT",
-   "BANKUSDT",
    "\u6211\u8e0f\u9a6c\u6765\u4e86USDT",
+   "BANKUSDT",
    "TACUSDT",
    "ZKPUSDT",
    "LTCUSDT",
@@ -3679,25 +3679,25 @@
    "ONDOUSDT",
    "CLOUSDT",
    "TURBOUSDT",
+   "HUMAUSDT",
    "OUSDT",
    "LITUSDT",
-   "HUMAUSDT",
    "ASTERUSDT",
    "ROBOUSDT",
    "CYSUSDT",
    "FETUSDT",
    "EDENUSDT",
    "BLESSUSDT",
-   "RIVERUSDT",
    "XMRUSDT",
+   "RIVERUSDT",
    "INJUSDT",
    "XPLUSDT",
    "FILUSDT",
    "XLMUSDT",
-   "BTWUSDT",
    "DOTUSDT",
    "ICPUSDT",
    "BMTUSDT",
+   "BTWUSDT",
    "LIGHTUSDT",
    "WLFIUSDT",
    "FARTCOINUSDT",
@@ -3714,12 +3714,12 @@
   ],
   "eligible_count": 491,
   "spot_mapped": 55,
-  "scanned_at": "2026-08-29T19:18:46Z"
+  "scanned_at": "2026-08-29T19:24:20Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-29T19:20:07Z",
+  "last_ok": "2026-08-29T19:25:08Z",
   "last_error": null,
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -3728,12 +3728,12 @@
   "signals": 103,
   "entries": 103,
   "exits": 106,
-  "ws_msgs": 1330604,
-  "ws_ticks": 1330604,
-  "signal_scans": 1166,
+  "ws_msgs": 1331172,
+  "ws_ticks": 1331172,
+  "signal_scans": 1172,
   "started": "2026-08-28T08:27:11Z",
   "note": "spot WS prices + futures REST signals (fstream blocked)",
-  "last_ok": "2026-08-29T19:20:07Z"
+  "last_ok": "2026-08-29T19:25:08Z"
  },
  "mode": "hybrid_spotws_futures_rest"
 }
