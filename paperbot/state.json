@@ -13,12 +13,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1788004800000,
-   "mark": 0.8424,
+   "mark": 0.843,
    "mark_src": "fapi",
-   "u_pnl": 2.7528,
+   "u_pnl": 2.9922,
    "spot": "DOTUSDT",
-   "last_mark_ms": 1788030903969,
-   "age_h": 6.241
+   "last_mark_ms": 1788031202457,
+   "age_h": 6.324
   },
   "BCHUSDT": {
    "entry": 245.06,
@@ -32,12 +32,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1788004800000,
-   "mark": 247.5,
+   "mark": 247.47,
    "mark_src": "fapi",
-   "u_pnl": 3.3189,
+   "u_pnl": 3.2781,
    "spot": "BCHUSDT",
-   "last_mark_ms": 1788030903969,
-   "age_h": 5.434
+   "last_mark_ms": 1788031202457,
+   "age_h": 5.517
   },
   "ICPUSDT": {
    "entry": 2.488,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788023400000,
-   "mark": 2.518,
-   "mark_src": "spot",
-   "u_pnl": 4.0193,
+   "mark": 2.511,
+   "mark_src": "fapi",
+   "u_pnl": 3.0814,
    "spot": "ICPUSDT",
-   "last_mark_ms": 1788030899782,
-   "age_h": 1.997
+   "last_mark_ms": 1788031206761,
+   "age_h": 2.082
   },
   "LTCUSDT": {
    "entry": 48.75,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788025200000,
-   "mark": 48.84,
+   "mark": 48.89,
    "mark_src": "spot",
-   "u_pnl": 0.6154,
+   "u_pnl": 0.9573,
    "spot": "LTCUSDT",
-   "last_mark_ms": 1788030905810,
-   "age_h": 1.49
+   "last_mark_ms": 1788031207258,
+   "age_h": 1.574
   },
   "GRVTUSDT": {
    "entry": 0.1717,
@@ -89,12 +89,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788026100000,
-   "mark": 0.17,
+   "mark": 0.1696,
    "mark_src": "fapi",
-   "u_pnl": -3.3003,
+   "u_pnl": -4.0768,
    "spot": null,
-   "last_mark_ms": 1788030903969,
-   "age_h": 1.249
+   "last_mark_ms": 1788031206761,
+   "age_h": 1.333
   },
   "BICOUSDT": {
    "entry": 0.02196,
@@ -108,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788027000000,
-   "mark": 0.02213,
+   "mark": 0.02209,
    "mark_src": "spot",
-   "u_pnl": 2.5804,
+   "u_pnl": 1.9733,
    "spot": "BICOUSDT",
-   "last_mark_ms": 1788030899304,
-   "age_h": 0.996
+   "last_mark_ms": 1788031202632,
+   "age_h": 1.08
   },
   "VELVETUSDT": {
    "entry": 0.1077,
@@ -127,12 +127,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788030000000,
-   "mark": 0.1082,
+   "mark": 0.1087,
    "mark_src": "fapi",
-   "u_pnl": 1.5475,
+   "u_pnl": 3.095,
    "spot": null,
-   "last_mark_ms": 1788030903969,
-   "age_h": 0.166
+   "last_mark_ms": 1788031206761,
+   "age_h": 0.25
   }
  },
  "trades": [
@@ -3645,8 +3645,8 @@
    "4USDT",
    "DOGEUSDT",
    "ONGUSDT",
-   "BNBUSDT",
    "PUMPUSDT",
+   "BNBUSDT",
    "DEXEUSDT",
    "NILUSDT",
    "BEATUSDT",
@@ -3705,21 +3705,21 @@
    "GRVTUSDT",
    "BICOUSDT",
    "VELVETUSDT",
-   "VVVUSDT",
    "ZROUSDT",
+   "VVVUSDT",
    "1000SHIBUSDT",
    "STXUSDT",
    "HBARUSDT",
    "LABUSDT"
   ],
-  "eligible_count": 492,
+  "eligible_count": 491,
   "spot_mapped": 55,
-  "scanned_at": "2026-08-29T19:13:43Z"
+  "scanned_at": "2026-08-29T19:18:46Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-29T19:15:05Z",
+  "last_ok": "2026-08-29T19:20:07Z",
   "last_error": null,
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -3728,12 +3728,12 @@
   "signals": 103,
   "entries": 103,
   "exits": 106,
-  "ws_msgs": 1330045,
-  "ws_ticks": 1330045,
-  "signal_scans": 1159,
+  "ws_msgs": 1330604,
+  "ws_ticks": 1330604,
+  "signal_scans": 1166,
   "started": "2026-08-28T08:27:11Z",
   "note": "spot WS prices + futures REST signals (fstream blocked)",
-  "last_ok": "2026-08-29T19:15:05Z"
+  "last_ok": "2026-08-29T19:20:07Z"
  },
  "mode": "hybrid_spotws_futures_rest"
 }
