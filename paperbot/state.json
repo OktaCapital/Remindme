@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788023400000,
-   "mark": 2.45,
+   "mark": 2.458,
    "mark_src": "fapi",
-   "u_pnl": -5.0911,
+   "u_pnl": -4.0193,
    "spot": "ICPUSDT",
-   "last_mark_ms": 1788057609162,
-   "age_h": 9.416
+   "last_mark_ms": 1788057918749,
+   "age_h": 9.502
   },
   "LTCUSDT": {
    "entry": 48.75,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788025200000,
-   "mark": 48.92,
-   "mark_src": "spot",
-   "u_pnl": 1.1624,
+   "mark": 48.86,
+   "mark_src": "fapi",
+   "u_pnl": 0.7521,
    "spot": "LTCUSDT",
-   "last_mark_ms": 1788057612309,
-   "age_h": 8.908
+   "last_mark_ms": 1788057920876,
+   "age_h": 8.994
   },
   "WLFIUSDT": {
    "entry": 0.05765,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788041400000,
-   "mark": 0.05751,
-   "mark_src": "fapi",
-   "u_pnl": -0.8095,
+   "mark": 0.0574,
+   "mark_src": "spot",
+   "u_pnl": -1.4455,
    "spot": "WLFIUSDT",
-   "last_mark_ms": 1788057611286,
-   "age_h": 4.412
+   "last_mark_ms": 1788057917637,
+   "age_h": 4.497
   },
   "EDENUSDT": {
    "entry": 0.06221,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788052200000,
-   "mark": 0.06305,
+   "mark": 0.0631,
    "mark_src": "spot",
-   "u_pnl": 4.5008,
+   "u_pnl": 4.7687,
    "spot": "EDENUSDT",
-   "last_mark_ms": 1788057608944,
-   "age_h": 1.414
+   "last_mark_ms": 1788057917795,
+   "age_h": 1.5
   },
   "VELVETUSDT": {
    "entry": 0.1028,
@@ -89,12 +89,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788056100000,
-   "mark": 0.1031,
+   "mark": 0.1025,
    "mark_src": "fapi",
-   "u_pnl": 0.9728,
+   "u_pnl": -0.9728,
    "spot": null,
-   "last_mark_ms": 1788057613410,
-   "age_h": 0.328
+   "last_mark_ms": 1788057920876,
+   "age_h": 0.413
   }
  },
  "trades": [
@@ -3920,7 +3920,7 @@
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-30T02:40:15Z",
+  "last_ok": "2026-08-30T02:45:21Z",
   "last_error": null,
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -3929,12 +3929,12 @@
   "signals": 114,
   "entries": 114,
   "exits": 119,
-  "ws_msgs": 1391153,
-  "ws_ticks": 1391153,
-  "signal_scans": 1699,
+  "ws_msgs": 1392178,
+  "ws_ticks": 1392178,
+  "signal_scans": 1706,
   "started": "2026-08-28T08:27:11Z",
   "note": "spot WS prices + futures REST signals (fstream blocked)",
-  "last_ok": "2026-08-30T02:40:13Z"
+  "last_ok": "2026-08-30T02:45:21Z"
  },
  "mode": "hybrid_spotws_futures_rest"
 }
