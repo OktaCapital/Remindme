@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788023400000,
-   "mark": 2.456,
-   "mark_src": "spot",
-   "u_pnl": -4.2872,
+   "mark": 2.457,
+   "mark_src": "fapi",
+   "u_pnl": -4.1532,
    "spot": "ICPUSDT",
-   "last_mark_ms": 1788059718637,
-   "age_h": 10.002
+   "last_mark_ms": 1788060011807,
+   "age_h": 10.083
   },
   "LTCUSDT": {
    "entry": 48.75,
@@ -36,8 +36,8 @@
    "mark_src": "spot",
    "u_pnl": 1.094,
    "spot": "LTCUSDT",
-   "last_mark_ms": 1788059719683,
-   "age_h": 9.494
+   "last_mark_ms": 1788060014350,
+   "age_h": 9.576
   },
   "WLFIUSDT": {
    "entry": 0.05765,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788041400000,
-   "mark": 0.0575,
+   "mark": 0.05756,
    "mark_src": "fapi",
-   "u_pnl": -0.8673,
+   "u_pnl": -0.5204,
    "spot": "WLFIUSDT",
-   "last_mark_ms": 1788059723534,
-   "age_h": 4.999
+   "last_mark_ms": 1788060009685,
+   "age_h": 5.079
   },
   "VELVETUSDT": {
    "entry": 0.1028,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788056100000,
-   "mark": 0.1024,
+   "mark": 0.1027,
    "mark_src": "fapi",
-   "u_pnl": -1.297,
+   "u_pnl": -0.3243,
    "spot": null,
-   "last_mark_ms": 1788059723534,
-   "age_h": 0.914
+   "last_mark_ms": 1788060013935,
+   "age_h": 0.995
   },
   "TRXUSDT": {
    "entry": 0.3395,
@@ -89,12 +89,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788057600000,
-   "mark": 0.3403,
+   "mark": 0.3402,
    "mark_src": "spot",
-   "u_pnl": 0.7855,
+   "u_pnl": 0.6873,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1788059724139,
-   "age_h": 0.497
+   "last_mark_ms": 1788060011580,
+   "age_h": 0.577
   }
  },
  "trades": [
@@ -3896,8 +3896,8 @@
    "CLOUSDT",
    "AVAXUSDT",
    "TACUSDT",
-   "CYSUSDT",
    "SKRUSDT",
+   "CYSUSDT",
    "LTCUSDT",
    "ONDOUSDT",
    "MOVRUSDT",
@@ -3919,9 +3919,9 @@
    "FILUSDT",
    "FARTCOINUSDT",
    "BMTUSDT",
+   "BICOUSDT",
    "WLFIUSDT",
    "BROCCOLI714USDT",
-   "BICOUSDT",
    "POLUSDT",
    "GRVTUSDT",
    "VELVETUSDT",
@@ -3933,12 +3933,12 @@
   ],
   "eligible_count": 482,
   "spot_mapped": 57,
-  "scanned_at": "2026-08-30T03:12:05Z"
+  "scanned_at": "2026-08-30T03:17:09Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-30T03:15:24Z",
+  "last_ok": "2026-08-30T03:20:14Z",
   "last_error": null,
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -3947,12 +3947,12 @@
   "signals": 115,
   "entries": 115,
   "exits": 120,
-  "ws_msgs": 1394423,
-  "ws_ticks": 1394423,
-  "signal_scans": 1742,
+  "ws_msgs": 1394639,
+  "ws_ticks": 1394639,
+  "signal_scans": 1748,
   "started": "2026-08-28T08:27:11Z",
   "note": "spot WS prices + futures REST signals (fstream blocked)",
-  "last_ok": "2026-08-30T03:15:24Z"
+  "last_ok": "2026-08-30T03:20:14Z"
  },
  "mode": "hybrid_spotws_futures_rest"
 }
