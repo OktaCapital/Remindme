@@ -1,5 +1,5 @@
 {
- "equity": 1653.8881760654242,
+ "equity": 1660.3881110654243,
  "positions": {
   "WLFIUSDT": {
    "entry": 0.05765,
@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788041400000,
-   "mark": 0.05768,
-   "mark_src": "fapi",
-   "u_pnl": 0.1735,
+   "mark": 0.0576,
+   "mark_src": "spot",
+   "u_pnl": -0.2891,
    "spot": "WLFIUSDT",
-   "last_mark_ms": 1788069326738,
-   "age_h": 7.667
+   "last_mark_ms": 1788069627650,
+   "age_h": 7.75
   },
   "VELVETUSDT": {
    "entry": 0.1028,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788056100000,
-   "mark": 0.1031,
+   "mark": 0.103,
    "mark_src": "fapi",
-   "u_pnl": 0.9728,
+   "u_pnl": 0.6485,
    "spot": null,
-   "last_mark_ms": 1788069326738,
-   "age_h": 3.582
+   "last_mark_ms": 1788069630458,
+   "age_h": 3.666
   },
   "TRXUSDT": {
    "entry": 0.3395,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788057600000,
-   "mark": 0.34082,
-   "mark_src": "fapi",
-   "u_pnl": 1.296,
+   "mark": 0.341,
+   "mark_src": "spot",
+   "u_pnl": 1.4727,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1788069324614,
-   "age_h": 3.164
+   "last_mark_ms": 1788069626647,
+   "age_h": 3.248
   },
   "LITUSDT": {
    "entry": 3.4999,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788061500000,
-   "mark": 3.4844,
+   "mark": 3.4815,
    "mark_src": "fapi",
-   "u_pnl": -1.4762,
+   "u_pnl": -1.7524,
    "spot": null,
-   "last_mark_ms": 1788069326738,
-   "age_h": 2.078
+   "last_mark_ms": 1788069630458,
+   "age_h": 2.162
   },
   "OPGUSDT": {
    "entry": 0.0957,
@@ -89,12 +89,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788064500000,
-   "mark": 0.0951,
-   "mark_src": "fapi",
-   "u_pnl": -2.0898,
+   "mark": 0.095,
+   "mark_src": "spot",
+   "u_pnl": -2.4382,
    "spot": "OPGUSDT",
-   "last_mark_ms": 1788069326738,
-   "age_h": 1.245
+   "last_mark_ms": 1788069626525,
+   "age_h": 1.328
   },
   "SOLUSDT": {
    "entry": 104.8,
@@ -108,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788064800000,
-   "mark": 105.01,
+   "mark": 105.02,
    "mark_src": "spot",
-   "u_pnl": 0.6679,
+   "u_pnl": 0.6997,
    "spot": "SOLUSDT",
-   "last_mark_ms": 1788069327351,
-   "age_h": 1.166
+   "last_mark_ms": 1788069629851,
+   "age_h": 1.25
   },
   "FILUSDT": {
    "entry": 0.6754,
@@ -127,31 +127,31 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1788062400000,
-   "mark": 0.6794,
-   "mark_src": "fapi",
-   "u_pnl": 1.9741,
+   "mark": 0.6809,
+   "mark_src": "spot",
+   "u_pnl": 2.7144,
    "spot": "FILUSDT",
-   "last_mark_ms": 1788069324614,
-   "age_h": 0.91
+   "last_mark_ms": 1788069626150,
+   "age_h": 0.994
   },
-  "COLLECTUSDT": {
-   "entry": 0.06199,
+  "GIGGLEUSDT": {
+   "entry": 40.04,
    "notional": 333.33,
-   "opened_ms": 1788067542791,
-   "opened": "2026-08-30T05:25:42Z",
-   "entry_time": "2026-08-30T05:25:42Z",
+   "opened_ms": 1788069618255,
+   "opened": "2026-08-30T06:00:18Z",
+   "entry_time": "2026-08-30T06:00:18Z",
    "dir_long": true,
-   "rsi": 11.974,
-   "vol_ratio": 1.322,
-   "tf": "5m",
-   "interval": "5m",
-   "signal_bar": 1788067200000,
-   "mark": 0.06119,
+   "rsi": 25.257,
+   "vol_ratio": 1.352,
+   "tf": "1h",
+   "interval": "1h",
+   "signal_bar": 1788066000000,
+   "mark": 40.05,
    "mark_src": "fapi",
-   "u_pnl": -4.3017,
-   "spot": null,
-   "last_mark_ms": 1788069326738,
-   "age_h": 0.496
+   "u_pnl": 0.0832,
+   "spot": "GIGGLEUSDT",
+   "last_mark_ms": 1788069626148,
+   "age_h": 0.002
   }
  },
  "trades": [
@@ -3690,6 +3690,24 @@
    "mark": 48.86,
    "mark_src": "fapi",
    "dir_long": true
+  },
+  {
+   "sym": "COLLECTUSDT",
+   "entry": 0.06199,
+   "exit": 0.0632298,
+   "ret": 0.0195,
+   "pnl": 6.499935,
+   "reason": "tp_fapi",
+   "opened": "2026-08-30T05:25:42Z",
+   "opened_ms": 1788067542791,
+   "closed_ms": 1788069548747,
+   "age_h": 0.557,
+   "tf": "5m",
+   "rsi": 11.974,
+   "vol_ratio": 1.322,
+   "mark": 0.06338,
+   "mark_src": "fapi",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -3818,7 +3836,8 @@
   "EDENUSDT": "1788052200000",
   "LITUSDT": "1788061500000",
   "OPGUSDT": "1788064500000",
-  "COLLECTUSDT": "1788067200000"
+  "COLLECTUSDT": "1788067200000",
+  "GIGGLEUSDT": "1788066000000"
  },
  "consec_err": 0,
  "last_day": "2026-08-28",
@@ -3982,8 +4001,8 @@
    "NILUSDT",
    "UNIUSDT",
    "BEATUSDT",
-   "SUIUSDT",
    "TUTUSDT",
+   "SUIUSDT",
    "ZKPUSDT",
    "GIGGLEUSDT",
    "1000PEPEUSDT",
@@ -3996,8 +4015,8 @@
    "LINKUSDT",
    "COTIUSDT",
    "TAOUSDT",
-   "AAVEUSDT",
    "SKRUSDT",
+   "AAVEUSDT",
    "DOSUSDT",
    "\u6211\u8e0f\u9a6c\u6765\u4e86USDT",
    "DASHUSDT",
@@ -4009,15 +4028,15 @@
    "BANKUSDT",
    "OUSDT",
    "AVAXUSDT",
-   "TACUSDT",
    "MOVRUSDT",
+   "TACUSDT",
    "LTCUSDT",
    "CHIPUSDT",
    "ONDOUSDT",
    "XMRUSDT",
    "CLOUSDT",
-   "ROBOUSDT",
    "LITUSDT",
+   "ROBOUSDT",
    "BICOUSDT",
    "RIVERUSDT",
    "COLLECTUSDT",
@@ -4031,8 +4050,8 @@
    "XLMUSDT",
    "DOTUSDT",
    "ICPUSDT",
-   "FARTCOINUSDT",
    "BROCCOLI714USDT",
+   "FARTCOINUSDT",
    "EDENUSDT",
    "ZKCUSDT",
    "POLUSDT",
@@ -4040,33 +4059,33 @@
    "VELVETUSDT",
    "OPGUSDT",
    "GRVTUSDT",
-   "BMTUSDT",
    "TSTUSDT",
+   "BMTUSDT",
    "1000SHIBUSDT",
    "ZROUSDT"
   ],
   "eligible_count": 481,
   "spot_mapped": 57,
-  "scanned_at": "2026-08-30T05:51:27Z"
+  "scanned_at": "2026-08-30T05:56:30Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-30T05:55:27Z",
+  "last_ok": "2026-08-30T06:00:30Z",
   "last_error": null,
   "monitor_ok": 9,
   "monitor_failed": 0
  },
  "stats": {
-  "signals": 121,
-  "entries": 121,
-  "exits": 123,
-  "ws_msgs": 1417143,
-  "ws_ticks": 1417143,
-  "signal_scans": 1930,
+  "signals": 122,
+  "entries": 122,
+  "exits": 124,
+  "ws_msgs": 1418250,
+  "ws_ticks": 1418250,
+  "signal_scans": 1937,
   "started": "2026-08-28T08:27:11Z",
   "note": "spot WS prices + futures REST signals (fstream blocked)",
-  "last_ok": "2026-08-30T05:55:27Z"
+  "last_ok": "2026-08-30T06:00:30Z"
  },
  "mode": "hybrid_spotws_futures_rest"
 }
