@@ -14,11 +14,11 @@
    "interval": "1h",
    "signal_bar": 1788004800000,
    "mark": 0.84,
-   "mark_src": "fapi",
+   "mark_src": "spot",
    "u_pnl": 1.7953,
    "spot": "DOTUSDT",
-   "last_mark_ms": 1788050112089,
-   "age_h": 11.577
+   "last_mark_ms": 1788050406417,
+   "age_h": 11.658
   },
   "BCHUSDT": {
    "entry": 245.06,
@@ -32,12 +32,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1788004800000,
-   "mark": 246.58,
-   "mark_src": "fapi",
-   "u_pnl": 2.0675,
+   "mark": 246.8,
+   "mark_src": "spot",
+   "u_pnl": 2.3667,
    "spot": "BCHUSDT",
-   "last_mark_ms": 1788050109957,
-   "age_h": 10.769
+   "last_mark_ms": 1788050408513,
+   "age_h": 10.852
   },
   "ICPUSDT": {
    "entry": 2.488,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788023400000,
-   "mark": 2.48,
-   "mark_src": "spot",
-   "u_pnl": -1.0718,
+   "mark": 2.476,
+   "mark_src": "fapi",
+   "u_pnl": -1.6077,
    "spot": "ICPUSDT",
-   "last_mark_ms": 1788050114212,
-   "age_h": 7.334
+   "last_mark_ms": 1788050410095,
+   "age_h": 7.416
   },
   "LTCUSDT": {
    "entry": 48.75,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788025200000,
-   "mark": 48.77,
+   "mark": 48.83,
    "mark_src": "spot",
-   "u_pnl": 0.1368,
+   "u_pnl": 0.547,
    "spot": "LTCUSDT",
-   "last_mark_ms": 1788050109364,
-   "age_h": 6.824
+   "last_mark_ms": 1788050411002,
+   "age_h": 6.908
   },
   "GRVTUSDT": {
    "entry": 0.1717,
@@ -89,12 +89,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788026100000,
-   "mark": 0.1722,
+   "mark": 0.1742,
    "mark_src": "fapi",
-   "u_pnl": 0.9707,
+   "u_pnl": 4.8534,
    "spot": null,
-   "last_mark_ms": 1788050114228,
-   "age_h": 6.585
+   "last_mark_ms": 1788050410095,
+   "age_h": 6.667
   },
   "DEXEUSDT": {
    "entry": 2.263,
@@ -108,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788036600000,
-   "mark": 2.235,
+   "mark": 2.238,
    "mark_src": "spot",
-   "u_pnl": -4.1243,
+   "u_pnl": -3.6824,
    "spot": "DEXEUSDT",
-   "last_mark_ms": 1788050112397,
-   "age_h": 3.666
+   "last_mark_ms": 1788050406644,
+   "age_h": 3.748
   },
   "WLFIUSDT": {
    "entry": 0.05765,
@@ -131,8 +131,8 @@
    "mark_src": "fapi",
    "u_pnl": 0.1156,
    "spot": "WLFIUSDT",
-   "last_mark_ms": 1788050114228,
-   "age_h": 2.33
+   "last_mark_ms": 1788050407969,
+   "age_h": 2.411
   },
   "DOSUSDT": {
    "entry": 0.2786,
@@ -146,12 +146,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788048000000,
-   "mark": 0.2782,
+   "mark": 0.2809,
    "mark_src": "fapi",
-   "u_pnl": -0.4786,
+   "u_pnl": 2.7518,
    "spot": null,
-   "last_mark_ms": 1788050114228,
-   "age_h": 0.076
+   "last_mark_ms": 1788050410095,
+   "age_h": 0.158
   }
  },
  "trades": [
@@ -3795,13 +3795,13 @@
    "MOVRUSDT",
    "ROBOUSDT",
    "LITUSDT",
-   "HUMAUSDT",
    "CYSUSDT",
-   "BLESSUSDT",
+   "HUMAUSDT",
    "XMRUSDT",
+   "BLESSUSDT",
+   "SKRUSDT",
    "RIVERUSDT",
    "FETUSDT",
-   "SKRUSDT",
    "ASTERUSDT",
    "INJUSDT",
    "EDENUSDT",
@@ -3812,27 +3812,27 @@
    "BMTUSDT",
    "FILUSDT",
    "GRVTUSDT",
+   "COLLECTUSDT",
    "WLFIUSDT",
    "POLUSDT",
    "TURBOUSDT",
-   "COLLECTUSDT",
    "BROCCOLI714USDT",
    "VELVETUSDT",
    "FARTCOINUSDT",
-   "BICOUSDT",
    "BANDUSDT",
+   "BICOUSDT",
    "1000SHIBUSDT",
    "TSTUSDT",
    "ZROUSDT"
   ],
-  "eligible_count": 482,
+  "eligible_count": 481,
   "spot_mapped": 57,
-  "scanned_at": "2026-08-30T00:33:14Z"
+  "scanned_at": "2026-08-30T00:38:46Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-30T00:35:14Z",
+  "last_ok": "2026-08-30T00:40:11Z",
   "last_error": null,
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -3841,12 +3841,12 @@
   "signals": 109,
   "entries": 109,
   "exits": 111,
-  "ws_msgs": 1375134,
-  "ws_ticks": 1375134,
-  "signal_scans": 1545,
+  "ws_msgs": 1375946,
+  "ws_ticks": 1375946,
+  "signal_scans": 1551,
   "started": "2026-08-28T08:27:11Z",
   "note": "spot WS prices + futures REST signals (fstream blocked)",
-  "last_ok": "2026-08-30T00:35:14Z"
+  "last_ok": "2026-08-30T00:40:11Z"
  },
  "mode": "hybrid_spotws_futures_rest"
 }
