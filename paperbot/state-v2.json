@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788176100000,
-   "mark": 3.681,
+   "mark": 3.6946,
    "mark_src": "fapi",
-   "u_pnl": -0.7499,
+   "u_pnl": 0.4789,
    "spot": null,
-   "last_mark_ms": 1788177645268,
-   "age_h": 0.343
+   "last_mark_ms": 1788177943905,
+   "age_h": 0.426
   },
   "POLUSDT": {
    "entry": 0.08977,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788176400000,
-   "mark": 0.08931,
+   "mark": 0.08957,
    "mark_src": "fapi",
-   "u_pnl": -1.7081,
+   "u_pnl": -0.7426,
    "spot": "POLUSDT",
-   "last_mark_ms": 1788177643112,
-   "age_h": 0.259
+   "last_mark_ms": 1788177939474,
+   "age_h": 0.342
   }
  },
  "trades": [],
@@ -64,8 +64,8 @@
    "UNIUSDT",
    "TRUMPUSDT",
    "ENAUSDT",
-   "ZKCUSDT",
    "BNBUSDT",
+   "ZKCUSDT",
    "PUMPUSDT",
    "1000PEPEUSDT",
    "BTRUSDT",
@@ -84,8 +84,8 @@
    "TAOUSDT",
    "AAVEUSDT",
    "LITUSDT",
-   "AVAXUSDT",
    "UAIUSDT",
+   "AVAXUSDT",
    "0GUSDT",
    "BCHUSDT",
    "\u9f99\u867eUSDT",
@@ -125,35 +125,35 @@
    "BEATUSDT",
    "BLESSUSDT",
    "WIFUSDT",
-   "VIRTUALUSDT",
    "1000BONKUSDT",
+   "VIRTUALUSDT",
    "ZROUSDT",
    "CRVUSDT",
    "NILUSDT",
    "ACEUSDT",
    "COLLECTUSDT",
-   "ETCUSDT",
-   "BTWUSDT"
+   "ANIMEUSDT",
+   "ETCUSDT"
   ],
   "eligible_count": 513,
-  "spot_mapped": 59,
-  "scanned_at": "2026-08-31T11:56:39Z"
+  "spot_mapped": 60,
+  "scanned_at": "2026-08-31T12:01:41Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-31T12:00:45Z",
+  "last_ok": "2026-08-31T12:05:44Z",
   "last_error": null
  },
  "stats": {
   "signals": 2,
   "entries": 2,
   "exits": 0,
-  "ws_msgs": 68572,
-  "ws_ticks": 68572,
-  "signal_scans": 44,
+  "ws_msgs": 85498,
+  "ws_ticks": 85498,
+  "signal_scans": 51,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-08-31T12:00:45Z"
+  "last_ok": "2026-08-31T12:05:44Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
