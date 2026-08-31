@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Altcoin Paper Trader</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* ===== M3 semantic tokens (dark theme, baseline green seed) ===== */
+:root{
+  --md-primary:#7ADB93;          /* primary */
+  --md-on-primary:#00391A;
+  --md-primary-container:#0F5229;
+  --md-on-primary-container:#A6F5B9;
+  --md-error:#FFB4AB;
+  --md-on-error:#690005;
+  --md-error-container:#93000A;
+  --md-on-error-container:#FFDAD6;
+  --md-surface:#11140F;
+  --md-on-surface:#E2E3D8;
+  --md-on-surface-var:#C3C8BC;
+  --md-surface-c-lowest:#0C0F0A;
+  --md-surface-c-low:#191C17;
+  --md-surface-c:#1D201B;
+  --md-surface-c-high:#282B25;
+  --md-outline:#8D9385;
+  --md-outline-var:#474D41;
+  --md-tertiary:#B8CC4F;         /* tertiary accent for neutral info */
+  --md-on-tertiary-container:#313700;
+
+  /* shape scale */
+  --shape-xs:4px; --shape-s:8px; --shape-m:12px; --shape-l:16px; --shape-xl:28px; --shape-full:999px;
+  /* spacing (4dp rhythm) */
+  --sp-1:4px; --sp-2:8px; --sp-3:12px; --sp-4:16px; --sp-5:20px; --sp-6:24px; --sp-8:32px;
+}
+[data-theme="light"]{
+  --md-primary:#206C37;
+  --md-on-primary:#FFFFFF;
+  --md-primary-container:#ACF7BB;
+  --md-on-primary-container:#00210D;
+  --md-error:#BA1A1A;
+  --md-on-error:#FFFFFF;
+  --md-error-container:#FFDAD6;
+  --md-on-error-container:#410002;
+  --md-surface:#F8FAF1;
+  --md-on-surface:#191D16;
+  --md-on-surface-var:#41483F;
+  --md-surface-c-lowest:#FFFFFF;
+  --md-surface-c-low:#F2F4EA;
+  --md-surface-c:#ECefe4;
+  --md-surface-c-high:#E6E8DD;
+  --md-outline:#72796F;
+  --md-outline-var:#C2C9BD;
+  --md-tertiary:#5D6317;
+  --md-on-tertiary-container:#F5F1CF;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{color-scheme:dark light}
+body{
+  background:var(--md-surface); color:var(--md-on-surface);
+  font-family:'Roboto Flex',system-ui,sans-serif;
+  font-size:14px; line-height:1.5;
+  min-height:100vh; padding:var(--sp-5);
+  max-width:1120px; margin:auto;
+}
+.mono{font-family:'Roboto Mono',monospace}
+
+/* Top app bar (small) */
+.appbar{
+  display:flex; align-items:center; gap:var(--sp-3);
+  padding:var(--sp-3) 0 var(--sp-4);
+}
+.appbar h1{font-size:22px; font-weight:500; letter-spacing:.2px}
+.appbar .subhead{font-size:12.5px; color:var(--md-on-surface-var)}
+.theme-btn{
+  margin-left:auto;
+  background:none; border:1px solid var(--md-outline-var); color:var(--md-on-surface-var);
+  border-radius:var(--shape-full); padding:8px 14px; font-size:13px; cursor:pointer;
+  display:inline-flex; align-items:center; gap:6px;
+}
+.theme-btn:hover{background:var(--md-surface-c)}
+.theme-btn:focus-visible{outline:2px solid var(--md-primary); outline-offset:2px}
+
+/* Status row */
+.statusline{
+  display:flex; align-items:center; gap:var(--sp-2);
+  color:var(--md-on-surface-var); font-size:12.5px; margin-bottom:var(--sp-5);
+}
+.pulse-dot{
+  width:8px; height:8px; border-radius:50%;
+  background:var(--md-primary);
+  box-shadow:0 0 0 0 color-mix(in srgb, var(--md-primary) 60%, transparent);
+  animation:pulse 2.4s infinite;
+}
+@keyframes pulse{
+  0%{box-shadow:0 0 0 0 color-mix(in srgb, var(--md-primary) 45%, transparent)}
+  70%{box-shadow:0 0 0 8px transparent}
+  100%{box-shadow:0 0 0 0 transparent}
+}
+@media (prefers-reduced-motion: reduce){ .pulse-dot{animation:none} }
+
+/* Stat cards — surfaceContainerLow, NOT every-section-is-a-card */
+.stats{
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:var(--sp-3); margin-bottom:var(--sp-6);
+}
+.stat{
+  background:var(--md-surface-c-low);
+  border-radius:var(--shape-m);
+  padding:var(--sp-4);
+}
+.stat .label{
+  font-size:11.5px; font-weight:500; letter-spacing:.6px;
+  text-transform:uppercase; color:var(--md-on-surface-var); margin-bottom:var(--sp-1);
+}
+.stat .value{font-size:26px; font-weight:700; font-variant-numeric:tabular-nums}
+.stat .delta{font-size:12.5px; margin-top:2px; color:var(--md-on-surface-var)}
+
+/* Sections — spacing-first grouping, single container only when meaningful */
+.section{margin-bottom:var(--sp-8)}
+.section>h2{
+  font-size:13px; font-weight:500; letter-spacing:.7px; text-transform:uppercase;
+  color:var(--md-on-surface-var); margin-bottom:var(--sp-3);
+}
+.chart-card{
+  background:var(--md-surface-c-low); border-radius:var(--shape-l);
+  padding:var(--sp-4); position:relative;
+}
+svg#chart{display:block;width:100%;height:180px}
+
+/* Data table on plain surface with dividers (no nested cards) */
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{
+  text-align:left; font-weight:500; font-size:11.5px; letter-spacing:.6px;
+  text-transform:uppercase; color:var(--md-on-surface-var);
+  padding:var(--sp-2) var(--sp-3); border-bottom:1px solid var(--md-outline-var);
+}
+td{padding:var(--sp-3); border-bottom:1px solid var(--md-outline-var); font-variant-numeric:tabular-nums}
+tr:last-child td{border-bottom:none}
+.num{text-align:right}
+th.num{text-align:right}
+.pos-chip,.exit-chip{
+  display:inline-flex; align-items:center; gap:6px;
+  border-radius:var(--shape-s); padding:2px 10px; font-size:12px; font-weight:500;
+}
+.pos-chip::before{content:""; width:6px;height:6px;border-radius:50%;background:currentColor}
+.pos-chip.long{color:var(--md-primary); background:color-mix(in srgb,var(--md-primary) 14%, transparent)}
+.exit-chip.tp{color:var(--md-primary); background:color-mix(in srgb,var(--md-primary) 14%, transparent)}
+.exit-chip.sl{color:var(--md-error); background:color-mix(in srgb,var(--md-error) 14%, transparent)}
+.exit-chip.time{color:var(--md-tertiary); background:color-mix(in srgb,var(--md-tertiary) 14%, transparent)}
+
+.up{color:var(--md-primary)} .down{color:var(--md-error)}
+
+/* Empty / loading / error states — explain meaning + next action */
+.state-box{
+  padding:var(--sp-6); text-align:center; color:var(--md-on-surface-var);
+}
+.state-box .big{font-size:15px; color:var(--md-on-surface); font-weight:500; margin-bottom:var(--sp-1)}
+.snackbar{
+  position:fixed; left:50%; transform:translateX(-50%); bottom:24px;
+  background:var(--md-surface-c-high); color:var(--md-on-surface);
+  border-radius:var(--shape-xs); padding:12px 20px; font-size:13.5px;
+  box-shadow:0 4px 12px rgba(0,0,0,.4);
+  display:none; z-index:10;
+}
+.snackbar.show{display:block}
+
+footer{
+  margin-top:var(--sp-8); padding-top:var(--sp-4);
+  border-top:1px solid var(--md-outline-var);
+  color:var(--md-on-surface-var); font-size:12px; line-height:1.7;
+}
+@media (max-width:600px){
+  body{padding:var(--sp-4)}
+  .stat .value{font-size:22px}
+  th,td{padding:var(--sp-2)}
+  td.hide-sm{display:none}
+}
+</style>
+</head>
+<body>
+
+<header class="appbar">
+  <div>
+    <h1>Altcoin Paper Trader v2</h1>
+    <div class="subhead">Forward test clean · rfL15v · 5m/30m/4h · anti re-entry</div>
+  </div>
+  <button class="theme-btn" id="themeBtn" aria-label="Ganti tema terang/gelap">◐ Tema</button>
+</header>
+
+<div class="statusline">
+  <span class="pulse-dot" id="dot"></span>
+  <span id="statusText">Menghubungkan…</span>
+</div>
+
+<section class="stats" aria-label="Ringkasan akun">
+  <div class="stat"><div class="label">Equity</div><div class="value mono" id="eq">—</div><div class="delta" id="eqd">memuat…</div></div>
+  <div class="stat"><div class="label">Portfolio Closed</div><div class="value mono" id="nt">—</div></div>
+  <div class="stat"><div class="label">Portfolio WR</div><div class="value mono" id="wr">—</div></div>
+  <div class="stat"><div class="label">Portfolio Open</div><div class="value mono" id="op">—</div></div>
+  <div class="stat"><div class="label">Research Closed</div><div class="value mono" id="rnt">—</div></div>
+  <div class="stat"><div class="label">Research WR</div><div class="value mono" id="rwr">—</div></div>
+  <div class="stat"><div class="label">Research Open</div><div class="value mono" id="rop">—</div></div>
+  <div class="stat"><div class="label">Coin Universe</div><div class="value mono" id="univ">—</div><div class="delta" id="scanhealth">belum discan</div></div>
+</section>
+
+<section class="section" aria-label="Kurva ekuitas">
+  <h2>Kurva Ekuitas</h2>
+  <div class="chart-card">
+    <svg id="chart" viewBox="0 0 1000 180" preserveAspectRatio="none" role="img" aria-label="Grafik kurva ekuitas"></svg>
+  </div>
+</section>
+
+<section class="section" aria-label="Posisi terbuka">
+  <h2>Posisi Terbuka</h2>
+  <table>
+    <thead><tr><th>Coin</th><th class="num">Entry</th><th>Arah</th><th class="num">Umur</th><td class="hide-sm"></td><th>Sinyal</th></tr></thead>
+    <tbody id="posbody"><tr><td colspan="6"><div class="state-box"><div class="big">Belum ada posisi</div>Bot menunggu sinyal RSI&lt;15 + volume capitulation — ini normal di market rally.</div></td></tr></tbody>
+  </table>
+</section>
+
+<section class="section" aria-label="Riwayat trade">
+  <h2>Riwayat Trade Portfolio</h2>
+  <table>
+    <thead><tr><th>Ditutup</th><th>Coin</th><th class="num">Entry</th><th class="num">Exit</th><th class="num">Return</th><th class="num">PnL</th><th>Alasan Exit</th></tr></thead>
+    <tbody id="trbody"><tr><td colspan="7"><div class="state-box"><div class="big">Belum ada trade tertutup</div>Trade pertama akan muncul di sini setelah sinyal dieksekusi dan posisi ditutup.</div></td></tr></tbody>
+  </table>
+</section>
+
+<section class="section" aria-label="Dataset seluruh sinyal">
+  <h2>Research Dataset · Semua Sinyal</h2>
+  <table>
+    <thead><tr><th>Ditutup</th><th>Coin</th><th class="num">Entry</th><th class="num">Exit</th><th class="num">Return</th><th>Hasil</th></tr></thead>
+    <tbody id="rtrbody"><tr><td colspan="6"><div class="state-box"><div class="big">Belum ada observation tertutup</div>Semua sinyal dari universe liquid akan masuk ke sini, termasuk yang tidak kebagian slot portfolio.</div></td></tr></tbody>
+  </table>
+</section>
+
+<div class="snackbar" id="snack" role="status"></div>
+
+<footer>
+  Strategi rfL15v v2 — clean ledger mulai 31 Agu 2026, 1H layer dimatikan, same-signal re-entry diblok.<br>
+  Portfolio dibatasi 10 posisi. Layer aktif: 5m, 30m, 4h. Evaluasi v2 terpisah dari ledger lama.<br>
+  Order disimulasikan terhadap harga live Binance — tanpa dana nyata. Ledger lama tetap diarsipkan, tidak dicampur ke kurva ini.
+</footer>
+
+<script>
+const RAW='https://raw.githubusercontent.com/OktaCapital/Remindme/claude%2Fenhance-chat-app-VRiuD/paperbot/state-v2.json';
+function tradeTime(t){
+  if(t.closed_ms) return new Date(t.closed_ms).toISOString();
+  if(t.closed) return String(t.closed);
+  return '';
+}
+function openTime(p){
+  if(p.opened_ms) return new Date(p.opened_ms).toISOString();
+  if(p.opened) return String(p.opened);
+  return new Date().toISOString();
+}
+const fmt$ = x => '$' + Number(x).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+const snack = document.getElementById('snack');
+let snackTimer=null;
+function showSnack(msg){
+  snack.textContent=msg; snack.classList.add('show');
+  clearTimeout(snackTimer);
+  snackTimer=setTimeout(()=>snack.classList.remove('show'),4000);
+}
+function esc(s){const d=document.createElement('div');d.textContent=s;return d.innerHTML}
+
+// theme toggle
+const btn=document.getElementById('themeBtn');
+btn.addEventListener('click',()=>{
+  const html=document.documentElement;
+  const next=html.dataset.theme==='dark'?'light':'dark';
+  html.dataset.theme=next;
+});
+
+async function load(){
+  const st=document.getElementById('statusText');
+  try{
+    const r=await fetch(RAW+'?t='+Date.now(),{cache:'no-store'});
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    const s=await r.json();
+    const health=s.health||{};
+    document.getElementById('dot').style.background=health.status==='ok'?'var(--md-primary)':'var(--md-error)';
+    st.textContent=(health.status==='ok'?'Live':'Degraded')+' · sinkron '+new Date().toLocaleTimeString('id-ID');
+
+    const eq=s.equity ?? 1000, tr=s.trades||[], pos=s.positions||{};
+    const research=s.research||{positions:{},trades:[]};
+    const rtr=research.trades||[], rpos=research.positions||{}, universe=s.universe||{};
+    document.getElementById('eq').textContent=fmt$(eq);
+    const d=eq-1000;
+    const ed=document.getElementById('eqd');
+    ed.textContent=(d>=0?'+':'')+fmt$(d)+' ('+(d>=0?'+':'')+(d/10).toFixed(1)+'%)';
+    ed.className='delta '+(d>0?'up':d<0?'down':'');
+
+    document.getElementById('nt').textContent=tr.length;
+    const wins=tr.filter(t=>t.pnl>0).length;
+    document.getElementById('wr').textContent=tr.length?Math.round(wins/tr.length*100)+'%':'—';
+    document.getElementById('op').textContent=Object.keys(pos).length;
+    document.getElementById('rnt').textContent=rtr.length;
+    const rwins=rtr.filter(t=>t.pnl>0).length;
+    document.getElementById('rwr').textContent=rtr.length?Math.round(rwins/rtr.length*100)+'%':'—';
+    document.getElementById('rop').textContent=Object.keys(rpos).length;
+    document.getElementById('univ').textContent=universe.eligible_count||0;
+    document.getElementById('scanhealth').textContent=
+      `${universe.scan_ok||0} ok · ${universe.scan_failed||0} gagal · ${universe.signals_found||0} sinyal terakhir`;
+
+    // equity curve
+    let cum=1000; const pts=[cum];
+    tr.forEach(t=>{cum+=t.pnl; pts.push(cum)});
+    pts.push(eq);
+    const svg=document.getElementById('chart');
+    if(pts.length>2){
+      const mn=Math.min(...pts,1000), mx=Math.max(...pts,1000), pad=(mx-mn)||1;
+      const W=1000,H=180,P=14;
+      const xy=pts.map((v,i)=>[P+i*(W-2*P)/(pts.length-1), H-P-(v-mn)/pad*(H-2*P)]);
+      const line=xy.map(p=>p.map(n=>n.toFixed(1)).join(',')).join(' ');
+      const last=xy[xy.length-1];
+      const baseY=(H-P-(1000-mn)/pad*(H-2*P)).toFixed(1);
+      const col=cum>=1000?'var(--md-primary)':'var(--md-error)';
+      svg.innerHTML=
+        `<line x1="${P}" y1="${baseY}" x2="${W-P}" y2="${baseY}" stroke="var(--md-outline-var)" stroke-dasharray="4 5"/>`+
+        `<polyline points="${line}" fill="none" stroke="${col}" stroke-width="2.5" stroke-linejoin="round"/>`+
+        `<circle cx="${last[0].toFixed(1)}" cy="${last[1].toFixed(1)}" r="4.5" fill="${col}"/>`;
+    } else {
+      svg.innerHTML='<text x="500" y="92" text-anchor="middle" fill="var(--md-on-surface-var)" font-size="13">Menunggu trade pertama — kurva mulai tergambar setelah posisi ditutup</text>';
+    }
+
+    // positions
+    const pb=document.getElementById('posbody');
+    const keys=Object.keys(pos);
+    if(!keys.length){
+      pb.innerHTML='<tr><td colspan="6"><div class="state-box"><div class="big">Belum ada posisi terbuka</div>Bot menunggu kondisi capitulation. Di market rally bisa berhari-hari tanpa entry — itu by design.</div></td></tr>';
+    } else {
+      pb.innerHTML='';
+      keys.forEach(sym=>{
+        const p=pos[sym];
+        const ageH=((Date.now()-new Date(openTime(p)).getTime())/3600000).toFixed(1);
+        pb.innerHTML+=`<tr><td class="mono">${esc(sym)}</td>`+
+          `<td class="num mono">$${p.entry}</td>`+
+          `<td><span class="pos-chip long">${p.dir_long?'LONG':'SHORT'}</span></td>`+
+          `<td class="num">${ageH} jam</td>`+
+          `<td class="hide-sm"></td>`+
+          `<td>RSI&lt;15 + volcap</td></tr>`;
+      });
+    }
+
+    // trades
+    const tb=document.getElementById('trbody');
+    if(!tr.length){
+      tb.innerHTML='<tr><td colspan="7"><div class="state-box"><div class="big">Belum ada trade tertutup</div>Riwayat muncul otomatis setelah posisi pertama ditutup (TP/SL/time).</div></td></tr>';
+    } else {
+      tb.innerHTML='';
+      [...tr].reverse().slice(0,25).forEach(t=>{
+        const cls=t.pnl>=0?'up':'down';
+        const sign=t.pnl>=0?'+':'−';
+        const tm=tradeTime(t);
+        tb.innerHTML+=`<tr><td style="color:var(--md-on-surface-var)">${esc(tm.slice(5,16))}</td>`+
+          `<td class="mono">${esc(t.sym)}</td>`+
+          `<td class="num mono">$${t.entry}</td>`+
+          `<td class="num mono">$${t.exit}</td>`+
+          `<td class="num ${cls}">${(t.ret*100>=0?'+':'')}${(t.ret*100).toFixed(2)}%</td>`+
+          `<td class="num ${cls}">${sign}$${Math.abs(t.pnl).toFixed(2)}</td>`+
+          `<td><span class="exit-chip ${esc(t.reason)}">${esc(t.reason)}</span></td></tr>`;
+      });
+    }
+
+    // independent research outcomes, including signals outside portfolio capacity
+    const rtb=document.getElementById('rtrbody');
+    if(!rtr.length){
+      rtb.innerHTML='<tr><td colspan="6"><div class="state-box"><div class="big">Belum ada observation tertutup</div>Research positions sedang menunggu TP, SL, atau time exit.</div></td></tr>';
+    } else {
+      rtb.innerHTML='';
+      [...rtr].reverse().slice(0,50).forEach(t=>{
+        const cls=t.pnl>=0?'up':'down';
+        const tm=tradeTime(t);
+        rtb.innerHTML+=`<tr><td style="color:var(--md-on-surface-var)">${esc(tm.slice(5,16))}</td>`+
+          `<td class="mono">${esc(t.sym)}</td>`+
+          `<td class="num mono">$${t.entry}</td>`+
+          `<td class="num mono">$${t.exit}</td>`+
+          `<td class="num ${cls}">${(t.ret*100>=0?'+':'')}${(t.ret*100).toFixed(2)}%</td>`+
+          `<td><span class="exit-chip ${esc(t.reason)}">${esc(t.reason)}</span></td></tr>`;
+      });
+    }
+  }catch(e){
+    document.getElementById('dot').style.background='var(--md-error)';
+    st.textContent='Gagal memuat data ('+e.message+') — coba muat ulang';
+    showSnack('Data gagal dimuat. Cek koneksi atau muat ulang halaman.');
+  }
+}
+load();
+setInterval(load,10000);
+</script>
+</body>
+</html>
