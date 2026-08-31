@@ -13,12 +13,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788188400000,
-   "mark": 0.16664,
+   "mark": 0.16651,
    "mark_src": "fapi",
-   "u_pnl": -1.434,
+   "u_pnl": -1.6929,
    "spot": "ACEUSDT",
-   "last_mark_ms": 1788215999279,
-   "age_h": 7.153
+   "last_mark_ms": 1788216298946,
+   "age_h": 7.237
   },
   "AUCTIONUSDT": {
    "entry": 3.391,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788214800000,
-   "mark": 3.387,
-   "mark_src": "fapi",
-   "u_pnl": -0.3932,
+   "mark": 3.39,
+   "mark_src": "spot",
+   "u_pnl": -0.0983,
    "spot": "AUCTIONUSDT",
-   "last_mark_ms": 1788216001435,
-   "age_h": 0.235
+   "last_mark_ms": 1788216300625,
+   "age_h": 0.319
   }
  },
  "trades": [
@@ -6722,8 +6722,8 @@
    "POLUSDT",
    "GRAMUSDT",
    "4USDT",
-   "DOTUSDT",
    "AXLUSDT",
+   "DOTUSDT",
    "ZKUSDT",
    "ASTERUSDT",
    "XPLUSDT",
@@ -6734,8 +6734,8 @@
    "ZENUSDT",
    "FARTCOINUSDT",
    "NOTUSDT",
-   "1000SHIBUSDT",
    "1000BONKUSDT",
+   "1000SHIBUSDT",
    "FETUSDT",
    "DOGSUSDT",
    "BLESSUSDT",
@@ -6745,23 +6745,23 @@
    "OPUSDT",
    "AKEUSDT",
    "BICOUSDT",
-   "AUCTIONUSDT",
    "VIRTUALUSDT",
    "WIFUSDT",
+   "AUCTIONUSDT",
    "RIVERUSDT",
    "BEATUSDT",
    "HBARUSDT",
    "GIGGLEUSDT",
-   "TNSRUSDT"
+   "TIAUSDT"
   ],
   "eligible_count": 513,
   "spot_mapped": 61,
-  "scanned_at": "2026-08-31T22:37:24Z"
+  "scanned_at": "2026-08-31T22:42:27Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-31T22:40:01Z",
+  "last_ok": "2026-08-31T22:45:00Z",
   "last_error": null,
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -6770,12 +6770,12 @@
   "signals": 269,
   "entries": 269,
   "exits": 277,
-  "ws_msgs": 2974193,
-  "ws_ticks": 2974193,
-  "signal_scans": 3351,
+  "ws_msgs": 2974379,
+  "ws_ticks": 2974379,
+  "signal_scans": 3357,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-08-31T22:40:01Z"
+  "last_ok": "2026-08-31T22:45:00Z"
  },
  "mode": "hybrid_spotws_futures_rest"
 }
