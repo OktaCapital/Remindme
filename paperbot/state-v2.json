@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788180300000,
-   "mark": 0.16901,
+   "mark": 0.16949,
    "mark_src": "fapi",
-   "u_pnl": -0.394,
+   "u_pnl": 0.5516,
    "spot": "ACEUSDT",
-   "last_mark_ms": 1788191751275,
-   "age_h": 3.092
+   "last_mark_ms": 1788192055414,
+   "age_h": 3.176
   },
   "XPLUSDT": {
    "entry": 0.08525,
@@ -32,12 +32,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788179400000,
-   "mark": 0.08532,
+   "mark": 0.08516,
    "mark_src": "spot",
-   "u_pnl": 0.2737,
+   "u_pnl": -0.3519,
    "spot": "XPLUSDT",
-   "last_mark_ms": 1788191752238,
-   "age_h": 2.925
+   "last_mark_ms": 1788192053225,
+   "age_h": 3.008
   },
   "TRXUSDT": {
    "entry": 0.33356,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788183000000,
-   "mark": 0.3328,
+   "mark": 0.3329,
    "mark_src": "spot",
-   "u_pnl": -0.7595,
+   "u_pnl": -0.6595,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1788191753347,
-   "age_h": 2.338
+   "last_mark_ms": 1788192054712,
+   "age_h": 2.422
   },
   "DOSUSDT": {
    "entry": 0.2843,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788189000000,
-   "mark": 0.2812,
+   "mark": 0.2799,
    "mark_src": "fapi",
-   "u_pnl": -3.6346,
+   "u_pnl": -5.1588,
    "spot": null,
-   "last_mark_ms": 1788191751275,
-   "age_h": 0.676
+   "last_mark_ms": 1788192055414,
+   "age_h": 0.76
   }
  },
  "trades": [
@@ -277,8 +277,8 @@
    "BCHUSDT",
    "ONGUSDT",
    "ONDOUSDT",
-   "UAIUSDT",
    "LTCUSDT",
+   "UAIUSDT",
    "\u9f99\u867eUSDT",
    "TRXUSDT",
    "FILUSDT",
@@ -298,9 +298,9 @@
    "AXLUSDT",
    "1000SHIBUSDT",
    "FETUSDT",
-   "ERAUSDT",
    "ARBUSDT",
    "BLESSUSDT",
+   "ERAUSDT",
    "ZENUSDT",
    "INJUSDT",
    "APTUSDT",
@@ -310,11 +310,11 @@
    "GIGGLEUSDT",
    "ANIMEUSDT",
    "CRVUSDT",
-   "AKEUSDT",
    "BEATUSDT",
    "LAUSDT",
-   "CAKEUSDT",
+   "AKEUSDT",
    "NOTUSDT",
+   "CAKEUSDT",
    "VIRTUALUSDT",
    "ACEUSDT",
    "DOSUSDT",
@@ -324,23 +324,23 @@
   ],
   "eligible_count": 514,
   "spot_mapped": 61,
-  "scanned_at": "2026-08-31T15:54:25Z"
+  "scanned_at": "2026-08-31T15:59:27Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-31T15:55:53Z",
+  "last_ok": "2026-08-31T16:00:55Z",
   "last_error": null
  },
  "stats": {
   "signals": 11,
   "entries": 11,
   "exits": 7,
-  "ws_msgs": 382544,
-  "ws_ticks": 382544,
-  "signal_scans": 383,
+  "ws_msgs": 384437,
+  "ws_ticks": 384437,
+  "signal_scans": 391,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-08-31T15:55:53Z"
+  "last_ok": "2026-08-31T16:00:55Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
