@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788180300000,
-   "mark": 0.16603,
+   "mark": 0.16632,
    "mark_src": "fapi",
-   "u_pnl": -6.2643,
+   "u_pnl": -5.6931,
    "spot": "ACEUSDT",
-   "last_mark_ms": 1788189046579,
-   "age_h": 2.34
+   "last_mark_ms": 1788189349982,
+   "age_h": 2.425
   },
   "XPLUSDT": {
    "entry": 0.08525,
@@ -32,12 +32,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788179400000,
-   "mark": 0.08572,
+   "mark": 0.08534,
    "mark_src": "spot",
-   "u_pnl": 1.8377,
+   "u_pnl": 0.3519,
    "spot": "XPLUSDT",
-   "last_mark_ms": 1788189051013,
-   "age_h": 2.174
+   "last_mark_ms": 1788189354045,
+   "age_h": 2.259
   },
   "ONGUSDT": {
    "entry": 0.09205,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788182400000,
-   "mark": 0.09298,
-   "mark_src": "spot",
-   "u_pnl": 3.3677,
+   "mark": 0.09216,
+   "mark_src": "fapi",
+   "u_pnl": 0.3983,
    "spot": "ONGUSDT",
-   "last_mark_ms": 1788189051257,
-   "age_h": 1.752
+   "last_mark_ms": 1788189354296,
+   "age_h": 1.836
   },
   "TRXUSDT": {
    "entry": 0.33356,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788183000000,
-   "mark": 0.333,
+   "mark": 0.3328,
    "mark_src": "spot",
-   "u_pnl": -0.5596,
+   "u_pnl": -0.7595,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1788189051181,
-   "age_h": 1.588
+   "last_mark_ms": 1788189355473,
+   "age_h": 1.672
   },
   "POLUSDT": {
    "entry": 0.08707,
@@ -89,12 +89,31 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788183000000,
-   "mark": 0.08758,
+   "mark": 0.08835,
    "mark_src": "spot",
-   "u_pnl": 1.9524,
+   "u_pnl": 4.9002,
    "spot": "POLUSDT",
-   "last_mark_ms": 1788189052525,
-   "age_h": 0.861
+   "last_mark_ms": 1788189354117,
+   "age_h": 0.945
+  },
+  "DOSUSDT": {
+   "entry": 0.2843,
+   "notional": 333.33,
+   "opened_ms": 1788189317914,
+   "opened": "2026-08-31T15:15:17Z",
+   "entry_time": "2026-08-31T15:15:17Z",
+   "dir_long": true,
+   "rsi": 7.216,
+   "vol_ratio": 1.946,
+   "tf": "5m",
+   "interval": "5m",
+   "signal_bar": 1788189000000,
+   "mark": 0.2839,
+   "mark_src": "fapi",
+   "u_pnl": -0.469,
+   "spot": null,
+   "last_mark_ms": 1788189354296,
+   "age_h": 0.01
   }
  },
  "trades": [
@@ -192,7 +211,9 @@
   "ONGUSDT:5m": "1788182400000",
   "TRXUSDT": "1788183000000",
   "TRXUSDT:5m": "1788183000000",
-  "POLUSDT:30m": "1788183000000"
+  "POLUSDT:30m": "1788183000000",
+  "DOSUSDT": "1788189000000",
+  "DOSUSDT:5m": "1788189000000"
  },
  "research": {
   "positions": {},
@@ -210,16 +231,16 @@
    "\u725b\u6765USDT",
    "TRUMPUSDT",
    "UNIUSDT",
-   "ENAUSDT",
    "ZORAUSDT",
+   "ENAUSDT",
    "1000PEPEUSDT",
    "BNBUSDT",
    "PUMPUSDT",
    "PROMUSDT",
    "BTRUSDT",
    "SUIUSDT",
-   "ZKCUSDT",
    "HEMIUSDT",
+   "ZKCUSDT",
    "ADAUSDT",
    "LINKUSDT",
    "CYSUSDT",
@@ -248,8 +269,8 @@
    "PENGUUSDT",
    "TNSRUSDT",
    "ZKUSDT",
-   "ZKPUSDT",
    "XLMUSDT",
+   "ZKPUSDT",
    "ASTERUSDT",
    "XPLUSDT",
    "POLUSDT",
@@ -273,34 +294,34 @@
    "AKEUSDT",
    "CRVUSDT",
    "ANIMEUSDT",
-   "VIRTUALUSDT",
    "LAUSDT",
+   "VIRTUALUSDT",
    "NOTUSDT",
    "DOSUSDT",
    "ZROUSDT",
    "ACEUSDT",
-   "LABUSDT",
-   "HBARUSDT"
+   "HBARUSDT",
+   "LABUSDT"
   ],
   "eligible_count": 514,
   "spot_mapped": 61,
-  "scanned_at": "2026-08-31T15:06:35Z"
+  "scanned_at": "2026-08-31T15:12:07Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-31T15:10:52Z",
+  "last_ok": "2026-08-31T15:15:55Z",
   "last_error": null
  },
  "stats": {
-  "signals": 9,
-  "entries": 9,
+  "signals": 10,
+  "entries": 10,
   "exits": 4,
-  "ws_msgs": 338667,
-  "ws_ticks": 338667,
-  "signal_scans": 317,
+  "ws_msgs": 348951,
+  "ws_ticks": 348951,
+  "signal_scans": 324,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-08-31T15:10:52Z"
+  "last_ok": "2026-08-31T15:15:55Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
