@@ -1,5 +1,5 @@
 {
- "equity": 1522.6677569946496,
+ "equity": 1512.5011919946496,
  "positions": {
   "TRXUSDT": {
    "entry": 0.33899,
@@ -17,8 +17,8 @@
    "mark_src": "spot",
    "u_pnl": -2.4484,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1788166225637,
-   "age_h": 11.797
+   "last_mark_ms": 1788166522680,
+   "age_h": 11.88
   },
   "HYPEUSDT": {
    "entry": 80.815,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788129900000,
-   "mark": 81.248,
+   "mark": 81.291,
    "mark_src": "fapi",
-   "u_pnl": 1.786,
+   "u_pnl": 1.9633,
    "spot": null,
-   "last_mark_ms": 1788166226009,
-   "age_h": 10.002
+   "last_mark_ms": 1788166523500,
+   "age_h": 10.085
   },
   "LTCUSDT": {
    "entry": 48.72,
@@ -51,12 +51,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788129000000,
-   "mark": 48.69,
-   "mark_src": "spot",
-   "u_pnl": -0.2053,
+   "mark": 48.67,
+   "mark_src": "fapi",
+   "u_pnl": -0.3421,
    "spot": "LTCUSDT",
-   "last_mark_ms": 1788166224615,
-   "age_h": 9.829
+   "last_mark_ms": 1788166523500,
+   "age_h": 9.912
   },
   "INJUSDT": {
    "entry": 5.026,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788131700000,
-   "mark": 5.007,
-   "mark_src": "spot",
-   "u_pnl": -1.2601,
+   "mark": 5.01,
+   "mark_src": "fapi",
+   "u_pnl": -1.0611,
    "spot": "INJUSDT",
-   "last_mark_ms": 1788166226839,
-   "age_h": 9.445
+   "last_mark_ms": 1788166519226,
+   "age_h": 9.526
   },
   "DOGEUSDT": {
    "entry": 0.08175,
@@ -89,12 +89,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788132000000,
-   "mark": 0.08277,
+   "mark": 0.08279,
    "mark_src": "spot",
-   "u_pnl": 4.159,
+   "u_pnl": 4.2405,
    "spot": "DOGEUSDT",
-   "last_mark_ms": 1788166226193,
-   "age_h": 9.345
+   "last_mark_ms": 1788166521884,
+   "age_h": 9.427
   },
   "AAVEUSDT": {
    "entry": 122.76,
@@ -108,31 +108,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788132600000,
-   "mark": 124.22,
+   "mark": 124.11,
    "mark_src": "spot",
-   "u_pnl": 3.9643,
+   "u_pnl": 3.6657,
    "spot": "AAVEUSDT",
-   "last_mark_ms": 1788166224845,
-   "age_h": 8.751
-  },
-  "ZKPUSDT": {
-   "entry": 0.04936,
-   "notional": 333.33,
-   "opened_ms": 1788165311945,
-   "opened": "2026-08-31T08:35:11Z",
-   "entry_time": "2026-08-31T08:35:11Z",
-   "dir_long": true,
-   "rsi": 13.71,
-   "vol_ratio": 1.231,
-   "tf": "5m",
-   "interval": "5m",
-   "signal_bar": 1788165000000,
-   "mark": 0.0484,
-   "mark_src": "fapi",
-   "u_pnl": -6.4829,
-   "spot": "ZKPUSDT",
-   "last_mark_ms": 1788166221750,
-   "age_h": 0.253
+   "last_mark_ms": 1788166525426,
+   "age_h": 8.834
   },
   "BTRUSDT": {
    "entry": 0.09243,
@@ -146,12 +127,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788163200000,
-   "mark": 0.09181,
+   "mark": 0.0913,
    "mark_src": "fapi",
-   "u_pnl": -2.2359,
+   "u_pnl": -4.0751,
    "spot": null,
-   "last_mark_ms": 1788166226009,
-   "age_h": 0.172
+   "last_mark_ms": 1788166523500,
+   "age_h": 0.255
   }
  },
  "trades": [
@@ -5634,6 +5615,24 @@
    "mark": 0.1772,
    "mark_src": "spot",
    "dir_long": true
+  },
+  {
+   "sym": "ZKPUSDT",
+   "entry": 0.04936,
+   "exit": 0.0478792,
+   "ret": -0.0305,
+   "pnl": -10.166564999999999,
+   "reason": "sl_spot",
+   "opened": "2026-08-31T08:35:11Z",
+   "opened_ms": 1788165311945,
+   "closed_ms": 1788166445730,
+   "age_h": 0.315,
+   "tf": "5m",
+   "rsi": 13.71,
+   "vol_ratio": 1.231,
+   "mark": 0.0478,
+   "mark_src": "spot",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -5930,8 +5929,8 @@
    "XRPUSDT",
    "SKRUSDT",
    "HYPEUSDT",
-   "DOGEUSDT",
    "\u725b\u6765USDT",
+   "DOGEUSDT",
    "ZKCUSDT",
    "UNIUSDT",
    "TRUMPUSDT",
@@ -5955,10 +5954,10 @@
    "AAVEUSDT",
    "UAIUSDT",
    "AVAXUSDT",
-   "AUCTIONUSDT",
    "LITUSDT",
-   "\u9f99\u867eUSDT",
+   "AUCTIONUSDT",
    "ZKPUSDT",
+   "\u9f99\u867eUSDT",
    "FLOCKUSDT",
    "CYSUSDT",
    "BCHUSDT",
@@ -5966,8 +5965,8 @@
    "ONGUSDT",
    "LTCUSDT",
    "ONDOUSDT",
-   "DASHUSDT",
    "ZKUSDT",
+   "DASHUSDT",
    "TUTUSDT",
    "FILUSDT",
    "PENGUUSDT",
@@ -5997,8 +5996,8 @@
    "WIFUSDT",
    "ZENUSDT",
    "BTWUSDT",
-   "ACEUSDT",
    "COLLECTUSDT",
+   "ACEUSDT",
    "ETCUSDT",
    "CRVUSDT",
    "DEXEUSDT",
@@ -6008,12 +6007,12 @@
   ],
   "eligible_count": 513,
   "spot_mapped": 60,
-  "scanned_at": "2026-08-31T08:46:33Z"
+  "scanned_at": "2026-08-31T08:52:05Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-31T08:50:26Z",
+  "last_ok": "2026-08-31T08:55:25Z",
   "last_error": null,
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -6021,13 +6020,13 @@
  "stats": {
   "signals": 229,
   "entries": 229,
-  "exits": 231,
-  "ws_msgs": 2660814,
-  "ws_ticks": 2660814,
-  "signal_scans": 2673,
+  "exits": 232,
+  "ws_msgs": 2663483,
+  "ws_ticks": 2663483,
+  "signal_scans": 2679,
   "started": "2026-08-28T08:27:11Z",
   "note": "spot WS prices + futures REST signals (fstream blocked)",
-  "last_ok": "2026-08-31T08:50:26Z"
+  "last_ok": "2026-08-31T08:55:25Z"
  },
  "mode": "hybrid_spotws_futures_rest"
 }
