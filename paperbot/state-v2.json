@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788180300000,
-   "mark": 0.16591,
+   "mark": 0.16564,
    "mark_src": "fapi",
-   "u_pnl": -6.5007,
+   "u_pnl": -7.0326,
    "spot": "ACEUSDT",
-   "last_mark_ms": 1788210595018,
-   "age_h": 8.326
+   "last_mark_ms": 1788210897570,
+   "age_h": 8.41
   },
   "XPLUSDT": {
    "entry": 0.08525,
@@ -32,12 +32,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788179400000,
-   "mark": 0.08445,
+   "mark": 0.08416,
    "mark_src": "spot",
-   "u_pnl": -3.128,
+   "u_pnl": -4.2619,
    "spot": "XPLUSDT",
-   "last_mark_ms": 1788210600367,
-   "age_h": 8.16
+   "last_mark_ms": 1788210901369,
+   "age_h": 8.244
   },
   "TRXUSDT": {
    "entry": 0.33356,
@@ -55,8 +55,8 @@
    "mark_src": "spot",
    "u_pnl": -0.2598,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1788210599031,
-   "age_h": 7.573
+   "last_mark_ms": 1788210900807,
+   "age_h": 7.657
   },
   "DOGSUSDT": {
    "entry": 4.434e-05,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788207300000,
-   "mark": 4.396e-05,
-   "mark_src": "fapi",
-   "u_pnl": -2.8567,
+   "mark": 4.382e-05,
+   "mark_src": "spot",
+   "u_pnl": -3.9091,
    "spot": "DOGSUSDT",
-   "last_mark_ms": 1788210599146,
-   "age_h": 0.826
+   "last_mark_ms": 1788210900834,
+   "age_h": 0.91
   }
  },
  "trades": [
@@ -452,19 +452,19 @@
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-31T21:10:00Z",
+  "last_ok": "2026-08-31T21:15:01Z",
   "last_error": null
  },
  "stats": {
   "signals": 17,
   "entries": 17,
   "exits": 13,
-  "ws_msgs": 448450,
-  "ws_ticks": 448450,
-  "signal_scans": 846,
+  "ws_msgs": 450531,
+  "ws_ticks": 450531,
+  "signal_scans": 854,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-08-31T21:10:00Z"
+  "last_ok": "2026-08-31T21:15:01Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
