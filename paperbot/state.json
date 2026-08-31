@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788166500000,
-   "mark": 0.0609,
-   "mark_src": "spot",
-   "u_pnl": -2.2831,
+   "mark": 0.0611,
+   "mark_src": "fapi",
+   "u_pnl": -1.1959,
    "spot": "ERAUSDT",
-   "last_mark_ms": 1788189950412,
-   "age_h": 6.429
+   "last_mark_ms": 1788190246393,
+   "age_h": 6.511
   },
   "TIAUSDT": {
    "entry": 0.3273,
@@ -32,12 +32,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1788163200000,
-   "mark": 0.325,
+   "mark": 0.3254,
    "mark_src": "fapi",
-   "u_pnl": -2.3424,
+   "u_pnl": -1.935,
    "spot": "TIAUSDT",
-   "last_mark_ms": 1788189949412,
-   "age_h": 6.38
+   "last_mark_ms": 1788190248527,
+   "age_h": 6.463
   },
   "TRXUSDT": {
    "entry": 0.33566,
@@ -55,8 +55,8 @@
    "mark_src": "spot",
    "u_pnl": -2.8401,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1788189952752,
-   "age_h": 4.907
+   "last_mark_ms": 1788190250407,
+   "age_h": 4.99
   },
   "POLUSDT": {
    "entry": 0.08836,
@@ -70,12 +70,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788181200000,
-   "mark": 0.08848,
+   "mark": 0.08855,
    "mark_src": "spot",
-   "u_pnl": 0.4527,
+   "u_pnl": 0.7168,
    "spot": "POLUSDT",
-   "last_mark_ms": 1788189950696,
-   "age_h": 1.471
+   "last_mark_ms": 1788190249375,
+   "age_h": 1.554
   },
   "DOSUSDT": {
    "entry": 0.2846,
@@ -89,12 +89,31 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788189000000,
-   "mark": 0.2834,
+   "mark": 0.2822,
    "mark_src": "fapi",
-   "u_pnl": -1.4055,
+   "u_pnl": -2.8109,
    "spot": null,
-   "last_mark_ms": 1788189951537,
-   "age_h": 0.179
+   "last_mark_ms": 1788190248527,
+   "age_h": 0.261
+  },
+  "ACEUSDT": {
+   "entry": 0.16736,
+   "notional": 333.33,
+   "opened_ms": 1788190247380,
+   "opened": "2026-08-31T15:30:47Z",
+   "entry_time": "2026-08-31T15:30:47Z",
+   "dir_long": true,
+   "rsi": 14.531,
+   "vol_ratio": 1.686,
+   "tf": "30m",
+   "interval": "30m",
+   "signal_bar": 1788188400000,
+   "mark": 0.16739,
+   "mark_src": "fapi",
+   "u_pnl": 0.0598,
+   "spot": "ACEUSDT",
+   "last_mark_ms": 1788190248527,
+   "age_h": 0.0
   }
  },
  "trades": [
@@ -6278,7 +6297,7 @@
   "VIRTUALUSDT": "1787934000000",
   "VETUSDT": "1788105000000",
   "FETUSDT": "1788118800000",
-  "ACEUSDT": "1788141600000",
+  "ACEUSDT": "1788188400000",
   "XRPUSDT": "1788122100000",
   "HUMAUSDT": "1788071700000",
   "MOVRUSDT": "1788020400000",
@@ -6326,7 +6345,8 @@
   "ERAUSDT": "1788166500000",
   "TIAUSDT": "1788163200000",
   "POLUSDT:30m": "1788181200000",
-  "DOSUSDT:5m": "1788189000000"
+  "DOSUSDT:5m": "1788189000000",
+  "ACEUSDT:30m": "1788188400000"
  },
  "consec_err": 0,
  "last_day": "2026-08-28",
@@ -6500,16 +6520,16 @@
    "0GUSDT",
    "FLOCKUSDT",
    "MAGMAUSDT",
-   "TAOUSDT",
    "LITUSDT",
+   "TAOUSDT",
    "AAVEUSDT",
    "AVAXUSDT",
    "DASHUSDT",
    "BCHUSDT",
    "UAIUSDT",
    "ONGUSDT",
-   "\u9f99\u867eUSDT",
    "ONDOUSDT",
+   "\u9f99\u867eUSDT",
    "LTCUSDT",
    "TRXUSDT",
    "FILUSDT",
@@ -6530,8 +6550,8 @@
    "1000SHIBUSDT",
    "FETUSDT",
    "ERAUSDT",
-   "BLESSUSDT",
    "ARBUSDT",
+   "BLESSUSDT",
    "ZENUSDT",
    "INJUSDT",
    "APTUSDT",
@@ -6541,9 +6561,9 @@
    "WLFIUSDT",
    "CAKEUSDT",
    "BEATUSDT",
-   "AKEUSDT",
-   "CRVUSDT",
    "ANIMEUSDT",
+   "CRVUSDT",
+   "AKEUSDT",
    "LAUSDT",
    "NOTUSDT",
    "VIRTUALUSDT",
@@ -6555,26 +6575,26 @@
   ],
   "eligible_count": 515,
   "spot_mapped": 61,
-  "scanned_at": "2026-08-31T15:21:05Z"
+  "scanned_at": "2026-08-31T15:26:37Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-31T15:25:52Z",
+  "last_ok": "2026-08-31T15:30:50Z",
   "last_error": null,
   "monitor_ok": 9,
   "monitor_failed": 0
  },
  "stats": {
-  "signals": 259,
-  "entries": 259,
+  "signals": 260,
+  "entries": 260,
   "exits": 264,
-  "ws_msgs": 2903562,
-  "ws_ticks": 2903562,
-  "signal_scans": 2835,
+  "ws_msgs": 2905032,
+  "ws_ticks": 2905032,
+  "signal_scans": 2841,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-08-31T15:25:52Z"
+  "last_ok": "2026-08-31T15:30:50Z"
  },
  "mode": "hybrid_spotws_futures_rest"
 }
