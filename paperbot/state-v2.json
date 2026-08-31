@@ -13,18 +13,39 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788176100000,
-   "mark": 3.6878,
+   "mark": 3.6953,
    "mark_src": "fapi",
-   "u_pnl": -0.1355,
+   "u_pnl": 0.5421,
    "spot": null,
-   "last_mark_ms": 1788176442971,
+   "last_mark_ms": 1788176742659,
+   "age_h": 0.092
+  },
+  "POLUSDT": {
+   "entry": 0.08977,
+   "notional": 333.33,
+   "opened_ms": 1788176709975,
+   "opened": "2026-08-31T11:45:09Z",
+   "entry_time": "2026-08-31T11:45:09Z",
+   "dir_long": true,
+   "rsi": 9.542,
+   "vol_ratio": 4.99,
+   "tf": "5m",
+   "interval": "5m",
+   "signal_bar": 1788176400000,
+   "mark": 0.08976,
+   "mark_src": "fapi",
+   "u_pnl": -0.0371,
+   "spot": "POLUSDT",
+   "last_mark_ms": 1788176742659,
    "age_h": 0.009
   }
  },
  "trades": [],
  "last_signal_bar": {
   "LITUSDT": "1788176100000",
-  "LITUSDT:5m": "1788176100000"
+  "LITUSDT:5m": "1788176100000",
+  "POLUSDT": "1788176400000",
+  "POLUSDT:5m": "1788176400000"
  },
  "research": {
   "positions": {},
@@ -120,19 +141,19 @@
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-31T11:40:43Z",
+  "last_ok": "2026-08-31T11:45:44Z",
   "last_error": null
  },
  "stats": {
-  "signals": 1,
-  "entries": 1,
+  "signals": 2,
+  "entries": 2,
   "exits": 0,
-  "ws_msgs": 26012,
-  "ws_ticks": 26012,
-  "signal_scans": 16,
+  "ws_msgs": 38339,
+  "ws_ticks": 38339,
+  "signal_scans": 23,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-08-31T11:40:43Z"
+  "last_ok": "2026-08-31T11:45:44Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
