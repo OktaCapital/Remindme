@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788180300000,
-   "mark": 0.16638,
+   "mark": 0.16664,
    "mark_src": "fapi",
-   "u_pnl": -5.5749,
+   "u_pnl": -5.0627,
    "spot": "ACEUSDT",
-   "last_mark_ms": 1788215699153,
-   "age_h": 9.744
+   "last_mark_ms": 1788215999976,
+   "age_h": 9.828
   },
   "XPLUSDT": {
    "entry": 0.08525,
@@ -32,12 +32,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788179400000,
-   "mark": 0.08428,
+   "mark": 0.08431,
    "mark_src": "spot",
-   "u_pnl": -3.7927,
+   "u_pnl": -3.6754,
    "spot": "XPLUSDT",
-   "last_mark_ms": 1788215702887,
-   "age_h": 9.578
+   "last_mark_ms": 1788216000101,
+   "age_h": 9.66
   },
   "TRXUSDT": {
    "entry": 0.33356,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788183000000,
-   "mark": 0.3329,
+   "mark": 0.3328,
    "mark_src": "spot",
-   "u_pnl": -0.6595,
+   "u_pnl": -0.7595,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1788215701328,
-   "age_h": 8.99
+   "last_mark_ms": 1788216005663,
+   "age_h": 9.075
   },
   "AUCTIONUSDT": {
    "entry": 3.39,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788214800000,
-   "mark": 3.392,
+   "mark": 3.387,
    "mark_src": "fapi",
-   "u_pnl": 0.1967,
+   "u_pnl": -0.295,
    "spot": "AUCTIONUSDT",
-   "last_mark_ms": 1788215696951,
-   "age_h": 0.156
+   "last_mark_ms": 1788216002368,
+   "age_h": 0.241
   }
  },
  "trades": [
@@ -421,8 +421,8 @@
    "AAVEUSDT",
    "AVAXUSDT",
    "BCHUSDT",
-   "MAGMAUSDT",
    "ONGUSDT",
+   "MAGMAUSDT",
    "ONDOUSDT",
    "TRXUSDT",
    "FILUSDT",
@@ -443,8 +443,8 @@
    "CRVUSDT",
    "ZKPUSDT",
    "INJUSDT",
-   "ZENUSDT",
    "APTUSDT",
+   "ZENUSDT",
    "FARTCOINUSDT",
    "NOTUSDT",
    "1000SHIBUSDT",
@@ -455,12 +455,12 @@
    "WLFIUSDT",
    "LAUSDT",
    "ANIMEUSDT",
-   "AKEUSDT",
    "OPUSDT",
-   "AUCTIONUSDT",
+   "AKEUSDT",
    "BICOUSDT",
-   "WIFUSDT",
+   "AUCTIONUSDT",
    "VIRTUALUSDT",
+   "WIFUSDT",
    "RIVERUSDT",
    "BEATUSDT",
    "HBARUSDT",
@@ -469,23 +469,23 @@
   ],
   "eligible_count": 513,
   "spot_mapped": 61,
-  "scanned_at": "2026-08-31T22:32:48Z"
+  "scanned_at": "2026-08-31T22:37:50Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-31T22:35:02Z",
+  "last_ok": "2026-08-31T22:40:05Z",
   "last_error": null
  },
  "stats": {
   "signals": 18,
   "entries": 18,
   "exits": 14,
-  "ws_msgs": 470690,
-  "ws_ticks": 470690,
-  "signal_scans": 971,
+  "ws_msgs": 471359,
+  "ws_ticks": 471359,
+  "signal_scans": 978,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-08-31T22:35:02Z"
+  "last_ok": "2026-08-31T22:40:05Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
