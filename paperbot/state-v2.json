@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788176100000,
-   "mark": 3.6953,
+   "mark": 3.6871,
    "mark_src": "fapi",
-   "u_pnl": 0.5421,
+   "u_pnl": -0.1988,
    "spot": null,
-   "last_mark_ms": 1788176742659,
-   "age_h": 0.092
+   "last_mark_ms": 1788177045365,
+   "age_h": 0.176
   },
   "POLUSDT": {
    "entry": 0.08977,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788176400000,
-   "mark": 0.08976,
+   "mark": 0.08968,
    "mark_src": "fapi",
-   "u_pnl": -0.0371,
+   "u_pnl": -0.3342,
    "spot": "POLUSDT",
-   "last_mark_ms": 1788176742659,
-   "age_h": 0.009
+   "last_mark_ms": 1788177045365,
+   "age_h": 0.093
   }
  },
  "trades": [],
@@ -121,8 +121,8 @@
    "AXLUSDT",
    "APTUSDT",
    "WLFIUSDT",
-   "BEATUSDT",
    "ZENUSDT",
+   "BEATUSDT",
    "BLESSUSDT",
    "WIFUSDT",
    "VIRTUALUSDT",
@@ -132,28 +132,28 @@
    "CRVUSDT",
    "ACEUSDT",
    "COLLECTUSDT",
-   "BTWUSDT",
-   "ETCUSDT"
+   "ETCUSDT",
+   "BTWUSDT"
   ],
   "eligible_count": 513,
   "spot_mapped": 59,
-  "scanned_at": "2026-08-31T11:40:32Z"
+  "scanned_at": "2026-08-31T11:46:04Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-31T11:45:44Z",
+  "last_ok": "2026-08-31T11:50:45Z",
   "last_error": null
  },
  "stats": {
   "signals": 2,
   "entries": 2,
   "exits": 0,
-  "ws_msgs": 38339,
-  "ws_ticks": 38339,
-  "signal_scans": 23,
+  "ws_msgs": 46909,
+  "ws_ticks": 46909,
+  "signal_scans": 30,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-08-31T11:45:44Z"
+  "last_ok": "2026-08-31T11:50:45Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
