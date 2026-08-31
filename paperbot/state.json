@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788166500000,
-   "mark": 0.0598,
-   "mark_src": "spot",
-   "u_pnl": -8.2626,
+   "mark": 0.05976,
+   "mark_src": "fapi",
+   "u_pnl": -8.48,
    "spot": "ERAUSDT",
-   "last_mark_ms": 1788207590550,
-   "age_h": 11.329
+   "last_mark_ms": 1788207897522,
+   "age_h": 11.414
   },
   "TRXUSDT": {
    "entry": 0.33566,
@@ -36,8 +36,8 @@
    "mark_src": "spot",
    "u_pnl": -2.0457,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1788207589923,
-   "age_h": 9.806
+   "last_mark_ms": 1788207899901,
+   "age_h": 9.892
   },
   "ACEUSDT": {
    "entry": 0.16736,
@@ -51,12 +51,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788188400000,
-   "mark": 0.16639,
+   "mark": 0.16638,
    "mark_src": "fapi",
-   "u_pnl": -1.9319,
+   "u_pnl": -1.9519,
    "spot": "ACEUSDT",
-   "last_mark_ms": 1788207592594,
-   "age_h": 4.818
+   "last_mark_ms": 1788207899650,
+   "age_h": 4.903
   },
   "4USDT": {
    "entry": 0.014811,
@@ -70,12 +70,31 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788201300000,
-   "mark": 0.014643,
+   "mark": 0.014477,
    "mark_src": "fapi",
-   "u_pnl": -3.7809,
+   "u_pnl": -7.5169,
    "spot": null,
-   "last_mark_ms": 1788207592594,
-   "age_h": 1.657
+   "last_mark_ms": 1788207899650,
+   "age_h": 1.743
+  },
+  "DOGSUSDT": {
+   "entry": 4.44e-05,
+   "notional": 333.33,
+   "opened_ms": 1788207634909,
+   "opened": "2026-08-31T20:20:34Z",
+   "entry_time": "2026-08-31T20:20:34Z",
+   "dir_long": true,
+   "rsi": 13.455,
+   "vol_ratio": 2.43,
+   "tf": "5m",
+   "interval": "5m",
+   "signal_bar": 1788207300000,
+   "mark": 4.447e-05,
+   "mark_src": "fapi",
+   "u_pnl": 0.5255,
+   "spot": "DOGSUSDT",
+   "last_mark_ms": 1788207897522,
+   "age_h": 0.073
   }
  },
  "trades": [
@@ -6485,7 +6504,9 @@
   "UAIUSDT:5m": "1788196500000",
   "\u725b\u6765USDT": "1788196500000",
   "\u725b\u6765USDT:5m": "1788196500000",
-  "4USDT:5m": "1788201300000"
+  "4USDT:5m": "1788201300000",
+  "DOGSUSDT": "1788207300000",
+  "DOGSUSDT:5m": "1788207300000"
  },
  "consec_err": 0,
  "last_day": "2026-08-28",
@@ -6719,21 +6740,21 @@
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-31T20:19:53Z",
+  "last_ok": "2026-08-31T20:24:59Z",
   "last_error": null,
   "monitor_ok": 9,
   "monitor_failed": 0
  },
  "stats": {
-  "signals": 267,
-  "entries": 267,
+  "signals": 268,
+  "entries": 268,
   "exits": 273,
-  "ws_msgs": 2958466,
-  "ws_ticks": 2958466,
-  "signal_scans": 3186,
+  "ws_msgs": 2959019,
+  "ws_ticks": 2959019,
+  "signal_scans": 3192,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-08-31T20:19:49Z"
+  "last_ok": "2026-08-31T20:24:59Z"
  },
  "mode": "hybrid_spotws_futures_rest"
 }
