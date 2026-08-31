@@ -13,12 +13,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788188400000,
-   "mark": 0.16651,
+   "mark": 0.16634,
    "mark_src": "fapi",
-   "u_pnl": -1.6929,
+   "u_pnl": -2.0315,
    "spot": "ACEUSDT",
-   "last_mark_ms": 1788216298946,
-   "age_h": 7.237
+   "last_mark_ms": 1788216595565,
+   "age_h": 7.319
   },
   "AUCTIONUSDT": {
    "entry": 3.391,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788214800000,
-   "mark": 3.39,
-   "mark_src": "spot",
-   "u_pnl": -0.0983,
+   "mark": 3.388,
+   "mark_src": "fapi",
+   "u_pnl": -0.2949,
    "spot": "AUCTIONUSDT",
-   "last_mark_ms": 1788216300625,
-   "age_h": 0.319
+   "last_mark_ms": 1788216597689,
+   "age_h": 0.401
   }
  },
  "trades": [
@@ -6721,8 +6721,8 @@
    "PENGUUSDT",
    "POLUSDT",
    "GRAMUSDT",
-   "4USDT",
    "AXLUSDT",
+   "4USDT",
    "DOTUSDT",
    "ZKUSDT",
    "ASTERUSDT",
@@ -6735,9 +6735,9 @@
    "FARTCOINUSDT",
    "NOTUSDT",
    "1000BONKUSDT",
-   "1000SHIBUSDT",
    "FETUSDT",
    "DOGSUSDT",
+   "1000SHIBUSDT",
    "BLESSUSDT",
    "WLFIUSDT",
    "LAUSDT",
@@ -6752,16 +6752,16 @@
    "BEATUSDT",
    "HBARUSDT",
    "GIGGLEUSDT",
-   "TIAUSDT"
+   "DOSUSDT"
   ],
   "eligible_count": 513,
-  "spot_mapped": 61,
-  "scanned_at": "2026-08-31T22:42:27Z"
+  "spot_mapped": 60,
+  "scanned_at": "2026-08-31T22:47:59Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-31T22:45:00Z",
+  "last_ok": "2026-08-31T22:49:59Z",
   "last_error": null,
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -6770,12 +6770,12 @@
   "signals": 269,
   "entries": 269,
   "exits": 277,
-  "ws_msgs": 2974379,
-  "ws_ticks": 2974379,
-  "signal_scans": 3357,
+  "ws_msgs": 2974643,
+  "ws_ticks": 2974643,
+  "signal_scans": 3363,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-08-31T22:45:00Z"
+  "last_ok": "2026-08-31T22:49:59Z"
  },
  "mode": "hybrid_spotws_futures_rest"
 }
