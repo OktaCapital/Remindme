@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788180300000,
-   "mark": 0.16646,
+   "mark": 0.16634,
    "mark_src": "fapi",
-   "u_pnl": -5.4173,
+   "u_pnl": -5.6537,
    "spot": "ACEUSDT",
-   "last_mark_ms": 1788216303985,
-   "age_h": 9.912
+   "last_mark_ms": 1788216602165,
+   "age_h": 9.995
   },
   "XPLUSDT": {
    "entry": 0.08525,
@@ -32,12 +32,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788179400000,
-   "mark": 0.08428,
-   "mark_src": "spot",
-   "u_pnl": -3.7927,
+   "mark": 0.08413,
+   "mark_src": "fapi",
+   "u_pnl": -4.3792,
    "spot": "XPLUSDT",
-   "last_mark_ms": 1788216305232,
-   "age_h": 9.745
+   "last_mark_ms": 1788216602165,
+   "age_h": 9.828
   },
   "TRXUSDT": {
    "entry": 0.33356,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788183000000,
-   "mark": 0.33224,
-   "mark_src": "fapi",
-   "u_pnl": -1.3191,
+   "mark": 0.3328,
+   "mark_src": "spot",
+   "u_pnl": -0.7595,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1788216303985,
-   "age_h": 9.158
+   "last_mark_ms": 1788216605878,
+   "age_h": 9.242
   },
   "AUCTIONUSDT": {
    "entry": 3.39,
@@ -71,11 +71,11 @@
    "interval": "5m",
    "signal_bar": 1788214800000,
    "mark": 3.388,
-   "mark_src": "spot",
+   "mark_src": "fapi",
    "u_pnl": -0.1967,
    "spot": "AUCTIONUSDT",
-   "last_mark_ms": 1788216307809,
-   "age_h": 0.326
+   "last_mark_ms": 1788216604441,
+   "age_h": 0.408
   }
  },
  "trades": [
@@ -434,8 +434,8 @@
    "PENGUUSDT",
    "POLUSDT",
    "GRAMUSDT",
-   "4USDT",
    "AXLUSDT",
+   "4USDT",
    "DOTUSDT",
    "ZKUSDT",
    "ASTERUSDT",
@@ -448,9 +448,9 @@
    "FARTCOINUSDT",
    "NOTUSDT",
    "1000BONKUSDT",
-   "1000SHIBUSDT",
    "FETUSDT",
    "DOGSUSDT",
+   "1000SHIBUSDT",
    "BLESSUSDT",
    "WLFIUSDT",
    "LAUSDT",
@@ -465,27 +465,27 @@
    "BEATUSDT",
    "HBARUSDT",
    "GIGGLEUSDT",
-   "TIAUSDT"
+   "DOSUSDT"
   ],
   "eligible_count": 513,
-  "spot_mapped": 61,
-  "scanned_at": "2026-08-31T22:42:52Z"
+  "spot_mapped": 60,
+  "scanned_at": "2026-08-31T22:47:53Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-08-31T22:45:07Z",
+  "last_ok": "2026-08-31T22:50:05Z",
   "last_error": null
  },
  "stats": {
   "signals": 18,
   "entries": 18,
   "exits": 14,
-  "ws_msgs": 472254,
-  "ws_ticks": 472254,
-  "signal_scans": 986,
+  "ws_msgs": 472860,
+  "ws_ticks": 472860,
+  "signal_scans": 993,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-08-31T22:45:07Z"
+  "last_ok": "2026-08-31T22:50:05Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
