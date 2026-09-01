@@ -1,5 +1,5 @@
 {
- "equity": 980.5512731689531,
+ "equity": 987.0512081689532,
  "positions": {
   "HBARUSDT": {
    "entry": 0.07357,
@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788217200000,
-   "mark": 0.07399,
-   "mark_src": "spot",
-   "u_pnl": 1.9029,
+   "mark": 0.07402,
+   "mark_src": "fapi",
+   "u_pnl": 2.0389,
    "spot": "HBARUSDT",
-   "last_mark_ms": 1788226823735,
-   "age_h": 2.581
+   "last_mark_ms": 1788227116446,
+   "age_h": 2.662
   }
  },
  "trades": [
@@ -648,6 +648,25 @@
    "mark": 0.5546,
    "mark_src": "fapi",
    "dir_long": true
+  },
+  {
+   "sym": "CYSUSDT",
+   "entry": 0.5576,
+   "exit": 0.568752,
+   "ret": 0.0195,
+   "pnl": 6.499935,
+   "reason": "tp_fapi",
+   "opened": "2026-09-01T01:40:34Z",
+   "opened_ms": 1788226834968,
+   "closed_ms": 1788227034680,
+   "age_h": 0.055,
+   "tf": "30m",
+   "signal_bar": 1788224400000,
+   "rsi": 7.592,
+   "vol_ratio": 6.493,
+   "mark": 0.5711,
+   "mark_src": "fapi",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -692,9 +711,9 @@
   "BTRUSDT": "1788218400000",
   "BTRUSDT:5m": "1788218400000",
   "4USDT:30m": "1788219000000",
-  "CYSUSDT": "1788226200000",
+  "CYSUSDT": "1788224400000",
   "CYSUSDT:5m": "1788226200000",
-  "CYSUSDT:30m": "1788222600000"
+  "CYSUSDT:30m": "1788224400000"
  },
  "research": {
   "positions": {},
@@ -714,8 +733,8 @@
    "0GUSDT",
    "PROMUSDT",
    "\u725b\u6765USDT",
-   "TRUMPUSDT",
    "UNIUSDT",
+   "TRUMPUSDT",
    "HEMIUSDT",
    "ENAUSDT",
    "BNBUSDT",
@@ -744,21 +763,21 @@
    "TRXUSDT",
    "TUTUSDT",
    "FILUSDT",
-   "ONDOUSDT",
    "LTCUSDT",
+   "ONDOUSDT",
    "POLUSDT",
    "GRAMUSDT",
-   "AXLUSDT",
    "CRVUSDT",
-   "UAIUSDT",
+   "AXLUSDT",
    "OPUSDT",
+   "UAIUSDT",
    "XLMUSDT",
    "ZKUSDT",
    "NOTUSDT",
    "4USDT",
    "PENGUUSDT",
-   "DOGSUSDT",
    "DOTUSDT",
+   "DOGSUSDT",
    "XPLUSDT",
    "INJUSDT",
    "ZENUSDT",
@@ -774,35 +793,35 @@
    "BICOUSDT",
    "1000SHIBUSDT",
    "BTWUSDT",
-   "VIRTUALUSDT",
    "TIAUSDT",
+   "VIRTUALUSDT",
    "ESPORTSUSDT",
    "WLFIUSDT",
-   "DOSUSDT",
    "CLOUSDT",
+   "DOSUSDT",
    "MIRAUSDT",
    "SOMIUSDT",
    "MORPHOUSDT"
   ],
-  "eligible_count": 500,
+  "eligible_count": 499,
   "spot_mapped": 59,
-  "scanned_at": "2026-09-01T01:39:06Z"
+  "scanned_at": "2026-09-01T01:44:09Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-01T01:40:23Z",
+  "last_ok": "2026-09-01T01:45:20Z",
   "last_error": null
  },
  "stats": {
-  "signals": 34,
-  "entries": 34,
-  "exits": 33,
-  "ws_msgs": 515403,
-  "ws_ticks": 515403,
-  "signal_scans": 1197,
+  "signals": 35,
+  "entries": 35,
+  "exits": 34,
+  "ws_msgs": 516028,
+  "ws_ticks": 516028,
+  "signal_scans": 1204,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-01T01:40:23Z"
+  "last_ok": "2026-09-01T01:45:20Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
