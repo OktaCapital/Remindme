@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788217200000,
-   "mark": 0.07387,
-   "mark_src": "fapi",
-   "u_pnl": 1.3592,
+   "mark": 0.07388,
+   "mark_src": "spot",
+   "u_pnl": 1.4045,
    "spot": "HBARUSDT",
-   "last_mark_ms": 1788228322977,
-   "age_h": 2.997
+   "last_mark_ms": 1788228620245,
+   "age_h": 3.08
   },
   "TRXUSDT": {
    "entry": 0.3315,
@@ -36,8 +36,8 @@
    "mark_src": "spot",
    "u_pnl": 0.5028,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1788228323134,
-   "age_h": 0.084
+   "last_mark_ms": 1788228624829,
+   "age_h": 0.167
   }
  },
  "trades": [
@@ -783,10 +783,10 @@
    "ONGUSDT",
    "TUTUSDT",
    "CRVUSDT",
+   "OPUSDT",
    "FILUSDT",
    "LTCUSDT",
    "ONDOUSDT",
-   "OPUSDT",
    "GRAMUSDT",
    "POLUSDT",
    "AXLUSDT",
@@ -811,37 +811,37 @@
    "FARTCOINUSDT",
    "APTUSDT",
    "BICOUSDT",
-   "1000SHIBUSDT",
    "BTWUSDT",
-   "VIRTUALUSDT",
-   "TIAUSDT",
+   "1000SHIBUSDT",
    "ESPORTSUSDT",
+   "TIAUSDT",
+   "VIRTUALUSDT",
    "DOSUSDT",
    "CLOUSDT",
-   "WLFIUSDT",
    "MIRAUSDT",
+   "WLFIUSDT",
    "SOMIUSDT",
    "MORPHOUSDT"
   ],
   "eligible_count": 500,
   "spot_mapped": 59,
-  "scanned_at": "2026-09-01T02:04:49Z"
+  "scanned_at": "2026-09-01T02:09:51Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-01T02:05:23Z",
+  "last_ok": "2026-09-01T02:10:24Z",
   "last_error": null
  },
  "stats": {
   "signals": 36,
   "entries": 36,
   "exits": 34,
-  "ws_msgs": 517015,
-  "ws_ticks": 517015,
-  "signal_scans": 1231,
+  "ws_msgs": 517165,
+  "ws_ticks": 517165,
+  "signal_scans": 1238,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-01T02:05:23Z"
+  "last_ok": "2026-09-01T02:10:24Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
