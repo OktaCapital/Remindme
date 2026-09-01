@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788217200000,
-   "mark": 0.07393,
+   "mark": 0.07394,
    "mark_src": "fapi",
-   "u_pnl": 1.6311,
+   "u_pnl": 1.6764,
    "spot": "HBARUSDT",
-   "last_mark_ms": 1788231324657,
-   "age_h": 3.831
+   "last_mark_ms": 1788231618925,
+   "age_h": 3.913
   },
   "TRXUSDT": {
    "entry": 0.3315,
@@ -36,8 +36,8 @@
    "mark_src": "spot",
    "u_pnl": 0.6033,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1788231327152,
-   "age_h": 0.918
+   "last_mark_ms": 1788231620752,
+   "age_h": 1.0
   },
   "\u725b\u6765USDT": {
    "entry": 0.10263,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788230100000,
-   "mark": 0.10212,
+   "mark": 0.10193,
    "mark_src": "fapi",
-   "u_pnl": -1.6564,
+   "u_pnl": -2.2735,
    "spot": null,
-   "last_mark_ms": 1788231326795,
-   "age_h": 0.247
+   "last_mark_ms": 1788231618925,
+   "age_h": 0.328
   },
   "BLESSUSDT": {
    "entry": 0.009651,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788230400000,
-   "mark": 0.009768,
+   "mark": 0.009743,
    "mark_src": "fapi",
-   "u_pnl": 4.041,
+   "u_pnl": 3.1775,
    "spot": null,
-   "last_mark_ms": 1788231326795,
-   "age_h": 0.163
+   "last_mark_ms": 1788231618925,
+   "age_h": 0.245
   }
  },
  "trades": [
@@ -792,9 +792,9 @@
    "ARBUSDT",
    "PROMUSDT",
    "\u725b\u6765USDT",
-   "UNIUSDT",
    "ENAUSDT",
    "TRUMPUSDT",
+   "UNIUSDT",
    "BNBUSDT",
    "HEMIUSDT",
    "1000PEPEUSDT",
@@ -804,8 +804,8 @@
    "USELESSUSDT",
    "XMRUSDT",
    "ADAUSDT",
-   "LINKUSDT",
    "FLOCKUSDT",
+   "LINKUSDT",
    "NEARUSDT",
    "DASHUSDT",
    "WLDUSDT",
@@ -863,23 +863,23 @@
   ],
   "eligible_count": 501,
   "spot_mapped": 59,
-  "scanned_at": "2026-09-01T02:51:41Z"
+  "scanned_at": "2026-09-01T02:56:44Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-01T02:55:27Z",
+  "last_ok": "2026-09-01T03:00:20Z",
   "last_error": null
  },
  "stats": {
   "signals": 38,
   "entries": 38,
   "exits": 34,
-  "ws_msgs": 519732,
-  "ws_ticks": 519732,
-  "signal_scans": 1302,
+  "ws_msgs": 519902,
+  "ws_ticks": 519902,
+  "signal_scans": 1309,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-01T02:55:27Z"
+  "last_ok": "2026-09-01T03:00:20Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
