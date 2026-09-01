@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788250200000,
-   "mark": 0.1541,
-   "mark_src": "fapi",
-   "u_pnl": -0.4321,
+   "mark": 0.1543,
+   "mark_src": "spot",
+   "u_pnl": 0.0,
    "spot": "FETUSDT",
-   "last_mark_ms": 1788290405615,
-   "age_h": 11.075
+   "last_mark_ms": 1788290707890,
+   "age_h": 11.159
   },
   "TRXUSDT": {
    "entry": 0.32523,
@@ -32,12 +32,12 @@
    "tf": "4h",
    "interval": "4h",
    "signal_bar": 1788249600000,
-   "mark": 0.3227,
+   "mark": 0.3233,
    "mark_src": "spot",
-   "u_pnl": -2.593,
+   "u_pnl": -1.9781,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1788290406206,
-   "age_h": 5.321
+   "last_mark_ms": 1788290707878,
+   "age_h": 5.405
   },
   "VIRTUALUSDT": {
    "entry": 0.6809,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788280800000,
-   "mark": 0.6797,
-   "mark_src": "fapi",
-   "u_pnl": -0.5875,
+   "mark": 0.6806,
+   "mark_src": "spot",
+   "u_pnl": -0.1469,
    "spot": "VIRTUALUSDT",
-   "last_mark_ms": 1788290405615,
-   "age_h": 2.582
+   "last_mark_ms": 1788290708360,
+   "age_h": 2.666
   },
   "NOTUSDT": {
    "entry": 0.0004556,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788282600000,
-   "mark": 0.0004513,
-   "mark_src": "fapi",
-   "u_pnl": -3.146,
+   "mark": 0.000451,
+   "mark_src": "spot",
+   "u_pnl": -3.3655,
    "spot": "NOTUSDT",
-   "last_mark_ms": 1788290405615,
-   "age_h": 2.082
+   "last_mark_ms": 1788290705746,
+   "age_h": 2.166
   },
   "ZENUSDT": {
    "entry": 5.347,
@@ -89,12 +89,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788285600000,
-   "mark": 5.418,
+   "mark": 5.432,
    "mark_src": "spot",
-   "u_pnl": 4.4261,
+   "u_pnl": 5.2989,
    "spot": "ZENUSDT",
-   "last_mark_ms": 1788290406371,
-   "age_h": 0.829
+   "last_mark_ms": 1788290707718,
+   "age_h": 0.913
   },
   "SOLUSDT": {
    "entry": 99.15,
@@ -108,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788287400000,
-   "mark": 99.91,
+   "mark": 99.98,
    "mark_src": "spot",
-   "u_pnl": 2.555,
+   "u_pnl": 2.7904,
    "spot": "SOLUSDT",
-   "last_mark_ms": 1788290405474,
-   "age_h": 0.744
+   "last_mark_ms": 1788290708373,
+   "age_h": 0.828
   },
   "XRPUSDT": {
    "entry": 1.3477,
@@ -127,12 +127,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788287400000,
-   "mark": 1.3575,
+   "mark": 1.3608,
    "mark_src": "spot",
-   "u_pnl": 2.4239,
+   "u_pnl": 3.2401,
    "spot": "XRPUSDT",
-   "last_mark_ms": 1788290406392,
-   "age_h": 0.744
+   "last_mark_ms": 1788290708668,
+   "age_h": 0.828
   }
  },
  "trades": [
@@ -1604,8 +1604,8 @@
    "HYPEUSDT",
    "ARBUSDT",
    "UNIUSDT",
-   "SKRUSDT",
    "USELESSUSDT",
+   "SKRUSDT",
    "ENAUSDT",
    "DOGEUSDT",
    "0GUSDT",
@@ -1625,8 +1625,8 @@
    "CYSUSDT",
    "MARSCOINUSDT",
    "PROMUSDT",
-   "HEMIUSDT",
    "WLDUSDT",
+   "HEMIUSDT",
    "OPUSDT",
    "TRXUSDT",
    "AAVEUSDT",
@@ -1646,8 +1646,8 @@
    "AKEUSDT",
    "UAIUSDT",
    "APTUSDT",
-   "INJUSDT",
    "PENGUUSDT",
+   "INJUSDT",
    "ASTERUSDT",
    "FFUSDT",
    "XLMUSDT",
@@ -1674,29 +1674,29 @@
    "ZENUSDT",
    "WLFIUSDT",
    "HBARUSDT",
-   "BLESSUSDT",
    "BEATUSDT",
+   "BLESSUSDT",
    "TRIAUSDT"
   ],
-  "eligible_count": 509,
+  "eligible_count": 507,
   "spot_mapped": 59,
-  "scanned_at": "2026-09-01T19:16:43Z"
+  "scanned_at": "2026-09-01T19:21:45Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-01T19:20:06Z",
+  "last_ok": "2026-09-01T19:25:08Z",
   "last_error": null
  },
  "stats": {
   "signals": 78,
   "entries": 78,
   "exits": 71,
-  "ws_msgs": 1305096,
-  "ws_ticks": 1305096,
-  "signal_scans": 2460,
+  "ws_msgs": 1321754,
+  "ws_ticks": 1321754,
+  "signal_scans": 2467,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-01T19:20:06Z"
+  "last_ok": "2026-09-01T19:25:08Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
