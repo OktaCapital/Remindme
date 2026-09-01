@@ -1,5 +1,5 @@
 {
- "equity": 1662.5351635643901,
+ "equity": 1652.3685985643901,
  "positions": {
   "ACEUSDT": {
    "entry": 0.16736,
@@ -13,12 +13,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788188400000,
-   "mark": 0.16478,
+   "mark": 0.16488,
    "mark_src": "fapi",
-   "u_pnl": -5.1386,
+   "u_pnl": -4.9394,
    "spot": "ACEUSDT",
-   "last_mark_ms": 1788223812307,
-   "age_h": 9.324
+   "last_mark_ms": 1788224119870,
+   "age_h": 9.409
   },
   "TRXUSDT": {
    "entry": 0.33207,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788217200000,
-   "mark": 0.33188,
-   "mark_src": "fapi",
-   "u_pnl": -0.1907,
+   "mark": 0.3323,
+   "mark_src": "spot",
+   "u_pnl": 0.2309,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1788223812307,
-   "age_h": 1.752
+   "last_mark_ms": 1788224116507,
+   "age_h": 1.836
   },
   "HBARUSDT": {
    "entry": 0.0736,
@@ -51,31 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788217200000,
-   "mark": 0.07392,
-   "mark_src": "spot",
-   "u_pnl": 1.4493,
+   "mark": 0.07384,
+   "mark_src": "fapi",
+   "u_pnl": 1.0869,
    "spot": "HBARUSDT",
-   "last_mark_ms": 1788223810919,
-   "age_h": 1.739
-  },
-  "PROMUSDT": {
-   "entry": 5.479,
-   "notional": 333.33,
-   "opened_ms": 1788217553920,
-   "opened": "2026-08-31T23:05:53Z",
-   "entry_time": "2026-08-31T23:05:53Z",
-   "dir_long": true,
-   "rsi": 5.882,
-   "vol_ratio": 1.541,
-   "tf": "5m",
-   "interval": "5m",
-   "signal_bar": 1788217200000,
-   "mark": 5.372,
-   "mark_src": "spot",
-   "u_pnl": -6.5096,
-   "spot": "PROMUSDT",
-   "last_mark_ms": 1788223815672,
-   "age_h": 1.739
+   "last_mark_ms": 1788224119870,
+   "age_h": 1.825
   },
   "XPLUSDT": {
    "entry": 0.08343,
@@ -89,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788217800000,
-   "mark": 0.08474,
+   "mark": 0.08448,
    "mark_src": "spot",
-   "u_pnl": 5.2339,
+   "u_pnl": 4.1951,
    "spot": "XPLUSDT",
-   "last_mark_ms": 1788223816037,
-   "age_h": 1.575
+   "last_mark_ms": 1788224120404,
+   "age_h": 1.66
   },
   "4USDT": {
    "entry": 0.013906,
@@ -108,12 +89,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788219000000,
-   "mark": 0.013976,
+   "mark": 0.013919,
    "mark_src": "fapi",
-   "u_pnl": 1.6779,
+   "u_pnl": 0.3116,
    "spot": null,
-   "last_mark_ms": 1788223814435,
-   "age_h": 0.735
+   "last_mark_ms": 1788224119870,
+   "age_h": 0.819
   },
   "CYSUSDT": {
    "entry": 0.5913,
@@ -127,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788222600000,
-   "mark": 0.5817,
+   "mark": 0.5783,
    "mark_src": "fapi",
-   "u_pnl": -5.4118,
+   "u_pnl": -7.3284,
    "spot": null,
-   "last_mark_ms": 1788223814435,
-   "age_h": 0.25
+   "last_mark_ms": 1788224119870,
+   "age_h": 0.335
   },
   "ONGUSDT": {
    "entry": 0.08929,
@@ -146,12 +127,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788220800000,
-   "mark": 0.0886,
+   "mark": 0.08931,
    "mark_src": "fapi",
-   "u_pnl": -2.5759,
+   "u_pnl": 0.0747,
    "spot": "ONGUSDT",
-   "last_mark_ms": 1788223810186,
-   "age_h": 0.18
+   "last_mark_ms": 1788224117741,
+   "age_h": 0.266
   }
  },
  "trades": [
@@ -7146,6 +7127,25 @@
    "mark": 0.091,
    "mark_src": "spot",
    "dir_long": true
+  },
+  {
+   "sym": "PROMUSDT",
+   "entry": 5.479,
+   "exit": 5.31463,
+   "ret": -0.0305,
+   "pnl": -10.166564999999999,
+   "reason": "sl_spot",
+   "opened": "2026-08-31T23:05:53Z",
+   "opened_ms": 1788217553920,
+   "closed_ms": 1788223928021,
+   "age_h": 1.771,
+   "tf": "5m",
+   "signal_bar": 1788217200000,
+   "rsi": 5.882,
+   "vol_ratio": 1.541,
+   "mark": 5.312,
+   "mark_src": "spot",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -7478,8 +7478,8 @@
    "UNIUSDT",
    "HEMIUSDT",
    "ENAUSDT",
-   "BNBUSDT",
    "1000PEPEUSDT",
+   "BNBUSDT",
    "PUMPUSDT",
    "SUIUSDT",
    "ARBUSDT",
@@ -7496,15 +7496,15 @@
    "LITUSDT",
    "TAOUSDT",
    "AAVEUSDT",
-   "ONGUSDT",
    "AVAXUSDT",
+   "ONGUSDT",
    "MAGMAUSDT",
-   "\u9f99\u867eUSDT",
    "BCHUSDT",
+   "\u9f99\u867eUSDT",
    "TRXUSDT",
    "TUTUSDT",
-   "ONDOUSDT",
    "FILUSDT",
+   "ONDOUSDT",
    "LTCUSDT",
    "POLUSDT",
    "GRAMUSDT",
@@ -7515,28 +7515,28 @@
    "XLMUSDT",
    "4USDT",
    "NOTUSDT",
-   "PENGUUSDT",
    "OPUSDT",
+   "PENGUUSDT",
    "XPLUSDT",
-   "DOGSUSDT",
    "DOTUSDT",
-   "ZKPUSDT",
+   "DOGSUSDT",
    "INJUSDT",
+   "ZKPUSDT",
    "ZENUSDT",
    "ASTERUSDT",
    "BLESSUSDT",
    "AKEUSDT",
    "1000BONKUSDT",
    "FETUSDT",
-   "FARTCOINUSDT",
    "LAUSDT",
+   "FARTCOINUSDT",
    "APTUSDT",
    "BICOUSDT",
    "1000SHIBUSDT",
    "BTWUSDT",
    "WLFIUSDT",
-   "ANIMEUSDT",
    "VIRTUALUSDT",
+   "ANIMEUSDT",
    "CLOUSDT",
    "ESPORTSUSDT",
    "TIAUSDT",
@@ -7546,12 +7546,12 @@
   ],
   "eligible_count": 499,
   "spot_mapped": 58,
-  "scanned_at": "2026-09-01T00:47:20Z"
+  "scanned_at": "2026-09-01T00:52:22Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-01T00:50:16Z",
+  "last_ok": "2026-09-01T00:55:20Z",
   "last_error": null,
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -7559,13 +7559,13 @@
  "stats": {
   "signals": 310,
   "entries": 310,
-  "exits": 312,
-  "ws_msgs": 3001136,
-  "ws_ticks": 3001136,
-  "signal_scans": 3474,
+  "exits": 313,
+  "ws_msgs": 3002550,
+  "ws_ticks": 3002550,
+  "signal_scans": 3480,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-01T00:50:16Z"
+  "last_ok": "2026-09-01T00:55:20Z"
  },
  "mode": "hybrid_spotws_futures_rest"
 }
