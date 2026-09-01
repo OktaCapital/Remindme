@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788246600000,
-   "mark": 679.48,
+   "mark": 678.75,
    "mark_src": "spot",
-   "u_pnl": -5.3055,
+   "u_pnl": -5.6579,
    "spot": "BNBUSDT",
-   "last_mark_ms": 1788287404358,
-   "age_h": 11.24
+   "last_mark_ms": 1788287707414,
+   "age_h": 11.324
   },
   "FETUSDT": {
    "entry": 0.1543,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788250200000,
-   "mark": 0.1529,
+   "mark": 0.1522,
    "mark_src": "spot",
-   "u_pnl": -3.0244,
+   "u_pnl": -4.5366,
    "spot": "FETUSDT",
-   "last_mark_ms": 1788287402465,
-   "age_h": 10.241
+   "last_mark_ms": 1788287704972,
+   "age_h": 10.325
   },
   "TRXUSDT": {
    "entry": 0.32523,
@@ -51,12 +51,12 @@
    "tf": "4h",
    "interval": "4h",
    "signal_bar": 1788249600000,
-   "mark": 0.3224,
+   "mark": 0.3223,
    "mark_src": "spot",
-   "u_pnl": -2.9005,
+   "u_pnl": -3.003,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1788287403090,
-   "age_h": 4.487
+   "last_mark_ms": 1788287709061,
+   "age_h": 4.572
   },
   "VIRTUALUSDT": {
    "entry": 0.6809,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788280800000,
-   "mark": 0.6757,
+   "mark": 0.6736,
    "mark_src": "spot",
-   "u_pnl": -2.5456,
+   "u_pnl": -3.5737,
    "spot": "VIRTUALUSDT",
-   "last_mark_ms": 1788287404879,
-   "age_h": 1.748
+   "last_mark_ms": 1788287706496,
+   "age_h": 1.832
   },
   "NOTUSDT": {
    "entry": 0.0004556,
@@ -89,12 +89,69 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788282600000,
-   "mark": 0.0004542,
+   "mark": 0.0004532,
    "mark_src": "fapi",
-   "u_pnl": -1.0243,
+   "u_pnl": -1.7559,
    "spot": "NOTUSDT",
-   "last_mark_ms": 1788287398965,
-   "age_h": 1.247
+   "last_mark_ms": 1788287706156,
+   "age_h": 1.332
+  },
+  "CRVUSDT": {
+   "entry": 0.3542,
+   "notional": 333.33,
+   "opened_ms": 1788287415970,
+   "opened": "2026-09-01T18:30:15Z",
+   "entry_time": "2026-09-01T18:30:15Z",
+   "dir_long": true,
+   "rsi": 8.718,
+   "vol_ratio": 1.713,
+   "tf": "5m",
+   "interval": "5m",
+   "signal_bar": 1788287100000,
+   "mark": 0.3558,
+   "mark_src": "spot",
+   "u_pnl": 1.5057,
+   "spot": "CRVUSDT",
+   "last_mark_ms": 1788287708970,
+   "age_h": 0.081
+  },
+  "XMRUSDT": {
+   "entry": 487.23,
+   "notional": 333.33,
+   "opened_ms": 1788287417769,
+   "opened": "2026-09-01T18:30:17Z",
+   "entry_time": "2026-09-01T18:30:17Z",
+   "dir_long": true,
+   "rsi": 8.812,
+   "vol_ratio": 2.391,
+   "tf": "30m",
+   "interval": "30m",
+   "signal_bar": 1788285600000,
+   "mark": 489.17,
+   "mark_src": "fapi",
+   "u_pnl": 1.3272,
+   "spot": null,
+   "last_mark_ms": 1788287708287,
+   "age_h": 0.081
+  },
+  "ZENUSDT": {
+   "entry": 5.347,
+   "notional": 333.33,
+   "opened_ms": 1788287422058,
+   "opened": "2026-09-01T18:30:22Z",
+   "entry_time": "2026-09-01T18:30:22Z",
+   "dir_long": true,
+   "rsi": 12.99,
+   "vol_ratio": 1.309,
+   "tf": "30m",
+   "interval": "30m",
+   "signal_bar": 1788285600000,
+   "mark": 5.347,
+   "mark_src": "fapi",
+   "u_pnl": 0.0,
+   "spot": "ZENUSDT",
+   "last_mark_ms": 1788287708287,
+   "age_h": 0.08
   }
  },
  "trades": [
@@ -1445,7 +1502,13 @@
   "1000BONKUSDT": "1788281700000",
   "1000BONKUSDT:5m": "1788281700000",
   "NOTUSDT": "1788282600000",
-  "NOTUSDT:5m": "1788282600000"
+  "NOTUSDT:5m": "1788282600000",
+  "CRVUSDT": "1788287100000",
+  "CRVUSDT:5m": "1788287100000",
+  "XMRUSDT": "1788285600000",
+  "XMRUSDT:30m": "1788285600000",
+  "ZENUSDT": "1788285600000",
+  "ZENUSDT:30m": "1788285600000"
  },
  "research": {
   "positions": {},
@@ -1537,23 +1600,23 @@
   ],
   "eligible_count": 505,
   "spot_mapped": 59,
-  "scanned_at": "2026-09-01T18:29:50Z"
+  "scanned_at": "2026-09-01T18:34:53Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-01T18:30:04Z",
+  "last_ok": "2026-09-01T18:35:09Z",
   "last_error": null
  },
  "stats": {
-  "signals": 71,
-  "entries": 71,
+  "signals": 74,
+  "entries": 74,
   "exits": 66,
-  "ws_msgs": 1221854,
-  "ws_ticks": 1221854,
-  "signal_scans": 2422,
+  "ws_msgs": 1230834,
+  "ws_ticks": 1230834,
+  "signal_scans": 2429,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-01T18:30:04Z"
+  "last_ok": "2026-09-01T18:35:09Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
