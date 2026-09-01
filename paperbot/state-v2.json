@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788217200000,
-   "mark": 0.07378,
-   "mark_src": "fapi",
-   "u_pnl": 0.9515,
+   "mark": 0.07396,
+   "mark_src": "spot",
+   "u_pnl": 1.767,
    "spot": "HBARUSDT",
-   "last_mark_ms": 1788229223329,
-   "age_h": 3.247
+   "last_mark_ms": 1788229522034,
+   "age_h": 3.33
   },
   "TRXUSDT": {
    "entry": 0.3315,
@@ -32,12 +32,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788226200000,
-   "mark": 0.3321,
-   "mark_src": "spot",
-   "u_pnl": 0.6033,
+   "mark": 0.33201,
+   "mark_src": "fapi",
+   "u_pnl": 0.5128,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1788229225109,
-   "age_h": 0.334
+   "last_mark_ms": 1788229521817,
+   "age_h": 0.417
   }
  },
  "trades": [
@@ -829,19 +829,19 @@
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-01T02:20:25Z",
+  "last_ok": "2026-09-01T02:25:22Z",
   "last_error": null
  },
  "stats": {
   "signals": 36,
   "entries": 36,
   "exits": 34,
-  "ws_msgs": 517585,
-  "ws_ticks": 517585,
-  "signal_scans": 1253,
+  "ws_msgs": 517788,
+  "ws_ticks": 517788,
+  "signal_scans": 1260,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-01T02:20:23Z"
+  "last_ok": "2026-09-01T02:25:22Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
