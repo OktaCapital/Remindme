@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788180300000,
-   "mark": 0.16541,
+   "mark": 0.1649,
    "mark_src": "fapi",
-   "u_pnl": -7.4857,
+   "u_pnl": -8.4904,
    "spot": "ACEUSDT",
-   "last_mark_ms": 1788222920013,
-   "age_h": 11.75
+   "last_mark_ms": 1788223217260,
+   "age_h": 11.832
   },
   "XPLUSDT": {
    "entry": 0.08525,
@@ -32,12 +32,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788179400000,
-   "mark": 0.08443,
-   "mark_src": "fapi",
-   "u_pnl": -3.2062,
+   "mark": 0.08436,
+   "mark_src": "spot",
+   "u_pnl": -3.4799,
    "spot": "XPLUSDT",
-   "last_mark_ms": 1788222920013,
-   "age_h": 11.583
+   "last_mark_ms": 1788223214574,
+   "age_h": 11.664
   },
   "TRXUSDT": {
    "entry": 0.33356,
@@ -55,8 +55,8 @@
    "mark_src": "spot",
    "u_pnl": -1.3591,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1788222921857,
-   "age_h": 10.996
+   "last_mark_ms": 1788223220472,
+   "age_h": 11.079
   },
   "HBARUSDT": {
    "entry": 0.07357,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788217200000,
-   "mark": 0.0738,
+   "mark": 0.07377,
    "mark_src": "fapi",
-   "u_pnl": 1.0421,
+   "u_pnl": 0.9062,
    "spot": "HBARUSDT",
-   "last_mark_ms": 1788222915748,
-   "age_h": 1.495
+   "last_mark_ms": 1788223215122,
+   "age_h": 1.578
   },
   "PROMUSDT": {
    "entry": 5.479,
@@ -89,12 +89,31 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788217200000,
-   "mark": 5.433,
+   "mark": 5.448,
    "mark_src": "spot",
-   "u_pnl": -2.7985,
+   "u_pnl": -1.886,
    "spot": "PROMUSDT",
-   "last_mark_ms": 1788222916231,
-   "age_h": 1.495
+   "last_mark_ms": 1788223217969,
+   "age_h": 1.579
+  },
+  "CYSUSDT": {
+   "entry": 0.5899,
+   "notional": 333.33,
+   "opened_ms": 1788222925000,
+   "opened": "2026-09-01T00:35:24Z",
+   "entry_time": "2026-09-01T00:35:24Z",
+   "dir_long": true,
+   "rsi": 13.722,
+   "vol_ratio": 3.541,
+   "tf": "5m",
+   "interval": "5m",
+   "signal_bar": 1788222600000,
+   "mark": 0.5827,
+   "mark_src": "fapi",
+   "u_pnl": -4.0684,
+   "spot": null,
+   "last_mark_ms": 1788223219401,
+   "age_h": 0.082
   }
  },
  "trades": [
@@ -578,8 +597,8 @@
   "BTRUSDT": "1788218400000",
   "BTRUSDT:5m": "1788218400000",
   "4USDT:30m": "1788219000000",
-  "CYSUSDT": "1788221100000",
-  "CYSUSDT:5m": "1788221100000"
+  "CYSUSDT": "1788222600000",
+  "CYSUSDT:5m": "1788222600000"
  },
  "research": {
   "positions": {},
@@ -596,9 +615,9 @@
    "ZORAUSDT",
    "DOGEUSDT",
    "BTRUSDT",
+   "0GUSDT",
    "PROMUSDT",
    "\u725b\u6765USDT",
-   "0GUSDT",
    "TRUMPUSDT",
    "ENAUSDT",
    "UNIUSDT",
@@ -621,8 +640,8 @@
    "LITUSDT",
    "TAOUSDT",
    "AAVEUSDT",
-   "AVAXUSDT",
    "ONGUSDT",
+   "AVAXUSDT",
    "MAGMAUSDT",
    "\u9f99\u867eUSDT",
    "BCHUSDT",
@@ -633,20 +652,20 @@
    "LTCUSDT",
    "POLUSDT",
    "GRAMUSDT",
-   "UAIUSDT",
    "AXLUSDT",
+   "UAIUSDT",
    "CRVUSDT",
    "ZKUSDT",
    "XLMUSDT",
    "4USDT",
    "NOTUSDT",
-   "XPLUSDT",
    "PENGUUSDT",
+   "XPLUSDT",
    "ZKPUSDT",
    "DOGSUSDT",
    "DOTUSDT",
-   "ZENUSDT",
    "OPUSDT",
+   "ZENUSDT",
    "INJUSDT",
    "ASTERUSDT",
    "BLESSUSDT",
@@ -667,27 +686,27 @@
    "DOSUSDT",
    "ESPORTSUSDT",
    "BEATUSDT",
-   "AUCTIONUSDT"
+   "SOMIUSDT"
   ],
   "eligible_count": 499,
   "spot_mapped": 58,
-  "scanned_at": "2026-09-01T00:31:38Z"
+  "scanned_at": "2026-09-01T00:36:40Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-01T00:35:21Z",
+  "last_ok": "2026-09-01T00:40:20Z",
   "last_error": null
  },
  "stats": {
-  "signals": 28,
-  "entries": 28,
+  "signals": 29,
+  "entries": 29,
   "exits": 23,
-  "ws_msgs": 504882,
-  "ws_ticks": 504882,
-  "signal_scans": 1103,
+  "ws_msgs": 506150,
+  "ws_ticks": 506150,
+  "signal_scans": 1110,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-01T00:35:21Z"
+  "last_ok": "2026-09-01T00:40:20Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
