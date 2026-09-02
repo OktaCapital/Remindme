@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788287400000,
-   "mark": 100.28,
-   "mark_src": "spot",
-   "u_pnl": 3.7989,
+   "mark": 100.18,
+   "mark_src": "fapi",
+   "u_pnl": 3.4627,
    "spot": "SOLUSDT",
-   "last_mark_ms": 1788328834130,
-   "age_h": 11.419
+   "last_mark_ms": 1788329135110,
+   "age_h": 11.502
   },
   "XRPUSDT": {
    "entry": 1.3477,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788287400000,
-   "mark": 1.351,
+   "mark": 1.3494,
    "mark_src": "spot",
-   "u_pnl": 0.8162,
+   "u_pnl": 0.4205,
    "spot": "XRPUSDT",
-   "last_mark_ms": 1788328836928,
-   "age_h": 11.419
+   "last_mark_ms": 1788329136205,
+   "age_h": 11.503
   },
   "DASHUSDT": {
    "entry": 42.93,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788309600000,
-   "mark": 42.54,
+   "mark": 42.5,
    "mark_src": "spot",
-   "u_pnl": -3.0282,
+   "u_pnl": -3.3387,
    "spot": "DASHUSDT",
-   "last_mark_ms": 1788328833091,
-   "age_h": 5.257
+   "last_mark_ms": 1788329131016,
+   "age_h": 5.34
   },
   "TRIAUSDT": {
    "entry": 0.003864,
@@ -70,12 +70,12 @@
    "tf": "4h",
    "interval": "4h",
    "signal_bar": 1788307200000,
-   "mark": 0.003893,
+   "mark": 0.003873,
    "mark_src": "fapi",
-   "u_pnl": 2.5017,
+   "u_pnl": 0.7764,
    "spot": null,
-   "last_mark_ms": 1788328836083,
-   "age_h": 2.004
+   "last_mark_ms": 1788329135110,
+   "age_h": 2.087
   }
  },
  "trades": [
@@ -1989,10 +1989,10 @@
    "ONGUSDT",
    "UAIUSDT",
    "SUIUSDT",
-   "TRUMPUSDT",
    "HEMIUSDT",
-   "\u9f99\u867eUSDT",
+   "TRUMPUSDT",
    "NEARUSDT",
+   "\u9f99\u867eUSDT",
    "1000PEPEUSDT",
    "ACEUSDT",
    "PUMPUSDT",
@@ -2004,10 +2004,10 @@
    "ADAUSDT",
    "0GUSDT",
    "WLDUSDT",
-   "CYSUSDT",
    "TRXUSDT",
-   "TAOUSDT",
+   "CYSUSDT",
    "MAGMAUSDT",
+   "TAOUSDT",
    "PROMUSDT",
    "LITUSDT",
    "OPUSDT",
@@ -2015,9 +2015,9 @@
    "XMRUSDT",
    "LTCUSDT",
    "ONDOUSDT",
-   "TUTUSDT",
    "BCHUSDT",
    "DOTUSDT",
+   "TUTUSDT",
    "DASHUSDT",
    "FFUSDT",
    "1000BONKUSDT",
@@ -2050,29 +2050,29 @@
    "PYTHUSDT",
    "GRAMUSDT",
    "HBARUSDT",
-   "POLUSDT",
    "PENDLEUSDT",
-   "ZKCUSDT"
+   "POLUSDT",
+   "LDOUSDT"
   ],
   "eligible_count": 507,
   "spot_mapped": 61,
-  "scanned_at": "2026-09-02T05:55:44Z"
+  "scanned_at": "2026-09-02T06:00:46Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-02T06:00:36Z",
+  "last_ok": "2026-09-02T06:05:36Z",
   "last_error": null
  },
  "stats": {
   "signals": 97,
   "entries": 97,
   "exits": 93,
-  "ws_msgs": 2114821,
-  "ws_ticks": 2114821,
-  "signal_scans": 3217,
+  "ws_msgs": 2119817,
+  "ws_ticks": 2119817,
+  "signal_scans": 3224,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-02T06:00:36Z"
+  "last_ok": "2026-09-02T06:05:36Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
