@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788330300000,
-   "mark": 0.3601,
-   "mark_src": "fapi",
-   "u_pnl": -3.3901,
+   "mark": 0.3587,
+   "mark_src": "spot",
+   "u_pnl": -4.6729,
    "spot": "LDOUSDT",
-   "last_mark_ms": 1788342644162,
-   "age_h": 3.34
+   "last_mark_ms": 1788342952154,
+   "age_h": 3.425
   },
   "WIFUSDT": {
    "entry": 0.1972,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788330600000,
-   "mark": 0.1952,
-   "mark_src": "fapi",
-   "u_pnl": -3.3806,
+   "mark": 0.195,
+   "mark_src": "spot",
+   "u_pnl": -3.7187,
    "spot": "WIFUSDT",
-   "last_mark_ms": 1788342644162,
-   "age_h": 3.253
+   "last_mark_ms": 1788342946719,
+   "age_h": 3.337
   },
   "DOTUSDT": {
    "entry": 0.864,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788330600000,
-   "mark": 0.8517,
+   "mark": 0.8491,
    "mark_src": "fapi",
-   "u_pnl": -4.7453,
+   "u_pnl": -5.7484,
    "spot": "DOTUSDT",
-   "last_mark_ms": 1788342644162,
-   "age_h": 3.251
+   "last_mark_ms": 1788342949116,
+   "age_h": 3.336
   },
   "BEATUSDT": {
    "entry": 0.1275,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788334200000,
-   "mark": 0.1286,
+   "mark": 0.129,
    "mark_src": "fapi",
-   "u_pnl": 2.8758,
+   "u_pnl": 3.9215,
    "spot": null,
-   "last_mark_ms": 1788342646290,
-   "age_h": 2.251
+   "last_mark_ms": 1788342951519,
+   "age_h": 2.336
   },
   "BNBUSDT": {
    "entry": 687.04,
@@ -89,12 +89,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788337200000,
-   "mark": 683.68,
-   "mark_src": "fapi",
-   "u_pnl": -1.6302,
+   "mark": 683.11,
+   "mark_src": "spot",
+   "u_pnl": -1.9067,
    "spot": "BNBUSDT",
-   "last_mark_ms": 1788342642023,
-   "age_h": 1.42
+   "last_mark_ms": 1788342952509,
+   "age_h": 1.507
   },
   "AVAXUSDT": {
    "entry": 7.174,
@@ -108,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788337800000,
-   "mark": 7.112,
+   "mark": 7.103,
    "mark_src": "spot",
-   "u_pnl": -2.8807,
+   "u_pnl": -3.2989,
    "spot": "AVAXUSDT",
-   "last_mark_ms": 1788342646394,
-   "age_h": 1.256
+   "last_mark_ms": 1788342948764,
+   "age_h": 1.34
   },
   "BCHUSDT": {
    "entry": 245.81,
@@ -127,12 +127,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788337800000,
-   "mark": 244.05,
-   "mark_src": "fapi",
-   "u_pnl": -2.3866,
+   "mark": 244.3,
+   "mark_src": "spot",
+   "u_pnl": -2.0476,
    "spot": "BCHUSDT",
-   "last_mark_ms": 1788342646290,
-   "age_h": 1.235
+   "last_mark_ms": 1788342951658,
+   "age_h": 1.32
   },
   "SOLUSDT": {
    "entry": 99.07,
@@ -146,12 +146,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788338100000,
-   "mark": 98.73,
-   "mark_src": "fapi",
-   "u_pnl": -1.144,
+   "mark": 98.66,
+   "mark_src": "spot",
+   "u_pnl": -1.3795,
    "spot": "SOLUSDT",
-   "last_mark_ms": 1788342642023,
-   "age_h": 1.166
+   "last_mark_ms": 1788342951685,
+   "age_h": 1.252
   },
   "ETHFIUSDT": {
    "entry": 0.5836,
@@ -165,12 +165,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788340800000,
-   "mark": 0.5743,
-   "mark_src": "fapi",
-   "u_pnl": -5.3118,
+   "mark": 0.5737,
+   "mark_src": "spot",
+   "u_pnl": -5.6545,
    "spot": "ETHFIUSDT",
-   "last_mark_ms": 1788342642023,
-   "age_h": 0.426
+   "last_mark_ms": 1788342948657,
+   "age_h": 0.511
   }
  },
  "trades": [
@@ -2590,19 +2590,19 @@
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-02T09:50:46Z",
+  "last_ok": "2026-09-02T09:55:52Z",
   "last_error": null
  },
  "stats": {
   "signals": 124,
   "entries": 124,
   "exits": 115,
-  "ws_msgs": 2302434,
-  "ws_ticks": 2302434,
-  "signal_scans": 3456,
+  "ws_msgs": 2308766,
+  "ws_ticks": 2308766,
+  "signal_scans": 3461,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-02T09:50:46Z"
+  "last_ok": "2026-09-02T09:55:52Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
