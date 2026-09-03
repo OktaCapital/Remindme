@@ -13,12 +13,31 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788431100000,
-   "mark": 0.1347,
+   "mark": 0.1349,
    "mark_src": "spot",
-   "u_pnl": -5.3087,
+   "u_pnl": -4.8217,
    "spot": "KITEUSDT",
-   "last_mark_ms": 1788459921622,
-   "age_h": 7.914
+   "last_mark_ms": 1788460215829,
+   "age_h": 7.996
+  },
+  "CATIUSDT": {
+   "entry": 0.05528,
+   "notional": 333.33,
+   "opened_ms": 1788460082857,
+   "opened": "2026-09-03T18:28:02Z",
+   "entry_time": "2026-09-03T18:28:02Z",
+   "dir_long": true,
+   "rsi": 14.943,
+   "vol_ratio": 7.992,
+   "tf": "5m",
+   "interval": "5m",
+   "signal_bar": 1788459600000,
+   "mark": 0.05492,
+   "mark_src": "fapi",
+   "u_pnl": -2.1707,
+   "spot": "CATIUSDT",
+   "last_mark_ms": 1788460210647,
+   "age_h": 0.035
   }
  },
  "trades": [
@@ -3993,7 +4012,9 @@
   "KITEUSDT": "1788431100000",
   "KITEUSDT:5m": "1788431100000",
   "CHIPUSDT": "1788433800000",
-  "CHIPUSDT:5m": "1788433800000"
+  "CHIPUSDT:5m": "1788433800000",
+  "CATIUSDT": "1788459600000",
+  "CATIUSDT:5m": "1788459600000"
  },
  "research": {
   "positions": {},
@@ -4079,29 +4100,29 @@
    "ZROUSDT",
    "ICPUSDT",
    "SPKUSDT",
+   "CATIUSDT",
    "4USDT",
-   "ETHFIUSDT",
-   "COLLECTUSDT"
+   "ETHFIUSDT"
   ],
   "eligible_count": 506,
-  "spot_mapped": 56,
-  "scanned_at": "2026-09-03T18:22:38Z"
+  "spot_mapped": 57,
+  "scanned_at": "2026-09-03T18:27:40Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-03T18:25:26Z",
+  "last_ok": "2026-09-03T18:30:15Z",
   "last_error": null
  },
  "stats": {
-  "signals": 201,
-  "entries": 201,
+  "signals": 202,
+  "entries": 202,
   "exits": 200,
-  "ws_msgs": 3671985,
-  "ws_ticks": 3671985,
-  "signal_scans": 5958,
+  "ws_msgs": 3672492,
+  "ws_ticks": 3672492,
+  "signal_scans": 5965,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-03T18:25:26Z"
+  "last_ok": "2026-09-03T18:30:15Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
