@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788464700000,
-   "mark": 0.7949,
-   "mark_src": "fapi",
-   "u_pnl": 0.2938,
+   "mark": 0.7961,
+   "mark_src": "spot",
+   "u_pnl": 0.7974,
    "spot": "FILUSDT",
-   "last_mark_ms": 1788474940104,
-   "age_h": 2.752
+   "last_mark_ms": 1788475243152,
+   "age_h": 2.836
   },
   "\u9f99\u867eUSDT": {
    "entry": 0.072919,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788469200000,
-   "mark": 0.072538,
+   "mark": 0.072408,
    "mark_src": "fapi",
-   "u_pnl": -1.7416,
+   "u_pnl": -2.3359,
    "spot": null,
-   "last_mark_ms": 1788474940104,
-   "age_h": 1.507
+   "last_mark_ms": 1788475241836,
+   "age_h": 1.591
   }
  },
  "trades": [
@@ -4186,8 +4186,8 @@
    "BNBUSDT",
    "UNIUSDT",
    "ARBUSDT",
-   "AKEUSDT",
    "USELESSUSDT",
+   "AKEUSDT",
    "ENAUSDT",
    "SUIUSDT",
    "TRUMPUSDT",
@@ -4207,8 +4207,8 @@
    "AAVEUSDT",
    "BRUSDT",
    "MUBARAKUSDT",
-   "UAIUSDT",
    "CHIPUSDT",
+   "UAIUSDT",
    "TAOUSDT",
    "MAGMAUSDT",
    "EGLDUSDT",
@@ -4220,15 +4220,15 @@
    "XPLUSDT",
    "ASTERUSDT",
    "LTCUSDT",
-   "PROMUSDT",
    "ONDOUSDT",
+   "PROMUSDT",
    "APTUSDT",
    "SKRUSDT",
-   "XLMUSDT",
    "PENGUUSDT",
+   "XLMUSDT",
    "TRXUSDT",
-   "CAPUSDT",
    "APRUSDT",
+   "CAPUSDT",
    "ANKRUSDT",
    "ONGUSDT",
    "DOTUSDT",
@@ -4258,25 +4258,25 @@
    "ETHFIUSDT",
    "ICPUSDT"
   ],
-  "eligible_count": 507,
+  "eligible_count": 508,
   "spot_mapped": 58,
-  "scanned_at": "2026-09-03T22:34:14Z"
+  "scanned_at": "2026-09-03T22:39:16Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-03T22:35:40Z",
+  "last_ok": "2026-09-03T22:40:43Z",
   "last_error": null
  },
  "stats": {
   "signals": 210,
   "entries": 210,
   "exits": 208,
-  "ws_msgs": 3694096,
-  "ws_ticks": 3694096,
-  "signal_scans": 6315,
+  "ws_msgs": 3694537,
+  "ws_ticks": 3694537,
+  "signal_scans": 6323,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-03T22:35:40Z"
+  "last_ok": "2026-09-03T22:40:43Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
