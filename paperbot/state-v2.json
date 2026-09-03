@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788431100000,
-   "mark": 0.1373,
-   "mark_src": "spot",
-   "u_pnl": 1.0228,
+   "mark": 0.13705,
+   "mark_src": "fapi",
+   "u_pnl": 0.414,
    "spot": "KITEUSDT",
-   "last_mark_ms": 1788469538157,
-   "age_h": 10.585
+   "last_mark_ms": 1788469836755,
+   "age_h": 10.668
   },
   "FILUSDT": {
    "entry": 0.7942,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788464700000,
-   "mark": 0.7997,
-   "mark_src": "fapi",
-   "u_pnl": 2.3084,
+   "mark": 0.8029,
+   "mark_src": "spot",
+   "u_pnl": 3.6514,
    "spot": "FILUSDT",
-   "last_mark_ms": 1788469532253,
-   "age_h": 1.249
+   "last_mark_ms": 1788469837001,
+   "age_h": 1.334
   },
   "SKRUSDT": {
    "entry": 0.019453,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788466800000,
-   "mark": 0.019385,
+   "mark": 0.019362,
    "mark_src": "fapi",
-   "u_pnl": -1.1652,
+   "u_pnl": -1.5593,
    "spot": null,
-   "last_mark_ms": 1788469536505,
-   "age_h": 0.597
+   "last_mark_ms": 1788469836755,
+   "age_h": 0.68
   },
   "MAGMAUSDT": {
    "entry": 0.34763,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788468900000,
-   "mark": 0.34766,
+   "mark": 0.35188,
    "mark_src": "fapi",
-   "u_pnl": 0.0288,
+   "u_pnl": 4.0752,
    "spot": null,
-   "last_mark_ms": 1788469536505,
-   "age_h": 0.087
+   "last_mark_ms": 1788469836755,
+   "age_h": 0.17
   },
   "\u9f99\u867eUSDT": {
    "entry": 0.072919,
@@ -89,12 +89,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788469200000,
-   "mark": 0.07298,
+   "mark": 0.07292,
    "mark_src": "fapi",
-   "u_pnl": 0.2788,
+   "u_pnl": 0.0046,
    "spot": null,
-   "last_mark_ms": 1788469536505,
-   "age_h": 0.006
+   "last_mark_ms": 1788469836755,
+   "age_h": 0.09
   }
  },
  "trades": [
@@ -4182,8 +4182,8 @@
    "FILUSDT",
    "WLDUSDT",
    "NEARUSDT",
-   "TUSDT",
    "\u725b\u6765USDT",
+   "TUSDT",
    "LITUSDT",
    "BTWUSDT",
    "MAGMAUSDT",
@@ -4239,25 +4239,25 @@
    "WIFUSDT",
    "ETHFIUSDT"
   ],
-  "eligible_count": 507,
+  "eligible_count": 509,
   "spot_mapped": 58,
-  "scanned_at": "2026-09-03T21:04:27Z"
+  "scanned_at": "2026-09-03T21:09:30Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-03T21:05:38Z",
+  "last_ok": "2026-09-03T21:10:37Z",
   "last_error": null
  },
  "stats": {
   "signals": 209,
   "entries": 209,
   "exits": 204,
-  "ws_msgs": 3688114,
-  "ws_ticks": 3688114,
-  "signal_scans": 6186,
+  "ws_msgs": 3688322,
+  "ws_ticks": 3688322,
+  "signal_scans": 6193,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-03T21:05:38Z"
+  "last_ok": "2026-09-03T21:10:37Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
