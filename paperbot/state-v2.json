@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788408600000,
-   "mark": 0.04804,
-   "mark_src": "spot",
-   "u_pnl": -3.6373,
+   "mark": 0.04806,
+   "mark_src": "fapi",
+   "u_pnl": -3.5001,
    "spot": "SEIUSDT",
-   "last_mark_ms": 1788442215363,
-   "age_h": 9.245
+   "last_mark_ms": 1788442520606,
+   "age_h": 9.329
   },
   "SUIUSDT": {
    "entry": 0.7631,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788429600000,
-   "mark": 0.7663,
+   "mark": 0.7664,
    "mark_src": "spot",
-   "u_pnl": 1.3978,
+   "u_pnl": 1.4415,
    "spot": "SUIUSDT",
-   "last_mark_ms": 1788442215479,
-   "age_h": 3.408
+   "last_mark_ms": 1788442520638,
+   "age_h": 3.493
   },
   "KITEUSDT": {
    "entry": 0.13688,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788431100000,
-   "mark": 0.1371,
-   "mark_src": "spot",
-   "u_pnl": 0.5357,
+   "mark": 0.13694,
+   "mark_src": "fapi",
+   "u_pnl": 0.1461,
    "spot": "KITEUSDT",
-   "last_mark_ms": 1788442217434,
-   "age_h": 2.996
+   "last_mark_ms": 1788442520606,
+   "age_h": 3.081
   },
   "BCHUSDT": {
    "entry": 247.87,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788431700000,
-   "mark": 251.0,
-   "mark_src": "spot",
-   "u_pnl": 4.2092,
+   "mark": 251.05,
+   "mark_src": "fapi",
+   "u_pnl": 4.2764,
    "spot": "BCHUSDT",
-   "last_mark_ms": 1788442214389,
-   "age_h": 2.831
+   "last_mark_ms": 1788442516478,
+   "age_h": 2.915
   }
  },
  "trades": [
@@ -4013,19 +4013,19 @@
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-03T13:30:17Z",
+  "last_ok": "2026-09-03T13:35:20Z",
   "last_error": null
  },
  "stats": {
   "signals": 197,
   "entries": 197,
   "exits": 193,
-  "ws_msgs": 3608753,
-  "ws_ticks": 3608753,
-  "signal_scans": 5554,
+  "ws_msgs": 3611169,
+  "ws_ticks": 3611169,
+  "signal_scans": 5560,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-03T13:30:17Z"
+  "last_ok": "2026-09-03T13:35:20Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
