@@ -1,25 +1,6 @@
 {
- "equity": 1462.4840429854135,
+ "equity": 1468.9839779854135,
  "positions": {
-  "SEIUSDT": {
-   "entry": 0.04854,
-   "notional": 333.33,
-   "opened_ms": 1788408952759,
-   "opened": "2026-09-03T04:15:52Z",
-   "entry_time": "2026-09-03T04:15:52Z",
-   "dir_long": true,
-   "rsi": 13.38,
-   "vol_ratio": 1.365,
-   "tf": "5m",
-   "interval": "5m",
-   "signal_bar": 1788408600000,
-   "mark": 0.04909,
-   "mark_src": "spot",
-   "u_pnl": 3.7769,
-   "spot": "SEIUSDT",
-   "last_mark_ms": 1788450919881,
-   "age_h": 11.658
-  },
   "KITEUSDT": {
    "entry": 0.13695,
    "notional": 333.33,
@@ -32,12 +13,31 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788431100000,
-   "mark": 0.13643,
-   "mark_src": "fapi",
-   "u_pnl": -1.2657,
+   "mark": 0.1363,
+   "mark_src": "spot",
+   "u_pnl": -1.5821,
    "spot": "KITEUSDT",
-   "last_mark_ms": 1788450915032,
-   "age_h": 5.406
+   "last_mark_ms": 1788451222315,
+   "age_h": 5.491
+  },
+  "CYSUSDT": {
+   "entry": 0.2783,
+   "notional": 333.33,
+   "opened_ms": 1788451209113,
+   "opened": "2026-09-03T16:00:09Z",
+   "entry_time": "2026-09-03T16:00:09Z",
+   "dir_long": true,
+   "rsi": 9.341,
+   "vol_ratio": 2.556,
+   "tf": "1h",
+   "interval": "1h",
+   "signal_bar": 1788447600000,
+   "mark": 0.2783,
+   "mark_src": "fapi",
+   "u_pnl": 0.0,
+   "spot": null,
+   "last_mark_ms": 1788451221851,
+   "age_h": 0.004
   }
  },
  "trades": [
@@ -13568,6 +13568,25 @@
    "mark": 0.2778,
    "mark_src": "fapi",
    "dir_long": true
+  },
+  {
+   "sym": "SEIUSDT",
+   "entry": 0.04854,
+   "exit": 0.0495108,
+   "ret": 0.0195,
+   "pnl": 6.499935,
+   "reason": "tp_spot",
+   "opened": "2026-09-03T04:15:52Z",
+   "opened_ms": 1788408952759,
+   "closed_ms": 1788451123519,
+   "age_h": 11.714,
+   "tf": "5m",
+   "signal_bar": 1788408600000,
+   "rsi": 13.38,
+   "vol_ratio": 1.365,
+   "mark": 0.04952,
+   "mark_src": "spot",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -13643,7 +13662,7 @@
   "B2USDT": "1787888700000",
   "AIAUSDT": "1787891700000",
   "IOTAUSDT": "1787892000000",
-  "CYSUSDT": "1788449700000",
+  "CYSUSDT": "1788447600000",
   "VVVUSDT": "1787972100000",
   "ARIAUSDT": "1787901900000",
   "KERNELUSDT": "1787902200000",
@@ -13744,7 +13763,7 @@
   "CYSUSDT:30m": "1788224400000",
   "TUTUSDT:1h": "1788382800000",
   "DOSUSDT:1h": "1788224400000",
-  "CYSUSDT:1h": "1788426000000",
+  "CYSUSDT:1h": "1788447600000",
   "BLESSUSDT:1h": "1788285600000",
   "FLOCKUSDT": "1788235200000",
   "FLOCKUSDT:5m": "1788235200000",
@@ -14089,21 +14108,21 @@
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-03T15:55:19Z",
+  "last_ok": "2026-09-03T16:00:22Z",
   "last_error": null,
   "monitor_ok": 9,
   "monitor_failed": 0
  },
  "stats": {
-  "signals": 648,
-  "entries": 648,
-  "exits": 656,
-  "ws_msgs": 6727657,
-  "ws_ticks": 6727657,
-  "signal_scans": 5762,
+  "signals": 649,
+  "entries": 649,
+  "exits": 657,
+  "ws_msgs": 6728730,
+  "ws_ticks": 6728730,
+  "signal_scans": 5767,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-03T15:55:19Z"
+  "last_ok": "2026-09-03T16:00:22Z"
  },
  "mode": "hybrid_spotws_futures_rest"
 }
