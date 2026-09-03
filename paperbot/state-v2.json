@@ -14,11 +14,11 @@
    "interval": "5m",
    "signal_bar": 1788377700000,
    "mark": 0.181,
-   "mark_src": "spot",
+   "mark_src": "fapi",
    "u_pnl": -7.2071,
    "spot": "0GUSDT",
-   "last_mark_ms": 1788400218270,
-   "age_h": 6.168
+   "last_mark_ms": 1788400519321,
+   "age_h": 6.251
   },
   "ROBOUSDT": {
    "entry": 0.011,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788395100000,
-   "mark": 0.01101,
-   "mark_src": "fapi",
-   "u_pnl": 0.303,
+   "mark": 0.01104,
+   "mark_src": "spot",
+   "u_pnl": 1.2121,
    "spot": "ROBOUSDT",
-   "last_mark_ms": 1788400215688,
-   "age_h": 1.326
+   "last_mark_ms": 1788400521753,
+   "age_h": 1.411
   }
  },
  "trades": [
@@ -3365,8 +3365,8 @@
    "\u725b\u6765USDT",
    "BTWUSDT",
    "WLDUSDT",
-   "LINKUSDT",
    "XMRUSDT",
+   "LINKUSDT",
    "ACEUSDT",
    "NEARUSDT",
    "ASTERUSDT",
@@ -3377,8 +3377,8 @@
    "PROMUSDT",
    "EGLDUSDT",
    "CRVUSDT",
-   "CYSUSDT",
    "AVAXUSDT",
+   "CYSUSDT",
    "LTCUSDT",
    "TAOUSDT",
    "FFUSDT",
@@ -3401,8 +3401,8 @@
    "1000SHIBUSDT",
    "FARTCOINUSDT",
    "ICPUSDT",
-   "DASHUSDT",
    "VIRTUALUSDT",
+   "DASHUSDT",
    "ETHFIUSDT",
    "0GUSDT",
    "KITEUSDT",
@@ -3421,23 +3421,23 @@
   ],
   "eligible_count": 502,
   "spot_mapped": 60,
-  "scanned_at": "2026-09-03T01:47:05Z"
+  "scanned_at": "2026-09-03T01:52:38Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-03T01:50:19Z",
+  "last_ok": "2026-09-03T01:55:21Z",
   "last_error": null
  },
  "stats": {
   "signals": 167,
   "entries": 167,
   "exits": 165,
-  "ws_msgs": 3476095,
-  "ws_ticks": 3476095,
-  "signal_scans": 4610,
+  "ws_msgs": 3476967,
+  "ws_ticks": 3476967,
+  "signal_scans": 4617,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-03T01:50:19Z"
+  "last_ok": "2026-09-03T01:55:21Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
