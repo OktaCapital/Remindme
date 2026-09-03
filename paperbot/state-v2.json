@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788395100000,
-   "mark": 0.0109,
-   "mark_src": "spot",
-   "u_pnl": -3.0303,
+   "mark": 0.01083,
+   "mark_src": "fapi",
+   "u_pnl": -5.1515,
    "spot": "ROBOUSDT",
-   "last_mark_ms": 1788402030808,
-   "age_h": 1.83
+   "last_mark_ms": 1788402318202,
+   "age_h": 1.91
   }
  },
  "trades": [
@@ -3363,13 +3363,13 @@
    "ADAUSDT",
    "AAVEUSDT",
    "\u725b\u6765USDT",
-   "WLDUSDT",
    "XMRUSDT",
+   "WLDUSDT",
    "BTWUSDT",
    "LINKUSDT",
-   "ACEUSDT",
    "NEARUSDT",
    "ASTERUSDT",
+   "ACEUSDT",
    "MUBARAKUSDT",
    "MARSCOINUSDT",
    "LITUSDT",
@@ -3390,10 +3390,10 @@
    "ONGUSDT",
    "PENGUUSDT",
    "TRXUSDT",
+   "OPUSDT",
    "APTUSDT",
    "TUTUSDT",
    "XLMUSDT",
-   "OPUSDT",
    "FLOCKUSDT",
    "CHIPUSDT",
    "CLOUSDT",
@@ -3421,23 +3421,23 @@
   ],
   "eligible_count": 503,
   "spot_mapped": 60,
-  "scanned_at": "2026-09-03T02:18:49Z"
+  "scanned_at": "2026-09-03T02:24:22Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-03T02:20:30Z",
+  "last_ok": "2026-09-03T02:25:20Z",
   "last_error": null
  },
  "stats": {
   "signals": 167,
   "entries": 167,
   "exits": 166,
-  "ws_msgs": 3478683,
-  "ws_ticks": 3478683,
-  "signal_scans": 4652,
+  "ws_msgs": 3478989,
+  "ws_ticks": 3478989,
+  "signal_scans": 4659,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-03T02:20:30Z"
+  "last_ok": "2026-09-03T02:25:20Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
