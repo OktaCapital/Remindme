@@ -1,5 +1,5 @@
 {
- "equity": 1451.4841529854136,
+ "equity": 1441.3175879854136,
  "positions": {
   "KITEUSDT": {
    "entry": 0.13695,
@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788431100000,
-   "mark": 0.13621,
+   "mark": 0.13633,
    "mark_src": "fapi",
-   "u_pnl": -1.8011,
+   "u_pnl": -1.5091,
    "spot": "KITEUSDT",
-   "last_mark_ms": 1788463826109,
-   "age_h": 8.992
+   "last_mark_ms": 1788464125357,
+   "age_h": 9.076
   },
   "PYTHUSDT": {
    "entry": 0.05598,
@@ -32,12 +32,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1788451200000,
-   "mark": 0.05607,
+   "mark": 0.05611,
    "mark_src": "spot",
-   "u_pnl": 0.5359,
+   "u_pnl": 0.7741,
    "spot": "PYTHUSDT",
-   "last_mark_ms": 1788463826930,
-   "age_h": 2.498
+   "last_mark_ms": 1788464126316,
+   "age_h": 2.581
   },
   "CYSUSDT": {
    "entry": 0.2742,
@@ -51,12 +51,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1788451200000,
-   "mark": 0.2718,
+   "mark": 0.2702,
    "mark_src": "fapi",
-   "u_pnl": -2.9175,
+   "u_pnl": -4.8626,
    "spot": null,
-   "last_mark_ms": 1788463826109,
-   "age_h": 2.16
+   "last_mark_ms": 1788464125357,
+   "age_h": 2.243
   },
   "MAGMAUSDT": {
    "entry": 0.37301,
@@ -70,31 +70,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788458400000,
-   "mark": 0.36869,
+   "mark": 0.36884,
    "mark_src": "fapi",
-   "u_pnl": -3.8604,
+   "u_pnl": -3.7264,
    "spot": null,
-   "last_mark_ms": 1788463826109,
-   "age_h": 0.995
-  },
-  "CATIUSDT": {
-   "entry": 0.05271,
-   "notional": 333.33,
-   "opened_ms": 1788462649851,
-   "opened": "2026-09-03T19:10:49Z",
-   "entry_time": "2026-09-03T19:10:49Z",
-   "dir_long": true,
-   "rsi": 13.133,
-   "vol_ratio": 2.087,
-   "tf": "5m",
-   "interval": "5m",
-   "signal_bar": 1788462300000,
-   "mark": 0.05315,
-   "mark_src": "fapi",
-   "u_pnl": 2.7825,
-   "spot": "CATIUSDT",
-   "last_mark_ms": 1788463823978,
-   "age_h": 0.326
+   "last_mark_ms": 1788464125357,
+   "age_h": 1.078
   }
  },
  "trades": [
@@ -13739,6 +13720,25 @@
    "mark": 0.05319,
    "mark_src": "spot",
    "dir_long": true
+  },
+  {
+   "sym": "CATIUSDT",
+   "entry": 0.05271,
+   "exit": 0.0511287,
+   "ret": -0.0305,
+   "pnl": -10.166564999999999,
+   "reason": "sl_spot",
+   "opened": "2026-09-03T19:10:49Z",
+   "opened_ms": 1788462649851,
+   "closed_ms": 1788464050640,
+   "age_h": 0.389,
+   "tf": "5m",
+   "signal_bar": 1788462300000,
+   "rsi": 13.133,
+   "vol_ratio": 2.087,
+   "mark": 0.05112,
+   "mark_src": "spot",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -14184,8 +14184,8 @@
    "BNBUSDT",
    "MARSCOINUSDT",
    "UNIUSDT",
-   "USELESSUSDT",
    "ARBUSDT",
+   "USELESSUSDT",
    "ENAUSDT",
    "SUIUSDT",
    "TRUMPUSDT",
@@ -14194,16 +14194,16 @@
    "HEMIUSDT",
    "BULLAUSDT",
    "PUMPUSDT",
-   "TUSDT",
    "EDGEUSDT",
+   "TUSDT",
    "LINKUSDT",
    "FILUSDT",
    "WLDUSDT",
    "NEARUSDT",
    "\u725b\u6765USDT",
    "BTWUSDT",
-   "MAGMAUSDT",
    "MUBARAKUSDT",
+   "MAGMAUSDT",
    "LITUSDT",
    "UAIUSDT",
    "BRUSDT",
@@ -14233,12 +14233,12 @@
    "FFUSDT",
    "OPUSDT",
    "CYSUSDT",
-   "TUTUSDT",
    "APRUSDT",
+   "TUTUSDT",
    "CRVUSDT",
    "LAUSDT",
-   "ACEUSDT",
    "1000SHIBUSDT",
+   "ACEUSDT",
    "\u9f99\u867eUSDT",
    "FARTCOINUSDT",
    "HBARUSDT",
@@ -14253,17 +14253,17 @@
    "ICPUSDT",
    "CATIUSDT",
    "SPKUSDT",
-   "COLLECTUSDT",
-   "ETHFIUSDT"
+   "ETHFIUSDT",
+   "COLLECTUSDT"
   ],
   "eligible_count": 508,
   "spot_mapped": 57,
-  "scanned_at": "2026-09-03T19:25:57Z"
+  "scanned_at": "2026-09-03T19:31:30Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-03T19:30:26Z",
+  "last_ok": "2026-09-03T19:35:26Z",
   "last_error": null,
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -14271,13 +14271,13 @@
  "stats": {
   "signals": 657,
   "entries": 657,
-  "exits": 662,
-  "ws_msgs": 6750242,
-  "ws_ticks": 6750242,
-  "signal_scans": 6006,
+  "exits": 663,
+  "ws_msgs": 6752030,
+  "ws_ticks": 6752030,
+  "signal_scans": 6012,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-03T19:30:26Z"
+  "last_ok": "2026-09-03T19:35:26Z"
  },
  "mode": "hybrid_spotws_futures_rest"
 }
