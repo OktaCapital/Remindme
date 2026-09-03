@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788408600000,
-   "mark": 0.0481,
-   "mark_src": "fapi",
-   "u_pnl": -3.2256,
+   "mark": 0.04815,
+   "mark_src": "spot",
+   "u_pnl": -2.8824,
    "spot": "SEIUSDT",
-   "last_mark_ms": 1788424547956,
-   "age_h": 4.337
+   "last_mark_ms": 1788424842636,
+   "age_h": 4.419
   },
   "PYTHUSDT": {
    "entry": 0.05706,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788413100000,
-   "mark": 0.05722,
-   "mark_src": "spot",
-   "u_pnl": 0.9347,
+   "mark": 0.05735,
+   "mark_src": "fapi",
+   "u_pnl": 1.6941,
    "spot": "PYTHUSDT",
-   "last_mark_ms": 1788424548260,
-   "age_h": 3.089
+   "last_mark_ms": 1788424840021,
+   "age_h": 3.17
   },
   "PROMUSDT": {
    "entry": 4.626,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788423900000,
-   "mark": 4.672,
+   "mark": 4.638,
    "mark_src": "fapi",
-   "u_pnl": 3.3146,
+   "u_pnl": 0.8647,
    "spot": "PROMUSDT",
-   "last_mark_ms": 1788424543807,
-   "age_h": 0.085
+   "last_mark_ms": 1788424840021,
+   "age_h": 0.167
   }
  },
  "trades": [
@@ -3719,19 +3719,19 @@
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-03T08:35:48Z",
+  "last_ok": "2026-09-03T08:40:42Z",
   "last_error": null
  },
  "stats": {
   "signals": 182,
   "entries": 182,
   "exits": 179,
-  "ws_msgs": 3506752,
-  "ws_ticks": 3506752,
-  "signal_scans": 5151,
+  "ws_msgs": 3507164,
+  "ws_ticks": 3507164,
+  "signal_scans": 5157,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-03T08:35:48Z"
+  "last_ok": "2026-09-03T08:40:42Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
