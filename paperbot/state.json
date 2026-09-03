@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788385200000,
-   "mark": 0.1238,
+   "mark": 0.1239,
    "mark_src": "fapi",
-   "u_pnl": -6.8565,
+   "u_pnl": -6.5928,
    "spot": null,
-   "last_mark_ms": 1788412229907,
-   "age_h": 7.424
+   "last_mark_ms": 1788412521557,
+   "age_h": 7.505
   },
   "ROBOUSDT": {
    "entry": 0.011,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788395100000,
-   "mark": 0.01111,
-   "mark_src": "spot",
-   "u_pnl": 3.3333,
+   "mark": 0.0111,
+   "mark_src": "fapi",
+   "u_pnl": 3.0303,
    "spot": "ROBOUSDT",
-   "last_mark_ms": 1788412231433,
-   "age_h": 4.664
+   "last_mark_ms": 1788412521557,
+   "age_h": 4.745
   },
   "SEIUSDT": {
    "entry": 0.04854,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788408600000,
-   "mark": 0.0487,
-   "mark_src": "fapi",
-   "u_pnl": 1.0987,
+   "mark": 0.04865,
+   "mark_src": "spot",
+   "u_pnl": 0.7554,
    "spot": "SEIUSDT",
-   "last_mark_ms": 1788412227772,
-   "age_h": 0.91
+   "last_mark_ms": 1788412522649,
+   "age_h": 0.992
   },
   "UAIUSDT": {
    "entry": 0.3806,
@@ -70,12 +70,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788408000000,
-   "mark": 0.3731,
+   "mark": 0.3747,
    "mark_src": "fapi",
-   "u_pnl": -6.5685,
+   "u_pnl": -5.1672,
    "spot": null,
-   "last_mark_ms": 1788412229907,
-   "age_h": 0.259
+   "last_mark_ms": 1788412521557,
+   "age_h": 0.34
   }
  },
  "trades": [
@@ -12432,18 +12432,18 @@
    "TRUMPUSDT",
    "PUMPUSDT",
    "ADAUSDT",
+   "HEMIUSDT",
    "1000PEPEUSDT",
    "SKRUSDT",
-   "HEMIUSDT",
    "LINKUSDT",
    "MUBARAKUSDT",
    "\u725b\u6765USDT",
-   "XMRUSDT",
    "BTWUSDT",
+   "XMRUSDT",
    "WLDUSDT",
    "AAVEUSDT",
-   "ASTERUSDT",
    "MARSCOINUSDT",
+   "ASTERUSDT",
    "NEARUSDT",
    "EGLDUSDT",
    "LITUSDT",
@@ -12476,8 +12476,8 @@
    "FARTCOINUSDT",
    "1000SHIBUSDT",
    "KITEUSDT",
-   "ICPUSDT",
    "VIRTUALUSDT",
+   "ICPUSDT",
    "ETHFIUSDT",
    "ROBOUSDT",
    "DASHUSDT",
@@ -12495,12 +12495,12 @@
   ],
   "eligible_count": 503,
   "spot_mapped": 59,
-  "scanned_at": "2026-09-03T05:08:53Z"
+  "scanned_at": "2026-09-03T05:13:56Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-03T05:10:31Z",
+  "last_ok": "2026-09-03T05:15:22Z",
   "last_error": null,
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -12509,12 +12509,12 @@
   "signals": 565,
   "entries": 565,
   "exits": 571,
-  "ws_msgs": 6524467,
-  "ws_ticks": 6524467,
-  "signal_scans": 5123,
+  "ws_msgs": 6524761,
+  "ws_ticks": 6524761,
+  "signal_scans": 5129,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-03T05:10:31Z"
+  "last_ok": "2026-09-03T05:15:22Z"
  },
  "mode": "hybrid_spotws_futures_rest"
 }
