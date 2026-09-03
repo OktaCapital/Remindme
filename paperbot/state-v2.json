@@ -14,11 +14,30 @@
    "interval": "5m",
    "signal_bar": 1788395100000,
    "mark": 0.01102,
-   "mark_src": "fapi",
+   "mark_src": "spot",
    "u_pnl": 0.6061,
    "spot": "ROBOUSDT",
-   "last_mark_ms": 1788408925527,
-   "age_h": 3.745
+   "last_mark_ms": 1788409232004,
+   "age_h": 3.83
+  },
+  "SEIUSDT": {
+   "entry": 0.04857,
+   "notional": 333.33,
+   "opened_ms": 1788408935083,
+   "opened": "2026-09-03T04:15:35Z",
+   "entry_time": "2026-09-03T04:15:35Z",
+   "dir_long": true,
+   "rsi": 13.38,
+   "vol_ratio": 1.365,
+   "tf": "5m",
+   "interval": "5m",
+   "signal_bar": 1788408600000,
+   "mark": 0.04845,
+   "mark_src": "fapi",
+   "u_pnl": -0.8235,
+   "spot": "SEIUSDT",
+   "last_mark_ms": 1788409230759,
+   "age_h": 0.082
   }
  },
  "trades": [
@@ -3370,7 +3389,9 @@
   "MAGMAUSDT:30m": "1788391800000",
   "LAUSDT": "1788405300000",
   "LAUSDT:5m": "1788405300000",
-  "UAIUSDT:30m": "1788404400000"
+  "UAIUSDT:30m": "1788404400000",
+  "SEIUSDT": "1788408600000",
+  "SEIUSDT:5m": "1788408600000"
  },
  "research": {
   "positions": {},
@@ -3403,8 +3424,8 @@
    "1000PEPEUSDT",
    "HEMIUSDT",
    "LINKUSDT",
-   "AAVEUSDT",
    "\u725b\u6765USDT",
+   "AAVEUSDT",
    "MUBARAKUSDT",
    "XMRUSDT",
    "BTWUSDT",
@@ -3413,13 +3434,13 @@
    "NEARUSDT",
    "MARSCOINUSDT",
    "LITUSDT",
-   "ACEUSDT",
    "EGLDUSDT",
+   "ACEUSDT",
    "PROMUSDT",
    "AVAXUSDT",
-   "CYSUSDT",
    "TAOUSDT",
    "LTCUSDT",
+   "CYSUSDT",
    "LAUSDT",
    "\u9f99\u867eUSDT",
    "FFUSDT",
@@ -3462,23 +3483,23 @@
   ],
   "eligible_count": 501,
   "spot_mapped": 59,
-  "scanned_at": "2026-09-03T04:11:21Z"
+  "scanned_at": "2026-09-03T04:16:55Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-03T04:15:29Z",
+  "last_ok": "2026-09-03T04:20:32Z",
   "last_error": null
  },
  "stats": {
-  "signals": 169,
-  "entries": 169,
+  "signals": 170,
+  "entries": 170,
   "exits": 168,
-  "ws_msgs": 3484338,
-  "ws_ticks": 3484338,
-  "signal_scans": 4815,
+  "ws_msgs": 3484560,
+  "ws_ticks": 3484560,
+  "signal_scans": 4822,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-03T04:15:29Z"
+  "last_ok": "2026-09-03T04:20:32Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
