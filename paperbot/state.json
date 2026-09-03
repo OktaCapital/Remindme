@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788408600000,
-   "mark": 0.04856,
-   "mark_src": "spot",
-   "u_pnl": 0.1373,
+   "mark": 0.04863,
+   "mark_src": "fapi",
+   "u_pnl": 0.618,
    "spot": "SEIUSDT",
-   "last_mark_ms": 1788413731972,
-   "age_h": 1.328
+   "last_mark_ms": 1788414029338,
+   "age_h": 1.41
   },
   "UAIUSDT": {
    "entry": 0.3806,
@@ -32,12 +32,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788408000000,
-   "mark": 0.3787,
+   "mark": 0.3783,
    "mark_src": "fapi",
-   "u_pnl": -1.664,
+   "u_pnl": -2.0143,
    "spot": null,
-   "last_mark_ms": 1788413729917,
-   "age_h": 0.676
+   "last_mark_ms": 1788414029338,
+   "age_h": 0.759
   },
   "PYTHUSDT": {
    "entry": 0.05705,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788413100000,
-   "mark": 0.05724,
+   "mark": 0.05719,
    "mark_src": "fapi",
-   "u_pnl": 1.1101,
+   "u_pnl": 0.818,
    "spot": "PYTHUSDT",
-   "last_mark_ms": 1788413729917,
-   "age_h": 0.077
+   "last_mark_ms": 1788414027197,
+   "age_h": 0.16
   },
   "CAPUSDT": {
    "entry": 0.06901,
@@ -70,12 +70,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1788408000000,
-   "mark": 0.06828,
+   "mark": 0.06799,
    "mark_src": "fapi",
-   "u_pnl": -3.526,
+   "u_pnl": -4.9268,
    "spot": null,
-   "last_mark_ms": 1788413729917,
-   "age_h": 0.057
+   "last_mark_ms": 1788414029338,
+   "age_h": 0.14
   }
  },
  "trades": [
@@ -12560,7 +12560,7 @@
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-03T05:35:32Z",
+  "last_ok": "2026-09-03T05:40:30Z",
   "last_error": null,
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -12569,12 +12569,12 @@
   "signals": 568,
   "entries": 568,
   "exits": 574,
-  "ws_msgs": 6525730,
-  "ws_ticks": 6525730,
-  "signal_scans": 5152,
+  "ws_msgs": 6525987,
+  "ws_ticks": 6525987,
+  "signal_scans": 5158,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-03T05:35:32Z"
+  "last_ok": "2026-09-03T05:40:30Z"
  },
  "mode": "hybrid_spotws_futures_rest"
 }
