@@ -1,5 +1,5 @@
 {
- "equity": 878.7123504729151,
+ "equity": 885.2122854729151,
  "positions": {
   "KITEUSDT": {
    "entry": 0.13688,
@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788431100000,
-   "mark": 0.13689,
-   "mark_src": "fapi",
-   "u_pnl": 0.0244,
+   "mark": 0.137,
+   "mark_src": "spot",
+   "u_pnl": 0.2922,
    "spot": "KITEUSDT",
-   "last_mark_ms": 1788467127662,
-   "age_h": 9.916
+   "last_mark_ms": 1788467418929,
+   "age_h": 9.997
   },
   "MAGMAUSDT": {
    "entry": 0.37294,
@@ -32,12 +32,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788458400000,
-   "mark": 0.36575,
+   "mark": 0.36571,
    "mark_src": "fapi",
-   "u_pnl": -6.4263,
+   "u_pnl": -6.4621,
    "spot": null,
-   "last_mark_ms": 1788467129830,
-   "age_h": 1.919
+   "last_mark_ms": 1788467417907,
+   "age_h": 1.999
   },
   "FILUSDT": {
    "entry": 0.7942,
@@ -51,31 +51,31 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788464700000,
-   "mark": 0.7966,
+   "mark": 0.7978,
    "mark_src": "spot",
-   "u_pnl": 1.0073,
+   "u_pnl": 1.5109,
    "spot": "FILUSDT",
-   "last_mark_ms": 1788467130977,
-   "age_h": 0.582
+   "last_mark_ms": 1788467415901,
+   "age_h": 0.662
   },
   "SKRUSDT": {
-   "entry": 0.019149,
+   "entry": 0.019453,
    "notional": 333.33,
-   "opened_ms": 1788466504750,
-   "opened": "2026-09-03T20:15:04Z",
-   "entry_time": "2026-09-03T20:15:04Z",
+   "opened_ms": 1788467388804,
+   "opened": "2026-09-03T20:29:48Z",
+   "entry_time": "2026-09-03T20:29:48Z",
    "dir_long": true,
-   "rsi": 13.333,
-   "vol_ratio": 2.809,
+   "rsi": 13.804,
+   "vol_ratio": 4.99,
    "tf": "5m",
    "interval": "5m",
-   "signal_bar": 1788466200000,
-   "mark": 0.019037,
+   "signal_bar": 1788466800000,
+   "mark": 0.019305,
    "mark_src": "fapi",
-   "u_pnl": -1.9496,
+   "u_pnl": -2.536,
    "spot": null,
-   "last_mark_ms": 1788467129830,
-   "age_h": 0.174
+   "last_mark_ms": 1788467417907,
+   "age_h": 0.008
   }
  },
  "trades": [
@@ -3916,6 +3916,25 @@
    "mark": 0.05094,
    "mark_src": "spot",
    "dir_long": true
+  },
+  {
+   "sym": "SKRUSDT",
+   "entry": 0.019149,
+   "exit": 0.01953198,
+   "ret": 0.0195,
+   "pnl": 6.499935,
+   "reason": "tp_fapi",
+   "opened": "2026-09-03T20:15:04Z",
+   "opened_ms": 1788466504750,
+   "closed_ms": 1788467370781,
+   "age_h": 0.241,
+   "tf": "5m",
+   "signal_bar": 1788466200000,
+   "rsi": 13.333,
+   "vol_ratio": 2.809,
+   "mark": 0.019536,
+   "mark_src": "fapi",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -4068,8 +4087,8 @@
   "ENAUSDT:5m": "1788384600000",
   "TUTUSDT": "1788454800000",
   "TUTUSDT:5m": "1788454800000",
-  "SKRUSDT": "1788466200000",
-  "SKRUSDT:5m": "1788466200000",
+  "SKRUSDT": "1788466800000",
+  "SKRUSDT:5m": "1788466800000",
   "MAGMAUSDT:30m": "1788458400000",
   "LAUSDT": "1788405300000",
   "LAUSDT:5m": "1788405300000",
@@ -4166,15 +4185,15 @@
    "FARTCOINUSDT",
    "1000SHIBUSDT",
    "HBARUSDT",
-   "\u9f99\u867eUSDT",
    "ACEUSDT",
+   "\u9f99\u867eUSDT",
    "INJUSDT",
    "1000BONKUSDT",
-   "CLOUSDT",
    "CATIUSDT",
+   "CLOUSDT",
    "CAKEUSDT",
-   "FLOCKUSDT",
    "FETUSDT",
+   "FLOCKUSDT",
    "ARUSDT",
    "ZROUSDT",
    "ICPUSDT",
@@ -4184,23 +4203,23 @@
   ],
   "eligible_count": 509,
   "spot_mapped": 58,
-  "scanned_at": "2026-09-03T20:23:39Z"
+  "scanned_at": "2026-09-03T20:28:41Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-03T20:25:31Z",
+  "last_ok": "2026-09-03T20:30:18Z",
   "last_error": null
  },
  "stats": {
-  "signals": 206,
-  "entries": 206,
-  "exits": 202,
-  "ws_msgs": 3685841,
-  "ws_ticks": 3685841,
-  "signal_scans": 6128,
+  "signals": 207,
+  "entries": 207,
+  "exits": 203,
+  "ws_msgs": 3686016,
+  "ws_ticks": 3686016,
+  "signal_scans": 6135,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-03T20:25:31Z"
+  "last_ok": "2026-09-03T20:30:18Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
