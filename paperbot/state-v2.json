@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788431100000,
-   "mark": 0.1344,
-   "mark_src": "spot",
-   "u_pnl": -6.0393,
+   "mark": 0.13436,
+   "mark_src": "fapi",
+   "u_pnl": -6.1367,
    "spot": "KITEUSDT",
-   "last_mark_ms": 1788457225266,
-   "age_h": 7.165
+   "last_mark_ms": 1788457526815,
+   "age_h": 7.249
   },
   "TUTUSDT": {
    "entry": 0.02431,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788454800000,
-   "mark": 0.02398,
-   "mark_src": "fapi",
-   "u_pnl": -4.5248,
+   "mark": 0.02411,
+   "mark_src": "spot",
+   "u_pnl": -2.7423,
    "spot": "TUTUSDT",
-   "last_mark_ms": 1788457223034,
-   "age_h": 0.583
+   "last_mark_ms": 1788457526984,
+   "age_h": 0.667
   }
  },
  "trades": [
@@ -4031,8 +4031,8 @@
    "MAGMAUSDT",
    "WLDUSDT",
    "UAIUSDT",
-   "LITUSDT",
    "MUBARAKUSDT",
+   "LITUSDT",
    "EGLDUSDT",
    "AAVEUSDT",
    "BRUSDT",
@@ -4085,23 +4085,23 @@
   ],
   "eligible_count": 506,
   "spot_mapped": 57,
-  "scanned_at": "2026-09-03T17:36:44Z"
+  "scanned_at": "2026-09-03T17:41:46Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-03T17:40:25Z",
+  "last_ok": "2026-09-03T17:45:27Z",
   "last_error": null
  },
  "stats": {
   "signals": 201,
   "entries": 201,
   "exits": 199,
-  "ws_msgs": 3664721,
-  "ws_ticks": 3664721,
-  "signal_scans": 5896,
+  "ws_msgs": 3664912,
+  "ws_ticks": 3664912,
+  "signal_scans": 5903,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-03T17:40:25Z"
+  "last_ok": "2026-09-03T17:45:27Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
