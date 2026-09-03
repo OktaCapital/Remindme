@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788377700000,
-   "mark": 0.1833,
+   "mark": 0.1829,
    "mark_src": "fapi",
-   "u_pnl": -3.063,
+   "u_pnl": -3.7837,
    "spot": "0GUSDT",
-   "last_mark_ms": 1788397257773,
-   "age_h": 5.345
+   "last_mark_ms": 1788397558389,
+   "age_h": 5.429
   },
   "XPLUSDT": {
    "entry": 0.08248,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788387000000,
-   "mark": 0.08307,
+   "mark": 0.08331,
    "mark_src": "spot",
-   "u_pnl": 2.3844,
+   "u_pnl": 3.3543,
    "spot": "XPLUSDT",
-   "last_mark_ms": 1788397260349,
-   "age_h": 2.762
+   "last_mark_ms": 1788397559377,
+   "age_h": 2.845
   },
   "ROBOUSDT": {
    "entry": 0.011,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788395100000,
-   "mark": 0.01088,
-   "mark_src": "spot",
-   "u_pnl": -3.6363,
+   "mark": 0.01085,
+   "mark_src": "fapi",
+   "u_pnl": -4.5454,
    "spot": "ROBOUSDT",
-   "last_mark_ms": 1788397259144,
-   "age_h": 0.504
+   "last_mark_ms": 1788397558389,
+   "age_h": 0.587
   }
  },
  "trades": [
@@ -3357,8 +3357,8 @@
    "\u9f99\u867eUSDT",
    "PROMUSDT",
    "CYSUSDT",
-   "CRVUSDT",
    "EGLDUSDT",
+   "CRVUSDT",
    "TAOUSDT",
    "AVAXUSDT",
    "LTCUSDT",
@@ -3381,8 +3381,8 @@
    "CLOUSDT",
    "1000SHIBUSDT",
    "FARTCOINUSDT",
-   "DASHUSDT",
    "ICPUSDT",
+   "DASHUSDT",
    "0GUSDT",
    "VIRTUALUSDT",
    "ETHFIUSDT",
@@ -3402,23 +3402,23 @@
   ],
   "eligible_count": 503,
   "spot_mapped": 60,
-  "scanned_at": "2026-09-03T00:59:41Z"
+  "scanned_at": "2026-09-03T01:04:44Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-03T01:01:00Z",
+  "last_ok": "2026-09-03T01:05:59Z",
   "last_error": null
  },
  "stats": {
   "signals": 166,
   "entries": 166,
   "exits": 163,
-  "ws_msgs": 3458581,
-  "ws_ticks": 3458581,
-  "signal_scans": 4539,
+  "ws_msgs": 3461057,
+  "ws_ticks": 3461057,
+  "signal_scans": 4546,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-03T01:01:00Z"
+  "last_ok": "2026-09-03T01:05:59Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
