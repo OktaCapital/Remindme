@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788408600000,
-   "mark": 0.04792,
-   "mark_src": "fapi",
-   "u_pnl": -4.4609,
+   "mark": 0.04801,
+   "mark_src": "spot",
+   "u_pnl": -3.8432,
    "spot": "SEIUSDT",
-   "last_mark_ms": 1788444317464,
-   "age_h": 9.828
+   "last_mark_ms": 1788444616621,
+   "age_h": 9.912
   },
   "SUIUSDT": {
    "entry": 0.7631,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788429600000,
-   "mark": 0.7659,
+   "mark": 0.7654,
    "mark_src": "spot",
-   "u_pnl": 1.2231,
+   "u_pnl": 1.0047,
    "spot": "SUIUSDT",
-   "last_mark_ms": 1788444318664,
-   "age_h": 3.993
+   "last_mark_ms": 1788444619487,
+   "age_h": 4.076
   },
   "KITEUSDT": {
    "entry": 0.13688,
@@ -55,8 +55,8 @@
    "mark_src": "spot",
    "u_pnl": -2.63,
    "spot": "KITEUSDT",
-   "last_mark_ms": 1788444316761,
-   "age_h": 3.579
+   "last_mark_ms": 1788444617309,
+   "age_h": 3.663
   },
   "BCHUSDT": {
    "entry": 247.87,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788431700000,
-   "mark": 249.63,
-   "mark_src": "fapi",
-   "u_pnl": 2.3668,
+   "mark": 249.9,
+   "mark_src": "spot",
+   "u_pnl": 2.7299,
    "spot": "BCHUSDT",
-   "last_mark_ms": 1788444313177,
-   "age_h": 3.414
+   "last_mark_ms": 1788444616624,
+   "age_h": 3.498
   },
   "MAGMAUSDT": {
    "entry": 0.38977,
@@ -89,12 +89,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788442500000,
-   "mark": 0.38206,
+   "mark": 0.38405,
    "mark_src": "fapi",
-   "u_pnl": -6.5936,
+   "u_pnl": -4.8917,
    "spot": null,
-   "last_mark_ms": 1788444317464,
-   "age_h": 0.409
+   "last_mark_ms": 1788444619067,
+   "age_h": 0.492
   }
  },
  "trades": [
@@ -3985,8 +3985,8 @@
    "PROMUSDT",
    "CHIPUSDT",
    "TAOUSDT",
-   "APTUSDT",
    "BRUSDT",
+   "APTUSDT",
    "AVAXUSDT",
    "LTCUSDT",
    "BCHUSDT",
@@ -4021,30 +4021,30 @@
    "FETUSDT",
    "COLLECTUSDT",
    "SPKUSDT",
-   "SEIUSDT",
    "ZROUSDT",
+   "SEIUSDT",
    "ICPUSDT",
    "CAKEUSDT"
   ],
   "eligible_count": 497,
   "spot_mapped": 57,
-  "scanned_at": "2026-09-03T14:02:20Z"
+  "scanned_at": "2026-09-03T14:07:22Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-03T14:05:18Z",
+  "last_ok": "2026-09-03T14:10:19Z",
   "last_error": null
  },
  "stats": {
   "signals": 198,
   "entries": 198,
   "exits": 193,
-  "ws_msgs": 3622582,
-  "ws_ticks": 3622582,
-  "signal_scans": 5601,
+  "ws_msgs": 3624418,
+  "ws_ticks": 3624418,
+  "signal_scans": 5608,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-03T14:05:18Z"
+  "last_ok": "2026-09-03T14:10:19Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
