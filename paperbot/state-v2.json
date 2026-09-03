@@ -1,5 +1,5 @@
 {
- "equity": 874.7123904729145,
+ "equity": 881.2123254729146,
  "positions": {
   "SEIUSDT": {
    "entry": 0.04857,
@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788408600000,
-   "mark": 0.04787,
+   "mark": 0.04777,
    "mark_src": "spot",
-   "u_pnl": -4.804,
+   "u_pnl": -5.4903,
    "spot": "SEIUSDT",
-   "last_mark_ms": 1788430247636,
-   "age_h": 5.92
+   "last_mark_ms": 1788430554264,
+   "age_h": 6.005
   },
   "ETHFIUSDT": {
    "entry": 0.5568,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788426600000,
-   "mark": 0.5586,
-   "mark_src": "spot",
-   "u_pnl": 1.0776,
+   "mark": 0.5571,
+   "mark_src": "fapi",
+   "u_pnl": 0.1796,
    "spot": "ETHFIUSDT",
-   "last_mark_ms": 1788430251254,
-   "age_h": 0.919
+   "last_mark_ms": 1788430553489,
+   "age_h": 1.003
   },
   "CAPUSDT": {
    "entry": 0.04907,
@@ -51,31 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788429300000,
-   "mark": 0.04953,
+   "mark": 0.04908,
    "mark_src": "fapi",
-   "u_pnl": 3.1248,
+   "u_pnl": 0.0679,
    "spot": null,
-   "last_mark_ms": 1788430251496,
-   "age_h": 0.178
-  },
-  "BTWUSDT": {
-   "entry": 0.41513,
-   "notional": 333.33,
-   "opened_ms": 1788429636075,
-   "opened": "2026-09-03T10:00:36Z",
-   "entry_time": "2026-09-03T10:00:36Z",
-   "dir_long": true,
-   "rsi": 13.372,
-   "vol_ratio": 1.622,
-   "tf": "30m",
-   "interval": "30m",
-   "signal_bar": 1788427800000,
-   "mark": 0.4149,
-   "mark_src": "fapi",
-   "u_pnl": -0.1847,
-   "spot": null,
-   "last_mark_ms": 1788430251496,
-   "age_h": 0.171
+   "last_mark_ms": 1788430553489,
+   "age_h": 0.262
   },
   "SUIUSDT": {
    "entry": 0.7631,
@@ -89,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788429600000,
-   "mark": 0.7631,
+   "mark": 0.762,
    "mark_src": "fapi",
-   "u_pnl": 0.0,
+   "u_pnl": -0.4805,
    "spot": "SUIUSDT",
-   "last_mark_ms": 1788430251496,
-   "age_h": 0.085
+   "last_mark_ms": 1788430551348,
+   "age_h": 0.168
   }
  },
  "trades": [
@@ -3631,6 +3612,25 @@
    "mark": 4.487,
    "mark_src": "spot",
    "dir_long": true
+  },
+  {
+   "sym": "BTWUSDT",
+   "entry": 0.41513,
+   "exit": 0.4234326,
+   "ret": 0.0195,
+   "pnl": 6.499935,
+   "reason": "tp_fapi",
+   "opened": "2026-09-03T10:00:36Z",
+   "opened_ms": 1788429636075,
+   "closed_ms": 1788430446967,
+   "age_h": 0.225,
+   "tf": "30m",
+   "signal_bar": 1788427800000,
+   "rsi": 13.372,
+   "vol_ratio": 1.622,
+   "mark": 0.42449,
+   "mark_src": "fapi",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -3893,19 +3893,19 @@
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-03T10:10:53Z",
+  "last_ok": "2026-09-03T10:15:55Z",
   "last_error": null
  },
  "stats": {
   "signals": 191,
   "entries": 191,
-  "exits": 186,
-  "ws_msgs": 3531822,
-  "ws_ticks": 3531822,
-  "signal_scans": 5277,
+  "exits": 187,
+  "ws_msgs": 3533655,
+  "ws_ticks": 3533655,
+  "signal_scans": 5283,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-03T10:10:47Z"
+  "last_ok": "2026-09-03T10:15:55Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
