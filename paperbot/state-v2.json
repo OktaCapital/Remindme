@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788431100000,
-   "mark": 0.13633,
-   "mark_src": "fapi",
-   "u_pnl": -1.3394,
+   "mark": 0.1365,
+   "mark_src": "spot",
+   "u_pnl": -0.9254,
    "spot": "KITEUSDT",
-   "last_mark_ms": 1788464130483,
-   "age_h": 9.083
+   "last_mark_ms": 1788464413520,
+   "age_h": 9.162
   },
   "MAGMAUSDT": {
    "entry": 0.37294,
@@ -32,12 +32,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788458400000,
-   "mark": 0.36899,
+   "mark": 0.36666,
    "mark_src": "fapi",
-   "u_pnl": -3.5305,
+   "u_pnl": -5.613,
    "spot": null,
-   "last_mark_ms": 1788464130483,
-   "age_h": 1.085
+   "last_mark_ms": 1788464418555,
+   "age_h": 1.165
   }
  },
  "trades": [
@@ -4097,8 +4097,8 @@
    "EGLDUSDT",
    "XMRUSDT",
    "BTRUSDT",
-   "TAOUSDT",
    "CHIPUSDT",
+   "TAOUSDT",
    "AVAXUSDT",
    "BCHUSDT",
    "XPLUSDT",
@@ -4133,34 +4133,34 @@
    "1000BONKUSDT",
    "FLOCKUSDT",
    "FETUSDT",
-   "ZROUSDT",
    "CAKEUSDT",
+   "ZROUSDT",
    "ARUSDT",
-   "ICPUSDT",
    "CATIUSDT",
+   "ICPUSDT",
    "SPKUSDT",
-   "ETHFIUSDT",
-   "COLLECTUSDT"
+   "COLLECTUSDT",
+   "ETHFIUSDT"
   ],
   "eligible_count": 508,
   "spot_mapped": 57,
-  "scanned_at": "2026-09-03T19:31:14Z"
+  "scanned_at": "2026-09-03T19:36:17Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-03T19:35:31Z",
+  "last_ok": "2026-09-03T19:40:19Z",
   "last_error": null
  },
  "stats": {
   "signals": 204,
   "entries": 204,
   "exits": 202,
-  "ws_msgs": 3680285,
-  "ws_ticks": 3680285,
-  "signal_scans": 6057,
+  "ws_msgs": 3680872,
+  "ws_ticks": 3680872,
+  "signal_scans": 6064,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-03T19:35:31Z"
+  "last_ok": "2026-09-03T19:40:19Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
