@@ -1,5 +1,5 @@
 {
- "equity": 934.545125472914,
+ "equity": 924.378560472914,
  "positions": {
   "ROBOUSDT": {
    "entry": 0.011,
@@ -13,31 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788395100000,
-   "mark": 0.01105,
-   "mark_src": "fapi",
-   "u_pnl": 1.5151,
+   "mark": 0.01104,
+   "mark_src": "spot",
+   "u_pnl": 1.2121,
    "spot": "ROBOUSDT",
-   "last_mark_ms": 1788408027960,
-   "age_h": 3.496
-  },
-  "UAIUSDT": {
-   "entry": 0.4171,
-   "notional": 333.33,
-   "opened_ms": 1788406223101,
-   "opened": "2026-09-03T03:30:23Z",
-   "entry_time": "2026-09-03T03:30:23Z",
-   "dir_long": true,
-   "rsi": 7.801,
-   "vol_ratio": 1.618,
-   "tf": "30m",
-   "interval": "30m",
-   "signal_bar": 1788404400000,
-   "mark": 0.4096,
-   "mark_src": "fapi",
-   "u_pnl": -5.9937,
-   "spot": null,
-   "last_mark_ms": 1788408032257,
-   "age_h": 0.503
+   "last_mark_ms": 1788408325493,
+   "age_h": 3.578
   }
  },
  "trades": [
@@ -3213,6 +3194,25 @@
    "mark": 0.0647,
    "mark_src": "spot",
    "dir_long": true
+  },
+  {
+   "sym": "UAIUSDT",
+   "entry": 0.4171,
+   "exit": 0.40458700000000003,
+   "ret": -0.0305,
+   "pnl": -10.166564999999999,
+   "reason": "sl_fapi",
+   "opened": "2026-09-03T03:30:23Z",
+   "opened_ms": 1788406223101,
+   "closed_ms": 1788408190729,
+   "age_h": 0.547,
+   "tf": "30m",
+   "signal_bar": 1788404400000,
+   "rsi": 7.801,
+   "vol_ratio": 1.618,
+   "mark": 0.4045,
+   "mark_src": "fapi",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -3466,19 +3466,19 @@
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-03T04:00:33Z",
+  "last_ok": "2026-09-03T04:05:25Z",
   "last_error": null
  },
  "stats": {
   "signals": 169,
   "entries": 169,
-  "exits": 167,
-  "ws_msgs": 3483597,
-  "ws_ticks": 3483597,
-  "signal_scans": 4795,
+  "exits": 168,
+  "ws_msgs": 3483787,
+  "ws_ticks": 3483787,
+  "signal_scans": 4802,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-03T04:00:33Z"
+  "last_ok": "2026-09-03T04:05:25Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
