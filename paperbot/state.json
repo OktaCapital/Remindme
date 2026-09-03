@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788431100000,
-   "mark": 0.13465,
-   "mark_src": "fapi",
-   "u_pnl": -5.5981,
+   "mark": 0.1341,
+   "mark_src": "spot",
+   "u_pnl": -6.9368,
    "spot": "KITEUSDT",
-   "last_mark_ms": 1788456015542,
-   "age_h": 6.823
+   "last_mark_ms": 1788456298372,
+   "age_h": 6.901
   },
   "PYTHUSDT": {
    "entry": 0.05598,
@@ -32,12 +32,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1788451200000,
-   "mark": 0.05595,
+   "mark": 0.05596,
    "mark_src": "fapi",
-   "u_pnl": -0.1786,
+   "u_pnl": -0.1191,
    "spot": "PYTHUSDT",
-   "last_mark_ms": 1788456019809,
-   "age_h": 0.33
+   "last_mark_ms": 1788456296868,
+   "age_h": 0.407
   },
   "TUTUSDT": {
    "entry": 0.02429,
@@ -51,12 +51,31 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788454800000,
-   "mark": 0.02397,
+   "mark": 0.02387,
    "mark_src": "fapi",
-   "u_pnl": -4.3913,
+   "u_pnl": -5.7636,
    "spot": "TUTUSDT",
-   "last_mark_ms": 1788456017670,
-   "age_h": 0.244
+   "last_mark_ms": 1788456294745,
+   "age_h": 0.321
+  },
+  "CYSUSDT": {
+   "entry": 0.2742,
+   "notional": 333.33,
+   "opened_ms": 1788456049409,
+   "opened": "2026-09-03T17:20:49Z",
+   "entry_time": "2026-09-03T17:20:49Z",
+   "dir_long": true,
+   "rsi": 13.542,
+   "vol_ratio": 1.253,
+   "tf": "1h",
+   "interval": "1h",
+   "signal_bar": 1788451200000,
+   "mark": 0.275,
+   "mark_src": "fapi",
+   "u_pnl": 0.9725,
+   "spot": null,
+   "last_mark_ms": 1788456296868,
+   "age_h": 0.069
   }
  },
  "trades": [
@@ -13738,7 +13757,7 @@
   "B2USDT": "1787888700000",
   "AIAUSDT": "1787891700000",
   "IOTAUSDT": "1787892000000",
-  "CYSUSDT": "1788447600000",
+  "CYSUSDT": "1788451200000",
   "VVVUSDT": "1787972100000",
   "ARIAUSDT": "1787901900000",
   "KERNELUSDT": "1787902200000",
@@ -13839,7 +13858,7 @@
   "CYSUSDT:30m": "1788224400000",
   "TUTUSDT:1h": "1788382800000",
   "DOSUSDT:1h": "1788224400000",
-  "CYSUSDT:1h": "1788447600000",
+  "CYSUSDT:1h": "1788451200000",
   "BLESSUSDT:1h": "1788285600000",
   "FLOCKUSDT": "1788235200000",
   "FLOCKUSDT:5m": "1788235200000",
@@ -14156,8 +14175,8 @@
    "CYSUSDT",
    "OPUSDT",
    "TUTUSDT",
-   "FARTCOINUSDT",
    "ACEUSDT",
+   "FARTCOINUSDT",
    "CRVUSDT",
    "LAUSDT",
    "\u9f99\u867eUSDT",
@@ -14168,38 +14187,38 @@
    "CLOUSDT",
    "1000BONKUSDT",
    "FETUSDT",
-   "ARUSDT",
    "CAKEUSDT",
+   "ARUSDT",
    "ZROUSDT",
    "ICPUSDT",
    "SPKUSDT",
    "4USDT",
    "PYTHUSDT",
    "COLLECTUSDT",
-   "TIAUSDT"
+   "FLOCKUSDT"
   ],
   "eligible_count": 506,
-  "spot_mapped": 57,
-  "scanned_at": "2026-09-03T17:15:29Z"
+  "spot_mapped": 56,
+  "scanned_at": "2026-09-03T17:21:02Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-03T17:20:19Z",
+  "last_ok": "2026-09-03T17:24:58Z",
   "last_error": null,
   "monitor_ok": 9,
   "monitor_failed": 0
  },
  "stats": {
-  "signals": 653,
-  "entries": 653,
+  "signals": 654,
+  "entries": 654,
   "exits": 660,
-  "ws_msgs": 6731162,
-  "ws_ticks": 6731162,
-  "signal_scans": 5858,
+  "ws_msgs": 6731212,
+  "ws_ticks": 6731212,
+  "signal_scans": 5863,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-03T17:20:08Z"
+  "last_ok": "2026-09-03T17:24:58Z"
  },
  "mode": "hybrid_spotws_futures_rest"
 }
