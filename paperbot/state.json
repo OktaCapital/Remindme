@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788385200000,
-   "mark": 0.1244,
+   "mark": 0.1242,
    "mark_src": "fapi",
-   "u_pnl": -5.2742,
+   "u_pnl": -5.8016,
    "spot": null,
-   "last_mark_ms": 1788404124784,
-   "age_h": 5.172
+   "last_mark_ms": 1788404421021,
+   "age_h": 5.255
   },
   "ROBOUSDT": {
    "entry": 0.011,
@@ -32,12 +32,31 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788395100000,
-   "mark": 0.01098,
+   "mark": 0.01095,
    "mark_src": "spot",
-   "u_pnl": -0.6061,
+   "u_pnl": -1.5151,
    "spot": "ROBOUSDT",
-   "last_mark_ms": 1788404126430,
-   "age_h": 2.413
+   "last_mark_ms": 1788404422295,
+   "age_h": 2.495
+  },
+  "MAGMAUSDT": {
+   "entry": 0.40301,
+   "notional": 333.33,
+   "opened_ms": 1788404420272,
+   "opened": "2026-09-03T03:00:20Z",
+   "entry_time": "2026-09-03T03:00:20Z",
+   "dir_long": true,
+   "rsi": 18.272,
+   "vol_ratio": 1.429,
+   "tf": "1h",
+   "interval": "1h",
+   "signal_bar": 1788400800000,
+   "mark": 0.4032,
+   "mark_src": "fapi",
+   "u_pnl": 0.1571,
+   "spot": null,
+   "last_mark_ms": 1788404421021,
+   "age_h": 0.0
   }
  },
  "trades": [
@@ -11801,7 +11820,7 @@
   "TAOUSDT": "1788282000000",
   "UNIUSDT": "1787993100000",
   "UBUSDT": "1788002400000",
-  "MAGMAUSDT": "1788399300000",
+  "MAGMAUSDT": "1788400800000",
   "BTWUSDT": "1788243300000",
   "DOTUSDT": "1788331500000",
   "4USDT": "1788219000000",
@@ -11954,7 +11973,7 @@
   "TUTUSDT:5m": "1788385200000",
   "MAGMAUSDT:5m": "1788399300000",
   "SKRUSDT:5m": "1788392400000",
-  "MAGMAUSDT:1h": "1788390000000",
+  "MAGMAUSDT:1h": "1788400800000",
   "MAGMAUSDT:30m": "1788391800000",
   "ROBOUSDT:5m": "1788395100000"
  },
@@ -12148,8 +12167,8 @@
    "FFUSDT",
    "LAUSDT",
    "BULLAUSDT",
-   "ONDOUSDT",
    "BCHUSDT",
+   "ONDOUSDT",
    "DOTUSDT",
    "ONGUSDT",
    "PENGUUSDT",
@@ -12172,39 +12191,39 @@
    "INJUSDT",
    "ROBOUSDT",
    "0GUSDT",
-   "BEATUSDT",
    "XPLUSDT",
+   "BEATUSDT",
    "SEIUSDT",
    "ANKRUSDT",
    "FETUSDT",
    "TIAUSDT",
    "PENDLEUSDT",
    "1000BONKUSDT",
-   "ZKCUSDT",
-   "4USDT"
+   "HBARUSDT",
+   "ZKCUSDT"
   ],
   "eligible_count": 502,
-  "spot_mapped": 60,
-  "scanned_at": "2026-09-03T02:55:12Z"
+  "spot_mapped": 61,
+  "scanned_at": "2026-09-03T03:00:14Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-03T02:55:26Z",
+  "last_ok": "2026-09-03T03:00:22Z",
   "last_error": null,
   "monitor_ok": 9,
   "monitor_failed": 0
  },
  "stats": {
-  "signals": 549,
-  "entries": 549,
+  "signals": 550,
+  "entries": 550,
   "exits": 557,
-  "ws_msgs": 6516895,
-  "ws_ticks": 6516895,
-  "signal_scans": 4970,
+  "ws_msgs": 6517327,
+  "ws_ticks": 6517327,
+  "signal_scans": 4975,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-03T02:55:26Z"
+  "last_ok": "2026-09-03T03:00:22Z"
  },
  "mode": "hybrid_spotws_futures_rest"
 }
