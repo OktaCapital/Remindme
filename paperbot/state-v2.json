@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788431100000,
-   "mark": 0.1351,
+   "mark": 0.1353,
    "mark_src": "spot",
-   "u_pnl": -4.3347,
+   "u_pnl": -3.8476,
    "spot": "KITEUSDT",
-   "last_mark_ms": 1788460522633,
-   "age_h": 8.081
+   "last_mark_ms": 1788460823106,
+   "age_h": 8.165
   },
   "CATIUSDT": {
    "entry": 0.05528,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788459600000,
-   "mark": 0.05403,
+   "mark": 0.05395,
    "mark_src": "fapi",
-   "u_pnl": -7.5373,
+   "u_pnl": -8.0197,
    "spot": "CATIUSDT",
-   "last_mark_ms": 1788460520891,
-   "age_h": 0.122
+   "last_mark_ms": 1788460818259,
+   "age_h": 0.204
   },
   "MAGMAUSDT": {
    "entry": 0.37294,
@@ -51,12 +51,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788458400000,
-   "mark": 0.37241,
+   "mark": 0.37098,
    "mark_src": "fapi",
-   "u_pnl": -0.4737,
+   "u_pnl": -1.7518,
    "spot": null,
-   "last_mark_ms": 1788460520891,
-   "age_h": 0.083
+   "last_mark_ms": 1788460822609,
+   "age_h": 0.167
   }
  },
  "trades": [
@@ -4065,8 +4065,8 @@
    "FILUSDT",
    "EDGEUSDT",
    "LINKUSDT",
-   "BTWUSDT",
    "WLDUSDT",
+   "BTWUSDT",
    "NEARUSDT",
    "\u725b\u6765USDT",
    "MAGMAUSDT",
@@ -4115,33 +4115,33 @@
    "FLOCKUSDT",
    "FETUSDT",
    "CAKEUSDT",
-   "ARUSDT",
    "ZROUSDT",
+   "ARUSDT",
    "ICPUSDT",
    "SPKUSDT",
    "CATIUSDT",
    "4USDT",
    "COLLECTUSDT"
   ],
-  "eligible_count": 507,
+  "eligible_count": 508,
   "spot_mapped": 56,
-  "scanned_at": "2026-09-03T18:32:42Z"
+  "scanned_at": "2026-09-03T18:37:46Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-03T18:35:22Z",
+  "last_ok": "2026-09-03T18:40:23Z",
   "last_error": null
  },
  "stats": {
   "signals": 203,
   "entries": 203,
   "exits": 200,
-  "ws_msgs": 3672552,
-  "ws_ticks": 3672552,
-  "signal_scans": 5972,
+  "ws_msgs": 3672608,
+  "ws_ticks": 3672608,
+  "signal_scans": 5979,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-03T18:35:22Z"
+  "last_ok": "2026-09-03T18:40:23Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
