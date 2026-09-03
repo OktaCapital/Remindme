@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788431100000,
-   "mark": 0.1352,
-   "mark_src": "spot",
-   "u_pnl": -4.0911,
+   "mark": 0.1354,
+   "mark_src": "fapi",
+   "u_pnl": -3.6041,
    "spot": "KITEUSDT",
-   "last_mark_ms": 1788461700432,
-   "age_h": 8.408
+   "last_mark_ms": 1788462029091,
+   "age_h": 8.5
   },
   "CATIUSDT": {
    "entry": 0.05528,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788459600000,
-   "mark": 0.05456,
-   "mark_src": "fapi",
-   "u_pnl": -4.3415,
+   "mark": 0.05451,
+   "mark_src": "spot",
+   "u_pnl": -4.643,
    "spot": "CATIUSDT",
-   "last_mark_ms": 1788461700412,
-   "age_h": 0.449
+   "last_mark_ms": 1788462030566,
+   "age_h": 0.541
   },
   "MAGMAUSDT": {
    "entry": 0.37294,
@@ -51,12 +51,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788458400000,
-   "mark": 0.37067,
+   "mark": 0.36904,
    "mark_src": "fapi",
-   "u_pnl": -2.0289,
+   "u_pnl": -3.4858,
    "spot": null,
-   "last_mark_ms": 1788461700412,
-   "age_h": 0.41
+   "last_mark_ms": 1788462029091,
+   "age_h": 0.502
   }
  },
  "trades": [
@@ -4062,8 +4062,8 @@
    "PUMPUSDT",
    "BULLAUSDT",
    "TUSDT",
-   "FILUSDT",
    "EDGEUSDT",
+   "FILUSDT",
    "LINKUSDT",
    "WLDUSDT",
    "NEARUSDT",
@@ -4123,25 +4123,25 @@
    "COLLECTUSDT",
    "4USDT"
   ],
-  "eligible_count": 507,
+  "eligible_count": 508,
   "spot_mapped": 56,
-  "scanned_at": "2026-09-03T18:53:54Z"
+  "scanned_at": "2026-09-03T18:58:56Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-03T18:55:00Z",
+  "last_ok": "2026-09-03T19:00:30Z",
   "last_error": null
  },
  "stats": {
   "signals": 203,
   "entries": 203,
   "exits": 200,
-  "ws_msgs": 3672767,
-  "ws_ticks": 3672767,
-  "signal_scans": 6000,
+  "ws_msgs": 3672932,
+  "ws_ticks": 3672932,
+  "signal_scans": 6008,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-03T18:55:00Z"
+  "last_ok": "2026-09-03T19:00:30Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
