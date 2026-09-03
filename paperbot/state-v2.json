@@ -17,8 +17,8 @@
    "mark_src": "spot",
    "u_pnl": -3.8476,
    "spot": "KITEUSDT",
-   "last_mark_ms": 1788461128597,
-   "age_h": 8.249
+   "last_mark_ms": 1788461383751,
+   "age_h": 8.32
   },
   "CATIUSDT": {
    "entry": 0.05528,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788459600000,
-   "mark": 0.05425,
+   "mark": 0.05446,
    "mark_src": "fapi",
-   "u_pnl": -6.2107,
+   "u_pnl": -4.9445,
    "spot": "CATIUSDT",
-   "last_mark_ms": 1788461127290,
-   "age_h": 0.29
+   "last_mark_ms": 1788461378687,
+   "age_h": 0.36
   },
   "MAGMAUSDT": {
    "entry": 0.37294,
@@ -51,12 +51,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788458400000,
-   "mark": 0.37167,
+   "mark": 0.37346,
    "mark_src": "fapi",
-   "u_pnl": -1.1351,
+   "u_pnl": 0.4648,
    "spot": null,
-   "last_mark_ms": 1788461127290,
-   "age_h": 0.251
+   "last_mark_ms": 1788461382945,
+   "age_h": 0.322
   }
  },
  "trades": [
@@ -4060,8 +4060,8 @@
    "ADAUSDT",
    "HEMIUSDT",
    "PUMPUSDT",
-   "TUSDT",
    "BULLAUSDT",
+   "TUSDT",
    "FILUSDT",
    "EDGEUSDT",
    "LINKUSDT",
@@ -4104,8 +4104,8 @@
    "CRVUSDT",
    "LAUSDT",
    "ACEUSDT",
-   "\u9f99\u867eUSDT",
    "APRUSDT",
+   "\u9f99\u867eUSDT",
    "1000SHIBUSDT",
    "HBARUSDT",
    "FARTCOINUSDT",
@@ -4125,23 +4125,23 @@
   ],
   "eligible_count": 508,
   "spot_mapped": 56,
-  "scanned_at": "2026-09-03T18:42:48Z"
+  "scanned_at": "2026-09-03T18:48:20Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-03T18:45:28Z",
+  "last_ok": "2026-09-03T18:49:43Z",
   "last_error": null
  },
  "stats": {
   "signals": 203,
   "entries": 203,
   "exits": 200,
-  "ws_msgs": 3672652,
-  "ws_ticks": 3672652,
-  "signal_scans": 5986,
+  "ws_msgs": 3672665,
+  "ws_ticks": 3672665,
+  "signal_scans": 5992,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-03T18:45:28Z"
+  "last_ok": "2026-09-03T18:49:43Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
