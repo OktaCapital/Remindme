@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788475800000,
-   "mark": 0.18286,
-   "mark_src": "fapi",
-   "u_pnl": -1.235,
+   "mark": 0.1832,
+   "mark_src": "spot",
+   "u_pnl": -0.6175,
    "spot": "XLMUSDT",
-   "last_mark_ms": 1788504008690,
-   "age_h": 7.748
+   "last_mark_ms": 1788504305046,
+   "age_h": 7.83
   },
   "ARUSDT": {
    "entry": 2.559,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788493800000,
-   "mark": 2.577,
-   "mark_src": "fapi",
-   "u_pnl": 2.3446,
+   "mark": 2.595,
+   "mark_src": "spot",
+   "u_pnl": 4.6893,
    "spot": "ARUSDT",
-   "last_mark_ms": 1788504010903,
-   "age_h": 2.741
+   "last_mark_ms": 1788504307837,
+   "age_h": 2.823
   },
   "INJUSDT": {
    "entry": 4.9,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788494400000,
-   "mark": 4.787,
+   "mark": 4.785,
    "mark_src": "fapi",
-   "u_pnl": -7.687,
+   "u_pnl": -7.8231,
    "spot": "INJUSDT",
-   "last_mark_ms": 1788504006550,
-   "age_h": 2.582
+   "last_mark_ms": 1788504306646,
+   "age_h": 2.666
   },
   "PENGUUSDT": {
    "entry": 0.008559,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788494700000,
-   "mark": 0.008521,
+   "mark": 0.008533,
    "mark_src": "spot",
-   "u_pnl": -1.4799,
+   "u_pnl": -1.0126,
    "spot": "PENGUUSDT",
-   "last_mark_ms": 1788504010865,
-   "age_h": 2.501
+   "last_mark_ms": 1788504308054,
+   "age_h": 2.583
   },
   "TRXUSDT": {
    "entry": 0.32874,
@@ -89,12 +89,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788494400000,
-   "mark": 0.3281,
+   "mark": 0.3282,
    "mark_src": "spot",
-   "u_pnl": -0.6489,
+   "u_pnl": -0.5475,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1788504010145,
-   "age_h": 2.163
+   "last_mark_ms": 1788504306053,
+   "age_h": 2.245
   },
   "CAKEUSDT": {
    "entry": 1.9802,
@@ -108,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788501300000,
-   "mark": 1.9748,
+   "mark": 1.9751,
    "mark_src": "fapi",
-   "u_pnl": -0.909,
+   "u_pnl": -0.8585,
    "spot": "CAKEUSDT",
-   "last_mark_ms": 1788504006550,
-   "age_h": 0.664
+   "last_mark_ms": 1788504304503,
+   "age_h": 0.747
   },
   "FETUSDT": {
    "entry": 0.155,
@@ -127,12 +127,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788503100000,
-   "mark": 0.1553,
+   "mark": 0.1554,
    "mark_src": "fapi",
-   "u_pnl": 0.6452,
+   "u_pnl": 0.8602,
    "spot": "FETUSDT",
-   "last_mark_ms": 1788504008690,
-   "age_h": 0.165
+   "last_mark_ms": 1788504308784,
+   "age_h": 0.249
   }
  },
  "trades": [
@@ -4839,8 +4839,8 @@
    "ONDOUSDT",
    "APRUSDT",
    "CAPUSDT",
-   "APTUSDT",
    "XLMUSDT",
+   "APTUSDT",
    "TRXUSDT",
    "PROMUSDT",
    "TUSDT",
@@ -4849,12 +4849,12 @@
    "EGLDUSDT",
    "CYSUSDT",
    "DOTUSDT",
-   "CRVUSDT",
    "FARTCOINUSDT",
+   "CRVUSDT",
    "OPUSDT",
+   "TRIAUSDT",
    "FFUSDT",
    "INJUSDT",
-   "TRIAUSDT",
    "1000SHIBUSDT",
    "TUTUSDT",
    "CAKEUSDT",
@@ -4876,23 +4876,23 @@
   ],
   "eligible_count": 510,
   "spot_mapped": 58,
-  "scanned_at": "2026-09-04T06:38:47Z"
+  "scanned_at": "2026-09-04T06:43:50Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-04T06:40:10Z",
+  "last_ok": "2026-09-04T06:45:10Z",
   "last_error": null
  },
  "stats": {
   "signals": 242,
   "entries": 242,
   "exits": 235,
-  "ws_msgs": 3823729,
-  "ws_ticks": 3823729,
-  "signal_scans": 7010,
+  "ws_msgs": 3826011,
+  "ws_ticks": 3826011,
+  "signal_scans": 7017,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-04T06:40:10Z"
+  "last_ok": "2026-09-04T06:45:10Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
