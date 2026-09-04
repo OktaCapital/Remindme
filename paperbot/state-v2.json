@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788475500000,
-   "mark": 0.1694,
+   "mark": 0.1696,
    "mark_src": "fapi",
-   "u_pnl": 1.9794,
+   "u_pnl": 2.3753,
    "spot": null,
-   "last_mark_ms": 1788497404031,
-   "age_h": 5.999
+   "last_mark_ms": 1788497701995,
+   "age_h": 6.081
   },
   "XLMUSDT": {
    "entry": 0.18354,
@@ -36,8 +36,8 @@
    "mark_src": "spot",
    "u_pnl": -0.6175,
    "spot": "XLMUSDT",
-   "last_mark_ms": 1788497400627,
-   "age_h": 5.912
+   "last_mark_ms": 1788497702066,
+   "age_h": 5.996
   },
   "ARUSDT": {
    "entry": 2.559,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788493800000,
-   "mark": 2.555,
-   "mark_src": "spot",
-   "u_pnl": -0.521,
+   "mark": 2.557,
+   "mark_src": "fapi",
+   "u_pnl": -0.2605,
    "spot": "ARUSDT",
-   "last_mark_ms": 1788497400628,
-   "age_h": 0.904
+   "last_mark_ms": 1788497697596,
+   "age_h": 0.987
   },
   "INJUSDT": {
    "entry": 4.9,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788494400000,
-   "mark": 4.852,
+   "mark": 4.837,
    "mark_src": "fapi",
-   "u_pnl": -3.2653,
+   "u_pnl": -4.2857,
    "spot": "INJUSDT",
-   "last_mark_ms": 1788497399702,
-   "age_h": 0.747
+   "last_mark_ms": 1788497697596,
+   "age_h": 0.83
   },
   "PENGUUSDT": {
    "entry": 0.008559,
@@ -89,12 +89,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788494700000,
-   "mark": 0.00861,
-   "mark_src": "spot",
-   "u_pnl": 1.9862,
+   "mark": 0.008607,
+   "mark_src": "fapi",
+   "u_pnl": 1.8694,
    "spot": "PENGUUSDT",
-   "last_mark_ms": 1788497404539,
-   "age_h": 0.665
+   "last_mark_ms": 1788497697596,
+   "age_h": 0.747
   },
   "TRXUSDT": {
    "entry": 0.32874,
@@ -112,8 +112,8 @@
    "mark_src": "fapi",
    "u_pnl": -0.0406,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1788497404031,
-   "age_h": 0.328
+   "last_mark_ms": 1788497699733,
+   "age_h": 0.41
   }
  },
  "trades": [
@@ -4737,8 +4737,8 @@
    "LINKUSDT",
    "CHIPUSDT",
    "\u725b\u6765USDT",
-   "HEMIUSDT",
    "LITUSDT",
+   "HEMIUSDT",
    "WLDUSDT",
    "NEARUSDT",
    "FILUSDT",
@@ -4761,8 +4761,8 @@
    "ONDOUSDT",
    "CAPUSDT",
    "APTUSDT",
-   "TUSDT",
    "APRUSDT",
+   "TUSDT",
    "EGLDUSDT",
    "XLMUSDT",
    "TRXUSDT",
@@ -4789,8 +4789,8 @@
    "LAUSDT",
    "\u9f99\u867eUSDT",
    "SPKUSDT",
-   "WIFUSDT",
    "ZENUSDT",
+   "WIFUSDT",
    "ANKRUSDT",
    "ICPUSDT",
    "ETHFIUSDT",
@@ -4798,23 +4798,23 @@
   ],
   "eligible_count": 510,
   "spot_mapped": 59,
-  "scanned_at": "2026-09-04T04:48:15Z"
+  "scanned_at": "2026-09-04T04:53:16Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-04T04:50:04Z",
+  "last_ok": "2026-09-04T04:55:02Z",
   "last_error": null
  },
  "stats": {
   "signals": 238,
   "entries": 238,
   "exits": 232,
-  "ws_msgs": 3776965,
-  "ws_ticks": 3776965,
-  "signal_scans": 6852,
+  "ws_msgs": 3778040,
+  "ws_ticks": 3778040,
+  "signal_scans": 6859,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-04T04:50:04Z"
+  "last_ok": "2026-09-04T04:55:02Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
