@@ -1,5 +1,5 @@
 {
- "equity": 817.7906920158732,
+ "equity": 824.2906270158733,
  "positions": {
   "FARTCOINUSDT": {
    "entry": 0.1684,
@@ -17,8 +17,8 @@
    "mark_src": "fapi",
    "u_pnl": 0.7918,
    "spot": null,
-   "last_mark_ms": 1788493801222,
-   "age_h": 4.998
+   "last_mark_ms": 1788494101868,
+   "age_h": 5.081
   },
   "XLMUSDT": {
    "entry": 0.18354,
@@ -32,31 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788475800000,
-   "mark": 0.18325,
-   "mark_src": "fapi",
-   "u_pnl": -0.5267,
-   "spot": "XLMUSDT",
-   "last_mark_ms": 1788493801222,
-   "age_h": 4.912
-  },
-  "ACEUSDT": {
-   "entry": 0.18271,
-   "notional": 333.33,
-   "opened_ms": 1788476717758,
-   "opened": "2026-09-03T23:05:17Z",
-   "entry_time": "2026-09-03T23:05:17Z",
-   "dir_long": true,
-   "rsi": 8.257,
-   "vol_ratio": 1.469,
-   "tf": "5m",
-   "interval": "5m",
-   "signal_bar": 1788476400000,
-   "mark": 0.1859,
+   "mark": 0.1833,
    "mark_src": "spot",
-   "u_pnl": 5.8197,
-   "spot": "ACEUSDT",
-   "last_mark_ms": 1788493801492,
-   "age_h": 4.745
+   "u_pnl": -0.4359,
+   "spot": "XLMUSDT",
+   "last_mark_ms": 1788494102291,
+   "age_h": 4.996
   }
  },
  "trades": [
@@ -4429,6 +4410,25 @@
    "mark": 0.05462,
    "mark_src": "spot",
    "dir_long": true
+  },
+  {
+   "sym": "ACEUSDT",
+   "entry": 0.18271,
+   "exit": 0.1863642,
+   "ret": 0.0195,
+   "pnl": 6.499935,
+   "reason": "tp_spot",
+   "opened": "2026-09-03T23:05:17Z",
+   "opened_ms": 1788476717758,
+   "closed_ms": 1788493892415,
+   "age_h": 4.771,
+   "tf": "5m",
+   "signal_bar": 1788476400000,
+   "rsi": 8.257,
+   "vol_ratio": 1.469,
+   "mark": 0.1864,
+   "mark_src": "spot",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -4634,8 +4634,8 @@
    "SUIUSDT",
    "AKEUSDT",
    "ADAUSDT",
-   "BULLAUSDT",
    "PUMPUSDT",
+   "BULLAUSDT",
    "EDGEUSDT",
    "HEMIUSDT",
    "LINKUSDT",
@@ -4656,8 +4656,8 @@
    "MAGMAUSDT",
    "MUBARAKUSDT",
    "BTWUSDT",
-   "TUSDT",
    "DASHUSDT",
+   "TUSDT",
    "LTCUSDT",
    "ASTERUSDT",
    "XMRUSDT",
@@ -4669,8 +4669,8 @@
    "EGLDUSDT",
    "XLMUSDT",
    "PROMUSDT",
-   "TRXUSDT",
    "SKRUSDT",
+   "TRXUSDT",
    "ONGUSDT",
    "CYSUSDT",
    "DOTUSDT",
@@ -4688,8 +4688,8 @@
    "1000BONKUSDT",
    "FETUSDT",
    "ARUSDT",
-   "LAUSDT",
    "ZROUSDT",
+   "LAUSDT",
    "\u9f99\u867eUSDT",
    "LDOUSDT",
    "SPKUSDT",
@@ -4697,27 +4697,27 @@
    "ACEUSDT",
    "FLOCKUSDT",
    "VIRTUALUSDT",
-   "ETHFIUSDT"
+   "ICPUSDT"
   ],
   "eligible_count": 510,
   "spot_mapped": 59,
-  "scanned_at": "2026-09-04T03:45:14Z"
+  "scanned_at": "2026-09-04T03:50:47Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-04T03:50:01Z",
+  "last_ok": "2026-09-04T03:55:02Z",
   "last_error": null
  },
  "stats": {
   "signals": 233,
   "entries": 233,
-  "exits": 230,
-  "ws_msgs": 3766742,
-  "ws_ticks": 3766742,
-  "signal_scans": 6766,
+  "exits": 231,
+  "ws_msgs": 3767881,
+  "ws_ticks": 3767881,
+  "signal_scans": 6773,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-04T03:50:01Z"
+  "last_ok": "2026-09-04T03:55:02Z"
  },
  "mode": "hybrid_spotws_futures_rest",
  "version": "v2-clean-20260831",
