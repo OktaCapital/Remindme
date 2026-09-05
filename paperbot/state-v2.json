@@ -1,25 +1,6 @@
 {
- "equity": 866.6896286313757,
+ "equity": 873.1895636313758,
  "positions": {
-  "DOTUSDT": {
-   "entry": 0.8869,
-   "notional": 333.33,
-   "opened_ms": 1788582310476,
-   "opened": "2026-09-05T04:25:10Z",
-   "entry_time": "2026-09-05T04:25:10Z",
-   "dir_long": true,
-   "rsi": 11.667,
-   "vol_ratio": 1.37,
-   "tf": "5m",
-   "interval": "5m",
-   "signal_bar": 1788582000000,
-   "mark": 0.9,
-   "mark_src": "spot",
-   "u_pnl": 4.9235,
-   "spot": "DOTUSDT",
-   "last_mark_ms": 1788587752670,
-   "age_h": 1.512
-  },
   "ZORAUSDT": {
    "entry": 0.008542,
    "notional": 333.33,
@@ -32,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788584700000,
-   "mark": 0.008546,
+   "mark": 0.008548,
    "mark_src": "fapi",
-   "u_pnl": 0.1561,
+   "u_pnl": 0.2341,
    "spot": null,
-   "last_mark_ms": 1788587752441,
-   "age_h": 0.762
+   "last_mark_ms": 1788588049805,
+   "age_h": 0.845
   }
  },
  "trades": [
@@ -5265,6 +5246,25 @@
    "mark": 4.722,
    "mark_src": "spot",
    "dir_long": true
+  },
+  {
+   "sym": "DOTUSDT",
+   "entry": 0.8869,
+   "exit": 0.904638,
+   "ret": 0.0195,
+   "pnl": 6.499935,
+   "reason": "tp_spot",
+   "opened": "2026-09-05T04:25:10Z",
+   "opened_ms": 1788582310476,
+   "closed_ms": 1788588032015,
+   "age_h": 1.589,
+   "tf": "5m",
+   "signal_bar": 1788582000000,
+   "rsi": 11.667,
+   "vol_ratio": 1.37,
+   "mark": 0.905,
+   "mark_src": "spot",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -5491,8 +5491,8 @@
    "SUIUSDT",
    "1000PEPEUSDT",
    "FLOCKUSDT",
-   "TRUMPUSDT",
    "AKEUSDT",
+   "TRUMPUSDT",
    "ADAUSDT",
    "LITUSDT",
    "BULLAUSDT",
@@ -5533,15 +5533,15 @@
    "TUTUSDT",
    "SPXUSDT",
    "CRVUSDT",
-   "BTRUSDT",
    "ICPUSDT",
+   "BTRUSDT",
    "GIGGLEUSDT",
+   "APTUSDT",
    "INJUSDT",
    "1000SHIBUSDT",
    "CYSUSDT",
-   "APTUSDT",
-   "QUSDT",
    "NOMUSDT",
+   "QUSDT",
    "FETUSDT",
    "OPUSDT",
    "MUBARAKUSDT",
@@ -5555,27 +5555,27 @@
    "FFUSDT",
    "ZESTUSDT",
    "PORTALUSDT",
-   "RIVERUSDT"
+   "ETCUSDT"
   ],
-  "eligible_count": 511,
-  "spot_mapped": 54,
-  "scanned_at": "2026-09-05T05:52:36Z"
+  "eligible_count": 510,
+  "spot_mapped": 55,
+  "scanned_at": "2026-09-05T05:58:09Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-05T05:55:52Z",
+  "last_ok": "2026-09-05T06:00:51Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 277,
   "entries": 277,
-  "exits": 275,
-  "ws_msgs": 4233299,
-  "ws_ticks": 4233299,
-  "signal_scans": 8093,
+  "exits": 276,
+  "ws_msgs": 4233455,
+  "ws_ticks": 4233455,
+  "signal_scans": 8100,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-05T05:55:52Z",
+  "last_ok": "2026-09-05T06:00:51Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
