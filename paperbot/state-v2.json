@@ -17,8 +17,8 @@
    "mark_src": "fapi",
    "u_pnl": -0.3882,
    "spot": "APTUSDT",
-   "last_mark_ms": 1788602111883,
-   "age_h": 1.828
+   "last_mark_ms": 1788602410984,
+   "age_h": 1.911
   },
   "FILUSDT": {
    "entry": 0.7635,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788597000000,
-   "mark": 0.7684,
+   "mark": 0.7699,
    "mark_src": "spot",
-   "u_pnl": 2.1392,
+   "u_pnl": 2.7941,
    "spot": "FILUSDT",
-   "last_mark_ms": 1788602113111,
-   "age_h": 1.331
+   "last_mark_ms": 1788602414896,
+   "age_h": 1.415
   },
   "OPUSDT": {
    "entry": 0.1003,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788597000000,
-   "mark": 0.10066,
-   "mark_src": "fapi",
-   "u_pnl": 1.1964,
+   "mark": 0.1009,
+   "mark_src": "spot",
+   "u_pnl": 1.994,
    "spot": "OPUSDT",
-   "last_mark_ms": 1788602111883,
-   "age_h": 1.33
+   "last_mark_ms": 1788602412501,
+   "age_h": 1.413
   },
   "BUSDT": {
    "entry": 0.1878,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788600900000,
-   "mark": 0.1884,
+   "mark": 0.1886,
    "mark_src": "fapi",
-   "u_pnl": 1.065,
+   "u_pnl": 1.4199,
    "spot": null,
-   "last_mark_ms": 1788602111883,
-   "age_h": 0.252
+   "last_mark_ms": 1788602413159,
+   "age_h": 0.335
   }
  },
  "trades": [
@@ -5700,19 +5700,19 @@
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-05T09:55:13Z",
+  "last_ok": "2026-09-05T10:00:14Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 284,
   "entries": 284,
   "exits": 280,
-  "ws_msgs": 4878865,
-  "ws_ticks": 4878865,
-  "signal_scans": 8417,
+  "ws_msgs": 4879589,
+  "ws_ticks": 4879589,
+  "signal_scans": 8424,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-05T09:55:13Z",
+  "last_ok": "2026-09-05T10:00:14Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
