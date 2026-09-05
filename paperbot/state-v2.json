@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788584700000,
-   "mark": 0.008614,
+   "mark": 0.008656,
    "mark_src": "fapi",
-   "u_pnl": 2.8096,
+   "u_pnl": 4.4486,
    "spot": null,
-   "last_mark_ms": 1788590698680,
-   "age_h": 1.581
+   "last_mark_ms": 1788591003748,
+   "age_h": 1.665
   },
   "EDGEUSDT": {
    "entry": 0.5998,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788589200000,
-   "mark": 0.6034,
+   "mark": 0.6041,
    "mark_src": "fapi",
-   "u_pnl": 2.0006,
+   "u_pnl": 2.3897,
    "spot": null,
-   "last_mark_ms": 1788590698680,
-   "age_h": 0.329
+   "last_mark_ms": 1788591003748,
+   "age_h": 0.413
   }
  },
  "trades": [
@@ -5534,8 +5534,8 @@
    "MAGMAUSDT",
    "ASTERUSDT",
    "PENGUUSDT",
-   "EDGEUSDT",
    "BCHUSDT",
+   "EDGEUSDT",
    "ONDOUSDT",
    "CHIPUSDT",
    "AVAXUSDT",
@@ -5546,8 +5546,8 @@
    "XLMUSDT",
    "AZTECUSDT",
    "1000BONKUSDT",
-   "HEMIUSDT",
    "TRXUSDT",
+   "HEMIUSDT",
    "PROMUSDT",
    "ZORAUSDT",
    "FARTCOINUSDT",
@@ -5559,9 +5559,9 @@
    "APTUSDT",
    "1000SHIBUSDT",
    "CRVUSDT",
+   "INJUSDT",
    "QUSDT",
    "BTRUSDT",
-   "INJUSDT",
    "CYSUSDT",
    "FETUSDT",
    "OPUSDT",
@@ -5574,29 +5574,29 @@
    "FFUSDT",
    "ONGUSDT",
    "ETCUSDT",
-   "VELVETUSDT",
    "ZESTUSDT",
-   "RIVERUSDT"
+   "RIVERUSDT",
+   "LAUSDT"
   ],
   "eligible_count": 510,
-  "spot_mapped": 54,
-  "scanned_at": "2026-09-05T06:40:44Z"
+  "spot_mapped": 55,
+  "scanned_at": "2026-09-05T06:45:47Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-05T06:44:58Z",
+  "last_ok": "2026-09-05T06:50:04Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 278,
   "entries": 278,
   "exits": 276,
-  "ws_msgs": 4312988,
-  "ws_ticks": 4312988,
-  "signal_scans": 8157,
+  "ws_msgs": 4329812,
+  "ws_ticks": 4329812,
+  "signal_scans": 8163,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-05T06:44:58Z",
+  "last_ok": "2026-09-05T06:50:04Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
