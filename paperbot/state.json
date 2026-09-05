@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788595200000,
-   "mark": 0.601,
+   "mark": 0.602,
    "mark_src": "spot",
-   "u_pnl": 0.111,
+   "u_pnl": 0.6658,
    "spot": "APTUSDT",
-   "last_mark_ms": 1788606007336,
-   "age_h": 2.904
+   "last_mark_ms": 1788606305040,
+   "age_h": 2.987
   },
   "FILUSDT": {
    "entry": 0.7635,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788597000000,
-   "mark": 0.771,
-   "mark_src": "spot",
-   "u_pnl": 3.2744,
+   "mark": 0.7705,
+   "mark_src": "fapi",
+   "u_pnl": 3.0561,
    "spot": "FILUSDT",
-   "last_mark_ms": 1788606012739,
-   "age_h": 2.41
+   "last_mark_ms": 1788606307655,
+   "age_h": 2.492
   },
   "OPUSDT": {
    "entry": 0.10032,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788597000000,
-   "mark": 0.1014,
+   "mark": 0.1016,
    "mark_src": "spot",
-   "u_pnl": 3.5885,
+   "u_pnl": 4.253,
    "spot": "OPUSDT",
-   "last_mark_ms": 1788606012212,
-   "age_h": 2.409
+   "last_mark_ms": 1788606309407,
+   "age_h": 2.492
   },
   "QUSDT": {
    "entry": 0.027583,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788604200000,
-   "mark": 0.027914,
+   "mark": 0.027952,
    "mark_src": "fapi",
-   "u_pnl": 4.0,
+   "u_pnl": 4.4592,
    "spot": null,
-   "last_mark_ms": 1788606011372,
-   "age_h": 0.41
+   "last_mark_ms": 1788606307655,
+   "age_h": 0.493
   }
  },
  "trades": [
@@ -17286,8 +17286,8 @@
    "BULLAUSDT",
    "AKEUSDT",
    "UNIUSDT",
-   "ENAUSDT",
    "SUIUSDT",
+   "ENAUSDT",
    "TRUMPUSDT",
    "FLOCKUSDT",
    "1000PEPEUSDT",
@@ -17296,8 +17296,8 @@
    "\u725b\u6765USDT",
    "LITUSDT",
    "ARBUSDT",
-   "PUMPUSDT",
    "TAOUSDT",
+   "PUMPUSDT",
    "LINKUSDT",
    "ZENUSDT",
    "LTCUSDT",
@@ -17340,8 +17340,8 @@
    "OPUSDT",
    "CRVUSDT",
    "CAKEUSDT",
-   "COTIUSDT",
    "ROBOUSDT",
+   "COTIUSDT",
    "QUSDT",
    "BTRUSDT",
    "PROMUSDT",
@@ -17351,17 +17351,17 @@
    "MUBARAKUSDT",
    "RIVERUSDT",
    "PORTALUSDT",
-   "SPXUSDT",
-   "BICOUSDT"
+   "BICOUSDT",
+   "VIRTUALUSDT"
   ],
   "eligible_count": 509,
-  "spot_mapped": 56,
-  "scanned_at": "2026-09-05T10:57:23Z"
+  "spot_mapped": 57,
+  "scanned_at": "2026-09-05T11:02:25Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-05T11:00:12Z",
+  "last_ok": "2026-09-05T11:05:09Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -17370,12 +17370,12 @@
   "signals": 818,
   "entries": 818,
   "exits": 824,
-  "ws_msgs": 7387608,
-  "ws_ticks": 7387608,
-  "signal_scans": 7814,
+  "ws_msgs": 7387931,
+  "ws_ticks": 7387931,
+  "signal_scans": 7820,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-05T11:00:12Z",
+  "last_ok": "2026-09-05T11:05:09Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest"
