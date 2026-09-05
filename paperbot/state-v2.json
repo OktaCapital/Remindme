@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788584700000,
-   "mark": 0.008545,
+   "mark": 0.00854,
    "mark_src": "fapi",
-   "u_pnl": 0.1171,
+   "u_pnl": -0.078,
    "spot": null,
-   "last_mark_ms": 1788589860756,
-   "age_h": 1.348
+   "last_mark_ms": 1788590100584,
+   "age_h": 1.415
   },
   "EDGEUSDT": {
    "entry": 0.5998,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788589200000,
-   "mark": 0.6039,
+   "mark": 0.6027,
    "mark_src": "fapi",
-   "u_pnl": 2.2785,
+   "u_pnl": 1.6116,
    "spot": null,
-   "last_mark_ms": 1788589860756,
-   "age_h": 0.096
+   "last_mark_ms": 1788590100584,
+   "age_h": 0.163
   }
  },
  "trades": [
@@ -5584,19 +5584,19 @@
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-05T06:31:01Z",
+  "last_ok": "2026-09-05T06:35:01Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 278,
   "entries": 278,
   "exits": 276,
-  "ws_msgs": 4246611,
-  "ws_ticks": 4246611,
-  "signal_scans": 8138,
+  "ws_msgs": 4262286,
+  "ws_ticks": 4262286,
+  "signal_scans": 8143,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-05T06:31:01Z",
+  "last_ok": "2026-09-05T06:35:01Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
