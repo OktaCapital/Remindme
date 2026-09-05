@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788584700000,
-   "mark": 0.008648,
+   "mark": 0.008609,
    "mark_src": "fapi",
-   "u_pnl": 4.1364,
+   "u_pnl": 2.6145,
    "spot": null,
-   "last_mark_ms": 1788592504260,
-   "age_h": 2.082
+   "last_mark_ms": 1788592809143,
+   "age_h": 2.167
   }
  },
  "trades": [
@@ -5538,14 +5538,14 @@
    "ONDOUSDT",
    "EDGEUSDT",
    "AVAXUSDT",
+   "CHIPUSDT",
    "SKRUSDT",
    "FILUSDT",
-   "CHIPUSDT",
    "XPLUSDT",
    "DOTUSDT",
    "XLMUSDT",
-   "1000BONKUSDT",
    "AZTECUSDT",
+   "1000BONKUSDT",
    "TRXUSDT",
    "HEMIUSDT",
    "ZORAUSDT",
@@ -5554,8 +5554,8 @@
    "TUTUSDT",
    "PROMUSDT",
    "ICPUSDT",
-   "SPXUSDT",
    "GIGGLEUSDT",
+   "SPXUSDT",
    "APTUSDT",
    "1000SHIBUSDT",
    "CRVUSDT",
@@ -5576,27 +5576,27 @@
    "COTIUSDT",
    "FFUSDT",
    "ZESTUSDT",
-   "ONGUSDT"
+   "RIVERUSDT"
   ],
-  "eligible_count": 510,
-  "spot_mapped": 55,
-  "scanned_at": "2026-09-05T07:12:07Z"
+  "eligible_count": 509,
+  "spot_mapped": 54,
+  "scanned_at": "2026-09-05T07:17:10Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-05T07:15:05Z",
+  "last_ok": "2026-09-05T07:20:10Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 278,
   "entries": 278,
   "exits": 277,
-  "ws_msgs": 4460985,
-  "ws_ticks": 4460985,
-  "signal_scans": 8194,
+  "ws_msgs": 4488015,
+  "ws_ticks": 4488015,
+  "signal_scans": 8201,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-05T07:15:05Z",
+  "last_ok": "2026-09-05T07:20:10Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
