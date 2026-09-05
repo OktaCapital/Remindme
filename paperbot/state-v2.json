@@ -17,8 +17,8 @@
    "mark_src": "spot",
    "u_pnl": 1.5409,
    "spot": "DOTUSDT",
-   "last_mark_ms": 1788586540264,
-   "age_h": 1.175
+   "last_mark_ms": 1788586853437,
+   "age_h": 1.262
   },
   "ZORAUSDT": {
    "entry": 0.008542,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788584700000,
-   "mark": 0.008551,
+   "mark": 0.008486,
    "mark_src": "fapi",
-   "u_pnl": 0.3512,
+   "u_pnl": -2.1853,
    "spot": null,
-   "last_mark_ms": 1788586538540,
-   "age_h": 0.425
+   "last_mark_ms": 1788586852261,
+   "age_h": 0.512
   }
  },
  "trades": [
@@ -5488,15 +5488,15 @@
    "NEARUSDT",
    "ENAUSDT",
    "UNIUSDT",
-   "SUIUSDT",
    "1000PEPEUSDT",
+   "SUIUSDT",
    "FLOCKUSDT",
    "TRUMPUSDT",
    "ADAUSDT",
    "AKEUSDT",
    "LITUSDT",
-   "PUMPUSDT",
    "BULLAUSDT",
+   "PUMPUSDT",
    "LINKUSDT",
    "ARBUSDT",
    "4USDT",
@@ -5530,8 +5530,8 @@
    "TRXUSDT",
    "ZORAUSDT",
    "FARTCOINUSDT",
-   "BTRUSDT",
    "TUTUSDT",
+   "BTRUSDT",
    "SPXUSDT",
    "CRVUSDT",
    "GIGGLEUSDT",
@@ -5543,8 +5543,8 @@
    "APTUSDT",
    "FETUSDT",
    "OPUSDT",
-   "MUBARAKUSDT",
    "NOMUSDT",
+   "MUBARAKUSDT",
    "ROBOUSDT",
    "VELVETUSDT",
    "HBARUSDT",
@@ -5559,23 +5559,23 @@
   ],
   "eligible_count": 511,
   "spot_mapped": 54,
-  "scanned_at": "2026-09-05T05:31:26Z"
+  "scanned_at": "2026-09-05T05:36:28Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-05T05:35:40Z",
+  "last_ok": "2026-09-05T05:40:53Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 277,
   "entries": 277,
   "exits": 275,
-  "ws_msgs": 4232668,
-  "ws_ticks": 4232668,
-  "signal_scans": 8064,
+  "ws_msgs": 4232700,
+  "ws_ticks": 4232700,
+  "signal_scans": 8072,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-05T05:35:40Z",
+  "last_ok": "2026-09-05T05:40:53Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
