@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788703200000,
-   "mark": 751.89,
+   "mark": 752.22,
    "mark_src": "spot",
-   "u_pnl": 0.4795,
+   "u_pnl": 0.626,
    "spot": "BNBUSDT",
-   "last_mark_ms": 1788737109648,
-   "age_h": 9.325
+   "last_mark_ms": 1788737408516,
+   "age_h": 9.408
   },
   "GIGGLEUSDT": {
    "entry": 38.72,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788705000000,
-   "mark": 38.56,
+   "mark": 38.55,
    "mark_src": "fapi",
-   "u_pnl": -1.3774,
+   "u_pnl": -1.4635,
    "spot": "GIGGLEUSDT",
-   "last_mark_ms": 1788737103747,
-   "age_h": 8.823
+   "last_mark_ms": 1788737403023,
+   "age_h": 8.906
   },
   "1000CATUSDT": {
    "entry": 0.002145,
@@ -51,12 +51,31 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1788705000000,
-   "mark": 0.00211,
+   "mark": 0.002113,
    "mark_src": "fapi",
-   "u_pnl": -5.439,
+   "u_pnl": -4.9728,
    "spot": "1000CATUSDT",
-   "last_mark_ms": 1788737105878,
-   "age_h": 8.414
+   "last_mark_ms": 1788737403023,
+   "age_h": 8.497
+  },
+  "AKEUSDT": {
+   "entry": 0.013785,
+   "notional": 333.33,
+   "opened_ms": 1788737126843,
+   "opened": "2026-09-06T23:25:26Z",
+   "entry_time": "2026-09-06T23:25:26Z",
+   "dir_long": true,
+   "rsi": 14.114,
+   "vol_ratio": 3.869,
+   "tf": "5m",
+   "interval": "5m",
+   "signal_bar": 1788736800000,
+   "mark": 0.013801,
+   "mark_src": "fapi",
+   "u_pnl": 0.3869,
+   "spot": null,
+   "last_mark_ms": 1788737407765,
+   "age_h": 0.078
   }
  },
  "trades": [
@@ -7717,8 +7736,8 @@
   "1000CATUSDT": "1788705000000",
   "1000CATUSDT:5m": "1788699300000",
   "TRIAUSDT:30m": "1788667200000",
-  "AKEUSDT": "1788676200000",
-  "AKEUSDT:5m": "1788676200000",
+  "AKEUSDT": "1788736800000",
+  "AKEUSDT:5m": "1788736800000",
   "VELVETUSDT": "1788678000000",
   "VELVETUSDT:30m": "1788678000000",
   "VELVETUSDT:5m": "1788677700000",
@@ -7818,31 +7837,31 @@
    "CAKEUSDT",
    "\u9f99\u867eUSDT",
    "TUSDT",
-   "PENDLEUSDT",
    "GRTUSDT",
-   "ATOMUSDT",
+   "PENDLEUSDT",
    "GIGGLEUSDT",
-   "CHIPUSDT"
+   "ATOMUSDT",
+   "METISUSDT"
   ],
-  "eligible_count": 498,
+  "eligible_count": 499,
   "spot_mapped": 61,
-  "scanned_at": "2026-09-06T23:20:52Z"
+  "scanned_at": "2026-09-06T23:25:54Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-06T23:25:09Z",
+  "last_ok": "2026-09-06T23:30:08Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
-  "signals": 394,
-  "entries": 394,
+  "signals": 395,
+  "entries": 395,
   "exits": 391,
-  "ws_msgs": 6032818,
-  "ws_ticks": 6032818,
-  "signal_scans": 11413,
+  "ws_msgs": 6034312,
+  "ws_ticks": 6034312,
+  "signal_scans": 11421,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-06T23:25:09Z",
+  "last_ok": "2026-09-06T23:30:08Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
