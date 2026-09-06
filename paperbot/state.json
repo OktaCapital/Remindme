@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788678600000,
-   "mark": 2.314,
+   "mark": 2.317,
    "mark_src": "fapi",
-   "u_pnl": -4.6868,
+   "u_pnl": -4.2607,
    "spot": "TRUMPUSDT",
-   "last_mark_ms": 1788713145526,
-   "age_h": 9.51
+   "last_mark_ms": 1788713451574,
+   "age_h": 9.595
   },
   "CAKEUSDT": {
    "entry": 2.1956,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788679800000,
-   "mark": 2.1839,
+   "mark": 2.1793,
    "mark_src": "fapi",
-   "u_pnl": -1.7763,
+   "u_pnl": -2.4746,
    "spot": "CAKEUSDT",
-   "last_mark_ms": 1788713141131,
-   "age_h": 9.173
+   "last_mark_ms": 1788713451574,
+   "age_h": 9.259
   },
   "XMRUSDT": {
    "entry": 537.25,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788691800000,
-   "mark": 527.13,
+   "mark": 527.83,
    "mark_src": "fapi",
-   "u_pnl": -6.2788,
+   "u_pnl": -5.8445,
    "spot": null,
-   "last_mark_ms": 1788713145526,
-   "age_h": 5.835
+   "last_mark_ms": 1788713453711,
+   "age_h": 5.92
   },
   "TIAUSDT": {
    "entry": 0.3937,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788699300000,
-   "mark": 0.3972,
-   "mark_src": "fapi",
-   "u_pnl": 2.9633,
+   "mark": 0.3981,
+   "mark_src": "spot",
+   "u_pnl": 3.7253,
    "spot": "TIAUSDT",
-   "last_mark_ms": 1788713145526,
-   "age_h": 3.748
+   "last_mark_ms": 1788713451774,
+   "age_h": 3.833
   },
   "BNBUSDT": {
    "entry": 750.71,
@@ -89,12 +89,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1788699600000,
-   "mark": 747.33,
+   "mark": 747.63,
    "mark_src": "spot",
-   "u_pnl": -1.5008,
+   "u_pnl": -1.3676,
    "spot": "BNBUSDT",
-   "last_mark_ms": 1788713145811,
-   "age_h": 2.746
+   "last_mark_ms": 1788713455614,
+   "age_h": 2.832
   },
   "GIGGLEUSDT": {
    "entry": 38.71,
@@ -108,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788705000000,
-   "mark": 38.9,
-   "mark_src": "spot",
-   "u_pnl": 1.6361,
+   "mark": 38.85,
+   "mark_src": "fapi",
+   "u_pnl": 1.2055,
    "spot": "GIGGLEUSDT",
-   "last_mark_ms": 1788713144704,
-   "age_h": 2.144
+   "last_mark_ms": 1788713453711,
+   "age_h": 2.229
   },
   "BCHUSDT": {
    "entry": 254.47,
@@ -127,12 +127,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788706800000,
-   "mark": 256.7,
-   "mark_src": "spot",
-   "u_pnl": 2.9211,
+   "mark": 256.29,
+   "mark_src": "fapi",
+   "u_pnl": 2.384,
    "spot": "BCHUSDT",
-   "last_mark_ms": 1788713142219,
-   "age_h": 1.618
+   "last_mark_ms": 1788713453711,
+   "age_h": 1.704
   },
   "COLLECTUSDT": {
    "entry": 0.0413,
@@ -146,12 +146,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1788706800000,
-   "mark": 0.04163,
+   "mark": 0.04183,
    "mark_src": "fapi",
-   "u_pnl": 2.6634,
+   "u_pnl": 4.2776,
    "spot": null,
-   "last_mark_ms": 1788713145526,
-   "age_h": 0.249
+   "last_mark_ms": 1788713453711,
+   "age_h": 0.335
   },
   "\u9f99\u867eUSDT": {
    "entry": 0.075169,
@@ -165,12 +165,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1788706800000,
-   "mark": 0.074968,
+   "mark": 0.074691,
    "mark_src": "fapi",
-   "u_pnl": -0.8913,
+   "u_pnl": -2.1196,
    "spot": null,
-   "last_mark_ms": 1788713145526,
-   "age_h": 0.051
+   "last_mark_ms": 1788713453711,
+   "age_h": 0.136
   }
  },
  "trades": [
@@ -20381,7 +20381,7 @@
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-06T16:45:46Z",
+  "last_ok": "2026-09-06T16:50:55Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -20390,12 +20390,12 @@
   "signals": 975,
   "entries": 975,
   "exits": 976,
-  "ws_msgs": 8461662,
-  "ws_ticks": 8461662,
-  "signal_scans": 9342,
+  "ws_msgs": 8463787,
+  "ws_ticks": 8463787,
+  "signal_scans": 9349,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-06T16:45:45Z",
+  "last_ok": "2026-09-06T16:50:55Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest"
