@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788636300000,
-   "mark": 0.01901,
+   "mark": 0.01895,
    "mark_src": "fapi",
-   "u_pnl": 0.3511,
+   "u_pnl": -0.7021,
    "spot": "TSTUSDT",
-   "last_mark_ms": 1788660034437,
-   "age_h": 6.499
+   "last_mark_ms": 1788660333261,
+   "age_h": 6.582
   },
   "PROMUSDT": {
    "entry": 5.095,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788642900000,
-   "mark": 5.081,
+   "mark": 5.029,
    "mark_src": "spot",
-   "u_pnl": -0.9159,
+   "u_pnl": -4.3179,
    "spot": "PROMUSDT",
-   "last_mark_ms": 1788660035639,
-   "age_h": 4.659
+   "last_mark_ms": 1788660337017,
+   "age_h": 4.743
   },
   "TRXUSDT": {
    "entry": 0.33363,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788648300000,
-   "mark": 0.3342,
+   "mark": 0.334,
    "mark_src": "spot",
-   "u_pnl": 0.5695,
+   "u_pnl": 0.3697,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1788660035868,
-   "age_h": 3.173
+   "last_mark_ms": 1788660333012,
+   "age_h": 3.256
   },
   "NOMUSDT": {
    "entry": 0.001821,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788652800000,
-   "mark": 0.001803,
+   "mark": 0.001796,
    "mark_src": "fapi",
-   "u_pnl": -3.2949,
+   "u_pnl": -4.5762,
    "spot": "NOMUSDT",
-   "last_mark_ms": 1788660032302,
-   "age_h": 1.92
+   "last_mark_ms": 1788660335395,
+   "age_h": 2.005
   },
   "PUMPUSDT": {
    "entry": 0.003929,
@@ -89,12 +89,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1788649200000,
-   "mark": 0.003921,
+   "mark": 0.00391,
    "mark_src": "spot",
-   "u_pnl": -0.6787,
+   "u_pnl": -1.6119,
    "spot": "PUMPUSDT",
-   "last_mark_ms": 1788660031541,
-   "age_h": 1.235
+   "last_mark_ms": 1788660333701,
+   "age_h": 1.319
   },
   "HEMIUSDT": {
    "entry": 0.011307,
@@ -108,12 +108,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1788652800000,
-   "mark": 0.01141,
+   "mark": 0.01131,
    "mark_src": "spot",
-   "u_pnl": 3.0364,
+   "u_pnl": 0.0884,
    "spot": "HEMIUSDT",
-   "last_mark_ms": 1788660036049,
-   "age_h": 0.441
+   "last_mark_ms": 1788660333886,
+   "age_h": 0.524
   }
  },
  "trades": [
@@ -18416,8 +18416,8 @@
    "BULLAUSDT",
    "DASHUSDT",
    "ARBUSDT",
-   "AKEUSDT",
    "UNIUSDT",
+   "AKEUSDT",
    "HYPEUSDT",
    "USELESSUSDT",
    "ASTERUSDT",
@@ -18444,8 +18444,8 @@
    "LITUSDT",
    "AVAXUSDT",
    "NOMUSDT",
-   "HEMIUSDT",
    "FILUSDT",
+   "HEMIUSDT",
    "ONDOUSDT",
    "MAGMAUSDT",
    "PENGUUSDT",
@@ -18456,8 +18456,8 @@
    "1000CATUSDT",
    "GIGGLEUSDT",
    "XLMUSDT",
-   "\u9f99\u867eUSDT",
    "1000SHIBUSDT",
+   "\u9f99\u867eUSDT",
    "DOTUSDT",
    "CHIPUSDT",
    "ICPUSDT",
@@ -18470,32 +18470,32 @@
    "\u5e01\u5b89\u4eba\u751fUSDT",
    "TRIAUSDT",
    "1000BONKUSDT",
-   "XPLUSDT",
    "FARTCOINUSDT",
+   "XPLUSDT",
    "SKRUSDT",
    "FFUSDT",
    "COTIUSDT",
    "TRXUSDT",
    "VELVETUSDT",
    "ARUSDT",
-   "BOMEUSDT",
    "EDGEUSDT",
+   "BOMEUSDT",
    "ETCUSDT",
    "CYSUSDT",
-   "ZORAUSDT",
    "PROMUSDT",
+   "ZORAUSDT",
    "STRKUSDT",
    "VIRTUALUSDT",
    "\u6211\u8e0f\u9a6c\u6765\u4e86USDT"
   ],
   "eligible_count": 500,
   "spot_mapped": 58,
-  "scanned_at": "2026-09-06T02:00:12Z"
+  "scanned_at": "2026-09-06T02:05:14Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-06T02:00:36Z",
+  "last_ok": "2026-09-06T02:05:37Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -18504,12 +18504,12 @@
   "signals": 877,
   "entries": 877,
   "exits": 881,
-  "ws_msgs": 7957830,
-  "ws_ticks": 7957830,
-  "signal_scans": 8610,
+  "ws_msgs": 7963175,
+  "ws_ticks": 7963175,
+  "signal_scans": 8616,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-06T02:00:36Z",
+  "last_ok": "2026-09-06T02:05:37Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest"
