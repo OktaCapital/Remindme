@@ -1,5 +1,5 @@
 {
- "equity": 1297.3241516521814,
+ "equity": 1287.1575866521814,
  "positions": {
   "LAYERUSDT": {
    "entry": 0.07341,
@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788753300000,
-   "mark": 0.07372,
+   "mark": 0.0736,
    "mark_src": "fapi",
-   "u_pnl": 1.4076,
+   "u_pnl": 0.8627,
    "spot": "LAYERUSDT",
-   "last_mark_ms": 1788789010199,
-   "age_h": 9.791
+   "last_mark_ms": 1788789311713,
+   "age_h": 9.874
   },
   "BNBUSDT": {
    "entry": 744.13,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788765600000,
-   "mark": 744.99,
+   "mark": 745.94,
    "mark_src": "spot",
-   "u_pnl": 0.3852,
+   "u_pnl": 0.8108,
    "spot": "BNBUSDT",
-   "last_mark_ms": 1788789010783,
-   "age_h": 6.412
+   "last_mark_ms": 1788789313094,
+   "age_h": 6.496
   },
   "ZECUSDT": {
    "entry": 1188.32,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788766200000,
-   "mark": 1180.92,
+   "mark": 1183.88,
    "mark_src": "spot",
-   "u_pnl": -2.0757,
+   "u_pnl": -1.2454,
    "spot": "ZECUSDT",
-   "last_mark_ms": 1788789009231,
-   "age_h": 6.251
+   "last_mark_ms": 1788789313679,
+   "age_h": 6.335
   },
   "COLLECTUSDT": {
    "entry": 0.03233,
@@ -70,31 +70,12 @@
    "tf": "4h",
    "interval": "4h",
    "signal_bar": 1788768000000,
-   "mark": 0.03205,
+   "mark": 0.03209,
    "mark_src": "fapi",
-   "u_pnl": -2.8869,
+   "u_pnl": -2.4745,
    "spot": null,
-   "last_mark_ms": 1788789010199,
-   "age_h": 0.624
-  },
-  "\u9f99\u867eUSDT": {
-   "entry": 0.062913,
-   "notional": 333.33,
-   "opened_ms": 1788787923976,
-   "opened": "2026-09-07T13:32:03Z",
-   "entry_time": "2026-09-07T13:32:03Z",
-   "dir_long": true,
-   "rsi": 10.681,
-   "vol_ratio": 1.556,
-   "tf": "1h",
-   "interval": "1h",
-   "signal_bar": 1788782400000,
-   "mark": 0.061381,
-   "mark_src": "fapi",
-   "u_pnl": -8.1169,
-   "spot": null,
-   "last_mark_ms": 1788789010199,
-   "age_h": 0.302
+   "last_mark_ms": 1788789313848,
+   "age_h": 0.708
   }
  },
  "trades": [
@@ -22384,6 +22365,25 @@
    "mark": 0.062902,
    "mark_src": "fapi",
    "dir_long": true
+  },
+  {
+   "sym": "\u9f99\u867eUSDT",
+   "entry": 0.062913,
+   "exit": 0.061025609999999994,
+   "ret": -0.0305,
+   "pnl": -10.166564999999999,
+   "reason": "sl_fapi",
+   "opened": "2026-09-07T13:32:03Z",
+   "opened_ms": 1788787923976,
+   "closed_ms": 1788789313848,
+   "age_h": 0.386,
+   "tf": "1h",
+   "signal_bar": 1788782400000,
+   "rsi": 10.681,
+   "vol_ratio": 1.556,
+   "mark": 0.060997,
+   "mark_src": "fapi",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -22927,8 +22927,8 @@
    "BNBUSDT",
    "SUIUSDT",
    "RAYSOLUSDT",
-   "NEARUSDT",
    "LINKUSDT",
+   "NEARUSDT",
    "TAOUSDT",
    "WLDUSDT",
    "PUMPUSDT",
@@ -22937,8 +22937,8 @@
    "USELESSUSDT",
    "ENAUSDT",
    "DASHUSDT",
-   "PONSUSDT",
    "ADAUSDT",
+   "PONSUSDT",
    "DOODUSDT",
    "1000PEPEUSDT",
    "AKEUSDT",
@@ -22967,15 +22967,15 @@
    "PENGUUSDT",
    "4USDT",
    "CFGUSDT",
-   "CRVUSDT",
    "CATIUSDT",
+   "CRVUSDT",
    "FETUSDT",
    "COTIUSDT",
    "OPUSDT",
    "XMRUSDT",
-   "\u9f99\u867eUSDT",
    "XPLUSDT",
    "IOSTUSDT",
+   "\u9f99\u867eUSDT",
    "VIRTUALUSDT",
    "\u54c8\u57fa\u7c73USDT",
    "LAYERUSDT",
@@ -23001,12 +23001,12 @@
   ],
   "eligible_count": 501,
   "spot_mapped": 61,
-  "scanned_at": "2026-09-07T13:47:03Z"
+  "scanned_at": "2026-09-07T13:52:07Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-07T13:50:10Z",
+  "last_ok": "2026-09-07T13:55:13Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -23014,13 +23014,13 @@
  "stats": {
   "signals": 1112,
   "entries": 1112,
-  "exits": 1117,
-  "ws_msgs": 9572515,
-  "ws_ticks": 9572515,
-  "signal_scans": 10256,
+  "exits": 1118,
+  "ws_msgs": 9576683,
+  "ws_ticks": 9576683,
+  "signal_scans": 10262,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-07T13:50:10Z",
+  "last_ok": "2026-09-07T13:55:12Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest"
