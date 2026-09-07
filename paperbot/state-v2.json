@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788765600000,
-   "mark": 736.78,
+   "mark": 736.03,
    "mark_src": "spot",
-   "u_pnl": -3.545,
+   "u_pnl": -3.8807,
    "spot": "BNBUSDT",
-   "last_mark_ms": 1788796220324,
-   "age_h": 8.411
+   "last_mark_ms": 1788796521001,
+   "age_h": 8.495
   },
   "AAVEUSDT": {
    "entry": 132.98,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788789600000,
-   "mark": 130.84,
+   "mark": 130.66,
    "mark_src": "spot",
-   "u_pnl": -5.3642,
+   "u_pnl": -5.8154,
    "spot": "AAVEUSDT",
-   "last_mark_ms": 1788796218376,
-   "age_h": 1.746
+   "last_mark_ms": 1788796517142,
+   "age_h": 1.829
   },
   "WIFUSDT": {
    "entry": 0.2169,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788789900000,
-   "mark": 0.2129,
+   "mark": 0.2125,
    "mark_src": "spot",
-   "u_pnl": -6.1472,
+   "u_pnl": -6.7619,
    "spot": "WIFUSDT",
-   "last_mark_ms": 1788796218363,
-   "age_h": 1.665
+   "last_mark_ms": 1788796516430,
+   "age_h": 1.747
   },
   "XRPUSDT": {
    "entry": 1.3952,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788791400000,
-   "mark": 1.3827,
+   "mark": 1.3845,
    "mark_src": "spot",
-   "u_pnl": -2.9864,
+   "u_pnl": -2.5564,
    "spot": "XRPUSDT",
-   "last_mark_ms": 1788796219058,
-   "age_h": 1.243
+   "last_mark_ms": 1788796521806,
+   "age_h": 1.327
   },
   "TRXUSDT": {
    "entry": 0.33365,
@@ -89,12 +89,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788793800000,
-   "mark": 0.334,
+   "mark": 0.3338,
    "mark_src": "spot",
-   "u_pnl": 0.3497,
+   "u_pnl": 0.1499,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1788796217877,
-   "age_h": 0.579
+   "last_mark_ms": 1788796516137,
+   "age_h": 0.662
   },
   "HEMIUSDT": {
    "entry": 0.008473,
@@ -108,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788795600000,
-   "mark": 0.008475,
-   "mark_src": "fapi",
-   "u_pnl": 0.0787,
+   "mark": 0.00855,
+   "mark_src": "spot",
+   "u_pnl": 3.0292,
    "spot": "HEMIUSDT",
-   "last_mark_ms": 1788796215415,
-   "age_h": 0.078
+   "last_mark_ms": 1788796520704,
+   "age_h": 0.162
   },
   "LAYERUSDT": {
    "entry": 0.07174,
@@ -127,12 +127,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1788795600000,
-   "mark": 0.07197,
-   "mark_src": "fapi",
-   "u_pnl": 1.0687,
+   "mark": 0.072,
+   "mark_src": "spot",
+   "u_pnl": 1.2081,
    "spot": "LAYERUSDT",
-   "last_mark_ms": 1788796217543,
-   "age_h": 0.077
+   "last_mark_ms": 1788796520461,
+   "age_h": 0.161
   }
  },
  "trades": [
@@ -9415,8 +9415,8 @@
    "PENGUUSDT",
    "1000BONKUSDT",
    "CRVUSDT",
-   "OPUSDT",
    "\u9f99\u867eUSDT",
+   "OPUSDT",
    "XMRUSDT",
    "VIRTUALUSDT",
    "XPLUSDT",
@@ -9426,17 +9426,17 @@
    "APTUSDT",
    "SOLVUSDT",
    "FARTCOINUSDT",
-   "LAYERUSDT",
+   "PIEVERSEUSDT",
    "COLLECTUSDT",
    "1000SHIBUSDT",
-   "PIEVERSEUSDT",
+   "LAYERUSDT",
    "SUSHIUSDT",
    "METISUSDT",
    "PROMUSDT",
    "LDOUSDT",
    "ZROUSDT",
-   "TRXUSDT",
    "AEROUSDT",
+   "TRXUSDT",
    "ETCUSDT",
    "JTOUSDT",
    "KASUSDT",
@@ -9444,23 +9444,23 @@
   ],
   "eligible_count": 502,
   "spot_mapped": 60,
-  "scanned_at": "2026-09-07T15:47:16Z"
+  "scanned_at": "2026-09-07T15:52:19Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-07T15:50:20Z",
+  "last_ok": "2026-09-07T15:55:21Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 478,
   "entries": 478,
   "exits": 471,
-  "ws_msgs": 6965949,
-  "ws_ticks": 6965949,
-  "signal_scans": 12674,
+  "ws_msgs": 6973101,
+  "ws_ticks": 6973101,
+  "signal_scans": 12681,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-07T15:50:20Z",
+  "last_ok": "2026-09-07T15:55:21Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
