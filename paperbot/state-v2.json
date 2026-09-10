@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789032900000,
-   "mark": 0.4008,
+   "mark": 0.4018,
    "mark_src": "spot",
-   "u_pnl": -5.239,
+   "u_pnl": -4.4204,
    "spot": "WLDUSDT",
-   "last_mark_ms": 1789069847251,
-   "age_h": 10.159
+   "last_mark_ms": 1789070154977,
+   "age_h": 10.244
   },
   "AAVEUSDT": {
    "entry": 123.16,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789036200000,
-   "mark": 122.95,
-   "mark_src": "spot",
-   "u_pnl": -0.5684,
+   "mark": 123.09,
+   "mark_src": "fapi",
+   "u_pnl": -0.1895,
    "spot": "AAVEUSDT",
-   "last_mark_ms": 1789069847537,
-   "age_h": 9.254
+   "last_mark_ms": 1789070153182,
+   "age_h": 9.339
   },
   "HYPEUSDT": {
    "entry": 80.79,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789044000000,
-   "mark": 80.006,
+   "mark": 80.153,
    "mark_src": "fapi",
-   "u_pnl": -3.2347,
+   "u_pnl": -2.6282,
    "spot": null,
-   "last_mark_ms": 1789069847893,
-   "age_h": 7.058
+   "last_mark_ms": 1789070157436,
+   "age_h": 7.144
   },
   "BCHUSDT": {
    "entry": 228.44,
@@ -70,12 +70,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1789045200000,
-   "mark": 226.3,
-   "mark_src": "spot",
-   "u_pnl": -3.1226,
+   "mark": 226.75,
+   "mark_src": "fapi",
+   "u_pnl": -2.466,
    "spot": "BCHUSDT",
-   "last_mark_ms": 1789069846320,
-   "age_h": 5.973
+   "last_mark_ms": 1789070157436,
+   "age_h": 6.06
   },
   "UNIUSDT": {
    "entry": 5.997,
@@ -89,12 +89,12 @@
    "tf": "4h",
    "interval": "4h",
    "signal_bar": 1789041600000,
-   "mark": 6.063,
+   "mark": 6.08,
    "mark_src": "spot",
-   "u_pnl": 3.6685,
+   "u_pnl": 4.6134,
    "spot": "UNIUSDT",
-   "last_mark_ms": 1789069848918,
-   "age_h": 3.846
+   "last_mark_ms": 1789070157709,
+   "age_h": 3.932
   },
   "COTIUSDT": {
    "entry": 0.018361,
@@ -108,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789061400000,
-   "mark": 0.01852,
-   "mark_src": "spot",
-   "u_pnl": 2.8865,
+   "mark": 0.018347,
+   "mark_src": "fapi",
+   "u_pnl": -0.2542,
    "spot": "COTIUSDT",
-   "last_mark_ms": 1789069843914,
-   "age_h": 2.254
+   "last_mark_ms": 1789070157436,
+   "age_h": 2.341
   },
   "BEATUSDT": {
    "entry": 0.0792,
@@ -127,12 +127,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789063500000,
-   "mark": 0.0802,
+   "mark": 0.0804,
    "mark_src": "fapi",
-   "u_pnl": 4.2087,
+   "u_pnl": 5.0505,
    "spot": null,
-   "last_mark_ms": 1789069847893,
-   "age_h": 1.671
+   "last_mark_ms": 1789070157436,
+   "age_h": 1.757
   }
  },
  "trades": [
@@ -13012,18 +13012,18 @@
    "LITUSDT",
    "DASHUSDT",
    "AVAXUSDT",
-   "AAVEUSDT",
    "BULLAUSDT",
+   "AAVEUSDT",
    "DOTUSDT",
    "ONDOUSDT",
    "UAIUSDT",
-   "FILUSDT",
    "BTRUSDT",
    "REZUSDT",
+   "FILUSDT",
    "ASTERUSDT",
    "KATUSDT",
-   "SOPHUSDT",
    "LTCUSDT",
+   "SOPHUSDT",
    "SAGAUSDT",
    "XLMUSDT",
    "PENGUUSDT",
@@ -13049,8 +13049,8 @@
    "ETCUSDT",
    "VETUSDT",
    "ANIMEUSDT",
-   "OPUSDT",
    "CRVUSDT",
+   "OPUSDT",
    "VIRTUALUSDT",
    "FLOCKUSDT",
    "MINAUSDT",
@@ -13064,23 +13064,23 @@
   ],
   "eligible_count": 518,
   "spot_mapped": 62,
-  "scanned_at": "2026-09-10T19:48:57Z"
+  "scanned_at": "2026-09-10T19:53:59Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-10T19:50:48Z",
+  "last_ok": "2026-09-10T19:55:57Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 666,
   "entries": 666,
   "exits": 659,
-  "ws_msgs": 11521224,
-  "ws_ticks": 11521224,
-  "signal_scans": 16711,
+  "ws_msgs": 11523603,
+  "ws_ticks": 11523603,
+  "signal_scans": 16719,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-10T19:50:48Z",
+  "last_ok": "2026-09-10T19:55:57Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
