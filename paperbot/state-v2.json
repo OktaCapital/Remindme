@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789032900000,
-   "mark": 0.4022,
+   "mark": 0.4031,
    "mark_src": "spot",
-   "u_pnl": -4.093,
+   "u_pnl": -3.3562,
    "spot": "WLDUSDT",
-   "last_mark_ms": 1789068950345,
-   "age_h": 9.91
+   "last_mark_ms": 1789069247286,
+   "age_h": 9.992
   },
   "AAVEUSDT": {
    "entry": 123.16,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789036200000,
-   "mark": 122.86,
-   "mark_src": "fapi",
-   "u_pnl": -0.8119,
+   "mark": 123.17,
+   "mark_src": "spot",
+   "u_pnl": 0.0271,
    "spot": "AAVEUSDT",
-   "last_mark_ms": 1789068947344,
-   "age_h": 9.004
+   "last_mark_ms": 1789069247077,
+   "age_h": 9.087
   },
   "HYPEUSDT": {
    "entry": 80.79,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789044000000,
-   "mark": 80.269,
+   "mark": 80.309,
    "mark_src": "fapi",
-   "u_pnl": -2.1496,
+   "u_pnl": -1.9845,
    "spot": null,
-   "last_mark_ms": 1789068949467,
-   "age_h": 6.808
+   "last_mark_ms": 1789069251159,
+   "age_h": 6.892
   },
   "BCHUSDT": {
    "entry": 228.44,
@@ -70,12 +70,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1789045200000,
-   "mark": 227.3,
-   "mark_src": "spot",
-   "u_pnl": -1.6634,
+   "mark": 227.51,
+   "mark_src": "fapi",
+   "u_pnl": -1.357,
    "spot": "BCHUSDT",
-   "last_mark_ms": 1789068949205,
-   "age_h": 5.724
+   "last_mark_ms": 1789069251159,
+   "age_h": 5.808
   },
   "UNIUSDT": {
    "entry": 5.997,
@@ -89,12 +89,12 @@
    "tf": "4h",
    "interval": "4h",
    "signal_bar": 1789041600000,
-   "mark": 6.072,
-   "mark_src": "spot",
-   "u_pnl": 4.1687,
+   "mark": 6.079,
+   "mark_src": "fapi",
+   "u_pnl": 4.5578,
    "spot": "UNIUSDT",
-   "last_mark_ms": 1789068949603,
-   "age_h": 3.596
+   "last_mark_ms": 1789069246889,
+   "age_h": 3.679
   },
   "COTIUSDT": {
    "entry": 0.018361,
@@ -108,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789061400000,
-   "mark": 0.01871,
+   "mark": 0.01857,
    "mark_src": "spot",
-   "u_pnl": 6.3358,
+   "u_pnl": 3.7942,
    "spot": "COTIUSDT",
-   "last_mark_ms": 1789068945219,
-   "age_h": 2.005
+   "last_mark_ms": 1789069251779,
+   "age_h": 2.09
   },
   "BEATUSDT": {
    "entry": 0.0792,
@@ -127,12 +127,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789063500000,
-   "mark": 0.0791,
+   "mark": 0.0794,
    "mark_src": "fapi",
-   "u_pnl": -0.4209,
+   "u_pnl": 0.8417,
    "spot": null,
-   "last_mark_ms": 1789068949467,
-   "age_h": 1.422
+   "last_mark_ms": 1789069251159,
+   "age_h": 1.506
   }
  },
  "trades": [
@@ -13002,10 +13002,10 @@
    "VVVUSDT",
    "TAOUSDT",
    "LINKUSDT",
-   "WLDUSDT",
    "TRUMPUSDT",
-   "BCHUSDT",
+   "WLDUSDT",
    "MARSCOINUSDT",
+   "BCHUSDT",
    "ETHFIUSDT",
    "ARBUSDT",
    "RAYSOLUSDT",
@@ -13034,8 +13034,8 @@
    "INJUSDT",
    "FARTCOINUSDT",
    "LABUSDT",
-   "XPLUSDT",
    "\u9f99\u867eUSDT",
+   "XPLUSDT",
    "XMRUSDT",
    "TRXUSDT",
    "HEMIUSDT",
@@ -13045,8 +13045,8 @@
    "ATOMUSDT",
    "FFUSDT",
    "SAHARAUSDT",
-   "ETCUSDT",
    "WLFIUSDT",
+   "ETCUSDT",
    "ANIMEUSDT",
    "OPUSDT",
    "CRVUSDT",
@@ -13064,23 +13064,23 @@
   ],
   "eligible_count": 518,
   "spot_mapped": 62,
-  "scanned_at": "2026-09-10T19:33:51Z"
+  "scanned_at": "2026-09-10T19:38:53Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-10T19:35:50Z",
+  "last_ok": "2026-09-10T19:40:51Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 666,
   "entries": 666,
   "exits": 659,
-  "ws_msgs": 11514045,
-  "ws_ticks": 11514045,
-  "signal_scans": 16688,
+  "ws_msgs": 11516112,
+  "ws_ticks": 11516112,
+  "signal_scans": 16695,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-10T19:35:50Z",
+  "last_ok": "2026-09-10T19:40:51Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
