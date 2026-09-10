@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789032900000,
-   "mark": 0.4031,
+   "mark": 0.402,
    "mark_src": "spot",
-   "u_pnl": -3.3562,
+   "u_pnl": -4.2567,
    "spot": "WLDUSDT",
-   "last_mark_ms": 1789069247286,
-   "age_h": 9.992
+   "last_mark_ms": 1789069545499,
+   "age_h": 10.075
   },
   "AAVEUSDT": {
    "entry": 123.16,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789036200000,
-   "mark": 123.17,
-   "mark_src": "spot",
-   "u_pnl": 0.0271,
+   "mark": 123.33,
+   "mark_src": "fapi",
+   "u_pnl": 0.4601,
    "spot": "AAVEUSDT",
-   "last_mark_ms": 1789069247077,
-   "age_h": 9.087
+   "last_mark_ms": 1789069546348,
+   "age_h": 9.171
   },
   "HYPEUSDT": {
    "entry": 80.79,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789044000000,
-   "mark": 80.309,
+   "mark": 80.372,
    "mark_src": "fapi",
-   "u_pnl": -1.9845,
+   "u_pnl": -1.7246,
    "spot": null,
-   "last_mark_ms": 1789069251159,
-   "age_h": 6.892
+   "last_mark_ms": 1789069548551,
+   "age_h": 6.974
   },
   "BCHUSDT": {
    "entry": 228.44,
@@ -70,12 +70,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1789045200000,
-   "mark": 227.51,
-   "mark_src": "fapi",
-   "u_pnl": -1.357,
+   "mark": 227.2,
+   "mark_src": "spot",
+   "u_pnl": -1.8094,
    "spot": "BCHUSDT",
-   "last_mark_ms": 1789069251159,
-   "age_h": 5.808
+   "last_mark_ms": 1789069547180,
+   "age_h": 5.89
   },
   "UNIUSDT": {
    "entry": 5.997,
@@ -89,12 +89,12 @@
    "tf": "4h",
    "interval": "4h",
    "signal_bar": 1789041600000,
-   "mark": 6.079,
-   "mark_src": "fapi",
-   "u_pnl": 4.5578,
+   "mark": 6.089,
+   "mark_src": "spot",
+   "u_pnl": 5.1136,
    "spot": "UNIUSDT",
-   "last_mark_ms": 1789069246889,
-   "age_h": 3.679
+   "last_mark_ms": 1789069548875,
+   "age_h": 3.763
   },
   "COTIUSDT": {
    "entry": 0.018361,
@@ -108,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789061400000,
-   "mark": 0.01857,
-   "mark_src": "spot",
-   "u_pnl": 3.7942,
+   "mark": 0.018572,
+   "mark_src": "fapi",
+   "u_pnl": 3.8305,
    "spot": "COTIUSDT",
-   "last_mark_ms": 1789069251779,
-   "age_h": 2.09
+   "last_mark_ms": 1789069548551,
+   "age_h": 2.172
   },
   "BEATUSDT": {
    "entry": 0.0792,
@@ -127,12 +127,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789063500000,
-   "mark": 0.0794,
+   "mark": 0.0801,
    "mark_src": "fapi",
-   "u_pnl": 0.8417,
+   "u_pnl": 3.7878,
    "spot": null,
-   "last_mark_ms": 1789069251159,
-   "age_h": 1.506
+   "last_mark_ms": 1789069548551,
+   "age_h": 1.588
   }
  },
  "trades": [
@@ -13024,8 +13024,8 @@
    "KATUSDT",
    "SOPHUSDT",
    "LTCUSDT",
-   "XLMUSDT",
    "SAGAUSDT",
+   "XLMUSDT",
    "PENGUUSDT",
    "EGLDUSDT",
    "APTUSDT",
@@ -13040,8 +13040,8 @@
    "TRXUSDT",
    "HEMIUSDT",
    "1000SHIBUSDT",
-   "ZENUSDT",
    "AKEUSDT",
+   "ZENUSDT",
    "ATOMUSDT",
    "FFUSDT",
    "SAHARAUSDT",
@@ -13049,8 +13049,8 @@
    "ETCUSDT",
    "ANIMEUSDT",
    "OPUSDT",
-   "CRVUSDT",
    "VETUSDT",
+   "CRVUSDT",
    "VIRTUALUSDT",
    "FLOCKUSDT",
    "MINAUSDT",
@@ -13064,23 +13064,23 @@
   ],
   "eligible_count": 518,
   "spot_mapped": 62,
-  "scanned_at": "2026-09-10T19:38:53Z"
+  "scanned_at": "2026-09-10T19:43:55Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-10T19:40:51Z",
+  "last_ok": "2026-09-10T19:45:48Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 666,
   "entries": 666,
   "exits": 659,
-  "ws_msgs": 11516112,
-  "ws_ticks": 11516112,
-  "signal_scans": 16695,
+  "ws_msgs": 11518629,
+  "ws_ticks": 11518629,
+  "signal_scans": 16703,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-10T19:40:51Z",
+  "last_ok": "2026-09-10T19:45:48Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
