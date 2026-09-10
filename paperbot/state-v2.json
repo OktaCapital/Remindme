@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789032900000,
-   "mark": 0.4035,
+   "mark": 0.4023,
    "mark_src": "spot",
-   "u_pnl": -3.0288,
+   "u_pnl": -4.0111,
    "spot": "WLDUSDT",
-   "last_mark_ms": 1789074905999,
-   "age_h": 11.564
+   "last_mark_ms": 1789075203889,
+   "age_h": 11.647
   },
   "AAVEUSDT": {
    "entry": 123.16,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789036200000,
-   "mark": 122.73,
-   "mark_src": "spot",
-   "u_pnl": -1.1638,
+   "mark": 122.54,
+   "mark_src": "fapi",
+   "u_pnl": -1.678,
    "spot": "AAVEUSDT",
-   "last_mark_ms": 1789074900488,
-   "age_h": 10.658
+   "last_mark_ms": 1789075208540,
+   "age_h": 10.743
   },
   "HYPEUSDT": {
    "entry": 80.79,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789044000000,
-   "mark": 80.483,
+   "mark": 80.397,
    "mark_src": "fapi",
-   "u_pnl": -1.2666,
+   "u_pnl": -1.6215,
    "spot": null,
-   "last_mark_ms": 1789074904945,
-   "age_h": 8.462
+   "last_mark_ms": 1789075208540,
+   "age_h": 8.547
   },
   "BCHUSDT": {
    "entry": 228.44,
@@ -70,12 +70,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1789045200000,
-   "mark": 226.4,
+   "mark": 226.0,
    "mark_src": "spot",
-   "u_pnl": -2.9767,
+   "u_pnl": -3.5603,
    "spot": "BCHUSDT",
-   "last_mark_ms": 1789074901019,
-   "age_h": 7.377
+   "last_mark_ms": 1789075208813,
+   "age_h": 7.463
   },
   "UNIUSDT": {
    "entry": 5.997,
@@ -89,12 +89,12 @@
    "tf": "4h",
    "interval": "4h",
    "signal_bar": 1789041600000,
-   "mark": 6.053,
+   "mark": 6.045,
    "mark_src": "spot",
-   "u_pnl": 3.1126,
+   "u_pnl": 2.668,
    "spot": "UNIUSDT",
-   "last_mark_ms": 1789074903739,
-   "age_h": 5.25
+   "last_mark_ms": 1789075204638,
+   "age_h": 5.334
   },
   "LABUSDT": {
    "entry": 0.04613,
@@ -108,12 +108,12 @@
    "tf": "4h",
    "interval": "4h",
    "signal_bar": 1789056000000,
-   "mark": 0.04593,
+   "mark": 0.0459,
    "mark_src": "fapi",
-   "u_pnl": -1.4452,
+   "u_pnl": -1.662,
    "spot": null,
-   "last_mark_ms": 1789074904945,
-   "age_h": 1.246
+   "last_mark_ms": 1789075208540,
+   "age_h": 1.33
   },
   "BEATUSDT": {
    "entry": 0.0809,
@@ -127,12 +127,12 @@
    "tf": "4h",
    "interval": "4h",
    "signal_bar": 1789056000000,
-   "mark": 0.0799,
+   "mark": 0.0789,
    "mark_src": "fapi",
-   "u_pnl": -4.1203,
+   "u_pnl": -8.2405,
    "spot": null,
-   "last_mark_ms": 1789074904945,
-   "age_h": 1.236
+   "last_mark_ms": 1789075208540,
+   "age_h": 1.32
   }
  },
  "trades": [
@@ -13069,10 +13069,10 @@
    "DASHUSDT",
    "LITUSDT",
    "AVAXUSDT",
-   "AAVEUSDT",
    "DOTUSDT",
-   "BULLAUSDT",
+   "AAVEUSDT",
    "UAIUSDT",
+   "BULLAUSDT",
    "SAGAUSDT",
    "ONDOUSDT",
    "REZUSDT",
@@ -13093,9 +13093,9 @@
    "TRXUSDT",
    "\u9f99\u867eUSDT",
    "HEMIUSDT",
-   "COTIUSDT",
    "XMRUSDT",
    "FFUSDT",
+   "COTIUSDT",
    "AKEUSDT",
    "XPLUSDT",
    "ATOMUSDT",
@@ -13112,32 +13112,32 @@
    "FLOCKUSDT",
    "LSKUSDT",
    "ICPUSDT",
-   "KASUSDT",
    "FETUSDT",
+   "KASUSDT",
    "CHIPUSDT",
-   "MINAUSDT",
    "BTWUSDT",
+   "MINAUSDT",
    "BIRBUSDT"
   ],
   "eligible_count": 517,
   "spot_mapped": 61,
-  "scanned_at": "2026-09-10T21:12:02Z"
+  "scanned_at": "2026-09-10T21:17:04Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-10T21:15:06Z",
+  "last_ok": "2026-09-10T21:20:08Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 669,
   "entries": 669,
   "exits": 662,
-  "ws_msgs": 11542753,
-  "ws_ticks": 11542753,
-  "signal_scans": 16842,
+  "ws_msgs": 11543652,
+  "ws_ticks": 11543652,
+  "signal_scans": 16849,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-10T21:15:06Z",
+  "last_ok": "2026-09-10T21:20:08Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
