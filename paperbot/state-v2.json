@@ -13,12 +13,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1789178400000,
-   "mark": 0.14948,
+   "mark": 0.14956,
    "mark_src": "spot",
-   "u_pnl": -5.1808,
+   "u_pnl": -5.0052,
    "spot": "FFUSDT",
-   "last_mark_ms": 1789197309573,
-   "age_h": 4.75
+   "last_mark_ms": 1789197601505,
+   "age_h": 4.831
   },
   "CRVUSDT": {
    "entry": 0.3322,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789192800000,
-   "mark": 0.3357,
+   "mark": 0.3362,
    "mark_src": "fapi",
-   "u_pnl": 3.5119,
+   "u_pnl": 4.0136,
    "spot": "CRVUSDT",
-   "last_mark_ms": 1789197305009,
-   "age_h": 1.164
+   "last_mark_ms": 1789197596244,
+   "age_h": 1.245
   },
   "TRXUSDT": {
    "entry": 0.33993,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789196100000,
-   "mark": 0.33861,
+   "mark": 0.33876,
    "mark_src": "fapi",
-   "u_pnl": -1.2944,
+   "u_pnl": -1.1473,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1789197309158,
-   "age_h": 0.24
+   "last_mark_ms": 1789197598373,
+   "age_h": 0.321
   }
  },
  "trades": [
@@ -14356,8 +14356,8 @@
    "LINKUSDT",
    "PUMPUSDT",
    "PONSUSDT",
-   "METUSDT",
    "USELESSUSDT",
+   "METUSDT",
    "TAOUSDT",
    "MARSCOINUSDT",
    "WLDUSDT",
@@ -14412,29 +14412,29 @@
    "PENDLEUSDT",
    "CRVUSDT",
    "LDOUSDT",
-   "VIRTUALUSDT",
    "JTOUSDT",
+   "VIRTUALUSDT",
    "BULLAUSDT"
   ],
   "eligible_count": 514,
   "spot_mapped": 61,
-  "scanned_at": "2026-09-12T07:11:05Z"
+  "scanned_at": "2026-09-12T07:16:08Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-12T07:15:09Z",
+  "last_ok": "2026-09-12T07:20:01Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 736,
   "entries": 736,
   "exits": 733,
-  "ws_msgs": 13053375,
-  "ws_ticks": 13053375,
-  "signal_scans": 18867,
+  "ws_msgs": 13053608,
+  "ws_ticks": 13053608,
+  "signal_scans": 18875,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-12T07:15:09Z",
+  "last_ok": "2026-09-12T07:20:01Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
