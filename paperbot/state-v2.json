@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789192800000,
-   "mark": 0.3366,
+   "mark": 0.3368,
    "mark_src": "fapi",
-   "u_pnl": 4.415,
+   "u_pnl": 4.6156,
    "spot": "CRVUSDT",
-   "last_mark_ms": 1789210226331,
-   "age_h": 4.753
+   "last_mark_ms": 1789210526418,
+   "age_h": 4.837
   },
   "TRXUSDT": {
    "entry": 0.33993,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789196100000,
-   "mark": 0.3397,
-   "mark_src": "spot",
-   "u_pnl": -0.2255,
+   "mark": 0.33942,
+   "mark_src": "fapi",
+   "u_pnl": -0.5001,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1789210231997,
-   "age_h": 3.83
+   "last_mark_ms": 1789210526418,
+   "age_h": 3.912
   },
   "VVVUSDT": {
    "entry": 23.008,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789201800000,
-   "mark": 23.248,
+   "mark": 23.22,
    "mark_src": "fapi",
-   "u_pnl": 3.477,
+   "u_pnl": 3.0714,
    "spot": null,
-   "last_mark_ms": 1789210230588,
-   "age_h": 2.25
+   "last_mark_ms": 1789210528549,
+   "age_h": 2.333
   },
   "DASHUSDT": {
    "entry": 56.07,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789203900000,
-   "mark": 56.18,
-   "mark_src": "fapi",
-   "u_pnl": 0.6539,
+   "mark": 56.2,
+   "mark_src": "spot",
+   "u_pnl": 0.7728,
    "spot": "DASHUSDT",
-   "last_mark_ms": 1789210228461,
-   "age_h": 1.663
+   "last_mark_ms": 1789210528887,
+   "age_h": 1.746
   }
  },
  "trades": [
@@ -14495,8 +14495,8 @@
    "USELESSUSDT",
    "PONSUSDT",
    "METUSDT",
-   "TAOUSDT",
    "WLDUSDT",
+   "TAOUSDT",
    "MARSCOINUSDT",
    "RIVERUSDT",
    "TRUMPUSDT",
@@ -14536,18 +14536,18 @@
    "FFUSDT",
    "OPUSDT",
    "CYSUSDT",
-   "THETAUSDT",
    "FLOCKUSDT",
    "AEROUSDT",
+   "THETAUSDT",
    "TIAUSDT",
    "FETUSDT",
-   "PROMUSDT",
    "GRIFFAINUSDT",
+   "PROMUSDT",
    "PENDLEUSDT",
    "ZENUSDT",
    "HBARUSDT",
-   "ATOMUSDT",
    "ICPUSDT",
+   "ATOMUSDT",
    "CRVUSDT",
    "LDOUSDT",
    "VIRTUALUSDT",
@@ -14555,23 +14555,23 @@
   ],
   "eligible_count": 514,
   "spot_mapped": 61,
-  "scanned_at": "2026-09-12T10:46:37Z"
+  "scanned_at": "2026-09-12T10:52:10Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-12T10:50:32Z",
+  "last_ok": "2026-09-12T10:55:28Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 743,
   "entries": 743,
   "exits": 739,
-  "ws_msgs": 13086227,
-  "ws_ticks": 13086227,
-  "signal_scans": 19186,
+  "ws_msgs": 13086592,
+  "ws_ticks": 13086592,
+  "signal_scans": 19193,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-12T10:50:32Z",
+  "last_ok": "2026-09-12T10:55:28Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
