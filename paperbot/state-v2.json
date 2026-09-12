@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789196100000,
-   "mark": 0.3403,
+   "mark": 0.3404,
    "mark_src": "spot",
-   "u_pnl": 0.3628,
+   "u_pnl": 0.4609,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1789230008551,
-   "age_h": 9.324
+   "last_mark_ms": 1789230311346,
+   "age_h": 9.408
   },
   "DASHUSDT": {
    "entry": 56.07,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789203900000,
-   "mark": 56.17,
+   "mark": 55.93,
    "mark_src": "spot",
-   "u_pnl": 0.5945,
+   "u_pnl": -0.8323,
    "spot": "DASHUSDT",
-   "last_mark_ms": 1789230009588,
-   "age_h": 7.157
+   "last_mark_ms": 1789230312741,
+   "age_h": 7.241
   },
   "TRUMPUSDT": {
    "entry": 1.998,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789220400000,
-   "mark": 2.014,
+   "mark": 2.012,
    "mark_src": "fapi",
-   "u_pnl": 2.6693,
+   "u_pnl": 2.3356,
    "spot": "TRUMPUSDT",
-   "last_mark_ms": 1789230006645,
-   "age_h": 2.582
+   "last_mark_ms": 1789230310193,
+   "age_h": 2.667
   }
  },
  "trades": [
@@ -14603,9 +14603,9 @@
    "TRUMPUSDT",
    "VVVUSDT",
    "BCHUSDT",
-   "AAVEUSDT",
-   "AVAXUSDT",
    "FLOCKUSDT",
+   "AVAXUSDT",
+   "AAVEUSDT",
    "WLFIUSDT",
    "AKEUSDT",
    "GRIFFAINUSDT",
@@ -14643,30 +14643,30 @@
    "TIAUSDT",
    "ALLOUSDT",
    "CRVUSDT",
-   "ATOMUSDT",
    "PENDLEUSDT",
+   "ATOMUSDT",
    "\u54c8\u57fa\u7c73USDT",
    "DOGSUSDT"
   ],
   "eligible_count": 497,
   "spot_mapped": 57,
-  "scanned_at": "2026-09-12T16:19:13Z"
+  "scanned_at": "2026-09-12T16:24:44Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-12T16:20:09Z",
+  "last_ok": "2026-09-12T16:25:12Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 748,
   "entries": 748,
   "exits": 745,
-  "ws_msgs": 13119059,
-  "ws_ticks": 13119059,
-  "signal_scans": 19674,
+  "ws_msgs": 13119680,
+  "ws_ticks": 13119680,
+  "signal_scans": 19682,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-12T16:20:09Z",
+  "last_ok": "2026-09-12T16:25:12Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
