@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789192800000,
-   "mark": 0.3354,
+   "mark": 0.3357,
    "mark_src": "fapi",
-   "u_pnl": 3.2109,
+   "u_pnl": 3.5119,
    "spot": "CRVUSDT",
-   "last_mark_ms": 1789200010820,
-   "age_h": 1.916
+   "last_mark_ms": 1789200312613,
+   "age_h": 1.999
   },
   "TRXUSDT": {
    "entry": 0.33993,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789196100000,
-   "mark": 0.3395,
+   "mark": 0.3396,
    "mark_src": "spot",
-   "u_pnl": -0.4217,
+   "u_pnl": -0.3236,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1789200012785,
-   "age_h": 0.991
+   "last_mark_ms": 1789200313030,
+   "age_h": 1.075
   }
  },
  "trades": [
@@ -14345,8 +14345,8 @@
    "NEARUSDT",
    "\u9f99\u867eUSDT",
    "LABUSDT",
-   "RAYSOLUSDT",
    "SUIUSDT",
+   "RAYSOLUSDT",
    "1000PEPEUSDT",
    "LSKUSDT",
    "ENAUSDT",
@@ -14405,8 +14405,8 @@
    "TIAUSDT",
    "\u54c8\u57fa\u7c73USDT",
    "ZENUSDT",
-   "POLUSDT",
    "ATOMUSDT",
+   "POLUSDT",
    "HBARUSDT",
    "ICPUSDT",
    "PENDLEUSDT",
@@ -14416,25 +14416,25 @@
    "VIRTUALUSDT",
    "JTOUSDT"
   ],
-  "eligible_count": 514,
+  "eligible_count": 515,
   "spot_mapped": 62,
-  "scanned_at": "2026-09-12T07:58:27Z"
+  "scanned_at": "2026-09-12T08:03:29Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-12T08:00:14Z",
+  "last_ok": "2026-09-12T08:05:16Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 736,
   "entries": 736,
   "exits": 734,
-  "ws_msgs": 13075177,
-  "ws_ticks": 13075177,
-  "signal_scans": 18933,
+  "ws_msgs": 13076269,
+  "ws_ticks": 13076269,
+  "signal_scans": 18940,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-12T08:00:14Z",
+  "last_ok": "2026-09-12T08:05:16Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
