@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789374300000,
-   "mark": 0.3492,
-   "mark_src": "fapi",
-   "u_pnl": 0.5737,
+   "mark": 0.3494,
+   "mark_src": "spot",
+   "u_pnl": 0.765,
    "spot": "CRVUSDT",
-   "last_mark_ms": 1789401018765,
-   "age_h": 7.335
+   "last_mark_ms": 1789401324621,
+   "age_h": 7.42
   },
   "ARBUSDT": {
    "entry": 0.13461,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789383600000,
-   "mark": 0.135,
-   "mark_src": "spot",
-   "u_pnl": 0.9657,
+   "mark": 0.13545,
+   "mark_src": "fapi",
+   "u_pnl": 2.0801,
    "spot": "ARBUSDT",
-   "last_mark_ms": 1789401017788,
-   "age_h": 4.752
+   "last_mark_ms": 1789401321425,
+   "age_h": 4.837
   },
   "ETHFIUSDT": {
    "entry": 0.645,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789392300000,
-   "mark": 0.6441,
+   "mark": 0.646,
    "mark_src": "spot",
-   "u_pnl": -0.4651,
+   "u_pnl": 0.5168,
    "spot": "ETHFIUSDT",
-   "last_mark_ms": 1789401021516,
-   "age_h": 2.324
+   "last_mark_ms": 1789401321560,
+   "age_h": 2.407
   }
  },
  "trades": [
@@ -16553,19 +16553,19 @@
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-14T15:50:21Z",
+  "last_ok": "2026-09-14T15:55:24Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 846,
   "entries": 846,
   "exits": 843,
-  "ws_msgs": 15251751,
-  "ws_ticks": 15251751,
-  "signal_scans": 21821,
+  "ws_msgs": 15252518,
+  "ws_ticks": 15252518,
+  "signal_scans": 21828,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-14T15:50:21Z",
+  "last_ok": "2026-09-14T15:55:24Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
