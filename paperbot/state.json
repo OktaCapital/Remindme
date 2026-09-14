@@ -13,12 +13,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1789369200000,
-   "mark": 511.16,
+   "mark": 510.44,
    "mark_src": "fapi",
-   "u_pnl": -1.6352,
+   "u_pnl": -2.1025,
    "spot": null,
-   "last_mark_ms": 1789397414555,
-   "age_h": 6.699
+   "last_mark_ms": 1789397711333,
+   "age_h": 6.782
   },
   "CRVUSDT": {
    "entry": 0.3492,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789374300000,
-   "mark": 0.3497,
+   "mark": 0.3496,
    "mark_src": "spot",
-   "u_pnl": 0.4773,
+   "u_pnl": 0.3818,
    "spot": "CRVUSDT",
-   "last_mark_ms": 1789397413789,
-   "age_h": 6.325
+   "last_mark_ms": 1789397710298,
+   "age_h": 6.408
   },
   "ARBUSDT": {
    "entry": 0.13453,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789383600000,
-   "mark": 0.1353,
+   "mark": 0.135,
    "mark_src": "spot",
-   "u_pnl": 1.9079,
+   "u_pnl": 1.1645,
    "spot": "ARBUSDT",
-   "last_mark_ms": 1789397412590,
-   "age_h": 3.741
+   "last_mark_ms": 1789397708332,
+   "age_h": 3.823
   },
   "USELESSUSDT": {
    "entry": 0.20478,
@@ -70,12 +70,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1789390800000,
-   "mark": 0.203,
+   "mark": 0.20342,
    "mark_src": "fapi",
-   "u_pnl": -2.8974,
+   "u_pnl": -2.2137,
    "spot": null,
-   "last_mark_ms": 1789397414555,
-   "age_h": 0.546
+   "last_mark_ms": 1789397711333,
+   "age_h": 0.628
   }
  },
  "trades": [
@@ -33805,10 +33805,10 @@
    "LITUSDT",
    "WLDUSDT",
    "POWERUSDT",
-   "AVAXUSDT",
    "TUSDT",
-   "MARSCOINUSDT",
+   "AVAXUSDT",
    "CAPUSDT",
+   "MARSCOINUSDT",
    "XLMUSDT",
    "STEEMUSDT",
    "ARBUSDT",
@@ -33823,8 +33823,8 @@
    "LABUSDT",
    "XMRUSDT",
    "VVVUSDT",
-   "RAYSOLUSDT",
    "DOTUSDT",
+   "RAYSOLUSDT",
    "ETHFIUSDT",
    "DASHUSDT",
    "TRXUSDT",
@@ -33845,24 +33845,24 @@
    "FETUSDT",
    "PENDLEUSDT",
    "HBARUSDT",
-   "1000SHIBUSDT",
    "OPUSDT",
+   "1000SHIBUSDT",
    "ARUSDT",
    "WLFIUSDT",
-   "RIVERUSDT",
    "LAUSDT",
+   "RIVERUSDT",
    "CAKEUSDT",
-   "MAGMAUSDT",
-   "AVAAIUSDT"
+   "AVAAIUSDT",
+   "MAGMAUSDT"
   ],
   "eligible_count": 513,
   "spot_mapped": 59,
-  "scanned_at": "2026-09-14T14:45:11Z"
+  "scanned_at": "2026-09-14T14:50:44Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-14T14:50:15Z",
+  "last_ok": "2026-09-14T14:55:13Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -33871,12 +33871,12 @@
   "signals": 1677,
   "entries": 1677,
   "exits": 1683,
-  "ws_msgs": 18604628,
-  "ws_ticks": 18604628,
-  "signal_scans": 15750,
+  "ws_msgs": 18605519,
+  "ws_ticks": 18605519,
+  "signal_scans": 15756,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-14T14:50:15Z",
+  "last_ok": "2026-09-14T14:55:13Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest"
