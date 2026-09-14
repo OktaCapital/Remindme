@@ -1,25 +1,6 @@
 {
- "equity": 705.6737868626277,
+ "equity": 708.3748394739638,
  "positions": {
-  "TRUMPUSDT": {
-   "entry": 1.976,
-   "notional": 333.33,
-   "opened_ms": 1789329909821,
-   "opened": "2026-09-13T20:05:09Z",
-   "entry_time": "2026-09-13T20:05:09Z",
-   "dir_long": true,
-   "rsi": 12.0,
-   "vol_ratio": 1.218,
-   "tf": "5m",
-   "interval": "5m",
-   "signal_bar": 1789329600000,
-   "mark": 2.0,
-   "mark_src": "spot",
-   "u_pnl": 4.0485,
-   "spot": "TRUMPUSDT",
-   "last_mark_ms": 1789372850999,
-   "age_h": 11.928
-  },
   "TIAUSDT": {
    "entry": 0.3544,
    "notional": 333.33,
@@ -32,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789336800000,
-   "mark": 0.3578,
-   "mark_src": "spot",
-   "u_pnl": 3.1979,
+   "mark": 0.3566,
+   "mark_src": "fapi",
+   "u_pnl": 2.0692,
    "spot": "TIAUSDT",
-   "last_mark_ms": 1789372846316,
-   "age_h": 9.921
+   "last_mark_ms": 1789373145188,
+   "age_h": 10.004
   },
   "TRXUSDT": {
    "entry": 0.33753,
@@ -51,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789344600000,
-   "mark": 0.3393,
-   "mark_src": "spot",
-   "u_pnl": 1.748,
+   "mark": 0.33877,
+   "mark_src": "fapi",
+   "u_pnl": 1.2246,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1789372850522,
-   "age_h": 7.703
+   "last_mark_ms": 1789373143045,
+   "age_h": 7.785
   },
   "MARSCOINUSDT": {
    "entry": 0.09414,
@@ -70,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789367400000,
-   "mark": 0.0945,
+   "mark": 0.0941,
    "mark_src": "spot",
-   "u_pnl": 1.2747,
+   "u_pnl": -0.1416,
    "spot": "MARSCOINUSDT",
-   "last_mark_ms": 1789372851089,
-   "age_h": 1.424
+   "last_mark_ms": 1789373147718,
+   "age_h": 1.506
   },
   "METUSDT": {
    "entry": 0.2196,
@@ -89,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789370400000,
-   "mark": 0.2186,
-   "mark_src": "fapi",
-   "u_pnl": -1.5179,
+   "mark": 0.2188,
+   "mark_src": "spot",
+   "u_pnl": -1.2143,
    "spot": "METUSDT",
-   "last_mark_ms": 1789372847110,
-   "age_h": 0.586
+   "last_mark_ms": 1789373142374,
+   "age_h": 0.668
   }
  },
  "trades": [
@@ -15487,6 +15468,25 @@
    "mark": 1.0186,
    "mark_src": "fapi",
    "dir_long": true
+  },
+  {
+   "sym": "TRUMPUSDT",
+   "entry": 1.976,
+   "exit": 1.993,
+   "ret": 0.0081032388663968,
+   "pnl": 2.701052611336045,
+   "reason": "time_soft_12h_spot",
+   "opened": "2026-09-13T20:05:09Z",
+   "opened_ms": 1789329909821,
+   "closed_ms": 1789373110085,
+   "age_h": 12.0,
+   "tf": "5m",
+   "signal_bar": 1789329600000,
+   "rsi": 12.0,
+   "vol_ratio": 1.218,
+   "mark": 1.993,
+   "mark_src": "spot",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -15876,8 +15876,8 @@
    "BNBUSDT",
    "SUIUSDT",
    "BTWUSDT",
-   "VTHOUSDT",
    "\u9f99\u867eUSDT",
+   "VTHOUSDT",
    "NEARUSDT",
    "1000PEPEUSDT",
    "UNIUSDT",
@@ -15924,8 +15924,8 @@
    "CRVUSDT",
    "APTUSDT",
    "IOSTUSDT",
-   "KAVAUSDT",
    "AINUSDT",
+   "KAVAUSDT",
    "KOMAUSDT",
    "ICPUSDT",
    "XPLUSDT",
@@ -15939,32 +15939,32 @@
    "HIVEUSDT",
    "1000SHIBUSDT",
    "HBARUSDT",
-   "METUSDT",
    "ARUSDT",
    "TIAUSDT",
+   "METUSDT",
    "OPUSDT",
    "ETCUSDT",
    "MAGMAUSDT"
   ],
-  "eligible_count": 512,
+  "eligible_count": 513,
   "spot_mapped": 61,
-  "scanned_at": "2026-09-14T07:56:16Z"
+  "scanned_at": "2026-09-14T08:01:48Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-14T08:00:51Z",
+  "last_ok": "2026-09-14T08:05:47Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 815,
   "entries": 815,
-  "exits": 810,
-  "ws_msgs": 15120843,
-  "ws_ticks": 15120843,
-  "signal_scans": 21186,
+  "exits": 811,
+  "ws_msgs": 15122073,
+  "ws_ticks": 15122073,
+  "signal_scans": 21192,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-14T08:00:51Z",
+  "last_ok": "2026-09-14T08:05:47Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
