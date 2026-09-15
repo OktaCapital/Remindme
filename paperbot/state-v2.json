@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789441200000,
-   "mark": 100.35,
+   "mark": 100.12,
    "mark_src": "spot",
-   "u_pnl": -4.3277,
+   "u_pnl": -5.0817,
    "spot": "SOLUSDT",
-   "last_mark_ms": 1789482059512,
-   "age_h": 11.257
+   "last_mark_ms": 1789482359356,
+   "age_h": 11.34
   },
   "ICPUSDT": {
    "entry": 2.606,
@@ -32,12 +32,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1789443000000,
-   "mark": 2.552,
+   "mark": 2.555,
    "mark_src": "fapi",
-   "u_pnl": -6.9071,
+   "u_pnl": -6.5233,
    "spot": "ICPUSDT",
-   "last_mark_ms": 1789482057465,
-   "age_h": 9.879
+   "last_mark_ms": 1789482356913,
+   "age_h": 9.962
   },
   "FETUSDT": {
    "entry": 0.1605,
@@ -51,12 +51,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1789448400000,
-   "mark": 0.158,
-   "mark_src": "spot",
-   "u_pnl": -5.1921,
+   "mark": 0.1574,
+   "mark_src": "fapi",
+   "u_pnl": -6.4381,
    "spot": "FETUSDT",
-   "last_mark_ms": 1789482058128,
-   "age_h": 8.848
+   "last_mark_ms": 1789482354761,
+   "age_h": 8.931
   },
   "DOGEUSDT": {
    "entry": 0.08314,
@@ -70,12 +70,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1789448400000,
-   "mark": 0.08278,
+   "mark": 0.08268,
    "mark_src": "spot",
-   "u_pnl": -1.4433,
+   "u_pnl": -1.8443,
    "spot": "DOGEUSDT",
-   "last_mark_ms": 1789482059296,
-   "age_h": 8.489
+   "last_mark_ms": 1789482355599,
+   "age_h": 8.571
   },
   "WLDUSDT": {
    "entry": 0.3734,
@@ -89,12 +89,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1789453800000,
-   "mark": 0.3759,
+   "mark": 0.3751,
    "mark_src": "spot",
-   "u_pnl": 2.2317,
+   "u_pnl": 1.5176,
    "spot": "WLDUSDT",
-   "last_mark_ms": 1789482059098,
-   "age_h": 7.347
+   "last_mark_ms": 1789482356253,
+   "age_h": 7.429
   },
   "IOTAUSDT": {
    "entry": 0.04176,
@@ -108,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789468200000,
-   "mark": 0.04139,
+   "mark": 0.04129,
    "mark_src": "fapi",
-   "u_pnl": -2.9534,
+   "u_pnl": -3.7516,
    "spot": "IOTAUSDT",
-   "last_mark_ms": 1789482055320,
-   "age_h": 3.753
+   "last_mark_ms": 1789482359075,
+   "age_h": 3.838
   },
   "APTUSDT": {
    "entry": 0.5692,
@@ -127,12 +127,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789472400000,
-   "mark": 0.5737,
-   "mark_src": "fapi",
-   "u_pnl": 2.6353,
+   "mark": 0.573,
+   "mark_src": "spot",
+   "u_pnl": 2.2253,
    "spot": "APTUSDT",
-   "last_mark_ms": 1789482053187,
-   "age_h": 2.584
+   "last_mark_ms": 1789482357891,
+   "age_h": 2.668
   },
   "RAYSOLUSDT": {
    "entry": 1.3275,
@@ -146,12 +146,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789481700000,
-   "mark": 1.3269,
+   "mark": 1.3222,
    "mark_src": "fapi",
-   "u_pnl": -0.1507,
+   "u_pnl": -1.3308,
    "spot": null,
-   "last_mark_ms": 1789482057465,
-   "age_h": 0.006
+   "last_mark_ms": 1789482359075,
+   "age_h": 0.09
   }
  },
  "trades": [
@@ -17707,8 +17707,8 @@
    "FFUSDT",
    "AAVEUSDT",
    "ASTRUSDT",
-   "USELESSUSDT",
    "LITUSDT",
+   "USELESSUSDT",
    "CVCUSDT",
    "ONDOUSDT",
    "MARSCOINUSDT",
@@ -17753,25 +17753,25 @@
    "TIAUSDT",
    "FARTCOINUSDT"
   ],
-  "eligible_count": 506,
+  "eligible_count": 507,
   "spot_mapped": 60,
-  "scanned_at": "2026-09-15T14:17:02Z"
+  "scanned_at": "2026-09-15T14:22:06Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-15T14:20:59Z",
+  "last_ok": "2026-09-15T14:25:59Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 909,
   "entries": 909,
   "exits": 901,
-  "ws_msgs": 17376078,
-  "ws_ticks": 17376078,
-  "signal_scans": 22996,
+  "ws_msgs": 17382166,
+  "ws_ticks": 17382166,
+  "signal_scans": 23003,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-15T14:20:59Z",
+  "last_ok": "2026-09-15T14:25:59Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
