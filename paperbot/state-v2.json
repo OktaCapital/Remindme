@@ -17,8 +17,8 @@
    "mark_src": "fapi",
    "u_pnl": -2.4103,
    "spot": "WLDUSDT",
-   "last_mark_ms": 1789490457985,
-   "age_h": 9.68
+   "last_mark_ms": 1789490758437,
+   "age_h": 9.763
   },
   "APTUSDT": {
    "entry": 0.5692,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789472400000,
-   "mark": 0.5715,
-   "mark_src": "fapi",
-   "u_pnl": 1.3469,
+   "mark": 0.574,
+   "mark_src": "spot",
+   "u_pnl": 2.8109,
    "spot": "APTUSDT",
-   "last_mark_ms": 1789490453733,
-   "age_h": 4.917
+   "last_mark_ms": 1789490758158,
+   "age_h": 5.002
   },
   "FILUSDT": {
    "entry": 0.8634,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789483200000,
-   "mark": 0.8632,
+   "mark": 0.8633,
    "mark_src": "spot",
-   "u_pnl": -0.0772,
+   "u_pnl": -0.0386,
    "spot": "FILUSDT",
-   "last_mark_ms": 1789490457450,
-   "age_h": 1.93
+   "last_mark_ms": 1789490761774,
+   "age_h": 2.014
   },
   "LINKUSDT": {
    "entry": 11.106,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789483800000,
-   "mark": 11.264,
+   "mark": 11.266,
    "mark_src": "spot",
-   "u_pnl": 4.7421,
+   "u_pnl": 4.8022,
    "spot": "LINKUSDT",
-   "last_mark_ms": 1789490453057,
-   "age_h": 1.756
+   "last_mark_ms": 1789490756629,
+   "age_h": 1.841
   },
   "RAYSOLUSDT": {
    "entry": 1.2847,
@@ -89,12 +89,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789483800000,
-   "mark": 1.2622,
+   "mark": 1.2596,
    "mark_src": "fapi",
-   "u_pnl": -5.8379,
+   "u_pnl": -6.5125,
    "spot": null,
-   "last_mark_ms": 1789490457985,
-   "age_h": 1.688
+   "last_mark_ms": 1789490760566,
+   "age_h": 1.772
   },
   "REZUSDT": {
    "entry": 0.003517,
@@ -108,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789485300000,
-   "mark": 0.003549,
+   "mark": 0.00354,
    "mark_src": "spot",
-   "u_pnl": 3.0329,
+   "u_pnl": 2.1799,
    "spot": "REZUSDT",
-   "last_mark_ms": 1789490459314,
-   "age_h": 1.348
+   "last_mark_ms": 1789490760346,
+   "age_h": 1.432
   }
  },
  "trades": [
@@ -17889,8 +17889,8 @@
    "OPUSDT",
    "DOTUSDT",
    "SAGAUSDT",
-   "TUSDT",
    "DASHUSDT",
+   "TUSDT",
    "UAIUSDT",
    "TRXUSDT",
    "HBARUSDT",
@@ -17912,8 +17912,8 @@
    "ETHFIUSDT",
    "HIVEUSDT",
    "SENTUSDT",
-   "AVAAIUSDT",
    "1000SHIBUSDT",
+   "AVAAIUSDT",
    "ICPUSDT",
    "REZUSDT",
    "CRVUSDT",
@@ -17926,23 +17926,23 @@
   ],
   "eligible_count": 509,
   "spot_mapped": 59,
-  "scanned_at": "2026-09-15T16:38:41Z"
+  "scanned_at": "2026-09-15T16:43:43Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-15T16:40:59Z",
+  "last_ok": "2026-09-15T16:46:01Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 918,
   "entries": 918,
   "exits": 912,
-  "ws_msgs": 17557564,
-  "ws_ticks": 17557564,
-  "signal_scans": 23196,
+  "ws_msgs": 17559909,
+  "ws_ticks": 17559909,
+  "signal_scans": 23204,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-15T16:40:59Z",
+  "last_ok": "2026-09-15T16:46:01Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
