@@ -1,25 +1,6 @@
 {
- "equity": 715.3708463497426,
+ "equity": 721.8707813497426,
  "positions": {
-  "LTCUSDT": {
-   "entry": 50.41,
-   "notional": 333.33,
-   "opened_ms": 1789574508569,
-   "opened": "2026-09-16T16:01:48Z",
-   "entry_time": "2026-09-16T16:01:48Z",
-   "dir_long": true,
-   "rsi": 7.108,
-   "vol_ratio": 1.349,
-   "tf": "4h",
-   "interval": "4h",
-   "signal_bar": 1789560000000,
-   "mark": 51.32,
-   "mark_src": "spot",
-   "u_pnl": 6.0173,
-   "spot": "LTCUSDT",
-   "last_mark_ms": 1789591815835,
-   "age_h": 4.808
-  },
   "4USDT": {
    "entry": 0.020886,
    "notional": 333.33,
@@ -32,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789586400000,
-   "mark": 0.020864,
+   "mark": 0.020872,
    "mark_src": "fapi",
-   "u_pnl": -0.3511,
+   "u_pnl": -0.2234,
    "spot": null,
-   "last_mark_ms": 1789591814179,
-   "age_h": 1.413
+   "last_mark_ms": 1789592415030,
+   "age_h": 1.58
   }
  },
  "trades": [
@@ -18755,6 +18736,25 @@
    "mark": 500.55,
    "mark_src": "fapi",
    "dir_long": true
+  },
+  {
+   "sym": "LTCUSDT",
+   "entry": 50.41,
+   "exit": 51.4182,
+   "ret": 0.0195,
+   "pnl": 6.499935,
+   "reason": "tp_spot",
+   "opened": "2026-09-16T16:01:48Z",
+   "opened_ms": 1789574508569,
+   "closed_ms": 1789592340066,
+   "age_h": 4.953,
+   "tf": "4h",
+   "signal_bar": 1789560000000,
+   "rsi": 7.108,
+   "vol_ratio": 1.349,
+   "mark": 51.42,
+   "mark_src": "spot",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -19229,13 +19229,13 @@
    "TRXUSDT",
    "1000SHIBUSDT",
    "HBARUSDT",
-   "CRVUSDT",
    "PENGUUSDT",
+   "CRVUSDT",
    "RAYSOLUSDT",
    "UAIUSDT",
    "CROSSUSDT",
-   "ONUSDT",
    "XPLUSDT",
+   "ONUSDT",
    "ZENUSDT",
    "FETUSDT",
    "POLUSDT",
@@ -19251,30 +19251,30 @@
    "TUTUSDT",
    "SOPHUSDT",
    "SKYAIUSDT",
-   "ICPUSDT",
    "ETHFIUSDT",
+   "ICPUSDT",
    "1000BONKUSDT",
    "ARKUSDT"
   ],
   "eligible_count": 512,
   "spot_mapped": 59,
-  "scanned_at": "2026-09-16T20:47:36Z"
+  "scanned_at": "2026-09-16T20:57:41Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-16T20:50:15Z",
+  "last_ok": "2026-09-16T21:00:16Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 987,
   "entries": 987,
-  "exits": 985,
-  "ws_msgs": 18596399,
-  "ws_ticks": 18596399,
-  "signal_scans": 25031,
+  "exits": 986,
+  "ws_msgs": 18597068,
+  "ws_ticks": 18597068,
+  "signal_scans": 25046,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-16T20:50:15Z",
+  "last_ok": "2026-09-16T21:00:16Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
