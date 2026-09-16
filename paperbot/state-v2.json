@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789586400000,
-   "mark": 0.020668,
+   "mark": 0.020841,
    "mark_src": "fapi",
-   "u_pnl": -3.4792,
+   "u_pnl": -0.7182,
    "spot": null,
-   "last_mark_ms": 1789594815829,
-   "age_h": 2.246
+   "last_mark_ms": 1789595419819,
+   "age_h": 2.414
   },
   "MARSCOINUSDT": {
    "entry": 0.088,
@@ -32,10 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789594500000,
-   "mark": 0.088,
-   "mark_src": "entry",
-   "u_pnl": 0.0,
-   "spot": "MARSCOINUSDT"
+   "mark": 0.0883,
+   "mark_src": "fapi",
+   "u_pnl": 1.1364,
+   "spot": "MARSCOINUSDT",
+   "last_mark_ms": 1789595415562,
+   "age_h": 0.166
   }
  },
  "trades": [
@@ -19229,8 +19231,8 @@
    "ONDOUSDT",
    "LITUSDT",
    "BTWUSDT",
-   "IOSTUSDT",
    "\u725b\u6765USDT",
+   "IOSTUSDT",
    "SAGAUSDT",
    "DOTUSDT",
    "LTCUSDT",
@@ -19256,8 +19258,8 @@
    "ONUSDT",
    "FETUSDT",
    "POLUSDT",
-   "CVCUSDT",
    "FARTCOINUSDT",
+   "CVCUSDT",
    "COTIUSDT",
    "4USDT",
    "ETCUSDT",
@@ -19275,23 +19277,23 @@
   ],
   "eligible_count": 511,
   "spot_mapped": 59,
-  "scanned_at": "2026-09-16T21:39:30Z"
+  "scanned_at": "2026-09-16T21:50:07Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-16T21:40:17Z",
+  "last_ok": "2026-09-16T21:50:20Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 988,
   "entries": 988,
   "exits": 986,
-  "ws_msgs": 18620464,
-  "ws_ticks": 18620464,
-  "signal_scans": 25104,
+  "ws_msgs": 18647905,
+  "ws_ticks": 18647905,
+  "signal_scans": 25119,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-16T21:40:17Z",
+  "last_ok": "2026-09-16T21:50:20Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
