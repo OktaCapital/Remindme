@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789497600000,
-   "mark": 0.07447,
+   "mark": 0.07457,
    "mark_src": "fapi",
-   "u_pnl": -2.1789,
+   "u_pnl": -1.7342,
    "spot": "HBARUSDT",
-   "last_mark_ms": 1789536942296,
-   "age_h": 10.842
+   "last_mark_ms": 1789537239190,
+   "age_h": 10.925
   },
   "FILUSDT": {
    "entry": 0.8194,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789497600000,
-   "mark": 0.8186,
-   "mark_src": "fapi",
-   "u_pnl": -0.3254,
+   "mark": 0.8196,
+   "mark_src": "spot",
+   "u_pnl": 0.0814,
    "spot": "FILUSDT",
-   "last_mark_ms": 1789536946569,
-   "age_h": 10.842
+   "last_mark_ms": 1789537243215,
+   "age_h": 10.924
   },
   "OPUSDT": {
    "entry": 0.09382,
@@ -55,8 +55,8 @@
    "mark_src": "fapi",
    "u_pnl": -1.7409,
    "spot": "OPUSDT",
-   "last_mark_ms": 1789536946569,
-   "age_h": 7.594
+   "last_mark_ms": 1789537241315,
+   "age_h": 7.676
   },
   "LDOUSDT": {
    "entry": 0.3335,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789509300000,
-   "mark": 0.3372,
+   "mark": 0.3374,
    "mark_src": "fapi",
-   "u_pnl": 3.6981,
+   "u_pnl": 3.898,
    "spot": "LDOUSDT",
-   "last_mark_ms": 1789536944439,
-   "age_h": 7.592
+   "last_mark_ms": 1789537241315,
+   "age_h": 7.675
   },
   "TUSDT": {
    "entry": 0.004411,
@@ -89,12 +89,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789516800000,
-   "mark": 0.004432,
-   "mark_src": "fapi",
-   "u_pnl": 1.5869,
+   "mark": 0.00443,
+   "mark_src": "spot",
+   "u_pnl": 1.4358,
    "spot": "TUSDT",
-   "last_mark_ms": 1789536944439,
-   "age_h": 5.51
+   "last_mark_ms": 1789537238391,
+   "age_h": 5.591
   },
   "ATOMUSDT": {
    "entry": 1.497,
@@ -112,8 +112,8 @@
    "mark_src": "fapi",
    "u_pnl": 2.2267,
    "spot": "ATOMUSDT",
-   "last_mark_ms": 1789536942296,
-   "age_h": 4.507
+   "last_mark_ms": 1789537241315,
+   "age_h": 4.59
   },
   "AAVEUSDT": {
    "entry": 120.42,
@@ -127,12 +127,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789524000000,
-   "mark": 121.15,
+   "mark": 121.31,
    "mark_src": "fapi",
-   "u_pnl": 2.0207,
+   "u_pnl": 2.4636,
    "spot": "AAVEUSDT",
-   "last_mark_ms": 1789536944439,
-   "age_h": 3.465
+   "last_mark_ms": 1789537241315,
+   "age_h": 3.548
   },
   "LABUSDT": {
    "entry": 0.04844,
@@ -146,12 +146,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789534500000,
-   "mark": 0.04903,
+   "mark": 0.04913,
    "mark_src": "fapi",
-   "u_pnl": 4.06,
+   "u_pnl": 4.7481,
    "spot": null,
-   "last_mark_ms": 1789536946569,
-   "age_h": 0.593
+   "last_mark_ms": 1789537241315,
+   "age_h": 0.675
   }
  },
  "trades": [
@@ -18556,10 +18556,10 @@
    "USELESSUSDT",
    "LTCUSDT",
    "MARSCOINUSDT",
-   "FFUSDT",
    "INJUSDT",
-   "ASTRUSDT",
+   "FFUSDT",
    "OPUSDT",
+   "ASTRUSDT",
    "DOTUSDT",
    "ASTERUSDT",
    "DASHUSDT",
@@ -18583,14 +18583,14 @@
    "ETCUSDT",
    "TIAUSDT",
    "CROSSUSDT",
-   "TUTUSDT",
    "ONUSDT",
+   "TUTUSDT",
    "FARTCOINUSDT",
    "PENDLEUSDT",
    "STEEMUSDT",
+   "IOSTUSDT",
    "LABUSDT",
    "ICPUSDT",
-   "IOSTUSDT",
    "ETHFIUSDT",
    "REZUSDT",
    "ZROUSDT",
@@ -18600,23 +18600,23 @@
   ],
   "eligible_count": 517,
   "spot_mapped": 60,
-  "scanned_at": "2026-09-16T05:32:51Z"
+  "scanned_at": "2026-09-16T05:37:53Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-16T05:35:47Z",
+  "last_ok": "2026-09-16T05:40:43Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 953,
   "entries": 953,
   "exits": 945,
-  "ws_msgs": 18180368,
-  "ws_ticks": 18180368,
-  "signal_scans": 23892,
+  "ws_msgs": 18181637,
+  "ws_ticks": 18181637,
+  "signal_scans": 23899,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-16T05:35:47Z",
+  "last_ok": "2026-09-16T05:40:43Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
