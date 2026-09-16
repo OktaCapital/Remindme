@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789586400000,
-   "mark": 0.020877,
+   "mark": 0.02054,
    "mark_src": "fapi",
-   "u_pnl": -0.1436,
+   "u_pnl": -5.522,
    "spot": null,
-   "last_mark_ms": 1789596022282,
-   "age_h": 2.582
+   "last_mark_ms": 1789596323845,
+   "age_h": 2.665
   },
   "MARSCOINUSDT": {
    "entry": 0.088,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789594500000,
-   "mark": 0.08878,
+   "mark": 0.08764,
    "mark_src": "fapi",
-   "u_pnl": 2.9545,
+   "u_pnl": -1.3636,
    "spot": "MARSCOINUSDT",
-   "last_mark_ms": 1789596020151,
-   "age_h": 0.334
+   "last_mark_ms": 1789596321712,
+   "age_h": 0.418
   }
  },
  "trades": [
@@ -19281,19 +19281,19 @@
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-16T22:00:22Z",
+  "last_ok": "2026-09-16T22:05:24Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 988,
   "entries": 988,
   "exits": 986,
-  "ws_msgs": 18688711,
-  "ws_ticks": 18688711,
-  "signal_scans": 25133,
+  "ws_msgs": 18755866,
+  "ws_ticks": 18755866,
+  "signal_scans": 25140,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-16T22:00:22Z",
+  "last_ok": "2026-09-16T22:05:24Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
