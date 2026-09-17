@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789596300000,
-   "mark": 0.07387,
+   "mark": 0.07372,
    "mark_src": "fapi",
-   "u_pnl": 4.9457,
+   "u_pnl": 4.2588,
    "spot": "HBARUSDT",
-   "last_mark_ms": 1789605337595,
-   "age_h": 2.418
+   "last_mark_ms": 1789605940784,
+   "age_h": 2.586
   },
   "HEIUSDT": {
    "entry": 0.127,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789604100000,
-   "mark": 0.1264,
+   "mark": 0.1254,
    "mark_src": "spot",
-   "u_pnl": -1.5748,
+   "u_pnl": -4.1994,
    "spot": "HEIUSDT",
-   "last_mark_ms": 1789605341433,
-   "age_h": 0.256
+   "last_mark_ms": 1789605943320,
+   "age_h": 0.423
   }
  },
  "trades": [
@@ -19475,8 +19475,8 @@
    "ARBUSDT",
    "UNIUSDT",
    "AKEUSDT",
-   "BNBUSDT",
    "NEARUSDT",
+   "BNBUSDT",
    "AINUSDT",
    "\u9f99\u867eUSDT",
    "BULLAUSDT",
@@ -19513,11 +19513,11 @@
    "ASTERUSDT",
    "APTUSDT",
    "XMRUSDT",
-   "VTHOUSDT",
    "OPUSDT",
    "1000SHIBUSDT",
-   "TRXUSDT",
+   "VTHOUSDT",
    "PENGUUSDT",
+   "TRXUSDT",
    "RAYSOLUSDT",
    "HBARUSDT",
    "ONEUSDT",
@@ -19542,28 +19542,28 @@
    "ICPUSDT",
    "CAPUSDT",
    "TUTUSDT",
-   "ETHFIUSDT",
-   "LDOUSDT"
+   "LDOUSDT",
+   "ETHFIUSDT"
   ],
   "eligible_count": 513,
   "spot_mapped": 59,
-  "scanned_at": "2026-09-17T00:31:49Z"
+  "scanned_at": "2026-09-17T00:42:23Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-17T00:35:41Z",
+  "last_ok": "2026-09-17T00:45:43Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 1002,
   "entries": 1002,
   "exits": 1000,
-  "ws_msgs": 18876384,
-  "ws_ticks": 18876384,
-  "signal_scans": 25357,
+  "ws_msgs": 18877627,
+  "ws_ticks": 18877627,
+  "signal_scans": 25371,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-17T00:35:41Z",
+  "last_ok": "2026-09-17T00:45:43Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
