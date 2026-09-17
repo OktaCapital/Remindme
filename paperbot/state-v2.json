@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789611600000,
-   "mark": 0.0006729,
+   "mark": 0.0006724,
    "mark_src": "fapi",
-   "u_pnl": 0.0495,
+   "u_pnl": -0.1982,
    "spot": "VTHOUSDT",
-   "last_mark_ms": 1789611954167,
-   "age_h": 0.012
+   "last_mark_ms": 1789612261645,
+   "age_h": 0.098
   }
  },
  "trades": [
@@ -19539,11 +19539,11 @@
    "PENGUUSDT",
    "TRXUSDT",
    "HBARUSDT",
-   "VTHOUSDT",
    "ZENUSDT",
+   "VTHOUSDT",
    "XPLUSDT",
-   "UAIUSDT",
    "POLUSDT",
+   "UAIUSDT",
    "CRVUSDT",
    "FETUSDT",
    "COTIUSDT",
@@ -19566,23 +19566,23 @@
   ],
   "eligible_count": 513,
   "spot_mapped": 60,
-  "scanned_at": "2026-09-17T02:24:34Z"
+  "scanned_at": "2026-09-17T02:29:36Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-17T02:25:58Z",
+  "last_ok": "2026-09-17T02:31:01Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 1003,
   "entries": 1003,
   "exits": 1002,
-  "ws_msgs": 18964125,
-  "ws_ticks": 18964125,
-  "signal_scans": 25511,
+  "ws_msgs": 18988615,
+  "ws_ticks": 18988615,
+  "signal_scans": 25518,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-17T02:25:58Z",
+  "last_ok": "2026-09-17T02:31:01Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
