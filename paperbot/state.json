@@ -13,12 +13,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1789578000000,
-   "mark": 220.92,
+   "mark": 220.8,
    "mark_src": "fapi",
-   "u_pnl": 2.7382,
+   "u_pnl": 2.5557,
    "spot": "BCHUSDT",
-   "last_mark_ms": 1789623903260,
-   "age_h": 11.625
+   "last_mark_ms": 1789624194157,
+   "age_h": 11.706
   },
   "XMRUSDT": {
    "entry": 495.67,
@@ -32,12 +32,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1789578000000,
-   "mark": 499.87,
+   "mark": 500.84,
    "mark_src": "fapi",
-   "u_pnl": 2.8244,
+   "u_pnl": 3.4767,
    "spot": null,
-   "last_mark_ms": 1789623905427,
-   "age_h": 11.079
+   "last_mark_ms": 1789624196336,
+   "age_h": 11.16
   },
   "PENDLEUSDT": {
    "entry": 2.2615,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789618200000,
-   "mark": 2.2616,
-   "mark_src": "fapi",
-   "u_pnl": 0.0147,
+   "mark": 2.266,
+   "mark_src": "spot",
+   "u_pnl": 0.6633,
    "spot": "PENDLEUSDT",
-   "last_mark_ms": 1789623903260,
-   "age_h": 1.486
+   "last_mark_ms": 1789624196500,
+   "age_h": 1.567
   }
  },
  "trades": [
@@ -42195,8 +42195,8 @@
    "ADAUSDT",
    "LINKUSDT",
    "DASHUSDT",
-   "PUMPUSDT",
    "USELESSUSDT",
+   "PUMPUSDT",
    "ONEUSDT",
    "AAVEUSDT",
    "FILUSDT",
@@ -42204,11 +42204,11 @@
    "WLDUSDT",
    "AVAXUSDT",
    "PONSUSDT",
-   "AINUSDT",
    "TAOUSDT",
+   "AINUSDT",
    "TRUMPUSDT",
-   "XLMUSDT",
    "ONDOUSDT",
+   "XLMUSDT",
    "LITUSDT",
    "IOSTUSDT",
    "\u725b\u6765USDT",
@@ -42241,9 +42241,9 @@
    "FARTCOINUSDT",
    "SKYAIUSDT",
    "ETCUSDT",
+   "AVAUSDT",
    "4USDT",
    "PENDLEUSDT",
-   "AVAUSDT",
    "1000BONKUSDT",
    "ETHFIUSDT",
    "TIAUSDT",
@@ -42257,12 +42257,12 @@
   ],
   "eligible_count": 513,
   "spot_mapped": 62,
-  "scanned_at": "2026-09-17T05:43:19Z"
+  "scanned_at": "2026-09-17T05:48:52Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-17T05:45:06Z",
+  "last_ok": "2026-09-17T05:49:56Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -42271,12 +42271,12 @@
   "signals": 2117,
   "entries": 2117,
   "exits": 2124,
-  "ws_msgs": 22973171,
-  "ws_ticks": 22973171,
-  "signal_scans": 17543,
+  "ws_msgs": 22973324,
+  "ws_ticks": 22973324,
+  "signal_scans": 17548,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-17T05:45:06Z",
+  "last_ok": "2026-09-17T05:49:56Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest"
