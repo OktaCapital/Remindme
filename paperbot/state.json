@@ -13,12 +13,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1789578000000,
-   "mark": 221.3,
-   "mark_src": "spot",
-   "u_pnl": 3.3163,
+   "mark": 220.97,
+   "mark_src": "fapi",
+   "u_pnl": 2.8143,
    "spot": "BCHUSDT",
-   "last_mark_ms": 1789621202482,
-   "age_h": 10.875
+   "last_mark_ms": 1789621503395,
+   "age_h": 10.958
   },
   "XMRUSDT": {
    "entry": 495.67,
@@ -32,12 +32,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1789578000000,
-   "mark": 500.8,
+   "mark": 499.59,
    "mark_src": "fapi",
-   "u_pnl": 3.4498,
+   "u_pnl": 2.6361,
    "spot": null,
-   "last_mark_ms": 1789621199503,
-   "age_h": 10.328
+   "last_mark_ms": 1789621503395,
+   "age_h": 10.412
   },
   "VTHOUSDT": {
    "entry": 0.0006731,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789611600000,
-   "mark": 0.0006703,
-   "mark_src": "fapi",
-   "u_pnl": -1.3866,
+   "mark": 0.000676,
+   "mark_src": "spot",
+   "u_pnl": 1.4361,
    "spot": "VTHOUSDT",
-   "last_mark_ms": 1789621195226,
-   "age_h": 2.571
+   "last_mark_ms": 1789621504719,
+   "age_h": 2.657
   },
   "PENDLEUSDT": {
    "entry": 2.2615,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789618200000,
-   "mark": 2.2673,
-   "mark_src": "fapi",
-   "u_pnl": 0.8549,
+   "mark": 2.279,
+   "mark_src": "spot",
+   "u_pnl": 2.5794,
    "spot": "PENDLEUSDT",
-   "last_mark_ms": 1789621195226,
-   "age_h": 0.734
+   "last_mark_ms": 1789621500658,
+   "age_h": 0.818
   }
  },
  "trades": [
@@ -42202,8 +42202,8 @@
    "AAVEUSDT",
    "WLDUSDT",
    "MARSCOINUSDT",
-   "AVAXUSDT",
    "PONSUSDT",
+   "AVAXUSDT",
    "TAOUSDT",
    "ONEUSDT",
    "TRUMPUSDT",
@@ -42215,9 +42215,9 @@
    "DOTUSDT",
    "HEIUSDT",
    "LTCUSDT",
-   "POWERUSDT",
-   "BCHUSDT",
    "VVVUSDT",
+   "BCHUSDT",
+   "POWERUSDT",
    "BTWUSDT",
    "INJUSDT",
    "ASTERUSDT",
@@ -42233,8 +42233,8 @@
    "TRXUSDT",
    "XPLUSDT",
    "POLUSDT",
-   "CRVUSDT",
    "UAIUSDT",
+   "CRVUSDT",
    "VTHOUSDT",
    "FETUSDT",
    "COTIUSDT",
@@ -42257,12 +42257,12 @@
   ],
   "eligible_count": 513,
   "spot_mapped": 62,
-  "scanned_at": "2026-09-17T04:56:01Z"
+  "scanned_at": "2026-09-17T05:01:33Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-17T05:00:02Z",
+  "last_ok": "2026-09-17T05:05:04Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -42271,12 +42271,12 @@
   "signals": 2117,
   "entries": 2117,
   "exits": 2123,
-  "ws_msgs": 22971328,
-  "ws_ticks": 22971328,
-  "signal_scans": 17491,
+  "ws_msgs": 22971549,
+  "ws_ticks": 22971549,
+  "signal_scans": 17496,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-17T05:00:02Z",
+  "last_ok": "2026-09-17T05:05:04Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest"
