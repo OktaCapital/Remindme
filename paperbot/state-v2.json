@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789611600000,
-   "mark": 0.000672,
-   "mark_src": "spot",
-   "u_pnl": -0.3963,
+   "mark": 0.0006703,
+   "mark_src": "fapi",
+   "u_pnl": -1.2386,
    "spot": "VTHOUSDT",
-   "last_mark_ms": 1789620909595,
-   "age_h": 2.5
+   "last_mark_ms": 1789621206083,
+   "age_h": 2.582
   },
   "PENDLEUSDT": {
    "entry": 2.2614,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789618200000,
-   "mark": 2.2609,
-   "mark_src": "fapi",
-   "u_pnl": -0.0737,
+   "mark": 2.271,
+   "mark_src": "spot",
+   "u_pnl": 1.415,
    "spot": "PENDLEUSDT",
-   "last_mark_ms": 1789620905346,
-   "age_h": 0.655
+   "last_mark_ms": 1789621208300,
+   "age_h": 0.739
   }
  },
  "trades": [
@@ -19516,8 +19516,8 @@
    "BNBUSDT",
    "AKEUSDT",
    "BULLAUSDT",
-   "\u9f99\u867eUSDT",
    "SUIUSDT",
+   "\u9f99\u867eUSDT",
    "ENAUSDT",
    "1000PEPEUSDT",
    "ADAUSDT",
@@ -19585,23 +19585,23 @@
   ],
   "eligible_count": 513,
   "spot_mapped": 62,
-  "scanned_at": "2026-09-17T04:50:34Z"
+  "scanned_at": "2026-09-17T04:55:36Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-17T04:55:09Z",
+  "last_ok": "2026-09-17T05:00:08Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 1004,
   "entries": 1004,
   "exits": 1002,
-  "ws_msgs": 19113097,
-  "ws_ticks": 19113097,
-  "signal_scans": 25719,
+  "ws_msgs": 19113264,
+  "ws_ticks": 19113264,
+  "signal_scans": 25726,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-17T04:55:09Z",
+  "last_ok": "2026-09-17T05:00:08Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
