@@ -1,5 +1,5 @@
 {
- "equity": 338.51125418445855,
+ "equity": 345.01118918445854,
  "positions": {
   "PENDLEUSDT": {
    "entry": 2.2615,
@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789618200000,
-   "mark": 2.2479,
+   "mark": 2.2729,
    "mark_src": "fapi",
-   "u_pnl": -2.0045,
+   "u_pnl": 1.6803,
    "spot": "PENDLEUSDT",
-   "last_mark_ms": 1789628706846,
-   "age_h": 2.82
+   "last_mark_ms": 1789629011780,
+   "age_h": 2.905
   },
   "POLUSDT": {
    "entry": 0.09576,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789624500000,
-   "mark": 0.09613,
+   "mark": 0.09628,
    "mark_src": "spot",
-   "u_pnl": 1.2879,
+   "u_pnl": 1.8101,
    "spot": "POLUSDT",
-   "last_mark_ms": 1789628711206,
-   "age_h": 1.07
+   "last_mark_ms": 1789629013935,
+   "age_h": 1.155
   },
   "DOTUSDT": {
    "entry": 1.0045,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789625700000,
-   "mark": 1.013,
-   "mark_src": "spot",
-   "u_pnl": 2.8206,
+   "mark": 1.0135,
+   "mark_src": "fapi",
+   "u_pnl": 2.9865,
    "spot": "DOTUSDT",
-   "last_mark_ms": 1789628707946,
-   "age_h": 0.743
+   "last_mark_ms": 1789629011780,
+   "age_h": 0.828
   },
   "4USDT": {
    "entry": 0.021603,
@@ -70,31 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789626000000,
-   "mark": 0.021723,
+   "mark": 0.021784,
    "mark_src": "fapi",
-   "u_pnl": 1.8516,
+   "u_pnl": 2.7928,
    "spot": null,
-   "last_mark_ms": 1789628711177,
-   "age_h": 0.657
-  },
-  "\u725b\u6765USDT": {
-   "entry": 0.10618,
-   "notional": 333.33,
-   "opened_ms": 1789626915262,
-   "opened": "2026-09-17T06:35:15Z",
-   "entry_time": "2026-09-17T06:35:15Z",
-   "dir_long": true,
-   "rsi": 11.881,
-   "vol_ratio": 3.337,
-   "tf": "5m",
-   "interval": "5m",
-   "signal_bar": 1789626600000,
-   "mark": 0.10643,
-   "mark_src": "fapi",
-   "u_pnl": 0.7848,
-   "spot": "\u725b\u6765USDT",
-   "last_mark_ms": 1789628706846,
-   "age_h": 0.498
+   "last_mark_ms": 1789629013926,
+   "age_h": 0.741
   }
  },
  "trades": [
@@ -41574,6 +41555,25 @@
    "mark": 0.10693,
    "mark_src": "fapi",
    "dir_long": true
+  },
+  {
+   "sym": "\u725b\u6765USDT",
+   "entry": 0.10618,
+   "exit": 0.1083036,
+   "ret": 0.0195,
+   "pnl": 6.499935,
+   "reason": "tp_fapi",
+   "opened": "2026-09-17T06:35:15Z",
+   "opened_ms": 1789626915262,
+   "closed_ms": 1789628856151,
+   "age_h": 0.539,
+   "tf": "5m",
+   "signal_bar": 1789626600000,
+   "rsi": 11.881,
+   "vol_ratio": 3.337,
+   "mark": 0.10839,
+   "mark_src": "fapi",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -42312,15 +42312,15 @@
    "HEIUSDT",
    "LTCUSDT",
    "VVVUSDT",
-   "BCHUSDT",
    "AVAUSDT",
+   "BCHUSDT",
    "ASTERUSDT",
    "POWERUSDT",
    "INJUSDT",
    "XMRUSDT",
    "SAGAUSDT",
-   "RAYSOLUSDT",
    "PENGUUSDT",
+   "RAYSOLUSDT",
    "BTWUSDT",
    "APTUSDT",
    "ZENUSDT",
@@ -42343,22 +42343,22 @@
    "ETHFIUSDT",
    "1000BONKUSDT",
    "TIAUSDT",
-   "SOPHUSDT",
    "WLFIUSDT",
+   "SOPHUSDT",
    "LDOUSDT",
-   "WIFUSDT",
    "BOMEUSDT",
+   "WIFUSDT",
    "VIRTUALUSDT",
-   "MONUSDT"
+   "LABUSDT"
   ],
   "eligible_count": 514,
   "spot_mapped": 61,
-  "scanned_at": "2026-09-17T07:00:55Z"
+  "scanned_at": "2026-09-17T07:06:27Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-17T07:05:11Z",
+  "last_ok": "2026-09-17T07:10:13Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -42366,13 +42366,13 @@
  "stats": {
   "signals": 2122,
   "entries": 2122,
-  "exits": 2127,
-  "ws_msgs": 22976620,
-  "ws_ticks": 22976620,
-  "signal_scans": 17634,
+  "exits": 2128,
+  "ws_msgs": 22977733,
+  "ws_ticks": 22977733,
+  "signal_scans": 17640,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-17T07:05:11Z",
+  "last_ok": "2026-09-17T07:10:13Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest"
