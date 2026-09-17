@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789618200000,
-   "mark": 2.2801,
-   "mark_src": "fapi",
-   "u_pnl": 2.7415,
+   "mark": 2.292,
+   "mark_src": "spot",
+   "u_pnl": 4.4955,
    "spot": "PENDLEUSDT",
-   "last_mark_ms": 1789634112079,
-   "age_h": 4.322
+   "last_mark_ms": 1789634416635,
+   "age_h": 4.406
   },
   "POLUSDT": {
    "entry": 0.09576,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789624500000,
-   "mark": 0.09636,
-   "mark_src": "fapi",
-   "u_pnl": 2.0885,
+   "mark": 0.09653,
+   "mark_src": "spot",
+   "u_pnl": 2.6803,
    "spot": "POLUSDT",
-   "last_mark_ms": 1789634116315,
-   "age_h": 2.572
+   "last_mark_ms": 1789634413836,
+   "age_h": 2.655
   },
   "DOTUSDT": {
    "entry": 1.0045,
@@ -52,11 +52,11 @@
    "interval": "5m",
    "signal_bar": 1789625700000,
    "mark": 1.015,
-   "mark_src": "spot",
+   "mark_src": "fapi",
    "u_pnl": 3.4843,
    "spot": "DOTUSDT",
-   "last_mark_ms": 1789634116858,
-   "age_h": 2.246
+   "last_mark_ms": 1789634411153,
+   "age_h": 2.328
   }
  },
  "trades": [
@@ -42315,8 +42315,8 @@
    "USELESSUSDT",
    "WLDUSDT",
    "AAVEUSDT",
-   "FILUSDT",
    "PONSUSDT",
+   "FILUSDT",
    "AVAXUSDT",
    "MARSCOINUSDT",
    "TAOUSDT",
@@ -42337,9 +42337,9 @@
    "INJUSDT",
    "RAYSOLUSDT",
    "PENGUUSDT",
-   "XMRUSDT",
-   "POWERUSDT",
    "SAGAUSDT",
+   "POWERUSDT",
+   "XMRUSDT",
    "ZENUSDT",
    "APTUSDT",
    "BTWUSDT",
@@ -42372,12 +42372,12 @@
   ],
   "eligible_count": 510,
   "spot_mapped": 61,
-  "scanned_at": "2026-09-17T08:34:36Z"
+  "scanned_at": "2026-09-17T08:39:38Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-17T08:35:16Z",
+  "last_ok": "2026-09-17T08:40:16Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -42386,12 +42386,12 @@
   "signals": 2123,
   "entries": 2123,
   "exits": 2130,
-  "ws_msgs": 22991392,
-  "ws_ticks": 22991392,
-  "signal_scans": 17734,
+  "ws_msgs": 22994890,
+  "ws_ticks": 22994890,
+  "signal_scans": 17739,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-17T08:35:16Z",
+  "last_ok": "2026-09-17T08:40:16Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest"
