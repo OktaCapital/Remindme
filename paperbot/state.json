@@ -1,5 +1,5 @@
 {
- "equity": 329.2353794656725,
+ "equity": 315.4021844656725,
  "positions": {
   "BCHUSDT": {
    "entry": 219.12,
@@ -13,12 +13,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1789578000000,
-   "mark": 220.39,
-   "mark_src": "fapi",
-   "u_pnl": 1.932,
+   "mark": 220.4,
+   "mark_src": "spot",
+   "u_pnl": 1.9472,
    "spot": "BCHUSDT",
-   "last_mark_ms": 1789614046536,
-   "age_h": 8.887
+   "last_mark_ms": 1789614899316,
+   "age_h": 9.124
   },
   "XMRUSDT": {
    "entry": 495.67,
@@ -32,12 +32,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1789578000000,
-   "mark": 501.38,
+   "mark": 500.01,
    "mark_src": "fapi",
-   "u_pnl": 3.8399,
+   "u_pnl": 2.9186,
    "spot": null,
-   "last_mark_ms": 1789614046536,
-   "age_h": 8.341
+   "last_mark_ms": 1789614897261,
+   "age_h": 8.577
   },
   "VTHOUSDT": {
    "entry": 0.0006731,
@@ -51,12 +51,31 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789611600000,
-   "mark": 0.000673,
+   "mark": 0.0006755,
    "mark_src": "fapi",
-   "u_pnl": -0.0495,
+   "u_pnl": 1.1885,
    "spot": "VTHOUSDT",
-   "last_mark_ms": 1789614046536,
-   "age_h": 0.585
+   "last_mark_ms": 1789614897261,
+   "age_h": 0.821
+  },
+  "AKEUSDT": {
+   "entry": 0.019569,
+   "notional": 333.33,
+   "opened_ms": 1789614561059,
+   "opened": "2026-09-17T03:09:21Z",
+   "entry_time": "2026-09-17T03:09:21Z",
+   "dir_long": true,
+   "rsi": 21.04,
+   "vol_ratio": 1.866,
+   "tf": "1h",
+   "interval": "1h",
+   "signal_bar": 1789610400000,
+   "mark": 0.019578,
+   "mark_src": "fapi",
+   "u_pnl": 0.1533,
+   "spot": null,
+   "last_mark_ms": 1789614897261,
+   "age_h": 0.093
   }
  },
  "trades": [
@@ -41384,6 +41403,63 @@
    "mark": 0.020335,
    "mark_src": "fapi",
    "dir_long": true
+  },
+  {
+   "sym": "AKEUSDT",
+   "entry": 0.020728,
+   "exit": 0.020106159999999998,
+   "ret": -0.0305,
+   "pnl": -10.166564999999999,
+   "reason": "sl_fapi",
+   "opened": "2026-09-17T03:01:26Z",
+   "opened_ms": 1789614086776,
+   "closed_ms": 1789614107568,
+   "age_h": 0.006,
+   "tf": "1h",
+   "signal_bar": 1789610400000,
+   "rsi": 21.04,
+   "vol_ratio": 1.866,
+   "mark": 0.020003,
+   "mark_src": "fapi",
+   "dir_long": true
+  },
+  {
+   "sym": "AKEUSDT",
+   "entry": 0.020173,
+   "exit": 0.019567809999999998,
+   "ret": -0.0305,
+   "pnl": -10.166564999999999,
+   "reason": "sl_fapi",
+   "opened": "2026-09-17T03:02:20Z",
+   "opened_ms": 1789614140171,
+   "closed_ms": 1789614374420,
+   "age_h": 0.065,
+   "tf": "1h",
+   "signal_bar": 1789610400000,
+   "rsi": 21.04,
+   "vol_ratio": 1.866,
+   "mark": 0.019437,
+   "mark_src": "fapi",
+   "dir_long": true
+  },
+  {
+   "sym": "AKEUSDT",
+   "entry": 0.019432,
+   "exit": 0.01982064,
+   "ret": 0.0195,
+   "pnl": 6.499935,
+   "reason": "tp_fapi",
+   "opened": "2026-09-17T03:06:41Z",
+   "opened_ms": 1789614401850,
+   "closed_ms": 1789614538770,
+   "age_h": 0.038,
+   "tf": "1h",
+   "signal_bar": 1789610400000,
+   "rsi": 21.04,
+   "vol_ratio": 1.866,
+   "mark": 0.019835,
+   "mark_src": "fapi",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -42117,8 +42193,8 @@
    "IOSTUSDT",
    "\u725b\u6765USDT",
    "ONEUSDT",
-   "POWERUSDT",
    "DOTUSDT",
+   "POWERUSDT",
    "BTWUSDT",
    "HEIUSDT",
    "LTCUSDT",
@@ -42155,33 +42231,33 @@
    "SOPHUSDT",
    "WLFIUSDT",
    "CAPUSDT",
-   "CROSSUSDT",
    "TUTUSDT",
+   "ICPUSDT",
    "LDOUSDT",
-   "ICPUSDT"
+   "WIFUSDT"
   ],
-  "eligible_count": 513,
-  "spot_mapped": 60,
-  "scanned_at": "2026-09-17T02:55:34Z"
+  "eligible_count": 514,
+  "spot_mapped": 61,
+  "scanned_at": "2026-09-17T03:12:11Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-17T03:00:46Z",
+  "last_ok": "2026-09-17T03:14:59Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable",
   "monitor_ok": 9,
   "monitor_failed": 0
  },
  "stats": {
-  "signals": 2112,
-  "entries": 2112,
-  "exits": 2119,
-  "ws_msgs": 22968017,
-  "ws_ticks": 22968017,
-  "signal_scans": 17353,
+  "signals": 2116,
+  "entries": 2116,
+  "exits": 2122,
+  "ws_msgs": 22968424,
+  "ws_ticks": 22968424,
+  "signal_scans": 17369,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-17T03:00:42Z",
+  "last_ok": "2026-09-17T03:14:59Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest"
