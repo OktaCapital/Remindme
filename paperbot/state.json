@@ -1,6 +1,24 @@
 {
  "equity": 485.71629021714824,
- "positions": {},
+ "positions": {
+  "0GUSDT": {
+   "entry": 0.2048,
+   "notional": 333.33,
+   "opened_ms": 1789714812133,
+   "opened": "2026-09-18T07:00:12Z",
+   "entry_time": "2026-09-18T07:00:12Z",
+   "dir_long": true,
+   "rsi": 11.628,
+   "vol_ratio": 2.556,
+   "tf": "5m",
+   "interval": "5m",
+   "signal_bar": 1789714500000,
+   "mark": 0.2048,
+   "mark_src": "entry",
+   "u_pnl": 0.0,
+   "spot": "0GUSDT"
+  }
+ },
  "trades": [
   {
    "sym": "OPUSDT",
@@ -42782,8 +42800,8 @@
   "CRVUSDT": "1789578000000",
   "CRVUSDT:5m": "1789374300000",
   "XRPUSDT:5m": "1789669800000",
-  "0GUSDT": "1789674900000",
-  "0GUSDT:5m": "1789674900000",
+  "0GUSDT": "1789714500000",
+  "0GUSDT:5m": "1789714500000",
   "XMRUSDT": "1789578000000",
   "XMRUSDT:30m": "1788285600000",
   "DASHUSDT:1h": "1789056000000",
@@ -43352,21 +43370,21 @@
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-18T06:55:08Z",
+  "last_ok": "2026-09-18T07:00:12Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable",
   "monitor_ok": 9,
   "monitor_failed": 0
  },
  "stats": {
-  "signals": 2174,
-  "entries": 2174,
+  "signals": 2175,
+  "entries": 2175,
   "exits": 2184,
-  "ws_msgs": 24776692,
-  "ws_ticks": 24776692,
-  "signal_scans": 19106,
+  "ws_msgs": 24799457,
+  "ws_ticks": 24799457,
+  "signal_scans": 19111,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-18T06:55:07Z",
+  "last_ok": "2026-09-18T07:00:12Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest"
