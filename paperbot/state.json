@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789771200000,
-   "mark": 0.6554,
+   "mark": 0.6508,
    "mark_src": "fapi",
-   "u_pnl": 0.0509,
+   "u_pnl": -2.289,
    "spot": "AEROUSDT",
-   "last_mark_ms": 1789771549964,
-   "age_h": 0.0
+   "last_mark_ms": 1789771851385,
+   "age_h": 0.084
   },
   "PUMPUSDT": {
    "entry": 0.004285,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789771200000,
-   "mark": 0.004285,
+   "mark": 0.004261,
    "mark_src": "fapi",
-   "u_pnl": 0.0,
+   "u_pnl": -1.867,
    "spot": "PUMPUSDT",
-   "last_mark_ms": 1789771552090,
-   "age_h": 0.0
+   "last_mark_ms": 1789771847254,
+   "age_h": 0.082
   }
  },
  "trades": [
@@ -43854,8 +43854,8 @@
    "BCHUSDT",
    "APTUSDT",
    "MYXUSDT",
-   "STRKUSDT",
    "XMRUSDT",
+   "STRKUSDT",
    "TRUMPUSDT",
    "FILUSDT",
    "COTIUSDT",
@@ -43901,18 +43901,18 @@
    "CUSDT",
    "CROSSUSDT",
    "ATOMUSDT",
-   "CHIPUSDT",
    "AEROUSDT",
+   "CHIPUSDT",
    "ICPUSDT"
   ],
   "eligible_count": 518,
   "spot_mapped": 64,
-  "scanned_at": "2026-09-18T22:40:59Z"
+  "scanned_at": "2026-09-18T22:46:02Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-18T22:45:55Z",
+  "last_ok": "2026-09-18T22:50:53Z",
   "last_error": "universe: curl: (28) Operation timed out after 20001 milliseconds with 6741778 out of 17610565 bytes received",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -43921,12 +43921,12 @@
   "signals": 2203,
   "entries": 2203,
   "exits": 2211,
-  "ws_msgs": 26431672,
-  "ws_ticks": 26431672,
-  "signal_scans": 20090,
+  "ws_msgs": 26451659,
+  "ws_ticks": 26451659,
+  "signal_scans": 20096,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-18T22:45:55Z",
+  "last_ok": "2026-09-18T22:50:53Z",
   "last_error": "universe: curl: (28) Operation timed out after 20001 milliseconds with 6741778 out of 17610565 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest"
