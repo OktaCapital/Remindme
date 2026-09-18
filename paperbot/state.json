@@ -1,26 +1,6 @@
 {
- "equity": 531.2158352171483,
- "positions": {
-  "STGUSDT": {
-   "entry": 0.1408,
-   "notional": 333.33,
-   "opened_ms": 1789725439196,
-   "opened": "2026-09-18T09:57:19Z",
-   "entry_time": "2026-09-18T09:57:19Z",
-   "dir_long": true,
-   "rsi": 14.95,
-   "vol_ratio": 804.05,
-   "tf": "1h",
-   "interval": "1h",
-   "signal_bar": 1789718400000,
-   "mark": 0.1397,
-   "mark_src": "spot",
-   "u_pnl": -2.6041,
-   "spot": "STGUSDT",
-   "last_mark_ms": 1789725916137,
-   "age_h": 0.132
-  }
- },
+ "equity": 521.0492702171483,
+ "positions": {},
  "trades": [
   {
    "sym": "OPUSDT",
@@ -42714,6 +42694,25 @@
    "mark": 0.1423,
    "mark_src": "spot",
    "dir_long": true
+  },
+  {
+   "sym": "STGUSDT",
+   "entry": 0.1408,
+   "exit": 0.136576,
+   "ret": -0.0305,
+   "pnl": -10.166564999999999,
+   "reason": "sl_spot",
+   "opened": "2026-09-18T09:57:19Z",
+   "opened_ms": 1789725439196,
+   "closed_ms": 1789726146461,
+   "age_h": 0.196,
+   "tf": "1h",
+   "signal_bar": 1789718400000,
+   "rsi": 14.95,
+   "vol_ratio": 804.05,
+   "mark": 0.1365,
+   "mark_src": "spot",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -43436,8 +43435,8 @@
    "ENAUSDT",
    "SUIUSDT",
    "GUSDT",
-   "BRUSDT",
    "1000PEPEUSDT",
+   "BRUSDT",
    "WLDUSDT",
    "ADAUSDT",
    "ONDOUSDT",
@@ -43467,8 +43466,8 @@
    "DRIFTUSDT",
    "XLMUSDT",
    "CROSSUSDT",
-   "FETUSDT",
    "AKEUSDT",
+   "FETUSDT",
    "ASTERUSDT",
    "INJUSDT",
    "PENGUUSDT",
@@ -43483,15 +43482,15 @@
    "CRVUSDT",
    "ZENUSDT",
    "TRXUSDT",
-   "BULLAUSDT",
    "GALAUSDT",
    "AEROUSDT",
+   "BULLAUSDT",
    "POLUSDT",
    "ETHFIUSDT",
    "ZROUSDT",
    "ETCUSDT",
-   "PENDLEUSDT",
    "STGUSDT",
+   "PENDLEUSDT",
    "BTWUSDT",
    "IOSTUSDT",
    "FLOCKUSDT",
@@ -43502,14 +43501,14 @@
    "EDENUSDT",
    "UAIUSDT"
   ],
-  "eligible_count": 509,
+  "eligible_count": 508,
   "spot_mapped": 62,
-  "scanned_at": "2026-09-18T10:04:12Z"
+  "scanned_at": "2026-09-18T10:09:14Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-18T10:05:16Z",
+  "last_ok": "2026-09-18T10:10:14Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -43517,13 +43516,13 @@
  "stats": {
   "signals": 2182,
   "entries": 2182,
-  "exits": 2191,
-  "ws_msgs": 25397633,
-  "ws_ticks": 25397633,
-  "signal_scans": 19311,
+  "exits": 2192,
+  "ws_msgs": 25398990,
+  "ws_ticks": 25398990,
+  "signal_scans": 19316,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-18T10:05:16Z",
+  "last_ok": "2026-09-18T10:10:14Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest"
