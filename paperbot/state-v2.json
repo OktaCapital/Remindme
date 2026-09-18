@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789733400000,
-   "mark": 0.75,
-   "mark_src": "spot",
-   "u_pnl": 2.1471,
+   "mark": 0.7505,
+   "mark_src": "fapi",
+   "u_pnl": 2.3707,
    "spot": "ASTERUSDT",
-   "last_mark_ms": 1789756543307,
-   "age_h": 6.333
+   "last_mark_ms": 1789756848345,
+   "age_h": 6.417
   },
   "ZECUSDT": {
    "entry": 1441.53,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789750800000,
-   "mark": 1447.37,
+   "mark": 1449.17,
    "mark_src": "spot",
-   "u_pnl": 1.3504,
+   "u_pnl": 1.7666,
    "spot": "ZECUSDT",
-   "last_mark_ms": 1789756547646,
-   "age_h": 1.509
+   "last_mark_ms": 1789756852196,
+   "age_h": 1.594
   }
  },
  "trades": [
@@ -20798,13 +20798,13 @@
    "DOGEUSDT",
    "SUIUSDT",
    "LSKUSDT",
-   "WLDUSDT",
    "BRUSDT",
+   "WLDUSDT",
    "ENAUSDT",
    "1000PEPEUSDT",
    "ADAUSDT",
-   "LINKUSDT",
    "AKEUSDT",
+   "LINKUSDT",
    "\u9f99\u867eUSDT",
    "COTIUSDT",
    "PONSUSDT",
@@ -20844,8 +20844,8 @@
    "ETHFIUSDT",
    "SAGAUSDT",
    "HBARUSDT",
-   "CROSSUSDT",
    "TIAUSDT",
+   "CROSSUSDT",
    "PIEVERSEUSDT",
    "1000SHIBUSDT",
    "PENDLEUSDT",
@@ -20868,23 +20868,23 @@
   ],
   "eligible_count": 517,
   "spot_mapped": 64,
-  "scanned_at": "2026-09-18T18:31:37Z"
+  "scanned_at": "2026-09-18T18:36:38Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-18T18:35:47Z",
+  "last_ok": "2026-09-18T18:40:52Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 1071,
   "entries": 1071,
   "exits": 1069,
-  "ws_msgs": 22580681,
-  "ws_ticks": 22580681,
-  "signal_scans": 28654,
+  "ws_msgs": 22582427,
+  "ws_ticks": 22582427,
+  "signal_scans": 28662,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-18T18:35:47Z",
+  "last_ok": "2026-09-18T18:40:52Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
