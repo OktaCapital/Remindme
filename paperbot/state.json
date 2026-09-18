@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789733400000,
-   "mark": 0.753,
+   "mark": 0.751,
    "mark_src": "spot",
-   "u_pnl": 3.2631,
+   "u_pnl": 2.3691,
    "spot": "ASTERUSDT",
-   "last_mark_ms": 1789741817330,
-   "age_h": 2.25
+   "last_mark_ms": 1789742129083,
+   "age_h": 2.336
   },
   "ZENUSDT": {
    "entry": 7.17,
@@ -32,12 +32,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1789736400000,
-   "mark": 7.162,
+   "mark": 7.154,
    "mark_src": "fapi",
-   "u_pnl": -0.3719,
+   "u_pnl": -0.7438,
    "spot": "ZENUSDT",
-   "last_mark_ms": 1789741812593,
-   "age_h": 0.056
+   "last_mark_ms": 1789742125542,
+   "age_h": 0.143
   }
  },
  "trades": [
@@ -43703,8 +43703,8 @@
    "CROSSUSDT",
    "ASTERUSDT",
    "XMRUSDT",
-   "1000SHIBUSDT",
    "OPUSDT",
+   "1000SHIBUSDT",
    "STRKUSDT",
    "XPLUSDT",
    "KSMUSDT",
@@ -43718,27 +43718,27 @@
    "STGUSDT",
    "ZROUSDT",
    "ZENUSDT",
-   "GALAUSDT",
    "POLUSDT",
+   "GALAUSDT",
    "ATOMUSDT",
    "FARTCOINUSDT",
    "CHIPUSDT",
    "AEROUSDT",
-   "FLOCKUSDT",
    "ZAMAUSDT",
+   "FLOCKUSDT",
    "ICPUSDT",
    "CAKEUSDT",
    "IOSTUSDT",
-   "BTWUSDT"
+   "RENDERUSDT"
   ],
   "eligible_count": 512,
-  "spot_mapped": 64,
-  "scanned_at": "2026-09-18T14:26:08Z"
+  "spot_mapped": 65,
+  "scanned_at": "2026-09-18T14:31:11Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-18T14:30:17Z",
+  "last_ok": "2026-09-18T14:35:29Z",
   "last_error": "universe: curl: (28) Operation timed out after 20001 milliseconds with 6741778 out of 17610565 bytes received",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -43747,12 +43747,12 @@
   "signals": 2194,
   "entries": 2194,
   "exits": 2202,
-  "ws_msgs": 26027654,
-  "ws_ticks": 26027654,
-  "signal_scans": 19570,
+  "ws_msgs": 26027851,
+  "ws_ticks": 26027851,
+  "signal_scans": 19573,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-18T14:30:17Z",
+  "last_ok": "2026-09-18T14:35:29Z",
   "last_error": "universe: curl: (28) Operation timed out after 20001 milliseconds with 6741778 out of 17610565 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest"
