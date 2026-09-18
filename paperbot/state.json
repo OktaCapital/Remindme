@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789728900000,
-   "mark": 0.3204,
+   "mark": 0.3208,
    "mark_src": "fapi",
-   "u_pnl": 1.778,
+   "u_pnl": 2.1964,
    "spot": "GENIUSUSDT",
-   "last_mark_ms": 1789729814073,
-   "age_h": 0.16
+   "last_mark_ms": 1789730117712,
+   "age_h": 0.244
   }
  },
  "trades": [
@@ -43528,8 +43528,8 @@
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-18T11:10:18Z",
-  "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable",
+  "last_ok": "2026-09-18T11:15:19Z",
+  "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 5594898 out of 17610565 bytes received",
   "monitor_ok": 9,
   "monitor_failed": 0
  },
@@ -43537,13 +43537,13 @@
   "signals": 2183,
   "entries": 2183,
   "exits": 2192,
-  "ws_msgs": 25814437,
-  "ws_ticks": 25814437,
-  "signal_scans": 19380,
+  "ws_msgs": 25867035,
+  "ws_ticks": 25867035,
+  "signal_scans": 19385,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-18T11:10:18Z",
-  "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
+  "last_ok": "2026-09-18T11:15:19Z",
+  "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 5594898 out of 17610565 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest"
 }
