@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789733400000,
-   "mark": 0.754,
+   "mark": 0.753,
    "mark_src": "spot",
-   "u_pnl": 3.9363,
+   "u_pnl": 3.489,
    "spot": "ASTERUSDT",
-   "last_mark_ms": 1789746044651,
-   "age_h": 3.416
+   "last_mark_ms": 1789746343970,
+   "age_h": 3.499
   },
   "CROSSUSDT": {
    "entry": 0.13622,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789744200000,
-   "mark": 0.13483,
+   "mark": 0.1351,
    "mark_src": "fapi",
-   "u_pnl": -3.4013,
+   "u_pnl": -2.7406,
    "spot": null,
-   "last_mark_ms": 1789746043422,
-   "age_h": 0.424
+   "last_mark_ms": 1789746341973,
+   "age_h": 0.507
   }
  },
  "trades": [
@@ -20730,8 +20730,8 @@
    "\u9f99\u867eUSDT",
    "COTIUSDT",
    "PONSUSDT",
-   "AAVEUSDT",
    "ONDOUSDT",
+   "AAVEUSDT",
    "PUMPUSDT",
    "TAOUSDT",
    "DASHUSDT",
@@ -20764,8 +20764,8 @@
    "1000SHIBUSDT",
    "STRKUSDT",
    "XPLUSDT",
-   "KSMUSDT",
    "HBARUSDT",
+   "KSMUSDT",
    "TIAUSDT",
    "CRVUSDT",
    "PENDLEUSDT",
@@ -20774,12 +20774,12 @@
    "TRXUSDT",
    "ZROUSDT",
    "STGUSDT",
-   "POLUSDT",
+   "FUSDT",
    "EVAAUSDT",
+   "POLUSDT",
    "GALAUSDT",
    "ZENUSDT",
    "ATOMUSDT",
-   "FUSDT",
    "FARTCOINUSDT",
    "CHIPUSDT",
    "ZAMAUSDT",
@@ -20790,23 +20790,23 @@
   ],
   "eligible_count": 515,
   "spot_mapped": 65,
-  "scanned_at": "2026-09-18T15:39:23Z"
+  "scanned_at": "2026-09-18T15:44:25Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-18T15:40:44Z",
+  "last_ok": "2026-09-18T15:45:44Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 1067,
   "entries": 1067,
   "exits": 1065,
-  "ws_msgs": 22541931,
-  "ws_ticks": 22541931,
-  "signal_scans": 28442,
+  "ws_msgs": 22542017,
+  "ws_ticks": 22542017,
+  "signal_scans": 28447,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-18T15:40:44Z",
+  "last_ok": "2026-09-18T15:45:44Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
