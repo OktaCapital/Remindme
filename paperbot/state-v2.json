@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789771200000,
-   "mark": 0.004246,
-   "mark_src": "fapi",
-   "u_pnl": -4.0328,
+   "mark": 0.00425,
+   "mark_src": "spot",
+   "u_pnl": -3.7226,
    "spot": "PUMPUSDT",
-   "last_mark_ms": 1789777527572,
-   "age_h": 1.673
+   "last_mark_ms": 1789777827137,
+   "age_h": 1.756
   },
   "AEROUSDT": {
    "entry": 0.6554,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789771200000,
-   "mark": 0.6461,
-   "mark_src": "spot",
-   "u_pnl": -4.7299,
+   "mark": 0.6458,
+   "mark_src": "fapi",
+   "u_pnl": -4.8825,
    "spot": "AEROUSDT",
-   "last_mark_ms": 1789777527087,
-   "age_h": 1.662
+   "last_mark_ms": 1789777825758,
+   "age_h": 1.745
   },
   "LINKUSDT": {
    "entry": 12.267,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789773300000,
-   "mark": 12.297,
-   "mark_src": "spot",
-   "u_pnl": 0.8152,
+   "mark": 12.321,
+   "mark_src": "fapi",
+   "u_pnl": 1.4673,
    "spot": "LINKUSDT",
-   "last_mark_ms": 1789777529639,
-   "age_h": 1.084
+   "last_mark_ms": 1789777829893,
+   "age_h": 1.167
   }
  },
  "trades": [
@@ -20948,19 +20948,19 @@
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-19T00:25:32Z",
+  "last_ok": "2026-09-19T00:30:30Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 1075,
   "entries": 1075,
   "exits": 1072,
-  "ws_msgs": 23117054,
-  "ws_ticks": 23117054,
-  "signal_scans": 29168,
+  "ws_msgs": 23122414,
+  "ws_ticks": 23122414,
+  "signal_scans": 29175,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-19T00:25:32Z",
+  "last_ok": "2026-09-19T00:30:30Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
