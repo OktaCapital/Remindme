@@ -13,12 +13,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1789884000000,
-   "mark": 763.08,
+   "mark": 763.49,
    "mark_src": "spot",
-   "u_pnl": 4.8438,
+   "u_pnl": 5.0255,
    "spot": "BNBUSDT",
-   "last_mark_ms": 1789923008207,
-   "age_h": 9.827
+   "last_mark_ms": 1789923310640,
+   "age_h": 9.911
   },
   "CAPUSDT": {
    "entry": 0.04446,
@@ -32,12 +32,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1789909200000,
-   "mark": 0.04484,
+   "mark": 0.04482,
    "mark_src": "fapi",
-   "u_pnl": 2.849,
+   "u_pnl": 2.699,
    "spot": null,
-   "last_mark_ms": 1789923006863,
-   "age_h": 1.846
+   "last_mark_ms": 1789923309673,
+   "age_h": 1.931
   },
   "DASHUSDT": {
    "entry": 55.83,
@@ -51,12 +51,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1789916400000,
-   "mark": 56.5,
-   "mark_src": "fapi",
-   "u_pnl": 4.0002,
+   "mark": 56.53,
+   "mark_src": "spot",
+   "u_pnl": 4.1793,
    "spot": "DASHUSDT",
-   "last_mark_ms": 1789923006863,
-   "age_h": 0.64
+   "last_mark_ms": 1789923311024,
+   "age_h": 0.724
   },
   "RAYSOLUSDT": {
    "entry": 1.6608,
@@ -70,12 +70,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1789916400000,
-   "mark": 1.6657,
+   "mark": 1.6674,
    "mark_src": "fapi",
-   "u_pnl": 0.9835,
+   "u_pnl": 1.3246,
    "spot": null,
-   "last_mark_ms": 1789923006863,
-   "age_h": 0.543
+   "last_mark_ms": 1789923309673,
+   "age_h": 0.627
   },
   "AAVEUSDT": {
    "entry": 137.31,
@@ -89,12 +89,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1789916400000,
-   "mark": 137.45,
+   "mark": 137.41,
    "mark_src": "spot",
-   "u_pnl": 0.3399,
+   "u_pnl": 0.2428,
    "spot": "AAVEUSDT",
-   "last_mark_ms": 1789923008413,
-   "age_h": 0.272
+   "last_mark_ms": 1789923310322,
+   "age_h": 0.356
   },
   "ETHFIUSDT": {
    "entry": 0.7313,
@@ -108,12 +108,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1789916400000,
-   "mark": 0.7307,
-   "mark_src": "spot",
-   "u_pnl": -0.2735,
+   "mark": 0.7299,
+   "mark_src": "fapi",
+   "u_pnl": -0.6381,
    "spot": "ETHFIUSDT",
-   "last_mark_ms": 1789923007657,
-   "age_h": 0.19
+   "last_mark_ms": 1789923309673,
+   "age_h": 0.273
   }
  },
  "trades": [
@@ -46760,8 +46760,8 @@
    "TRUMPUSDT",
    "ONDOUSDT",
    "PUMPUSDT",
-   "BANKUSDT",
    "AAVEUSDT",
+   "BANKUSDT",
    "LSKUSDT",
    "HBARUSDT",
    "B2USDT",
@@ -46777,8 +46777,8 @@
    "ZILUSDT",
    "STRKUSDT",
    "DASHUSDT",
-   "PENGUUSDT",
    "ASTERUSDT",
+   "PENGUUSDT",
    "DOTUSDT",
    "APTUSDT",
    "TRXUSDT",
@@ -46787,11 +46787,11 @@
    "SYNUSDT",
    "SKLUSDT",
    "MARSCOINUSDT",
-   "EPICUSDT",
-   "\u725b\u6765USDT",
-   "FETUSDT",
-   "1000SHIBUSDT",
    "SAGAUSDT",
+   "FETUSDT",
+   "\u725b\u6765USDT",
+   "EPICUSDT",
+   "1000SHIBUSDT",
    "PIEVERSEUSDT",
    "USELESSUSDT",
    "UBUSDT",
@@ -46803,24 +46803,24 @@
    "EVAAUSDT",
    "FARTCOINUSDT",
    "XPLUSDT",
-   "TIAUSDT",
    "ALGOUSDT",
+   "TIAUSDT",
    "CRVUSDT",
+   "LUNA2USDT",
    "XTZUSDT",
    "GENIUSUSDT",
    "ICPUSDT",
    "RAYSOLUSDT",
-   "ETHFIUSDT",
-   "LUNA2USDT"
+   "ETHFIUSDT"
   ],
   "eligible_count": 514,
   "spot_mapped": 63,
-  "scanned_at": "2026-09-20T16:49:43Z"
+  "scanned_at": "2026-09-20T16:54:45Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-20T16:50:08Z",
+  "last_ok": "2026-09-20T16:55:11Z",
   "last_error": "universe: curl: (28) Operation timed out after 20001 milliseconds with 6741778 out of 17610565 bytes received",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -46829,12 +46829,12 @@
   "signals": 2355,
   "entries": 2355,
   "exits": 2359,
-  "ws_msgs": 28933388,
-  "ws_ticks": 28933388,
-  "signal_scans": 21869,
+  "ws_msgs": 28939393,
+  "ws_ticks": 28939393,
+  "signal_scans": 21875,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-20T16:50:08Z",
+  "last_ok": "2026-09-20T16:55:11Z",
   "last_error": "universe: curl: (28) Operation timed out after 20001 milliseconds with 6741778 out of 17610565 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest"
