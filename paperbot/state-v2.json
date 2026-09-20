@@ -17,8 +17,8 @@
    "mark_src": "spot",
    "u_pnl": -1.7416,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1789946124606,
-   "age_h": 8.249
+   "last_mark_ms": 1789946429732,
+   "age_h": 8.334
   },
   "USELESSUSDT": {
    "entry": 0.2373,
@@ -32,12 +32,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1789938000000,
-   "mark": 0.23751,
+   "mark": 0.23775,
    "mark_src": "fapi",
-   "u_pnl": 0.295,
+   "u_pnl": 0.6321,
    "spot": null,
-   "last_mark_ms": 1789946124295,
-   "age_h": 1.753
+   "last_mark_ms": 1789946428274,
+   "age_h": 1.838
   },
   "BANKUSDT": {
    "entry": 0.03253,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789945500000,
-   "mark": 0.03253,
-   "mark_src": "fapi",
-   "u_pnl": 0.0,
+   "mark": 0.0328,
+   "mark_src": "spot",
+   "u_pnl": 2.7666,
    "spot": "BANKUSDT",
-   "last_mark_ms": 1789946124295,
-   "age_h": 0.086
+   "last_mark_ms": 1789946423260,
+   "age_h": 0.169
   }
  },
  "trades": [
@@ -23081,19 +23081,19 @@
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-20T23:15:25Z",
+  "last_ok": "2026-09-20T23:20:29Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 1186,
   "entries": 1186,
   "exits": 1183,
-  "ws_msgs": 24754533,
-  "ws_ticks": 24754533,
-  "signal_scans": 32880,
+  "ws_msgs": 24754857,
+  "ws_ticks": 24754857,
+  "signal_scans": 32887,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-20T23:15:24Z",
+  "last_ok": "2026-09-20T23:20:29Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
