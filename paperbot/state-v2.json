@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789838100000,
-   "mark": 1454.16,
+   "mark": 1454.03,
    "mark_src": "spot",
-   "u_pnl": -6.7488,
+   "u_pnl": -6.7779,
    "spot": "ZECUSDT",
-   "last_mark_ms": 1789875028334,
-   "age_h": 10.162
+   "last_mark_ms": 1789875328813,
+   "age_h": 10.245
   },
   "BCHUSDT": {
    "entry": 246.75,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789871400000,
-   "mark": 245.8,
-   "mark_src": "spot",
-   "u_pnl": -1.2833,
+   "mark": 245.61,
+   "mark_src": "fapi",
+   "u_pnl": -1.54,
    "spot": "BCHUSDT",
-   "last_mark_ms": 1789875024853,
-   "age_h": 0.912
+   "last_mark_ms": 1789875325194,
+   "age_h": 0.996
   },
   "AVAXUSDT": {
    "entry": 9.526,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789872300000,
-   "mark": 9.556,
+   "mark": 9.558,
    "mark_src": "spot",
-   "u_pnl": 1.0497,
+   "u_pnl": 1.1197,
    "spot": "AVAXUSDT",
-   "last_mark_ms": 1789875027277,
-   "age_h": 0.665
+   "last_mark_ms": 1789875328166,
+   "age_h": 0.749
   },
   "ASTERUSDT": {
    "entry": 0.7443,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789872300000,
-   "mark": 0.7376,
+   "mark": 0.7391,
    "mark_src": "fapi",
-   "u_pnl": -3.0006,
+   "u_pnl": -2.3288,
    "spot": "ASTERUSDT",
-   "last_mark_ms": 1789875027896,
-   "age_h": 0.664
+   "last_mark_ms": 1789875327320,
+   "age_h": 0.748
   },
   "PUMPUSDT": {
    "entry": 0.003986,
@@ -89,12 +89,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789872600000,
-   "mark": 0.003982,
-   "mark_src": "spot",
-   "u_pnl": -0.3345,
+   "mark": 0.003975,
+   "mark_src": "fapi",
+   "u_pnl": -0.9199,
    "spot": "PUMPUSDT",
-   "last_mark_ms": 1789875027122,
-   "age_h": 0.589
+   "last_mark_ms": 1789875325194,
+   "age_h": 0.671
   },
   "HBARUSDT": {
    "entry": 0.08007,
@@ -108,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789872600000,
-   "mark": 0.08027,
-   "mark_src": "spot",
-   "u_pnl": 0.8326,
+   "mark": 0.08011,
+   "mark_src": "fapi",
+   "u_pnl": 0.1665,
    "spot": "HBARUSDT",
-   "last_mark_ms": 1789875027271,
-   "age_h": 0.588
+   "last_mark_ms": 1789875325194,
+   "age_h": 0.671
   },
   "TAOUSDT": {
    "entry": 253.22,
@@ -127,12 +127,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789872600000,
-   "mark": 253.9,
+   "mark": 253.2,
    "mark_src": "spot",
-   "u_pnl": 0.8951,
+   "u_pnl": -0.0263,
    "spot": "TAOUSDT",
-   "last_mark_ms": 1789875026253,
-   "age_h": 0.512
+   "last_mark_ms": 1789875327013,
+   "age_h": 0.596
   },
   "LINKUSDT": {
    "entry": 11.979,
@@ -150,8 +150,8 @@
    "mark_src": "spot",
    "u_pnl": 2.3931,
    "spot": "LINKUSDT",
-   "last_mark_ms": 1789875027156,
-   "age_h": 0.5
+   "last_mark_ms": 1789875325812,
+   "age_h": 0.583
   }
  },
  "trades": [
@@ -22273,37 +22273,37 @@
    "CRVUSDT",
    "BTWUSDT",
    "TIAUSDT",
-   "JTOUSDT",
-   "ICPUSDT",
    "HEIUSDT",
+   "ICPUSDT",
+   "JTOUSDT",
    "EPICUSDT",
    "ZENUSDT",
    "AVAUSDT",
+   "ETHFIUSDT",
    "LABUSDT",
    "STXUSDT",
-   "ETHFIUSDT",
    "SAGAUSDT",
    "ATOMUSDT"
   ],
   "eligible_count": 514,
   "spot_mapped": 63,
-  "scanned_at": "2026-09-20T03:29:38Z"
+  "scanned_at": "2026-09-20T03:34:40Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-20T03:30:28Z",
+  "last_ok": "2026-09-20T03:35:28Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 1145,
   "entries": 1145,
   "exits": 1137,
-  "ws_msgs": 24125208,
-  "ws_ticks": 24125208,
-  "signal_scans": 31139,
+  "ws_msgs": 24132567,
+  "ws_ticks": 24132567,
+  "signal_scans": 31147,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-20T03:30:28Z",
+  "last_ok": "2026-09-20T03:35:28Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
