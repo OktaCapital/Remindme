@@ -1,25 +1,6 @@
 {
- "equity": 953.2304327549692,
+ "equity": 959.7303677549693,
  "positions": {
-  "LINKUSDT": {
-   "entry": 11.979,
-   "notional": 333.33,
-   "opened_ms": 1789873227359,
-   "opened": "2026-09-20T03:00:27Z",
-   "entry_time": "2026-09-20T03:00:27Z",
-   "dir_long": true,
-   "rsi": 12.815,
-   "vol_ratio": 4.169,
-   "tf": "5m",
-   "interval": "5m",
-   "signal_bar": 1789872900000,
-   "mark": 12.158,
-   "mark_src": "spot",
-   "u_pnl": 4.9809,
-   "spot": "LINKUSDT",
-   "last_mark_ms": 1789916445137,
-   "age_h": 12.005
-  },
   "XPLUSDT": {
    "entry": 0.08611,
    "notional": 333.33,
@@ -32,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789910100000,
-   "mark": 0.08677,
-   "mark_src": "spot",
-   "u_pnl": 2.5548,
+   "mark": 0.08703,
+   "mark_src": "fapi",
+   "u_pnl": 3.5613,
    "spot": "XPLUSDT",
-   "last_mark_ms": 1789916441227,
-   "age_h": 1.669
+   "last_mark_ms": 1789916740205,
+   "age_h": 1.752
   },
   "FILUSDT": {
    "entry": 0.926,
@@ -51,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789910700000,
-   "mark": 0.9147,
+   "mark": 0.9189,
    "mark_src": "fapi",
-   "u_pnl": -4.0676,
+   "u_pnl": -2.5558,
    "spot": "FILUSDT",
-   "last_mark_ms": 1789916446181,
-   "age_h": 1.504
+   "last_mark_ms": 1789916740205,
+   "age_h": 1.586
   },
   "TRUMPUSDT": {
    "entry": 2.0,
@@ -70,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789911000000,
-   "mark": 2.012,
+   "mark": 2.017,
    "mark_src": "fapi",
-   "u_pnl": 2.0,
+   "u_pnl": 2.8333,
    "spot": "TRUMPUSDT",
-   "last_mark_ms": 1789916444030,
-   "age_h": 1.427
+   "last_mark_ms": 1789916740205,
+   "age_h": 1.509
   },
   "TRXUSDT": {
    "entry": 0.3445,
@@ -89,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789916100000,
-   "mark": 0.3445,
+   "mark": 0.3444,
    "mark_src": "fapi",
-   "u_pnl": 0.0,
+   "u_pnl": -0.0968,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1789916441887,
-   "age_h": 0.004
+   "last_mark_ms": 1789916740205,
+   "age_h": 0.087
   }
  },
  "trades": [
@@ -22384,6 +22365,25 @@
    "mark": 0.1274,
    "mark_src": "fapi",
    "dir_long": true
+  },
+  {
+   "sym": "LINKUSDT",
+   "entry": 11.979,
+   "exit": 12.21858,
+   "ret": 0.0195,
+   "pnl": 6.499935,
+   "reason": "tp_spot",
+   "opened": "2026-09-20T03:00:27Z",
+   "opened_ms": 1789873227359,
+   "closed_ms": 1789916527186,
+   "age_h": 12.028,
+   "tf": "5m",
+   "signal_bar": 1789872900000,
+   "rsi": 12.815,
+   "vol_ratio": 4.169,
+   "mark": 12.219,
+   "mark_src": "spot",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -22874,8 +22874,8 @@
    "AAVEUSDT",
    "ARUSDT",
    "PONSUSDT",
-   "BCHUSDT",
    "HBARUSDT",
+   "BCHUSDT",
    "LTCUSDT",
    "XLMUSDT",
    "VVVUSDT",
@@ -22893,21 +22893,21 @@
    "\u9f99\u867eUSDT",
    "SYNUSDT",
    "MARSCOINUSDT",
-   "SKLUSDT",
    "CUSDT",
+   "SKLUSDT",
    "1000SHIBUSDT",
    "\u725b\u6765USDT",
    "USELESSUSDT",
    "FETUSDT",
-   "EPICUSDT",
    "PIEVERSEUSDT",
+   "EPICUSDT",
    "ETCUSDT",
-   "XTZUSDT",
    "JTOUSDT",
-   "OPUSDT",
    "ONGUSDT",
+   "OPUSDT",
    "CAKEUSDT",
    "UBUSDT",
+   "XTZUSDT",
    "EVAAUSDT",
    "CAPUSDT",
    "XPLUSDT",
@@ -22918,28 +22918,28 @@
    "LABUSDT",
    "RAYSOLUSDT",
    "ALLOUSDT",
-   "FUSDT",
-   "SAGAUSDT"
+   "SAGAUSDT",
+   "ALGOUSDT"
   ],
   "eligible_count": 514,
   "spot_mapped": 62,
-  "scanned_at": "2026-09-20T15:00:03Z"
+  "scanned_at": "2026-09-20T15:05:35Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-20T15:00:47Z",
+  "last_ok": "2026-09-20T15:05:44Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 1178,
   "entries": 1178,
-  "exits": 1173,
-  "ws_msgs": 24648088,
-  "ws_ticks": 24648088,
-  "signal_scans": 32146,
+  "exits": 1174,
+  "ws_msgs": 24655326,
+  "ws_ticks": 24655326,
+  "signal_scans": 32154,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-20T15:00:47Z",
+  "last_ok": "2026-09-20T15:05:44Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
