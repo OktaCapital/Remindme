@@ -1,5 +1,5 @@
 {
- "equity": 995.2399304109945,
+ "equity": 1001.7398654109945,
  "positions": {
   "ZAMAUSDT": {
    "entry": 0.0917,
@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1790020200000,
-   "mark": 0.09256,
+   "mark": 0.09304,
    "mark_src": "spot",
-   "u_pnl": 3.1261,
+   "u_pnl": 4.8709,
    "spot": "ZAMAUSDT",
-   "last_mark_ms": 1790031651545,
-   "age_h": 3.086
+   "last_mark_ms": 1790031952918,
+   "age_h": 3.17
   },
   "PENDLEUSDT": {
    "entry": 2.5233,
@@ -32,12 +32,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1790022600000,
-   "mark": 2.506,
+   "mark": 2.521,
    "mark_src": "spot",
-   "u_pnl": -2.2853,
+   "u_pnl": -0.3038,
    "spot": "PENDLEUSDT",
-   "last_mark_ms": 1790031646223,
-   "age_h": 2.007
+   "last_mark_ms": 1790031952008,
+   "age_h": 2.092
   },
   "XPLUSDT": {
    "entry": 0.09736,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1790024400000,
-   "mark": 0.09799,
+   "mark": 0.09817,
    "mark_src": "spot",
-   "u_pnl": 2.1569,
+   "u_pnl": 2.7732,
    "spot": "XPLUSDT",
-   "last_mark_ms": 1790031647960,
-   "age_h": 1.917
+   "last_mark_ms": 1790031950918,
+   "age_h": 2.001
   },
   "\u9f99\u867eUSDT": {
    "entry": 0.2396,
@@ -70,31 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1790029800000,
-   "mark": 0.24174,
+   "mark": 0.24101,
    "mark_src": "fapi",
-   "u_pnl": 2.9772,
+   "u_pnl": 1.9616,
    "spot": null,
-   "last_mark_ms": 1790031650405,
-   "age_h": 0.427
-  },
-  "USELESSUSDT": {
-   "entry": 0.27281,
-   "notional": 333.33,
-   "opened_ms": 1790030440466,
-   "opened": "2026-09-21T22:40:40Z",
-   "entry_time": "2026-09-21T22:40:40Z",
-   "dir_long": true,
-   "rsi": 7.537,
-   "vol_ratio": 1.225,
-   "tf": "5m",
-   "interval": "5m",
-   "signal_bar": 1790030100000,
-   "mark": 0.27755,
-   "mark_src": "fapi",
-   "u_pnl": 5.7915,
-   "spot": null,
-   "last_mark_ms": 1790031650405,
-   "age_h": 0.336
+   "last_mark_ms": 1790031951276,
+   "age_h": 0.511
   }
  },
  "trades": [
@@ -23505,6 +23486,25 @@
    "mark": 0.10832,
    "mark_src": "fapi",
    "dir_long": true
+  },
+  {
+   "sym": "USELESSUSDT",
+   "entry": 0.27281,
+   "exit": 0.2782662,
+   "ret": 0.0195,
+   "pnl": 6.499935,
+   "reason": "tp_fapi",
+   "opened": "2026-09-21T22:40:40Z",
+   "opened_ms": 1790030440466,
+   "closed_ms": 1790031717018,
+   "age_h": 0.355,
+   "tf": "5m",
+   "signal_bar": 1790030100000,
+   "rsi": 7.537,
+   "vol_ratio": 1.225,
+   "mark": 0.27834,
+   "mark_src": "fapi",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -24009,8 +24009,8 @@
    "VVVUSDT",
    "PENGUUSDT",
    "XLMUSDT",
-   "SAGAUSDT",
    "ZAMAUSDT",
+   "SAGAUSDT",
    "FORMUSDT",
    "UAIUSDT",
    "SEIUSDT",
@@ -24030,8 +24030,8 @@
    "DASHUSDT",
    "MUBARAKUSDT",
    "DOTUSDT",
-   "NILUSDT",
    "LITUSDT",
+   "NILUSDT",
    "FARTCOINUSDT",
    "ETCUSDT",
    "OPUSDT",
@@ -24045,10 +24045,10 @@
    "STRKUSDT",
    "TRXUSDT",
    "RENDERUSDT",
-   "FFUSDT",
    "TIAUSDT",
    "PENDLEUSDT",
    "FLOCKUSDT",
+   "FFUSDT",
    "SYNUSDT",
    "WLFIUSDT",
    "RAYSOLUSDT",
@@ -24056,23 +24056,23 @@
   ],
   "eligible_count": 518,
   "spot_mapped": 64,
-  "scanned_at": "2026-09-21T22:56:22Z"
+  "scanned_at": "2026-09-21T23:01:26Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-21T23:00:51Z",
+  "last_ok": "2026-09-21T23:05:52Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 1237,
   "entries": 1237,
-  "exits": 1232,
-  "ws_msgs": 26160395,
-  "ws_ticks": 26160395,
-  "signal_scans": 34749,
+  "exits": 1233,
+  "ws_msgs": 26163181,
+  "ws_ticks": 26163181,
+  "signal_scans": 34756,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-21T23:00:51Z",
+  "last_ok": "2026-09-21T23:05:52Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
