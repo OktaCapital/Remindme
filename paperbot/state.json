@@ -1,5 +1,5 @@
 {
- "equity": 566.4878419250103,
+ "equity": 572.9877769250104,
  "positions": {
   "CRVUSDT": {
    "entry": 0.3508,
@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789954200000,
-   "mark": 0.3495,
+   "mark": 0.3493,
    "mark_src": "fapi",
-   "u_pnl": -1.2353,
+   "u_pnl": -1.4253,
    "spot": "CRVUSDT",
-   "last_mark_ms": 1789962953545,
-   "age_h": 2.337
+   "last_mark_ms": 1789963246714,
+   "age_h": 2.418
   },
   "ONDOUSDT": {
    "entry": 0.4258,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789955400000,
-   "mark": 0.4294,
-   "mark_src": "spot",
-   "u_pnl": 2.8182,
+   "mark": 0.4302,
+   "mark_src": "fapi",
+   "u_pnl": 3.4445,
    "spot": "ONDOUSDT",
-   "last_mark_ms": 1789962953570,
-   "age_h": 2.013
+   "last_mark_ms": 1789963244575,
+   "age_h": 2.094
   },
   "ENAUSDT": {
    "entry": 0.21172,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789955400000,
-   "mark": 0.2129,
+   "mark": 0.2138,
    "mark_src": "spot",
-   "u_pnl": 1.8578,
+   "u_pnl": 3.2747,
    "spot": "ENAUSDT",
-   "last_mark_ms": 1789962954232,
-   "age_h": 2.011
+   "last_mark_ms": 1789963247455,
+   "age_h": 2.093
   },
   "XLMUSDT": {
    "entry": 0.19605,
@@ -70,31 +70,31 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789955700000,
-   "mark": 0.1982,
-   "mark_src": "spot",
-   "u_pnl": 3.6555,
+   "mark": 0.19836,
+   "mark_src": "fapi",
+   "u_pnl": 3.9275,
    "spot": "XLMUSDT",
-   "last_mark_ms": 1789962951992,
-   "age_h": 1.925
+   "last_mark_ms": 1789963242448,
+   "age_h": 2.006
   },
   "BRUSDT": {
-   "entry": 1.16808,
+   "entry": 1.19058,
    "notional": 333.33,
-   "opened_ms": 1789962926310,
-   "opened": "2026-09-21T03:55:26Z",
-   "entry_time": "2026-09-21T03:55:26Z",
+   "opened_ms": 1789963172346,
+   "opened": "2026-09-21T03:59:32Z",
+   "entry_time": "2026-09-21T03:59:32Z",
    "dir_long": true,
    "rsi": 8.473,
    "vol_ratio": 1.449,
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789962600000,
-   "mark": 1.16051,
+   "mark": 1.18245,
    "mark_src": "fapi",
-   "u_pnl": -2.1602,
+   "u_pnl": -2.2762,
    "spot": null,
-   "last_mark_ms": 1789962953545,
-   "age_h": 0.008
+   "last_mark_ms": 1789963246714,
+   "age_h": 0.021
   }
  },
  "trades": [
@@ -46514,6 +46514,25 @@
    "mark": 0.13194,
    "mark_src": "spot",
    "dir_long": true
+  },
+  {
+   "sym": "BRUSDT",
+   "entry": 1.16808,
+   "exit": 1.1914416,
+   "ret": 0.0195,
+   "pnl": 6.499935,
+   "reason": "tp_fapi",
+   "opened": "2026-09-21T03:55:26Z",
+   "opened_ms": 1789962926310,
+   "closed_ms": 1789963148532,
+   "age_h": 0.062,
+   "tf": "5m",
+   "signal_bar": 1789962600000,
+   "rsi": 8.473,
+   "vol_ratio": 1.449,
+   "mark": 1.19414,
+   "mark_src": "fapi",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -47311,11 +47330,11 @@
    "USELESSUSDT",
    "XPLUSDT",
    "ASTERUSDT",
-   "BANKUSDT",
    "EPICUSDT",
+   "BANKUSDT",
    "SEIUSDT",
-   "SKLUSDT",
    "SUSDT",
+   "SKLUSDT",
    "ETCUSDT",
    "RENDERUSDT",
    "NILUSDT",
@@ -47331,26 +47350,26 @@
   ],
   "eligible_count": 513,
   "spot_mapped": 64,
-  "scanned_at": "2026-09-21T03:52:22Z"
+  "scanned_at": "2026-09-21T03:57:25Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-21T03:55:54Z",
+  "last_ok": "2026-09-21T04:00:47Z",
   "last_error": "universe: curl: (28) Operation timed out after 20001 milliseconds with 6741778 out of 17610565 bytes received",
   "monitor_ok": 9,
   "monitor_failed": 0
  },
  "stats": {
-  "signals": 2382,
-  "entries": 2382,
-  "exits": 2387,
-  "ws_msgs": 29241168,
-  "ws_ticks": 29241168,
-  "signal_scans": 22670,
+  "signals": 2383,
+  "entries": 2383,
+  "exits": 2388,
+  "ws_msgs": 29242959,
+  "ws_ticks": 29242959,
+  "signal_scans": 22676,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-21T03:55:54Z",
+  "last_ok": "2026-09-21T04:00:47Z",
   "last_error": "universe: curl: (28) Operation timed out after 20001 milliseconds with 6741778 out of 17610565 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest"
