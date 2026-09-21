@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789954200000,
-   "mark": 0.3442,
-   "mark_src": "fapi",
-   "u_pnl": -6.2713,
+   "mark": 0.3446,
+   "mark_src": "spot",
+   "u_pnl": -5.8912,
    "spot": "CRVUSDT",
-   "last_mark_ms": 1789977936820,
-   "age_h": 6.5
+   "last_mark_ms": 1789978234897,
+   "age_h": 6.583
   },
   "LTCUSDT": {
    "entry": 58.47,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789964700000,
-   "mark": 58.5,
+   "mark": 58.49,
    "mark_src": "spot",
-   "u_pnl": 0.171,
+   "u_pnl": 0.114,
    "spot": "LTCUSDT",
-   "last_mark_ms": 1789977937130,
-   "age_h": 3.59
+   "last_mark_ms": 1789978236202,
+   "age_h": 3.673
   },
   "CAKEUSDT": {
    "entry": 2.5249,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789967100000,
-   "mark": 2.5151,
+   "mark": 2.5205,
    "mark_src": "fapi",
-   "u_pnl": -1.2938,
+   "u_pnl": -0.5809,
    "spot": "CAKEUSDT",
-   "last_mark_ms": 1789977932532,
-   "age_h": 2.925
+   "last_mark_ms": 1789978238182,
+   "age_h": 3.01
   },
   "PUMPUSDT": {
    "entry": 0.004354,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1789972800000,
-   "mark": 0.004424,
+   "mark": 0.004431,
    "mark_src": "spot",
-   "u_pnl": 5.359,
+   "u_pnl": 5.8949,
    "spot": "PUMPUSDT",
-   "last_mark_ms": 1789977933367,
-   "age_h": 1.339
+   "last_mark_ms": 1789978239911,
+   "age_h": 1.425
   }
  },
  "trades": [
@@ -23638,8 +23638,8 @@
    "TRUMPUSDT",
    "HBARUSDT",
    "AAVEUSDT",
-   "XMRUSDT",
    "BCHUSDT",
+   "XMRUSDT",
    "LSKUSDT",
    "ZETAUSDT",
    "LTCUSDT",
@@ -23651,9 +23651,9 @@
    "APTUSDT",
    "LUNA2USDT",
    "FFUSDT",
+   "PONSUSDT",
    "STRKUSDT",
    "DASHUSDT",
-   "PONSUSDT",
    "NILUSDT",
    "DOTUSDT",
    "LITUSDT",
@@ -23674,13 +23674,13 @@
    "SUSDT",
    "ETCUSDT",
    "FLOCKUSDT",
-   "CRVUSDT",
    "1000SHIBUSDT",
-   "B2USDT",
+   "CRVUSDT",
    "POLUSDT",
    "CUSDT",
    "PIEVERSEUSDT",
    "SYNUSDT",
+   "B2USDT",
    "ICPUSDT",
    "BANKUSDT",
    "ALGOUSDT",
@@ -23689,23 +23689,23 @@
   ],
   "eligible_count": 516,
   "spot_mapped": 63,
-  "scanned_at": "2026-09-21T08:02:13Z"
+  "scanned_at": "2026-09-21T08:07:14Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-21T08:05:37Z",
+  "last_ok": "2026-09-21T08:10:39Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 1218,
   "entries": 1218,
   "exits": 1214,
-  "ws_msgs": 24949422,
-  "ws_ticks": 24949422,
-  "signal_scans": 33663,
+  "ws_msgs": 24951749,
+  "ws_ticks": 24951749,
+  "signal_scans": 33670,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-21T08:05:37Z",
+  "last_ok": "2026-09-21T08:10:39Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
