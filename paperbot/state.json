@@ -1,26 +1,6 @@
 {
- "equity": 568.9878169250098,
- "positions": {
-  "ETHFIUSDT": {
-   "entry": 0.7313,
-   "notional": 333.33,
-   "opened_ms": 1789922325081,
-   "opened": "2026-09-20T16:38:45Z",
-   "entry_time": "2026-09-20T16:38:45Z",
-   "dir_long": true,
-   "rsi": 29.804,
-   "vol_ratio": 1.271,
-   "tf": "1h",
-   "interval": "1h",
-   "signal_bar": 1789916400000,
-   "mark": 0.7425,
-   "mark_src": "spot",
-   "u_pnl": 5.105,
-   "spot": "ETHFIUSDT",
-   "last_mark_ms": 1789952730625,
-   "age_h": 8.446
-  }
- },
+ "equity": 575.4877519250099,
+ "positions": {},
  "trades": [
   {
    "sym": "OPUSDT",
@@ -46153,6 +46133,25 @@
    "mark": 0.0332,
    "mark_src": "spot",
    "dir_long": true
+  },
+  {
+   "sym": "ETHFIUSDT",
+   "entry": 0.7313,
+   "exit": 0.745926,
+   "ret": 0.0195,
+   "pnl": 6.499935,
+   "reason": "tp_spot",
+   "opened": "2026-09-20T16:38:45Z",
+   "opened_ms": 1789922325081,
+   "closed_ms": 1789952919152,
+   "age_h": 8.498,
+   "tf": "1h",
+   "signal_bar": 1789916400000,
+   "rsi": 29.804,
+   "vol_ratio": 1.271,
+   "mark": 0.746,
+   "mark_src": "spot",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -46916,8 +46915,8 @@
    "HBARUSDT",
    "AAVEUSDT",
    "TRUMPUSDT",
-   "INJUSDT",
    "LSKUSDT",
+   "INJUSDT",
    "BCHUSDT",
    "LTCUSDT",
    "ARUSDT",
@@ -46940,10 +46939,10 @@
    "TRXUSDT",
    "\u9f99\u867eUSDT",
    "\u725b\u6765USDT",
+   "PENGUUSDT",
    "FETUSDT",
    "CAKEUSDT",
    "OPUSDT",
-   "PENGUUSDT",
    "ASTERUSDT",
    "UBUSDT",
    "PTBUSDT",
@@ -46956,12 +46955,12 @@
    "JTOUSDT",
    "SYNUSDT",
    "CRVUSDT",
-   "PIEVERSEUSDT",
    "SUSDT",
+   "PIEVERSEUSDT",
    "FLOCKUSDT",
    "SEIUSDT",
-   "XPLUSDT",
    "RENDERUSDT",
+   "XPLUSDT",
    "1000SHIBUSDT",
    "ALGOUSDT",
    "EVAAUSDT",
@@ -46969,12 +46968,12 @@
   ],
   "eligible_count": 514,
   "spot_mapped": 63,
-  "scanned_at": "2026-09-21T01:01:05Z"
+  "scanned_at": "2026-09-21T01:06:08Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-21T01:05:30Z",
+  "last_ok": "2026-09-21T01:10:34Z",
   "last_error": "universe: curl: (28) Operation timed out after 20001 milliseconds with 6741778 out of 17610565 bytes received",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -46982,13 +46981,13 @@
  "stats": {
   "signals": 2363,
   "entries": 2363,
-  "exits": 2372,
-  "ws_msgs": 29166383,
-  "ws_ticks": 29166383,
-  "signal_scans": 22469,
+  "exits": 2373,
+  "ws_msgs": 29166703,
+  "ws_ticks": 29166703,
+  "signal_scans": 22475,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-21T01:05:30Z",
+  "last_ok": "2026-09-21T01:10:34Z",
   "last_error": "universe: curl: (28) Operation timed out after 20001 milliseconds with 6741778 out of 17610565 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest"
