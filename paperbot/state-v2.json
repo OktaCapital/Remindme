@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1790009400000,
-   "mark": 0.10627,
+   "mark": 0.10709,
    "mark_src": "spot",
-   "u_pnl": 0.4397,
+   "u_pnl": 3.0151,
    "spot": "\u725b\u6765USDT",
-   "last_mark_ms": 1790021151202,
-   "age_h": 3.171
+   "last_mark_ms": 1790021455215,
+   "age_h": 3.255
   },
   "ZAMAUSDT": {
    "entry": 0.0917,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1790020200000,
-   "mark": 0.09133,
+   "mark": 0.09155,
    "mark_src": "fapi",
-   "u_pnl": -1.345,
+   "u_pnl": -0.5453,
    "spot": "ZAMAUSDT",
-   "last_mark_ms": 1790021148003,
-   "age_h": 0.168
+   "last_mark_ms": 1790021451377,
+   "age_h": 0.252
   }
  },
  "trades": [
@@ -23834,8 +23834,8 @@
    "AVAXUSDT",
    "AKEUSDT",
    "ENAUSDT",
-   "ONEUSDT",
    "TAOUSDT",
+   "ONEUSDT",
    "ADAUSDT",
    "ARBUSDT",
    "ZETAUSDT",
@@ -23849,15 +23849,15 @@
    "PTBUSDT",
    "FILUSDT",
    "PHAUSDT",
-   "PUMPUSDT",
    "AAVEUSDT",
+   "PUMPUSDT",
    "BRUSDT",
    "XMRUSDT",
    "SAGAUSDT",
    "VVVUSDT",
    "PENGUUSDT",
-   "ZAMAUSDT",
    "XLMUSDT",
+   "ZAMAUSDT",
    "UAIUSDT",
    "SEIUSDT",
    "FORMUSDT",
@@ -23904,23 +23904,23 @@
   ],
   "eligible_count": 518,
   "spot_mapped": 64,
-  "scanned_at": "2026-09-21T20:01:55Z"
+  "scanned_at": "2026-09-21T20:06:57Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-21T20:05:51Z",
+  "last_ok": "2026-09-21T20:10:55Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 1229,
   "entries": 1229,
   "exits": 1227,
-  "ws_msgs": 26113193,
-  "ws_ticks": 26113193,
-  "signal_scans": 34495,
+  "ws_msgs": 26114323,
+  "ws_ticks": 26114323,
+  "signal_scans": 34502,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-21T20:05:51Z",
+  "last_ok": "2026-09-21T20:10:55Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
