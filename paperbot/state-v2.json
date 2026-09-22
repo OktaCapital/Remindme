@@ -17,8 +17,27 @@
    "mark_src": "spot",
    "u_pnl": -0.0396,
    "spot": "PENDLEUSDT",
-   "last_mark_ms": 1790040614190,
-   "age_h": 4.499
+   "last_mark_ms": 1790040912154,
+   "age_h": 4.581
+  },
+  "COTIUSDT": {
+   "entry": 0.014646,
+   "notional": 333.33,
+   "opened_ms": 1790040620617,
+   "opened": "2026-09-22T01:30:20Z",
+   "entry_time": "2026-09-22T01:30:20Z",
+   "dir_long": true,
+   "rsi": 14.349,
+   "vol_ratio": 1.266,
+   "tf": "30m",
+   "interval": "30m",
+   "signal_bar": 1790038800000,
+   "mark": 0.01465,
+   "mark_src": "fapi",
+   "u_pnl": 0.091,
+   "spot": "COTIUSDT",
+   "last_mark_ms": 1790040909514,
+   "age_h": 0.08
   }
  },
  "trades": [
@@ -23831,7 +23850,7 @@
   "\u54c8\u57fa\u7c73USDT:5m": "1789207200000",
   "LAYERUSDT": "1788795600000",
   "LAYERUSDT:5m": "1788795600000",
-  "COTIUSDT": "1789900800000",
+  "COTIUSDT": "1790038800000",
   "COTIUSDT:5m": "1789900800000",
   "PONSUSDT:30m": "1789837200000",
   "ETCUSDT": "1789641000000",
@@ -24023,7 +24042,8 @@
   "PHAUSDT": "1790004900000",
   "PHAUSDT:5m": "1790004900000",
   "ZETAUSDT": "1790035200000",
-  "ZETAUSDT:5m": "1790035200000"
+  "ZETAUSDT:5m": "1790035200000",
+  "COTIUSDT:30m": "1790038800000"
  },
  "research": {
   "positions": {},
@@ -24043,8 +24063,8 @@
    "BNBUSDT",
    "UNIUSDT",
    "AKEUSDT",
-   "AVAXUSDT",
    "TAOUSDT",
+   "AVAXUSDT",
    "ENAUSDT",
    "ADAUSDT",
    "ONEUSDT",
@@ -24074,8 +24094,8 @@
    "SEIUSDT",
    "USELESSUSDT",
    "SAGAUSDT",
-   "FETUSDT",
    "WIFUSDT",
+   "FETUSDT",
    "ASTERUSDT",
    "XPLUSDT",
    "APTUSDT",
@@ -24115,23 +24135,23 @@
   ],
   "eligible_count": 518,
   "spot_mapped": 64,
-  "scanned_at": "2026-09-22T01:27:06Z"
+  "scanned_at": "2026-09-22T01:32:38Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-22T01:30:14Z",
+  "last_ok": "2026-09-22T01:35:12Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
-  "signals": 1240,
-  "entries": 1240,
+  "signals": 1241,
+  "entries": 1241,
   "exits": 1239,
-  "ws_msgs": 26203928,
-  "ws_ticks": 26203928,
-  "signal_scans": 34963,
+  "ws_msgs": 26204152,
+  "ws_ticks": 26204152,
+  "signal_scans": 34970,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-22T01:30:14Z",
+  "last_ok": "2026-09-22T01:35:12Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
