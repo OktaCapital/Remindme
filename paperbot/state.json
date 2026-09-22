@@ -13,12 +13,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1790022600000,
-   "mark": 2.4804,
+   "mark": 2.486,
    "mark_src": "fapi",
-   "u_pnl": -5.6671,
+   "u_pnl": -4.9274,
    "spot": "PENDLEUSDT",
-   "last_mark_ms": 1790043606186,
-   "age_h": 5.33
+   "last_mark_ms": 1790043902695,
+   "age_h": 5.413
   },
   "COTIUSDT": {
    "entry": 0.014476,
@@ -32,12 +32,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1790038800000,
-   "mark": 0.0144,
+   "mark": 0.01444,
    "mark_src": "spot",
-   "u_pnl": -1.75,
+   "u_pnl": -0.8289,
    "spot": "COTIUSDT",
-   "last_mark_ms": 1790043608730,
-   "age_h": 0.527
+   "last_mark_ms": 1790043908013,
+   "age_h": 0.61
   },
   "LSKUSDT": {
    "entry": 0.34651,
@@ -51,12 +51,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1790038800000,
-   "mark": 0.34735,
+   "mark": 0.34789,
    "mark_src": "fapi",
-   "u_pnl": 0.808,
+   "u_pnl": 1.3275,
    "spot": "LSKUSDT",
-   "last_mark_ms": 1790043604059,
-   "age_h": 0.321
+   "last_mark_ms": 1790043902695,
+   "age_h": 0.404
   }
  },
  "trades": [
@@ -49085,19 +49085,19 @@
    "TIAUSDT",
    "POLUSDT",
    "RAYSOLUSDT",
-   "SYNUSDT",
    "COTIUSDT",
-   "VIRTUALUSDT",
-   "WLFIUSDT"
+   "SYNUSDT",
+   "WLFIUSDT",
+   "VIRTUALUSDT"
   ],
   "eligible_count": 518,
   "spot_mapped": 65,
-  "scanned_at": "2026-09-22T02:18:49Z"
+  "scanned_at": "2026-09-22T02:24:21Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-22T02:20:08Z",
+  "last_ok": "2026-09-22T02:25:08Z",
   "last_error": "universe: curl: (28) Operation timed out after 20001 milliseconds with 6741778 out of 17610565 bytes received",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -49106,12 +49106,12 @@
   "signals": 2474,
   "entries": 2474,
   "exits": 2481,
-  "ws_msgs": 30511373,
-  "ws_ticks": 30511373,
-  "signal_scans": 24075,
+  "ws_msgs": 30511914,
+  "ws_ticks": 30511914,
+  "signal_scans": 24080,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-22T02:20:08Z",
+  "last_ok": "2026-09-22T02:25:08Z",
   "last_error": "universe: curl: (28) Operation timed out after 20001 milliseconds with 6741778 out of 17610565 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest"
