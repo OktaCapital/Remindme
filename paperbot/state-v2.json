@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1790127000000,
-   "mark": 11.238,
+   "mark": 11.251,
    "mark_src": "spot",
-   "u_pnl": 5.0892,
+   "u_pnl": 5.4807,
    "spot": "AVAXUSDT",
-   "last_mark_ms": 1790133023439,
-   "age_h": 1.588
+   "last_mark_ms": 1790133338239,
+   "age_h": 1.675
   },
   "BRUSDT": {
    "entry": 1.12838,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1790132100000,
-   "mark": 1.13172,
+   "mark": 1.12774,
    "mark_src": "fapi",
-   "u_pnl": 0.9867,
+   "u_pnl": -0.1891,
    "spot": null,
-   "last_mark_ms": 1790133023463,
-   "age_h": 0.172
+   "last_mark_ms": 1790133337598,
+   "age_h": 0.259
   }
  },
  "trades": [
@@ -24940,8 +24940,8 @@
    "UNIUSDT",
    "DOGEUSDT",
    "BCHUSDT",
-   "NEARUSDT",
    "MUBARAKUSDT",
+   "NEARUSDT",
    "1000PEPEUSDT",
    "HYPEUSDT",
    "SUIUSDT",
@@ -24988,10 +24988,10 @@
    "AGTUSDT",
    "LSKUSDT",
    "FETUSDT",
-   "ZETAUSDT",
    "XPLUSDT",
    "DOTUSDT",
    "ZAMAUSDT",
+   "ZETAUSDT",
    "OPUSDT",
    "VVVUSDT",
    "LITUSDT",
@@ -25013,27 +25013,27 @@
    "COTIUSDT",
    "GRASSUSDT",
    "ICPUSDT",
-   "VIRTUALUSDT"
+   "GIGGLEUSDT"
   ],
   "eligible_count": 518,
   "spot_mapped": 62,
-  "scanned_at": "2026-09-23T03:06:00Z"
+  "scanned_at": "2026-09-23T03:11:02Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-23T03:10:23Z",
+  "last_ok": "2026-09-23T03:15:38Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 1287,
   "entries": 1287,
   "exits": 1285,
-  "ws_msgs": 26975460,
-  "ws_ticks": 26975460,
-  "signal_scans": 36879,
+  "ws_msgs": 26976479,
+  "ws_ticks": 26976479,
+  "signal_scans": 36886,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-23T03:10:23Z",
+  "last_ok": "2026-09-23T03:15:38Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
