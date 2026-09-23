@@ -1,25 +1,6 @@
 {
- "equity": 759.0851449942787,
+ "equity": 765.5850799942788,
  "positions": {
-  "LSKUSDT": {
-   "entry": 0.31523,
-   "notional": 333.33,
-   "opened_ms": 1790110810146,
-   "opened": "2026-09-22T21:00:10Z",
-   "entry_time": "2026-09-22T21:00:10Z",
-   "dir_long": true,
-   "rsi": 14.213,
-   "vol_ratio": 1.742,
-   "tf": "30m",
-   "interval": "30m",
-   "signal_bar": 1790109000000,
-   "mark": 0.3172,
-   "mark_src": "spot",
-   "u_pnl": 2.0831,
-   "spot": "LSKUSDT",
-   "last_mark_ms": 1790126151698,
-   "age_h": 4.262
-  },
   "DRIFTUSDT": {
    "entry": 0.02138,
    "notional": 333.33,
@@ -32,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1790124600000,
-   "mark": 0.02136,
+   "mark": 0.0213,
    "mark_src": "fapi",
-   "u_pnl": -0.3118,
+   "u_pnl": -1.2473,
    "spot": null,
-   "last_mark_ms": 1790126149695,
-   "age_h": 0.339
+   "last_mark_ms": 1790126448665,
+   "age_h": 0.422
   }
  },
  "trades": [
@@ -50181,6 +50162,25 @@
    "mark": 0.4427,
    "mark_src": "spot",
    "dir_long": true
+  },
+  {
+   "sym": "LSKUSDT",
+   "entry": 0.31523,
+   "exit": 0.3215346,
+   "ret": 0.0195,
+   "pnl": 6.499935,
+   "reason": "tp_spot",
+   "opened": "2026-09-22T21:00:10Z",
+   "opened_ms": 1790110810146,
+   "closed_ms": 1790126260228,
+   "age_h": 4.292,
+   "tf": "30m",
+   "signal_bar": 1790109000000,
+   "rsi": 14.213,
+   "vol_ratio": 1.742,
+   "mark": 0.3216,
+   "mark_src": "spot",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -51024,7 +51024,7 @@
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-23T01:15:51Z",
+  "last_ok": "2026-09-23T01:20:49Z",
   "last_error": "universe: curl: (28) Operation timed out after 20001 milliseconds with 6741778 out of 17610565 bytes received",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -51032,13 +51032,13 @@
  "stats": {
   "signals": 2575,
   "entries": 2575,
-  "exits": 2583,
-  "ws_msgs": 31720240,
-  "ws_ticks": 31720240,
-  "signal_scans": 25303,
+  "exits": 2584,
+  "ws_msgs": 31720750,
+  "ws_ticks": 31720750,
+  "signal_scans": 25308,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-23T01:15:51Z",
+  "last_ok": "2026-09-23T01:20:49Z",
   "last_error": "universe: curl: (28) Operation timed out after 20001 milliseconds with 6741778 out of 17610565 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest"
