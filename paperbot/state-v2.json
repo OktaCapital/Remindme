@@ -1,5 +1,5 @@
 {
- "equity": 1009.0101546786615,
+ "equity": 998.8435896786615,
  "positions": {
   "PONSUSDT": {
    "entry": 0.6235,
@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1790230200000,
-   "mark": 0.6237,
+   "mark": 0.6324,
    "mark_src": "fapi",
-   "u_pnl": 0.1069,
+   "u_pnl": 4.758,
    "spot": null,
-   "last_mark_ms": 1790233554712,
-   "age_h": 0.832
+   "last_mark_ms": 1790233856431,
+   "age_h": 0.916
   },
   "BRUSDT": {
    "entry": 1.05476,
@@ -32,31 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1790232900000,
-   "mark": 1.05746,
+   "mark": 1.05716,
    "mark_src": "fapi",
-   "u_pnl": 0.8533,
+   "u_pnl": 0.7585,
    "spot": null,
-   "last_mark_ms": 1790233554712,
-   "age_h": 0.09
-  },
-  "\u9f99\u867eUSDT": {
-   "entry": 0.13583,
-   "notional": 333.33,
-   "opened_ms": 1790233465015,
-   "opened": "2026-09-24T07:04:25Z",
-   "entry_time": "2026-09-24T07:04:25Z",
-   "dir_long": true,
-   "rsi": 14.752,
-   "vol_ratio": 2.349,
-   "tf": "5m",
-   "interval": "5m",
-   "signal_bar": 1790232900000,
-   "mark": 0.13218,
-   "mark_src": "fapi",
-   "u_pnl": -8.9572,
-   "spot": null,
-   "last_mark_ms": 1790233554712,
-   "age_h": 0.025
+   "last_mark_ms": 1790233856431,
+   "age_h": 0.174
   }
  },
  "trades": [
@@ -25614,6 +25595,25 @@
    "mark": 0.12965,
    "mark_src": "fapi",
    "dir_long": true
+  },
+  {
+   "sym": "\u9f99\u867eUSDT",
+   "entry": 0.13583,
+   "exit": 0.1317551,
+   "ret": -0.0305,
+   "pnl": -10.166564999999999,
+   "reason": "sl_fapi",
+   "opened": "2026-09-24T07:04:25Z",
+   "opened_ms": 1790233465015,
+   "closed_ms": 1790233640826,
+   "age_h": 0.049,
+   "tf": "5m",
+   "signal_bar": 1790232900000,
+   "rsi": 14.752,
+   "vol_ratio": 2.349,
+   "mark": 0.13145,
+   "mark_src": "fapi",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -26142,16 +26142,16 @@
    "\u9f99\u867eUSDT",
    "SAGAUSDT",
    "XLMUSDT",
-   "METUSDT",
    "DASHUSDT",
    "RAYSOLUSDT",
+   "METUSDT",
    "MARSCOINUSDT",
    "BTWUSDT",
    "ASTERUSDT",
    "INJUSDT",
+   "NOMUSDT",
    "USELESSUSDT",
    "PONSUSDT",
-   "NOMUSDT",
    "1000BONKUSDT",
    "ETCUSDT",
    "TIAUSDT",
@@ -26181,30 +26181,30 @@
    "PENDLEUSDT",
    "CRVUSDT",
    "BOMEUSDT",
+   "FLOCKUSDT",
    "POLUSDT",
    "ZENUSDT",
-   "ETHFIUSDT",
-   "ARUSDT"
+   "ETHFIUSDT"
   ],
   "eligible_count": 519,
-  "spot_mapped": 65,
-  "scanned_at": "2026-09-24T07:03:35Z"
+  "spot_mapped": 64,
+  "scanned_at": "2026-09-24T07:08:38Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-24T07:05:56Z",
+  "last_ok": "2026-09-24T07:10:57Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "stats": {
   "signals": 1348,
   "entries": 1348,
-  "exits": 1345,
-  "ws_msgs": 32576120,
-  "ws_ticks": 32576120,
-  "signal_scans": 38169,
+  "exits": 1346,
+  "ws_msgs": 32603507,
+  "ws_ticks": 32603507,
+  "signal_scans": 38174,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-24T07:05:56Z",
+  "last_ok": "2026-09-24T07:10:57Z",
   "last_error": "rest_fallback: [Errno 11] Resource temporarily unavailable"
  },
  "mode": "hybrid_spotws_futures_rest",
