@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1790233800000,
-   "mark": 0.10148,
-   "mark_src": "spot",
-   "u_pnl": 0.0,
+   "mark": 0.10133,
+   "mark_src": "fapi",
+   "u_pnl": -0.4927,
    "spot": "POLUSDT",
-   "last_mark_ms": 1790249417227,
-   "age_h": 4.252
+   "last_mark_ms": 1790249714218,
+   "age_h": 4.334
   },
   "ETHFIUSDT": {
    "entry": 0.6587,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1790238600000,
-   "mark": 0.6518,
+   "mark": 0.65,
    "mark_src": "fapi",
-   "u_pnl": -3.4917,
+   "u_pnl": -4.4026,
    "spot": "ETHFIUSDT",
-   "last_mark_ms": 1790249411711,
-   "age_h": 2.909
+   "last_mark_ms": 1790249714218,
+   "age_h": 2.993
   },
   "WIFUSDT": {
    "entry": 0.2348,
@@ -55,8 +55,8 @@
    "mark_src": "fapi",
    "u_pnl": -3.1232,
    "spot": "WIFUSDT",
-   "last_mark_ms": 1790249414264,
-   "age_h": 2.828
+   "last_mark_ms": 1790249711986,
+   "age_h": 2.911
   },
   "TRXUSDT": {
    "entry": 0.34105,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1790238900000,
-   "mark": 0.3393,
+   "mark": 0.3392,
    "mark_src": "spot",
-   "u_pnl": -1.7104,
+   "u_pnl": -1.8081,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1790249413580,
-   "age_h": 2.828
+   "last_mark_ms": 1790249716763,
+   "age_h": 2.912
   },
   "TRUMPUSDT": {
    "entry": 1.976,
@@ -93,8 +93,8 @@
    "mark_src": "spot",
    "u_pnl": 0.0,
    "spot": "TRUMPUSDT",
-   "last_mark_ms": 1790249415581,
-   "age_h": 2.747
+   "last_mark_ms": 1790249715784,
+   "age_h": 2.831
   },
   "AAVEUSDT": {
    "entry": 137.58,
@@ -108,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1790239200000,
-   "mark": 136.88,
+   "mark": 136.86,
    "mark_src": "spot",
-   "u_pnl": -1.696,
+   "u_pnl": -1.7444,
    "spot": "AAVEUSDT",
-   "last_mark_ms": 1790249416968,
-   "age_h": 2.747
+   "last_mark_ms": 1790249713860,
+   "age_h": 2.83
   },
   "OPUSDT": {
    "entry": 0.12274,
@@ -127,12 +127,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1790239200000,
-   "mark": 0.1231,
-   "mark_src": "spot",
-   "u_pnl": 0.9777,
+   "mark": 0.12309,
+   "mark_src": "fapi",
+   "u_pnl": 0.9505,
    "spot": "OPUSDT",
-   "last_mark_ms": 1790249414835,
-   "age_h": 2.746
+   "last_mark_ms": 1790249711986,
+   "age_h": 2.828
   },
   "VVVUSDT": {
    "entry": 29.199,
@@ -146,12 +146,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1790240700000,
-   "mark": 28.642,
+   "mark": 28.526,
    "mark_src": "fapi",
-   "u_pnl": -6.3586,
+   "u_pnl": -7.6828,
    "spot": null,
-   "last_mark_ms": 1790249416576,
-   "age_h": 2.26
+   "last_mark_ms": 1790249716446,
+   "age_h": 2.343
   }
  },
  "trades": [
@@ -26427,21 +26427,21 @@
    "NOMUSDT",
    "SAGAUSDT",
    "BTWUSDT",
-   "XLMUSDT",
    "\u9f99\u867eUSDT",
+   "XLMUSDT",
    "DASHUSDT",
    "ETCUSDT",
    "MARSCOINUSDT",
-   "ASTERUSDT",
    "BRUSDT",
+   "ASTERUSDT",
    "INJUSDT",
    "USELESSUSDT",
    "PONSUSDT",
    "METUSDT",
    "DOTUSDT",
    "XPLUSDT",
-   "TIAUSDT",
    "1000SHIBUSDT",
+   "TIAUSDT",
    "APTUSDT",
    "ALLOUSDT",
    "1000BONKUSDT",
@@ -26473,23 +26473,23 @@
   ],
   "eligible_count": 518,
   "spot_mapped": 66,
-  "scanned_at": "2026-09-24T11:27:27Z"
+  "scanned_at": "2026-09-24T11:32:29Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-24T11:30:17Z",
+  "last_ok": "2026-09-24T11:35:16Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15006 milliseconds"
  },
  "stats": {
   "signals": 1363,
   "entries": 1363,
   "exits": 1355,
-  "ws_msgs": 32877894,
-  "ws_ticks": 32877894,
-  "signal_scans": 38313,
+  "ws_msgs": 32879662,
+  "ws_ticks": 32879662,
+  "signal_scans": 38318,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-09-24T11:30:17Z",
+  "last_ok": "2026-09-24T11:35:16Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15006 milliseconds"
  },
  "mode": "hybrid_spotws_futures_rest",
