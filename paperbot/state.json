@@ -1,5 +1,5 @@
 {
- "equity": 654.7952644068233,
+ "equity": 661.2951994068234,
  "positions": {
   "TRXUSDT": {
    "entry": 0.33833,
@@ -13,31 +13,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1790179200000,
-   "mark": 0.3435,
+   "mark": 0.3436,
    "mark_src": "spot",
-   "u_pnl": 5.0936,
+   "u_pnl": 5.1921,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1790225739415,
-   "age_h": 11.906
-  },
-  "PONSUSDT": {
-   "entry": 0.6196,
-   "notional": 333.33,
-   "opened_ms": 1790223618461,
-   "opened": "2026-09-24T04:20:18Z",
-   "entry_time": "2026-09-24T04:20:18Z",
-   "dir_long": true,
-   "rsi": 12.865,
-   "vol_ratio": 1.963,
-   "tf": "5m",
-   "interval": "5m",
-   "signal_bar": 1790223300000,
-   "mark": 0.6272,
-   "mark_src": "fapi",
-   "u_pnl": 4.0886,
-   "spot": null,
-   "last_mark_ms": 1790225737550,
-   "age_h": 0.589
+   "last_mark_ms": 1790226050019,
+   "age_h": 11.992
   }
  },
  "trades": [
@@ -52366,6 +52347,25 @@
    "mark": 0.4226,
    "mark_src": "spot",
    "dir_long": true
+  },
+  {
+   "sym": "PONSUSDT",
+   "entry": 0.6196,
+   "exit": 0.631992,
+   "ret": 0.0195,
+   "pnl": 6.499935,
+   "reason": "tp_fapi",
+   "opened": "2026-09-24T04:20:18Z",
+   "opened_ms": 1790223618461,
+   "closed_ms": 1790225941042,
+   "age_h": 0.645,
+   "tf": "5m",
+   "signal_bar": 1790223300000,
+   "rsi": 12.865,
+   "vol_ratio": 1.963,
+   "mark": 0.6321,
+   "mark_src": "fapi",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -53158,8 +53158,8 @@
    "TRUMPUSDT",
    "ONEUSDT",
    "\u9f99\u867eUSDT",
-   "PUMPUSDT",
    "FILUSDT",
+   "PUMPUSDT",
    "AAVEUSDT",
    "AKEUSDT",
    "LITUSDT",
@@ -53173,8 +53173,8 @@
    "MARSCOINUSDT",
    "DASHUSDT",
    "USELESSUSDT",
-   "1000BONKUSDT",
    "RAYSOLUSDT",
+   "1000BONKUSDT",
    "ASTERUSDT",
    "BTWUSDT",
    "PONSUSDT",
@@ -53193,8 +53193,8 @@
    "HBARUSDT",
    "VVVUSDT",
    "OPUSDT",
-   "\u725b\u6765USDT",
    "XMRUSDT",
+   "\u725b\u6765USDT",
    "FIGHTUSDT",
    "TRXUSDT",
    "FARTCOINUSDT",
@@ -53215,12 +53215,12 @@
   ],
   "eligible_count": 519,
   "spot_mapped": 65,
-  "scanned_at": "2026-09-24T04:51:31Z"
+  "scanned_at": "2026-09-24T04:57:05Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-24T04:55:39Z",
+  "last_ok": "2026-09-24T05:00:50Z",
   "last_error": "universe: <urlopen error timed out>",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -53228,13 +53228,13 @@
  "stats": {
   "signals": 2690,
   "entries": 2690,
-  "exits": 2698,
-  "ws_msgs": 34431634,
-  "ws_ticks": 34431634,
-  "signal_scans": 26422,
+  "exits": 2699,
+  "ws_msgs": 34431792,
+  "ws_ticks": 34431792,
+  "signal_scans": 26427,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-24T04:55:39Z",
+  "last_ok": "2026-09-24T05:00:50Z",
   "last_error": "universe: <urlopen error timed out>"
  },
  "mode": "hybrid_spotws_futures_rest"
