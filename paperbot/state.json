@@ -1,5 +1,5 @@
 {
- "equity": 680.9190093146071,
+ "equity": 687.4189443146072,
  "positions": {
   "ETHFIUSDT": {
    "entry": 0.6582,
@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1790238600000,
-   "mark": 0.6667,
+   "mark": 0.6687,
    "mark_src": "spot",
-   "u_pnl": 4.3046,
+   "u_pnl": 5.3175,
    "spot": "ETHFIUSDT",
-   "last_mark_ms": 1790258714486,
-   "age_h": 5.493
+   "last_mark_ms": 1790259014030,
+   "age_h": 5.576
   },
   "WIFUSDT": {
    "entry": 0.2348,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1790238900000,
-   "mark": 0.2379,
+   "mark": 0.2374,
    "mark_src": "spot",
-   "u_pnl": 4.4009,
+   "u_pnl": 3.691,
    "spot": "WIFUSDT",
-   "last_mark_ms": 1790258715373,
-   "age_h": 5.413
+   "last_mark_ms": 1790259014304,
+   "age_h": 5.496
   },
   "TRXUSDT": {
    "entry": 0.34105,
@@ -51,31 +51,31 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1790238900000,
-   "mark": 0.3399,
+   "mark": 0.3401,
    "mark_src": "spot",
-   "u_pnl": -1.124,
+   "u_pnl": -0.9285,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1790258709613,
-   "age_h": 5.41
+   "last_mark_ms": 1790259013118,
+   "age_h": 5.495
   },
   "MARSCOINUSDT": {
-   "entry": 0.11451,
+   "entry": 0.11662,
    "notional": 333.33,
-   "opened_ms": 1790258427975,
-   "opened": "2026-09-24T14:00:27Z",
-   "entry_time": "2026-09-24T14:00:27Z",
+   "opened_ms": 1790258768105,
+   "opened": "2026-09-24T14:06:08Z",
+   "entry_time": "2026-09-24T14:06:08Z",
    "dir_long": true,
    "rsi": 18.8,
    "vol_ratio": 1.2,
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1790254800000,
-   "mark": 0.11566,
+   "mark": 0.11596,
    "mark_src": "fapi",
-   "u_pnl": 3.3476,
+   "u_pnl": -1.8865,
    "spot": "MARSCOINUSDT",
-   "last_mark_ms": 1790258711458,
-   "age_h": 0.079
+   "last_mark_ms": 1790259008558,
+   "age_h": 0.067
   }
  },
  "trades": [
@@ -53221,6 +53221,25 @@
    "mark": 29.844,
    "mark_src": "fapi",
    "dir_long": true
+  },
+  {
+   "sym": "MARSCOINUSDT",
+   "entry": 0.11451,
+   "exit": 0.1168002,
+   "ret": 0.0195,
+   "pnl": 6.499935,
+   "reason": "tp_fapi",
+   "opened": "2026-09-24T14:00:27Z",
+   "opened_ms": 1790258427975,
+   "closed_ms": 1790258749283,
+   "age_h": 0.089,
+   "tf": "1h",
+   "signal_bar": 1790254800000,
+   "rsi": 18.8,
+   "vol_ratio": 1.2,
+   "mark": 0.11686,
+   "mark_src": "fapi",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -54022,8 +54041,8 @@
    "ZROUSDT",
    "RAYSOLUSDT",
    "AAVEUSDT",
-   "\u9f99\u867eUSDT",
    "ETCUSDT",
+   "\u9f99\u867eUSDT",
    "BTWUSDT",
    "MUBARAKUSDT",
    "XLMUSDT",
@@ -54041,17 +54060,17 @@
    "1000SHIBUSDT",
    "APTUSDT",
    "VVVUSDT",
-   "TIAUSDT",
    "BROCCOLI714USDT",
+   "TIAUSDT",
    "WIFUSDT",
-   "FETUSDT",
    "\u725b\u6765USDT",
+   "FETUSDT",
    "1000BONKUSDT",
    "METUSDT",
    "TRXUSDT",
    "ICPUSDT",
-   "ALLOUSDT",
    "HBARUSDT",
+   "ALLOUSDT",
    "OPUSDT",
    "XMRUSDT",
    "ACEUSDT",
@@ -54066,31 +54085,31 @@
    "CRVUSDT",
    "PROMUSDT",
    "VTHOUSDT",
-   "ZENUSDT",
-   "LDOUSDT"
+   "LDOUSDT",
+   "CVCUSDT"
   ],
   "eligible_count": 518,
   "spot_mapped": 67,
-  "scanned_at": "2026-09-24T14:04:58Z"
+  "scanned_at": "2026-09-24T14:10:00Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-09-24T14:05:15Z",
+  "last_ok": "2026-09-24T14:10:14Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15006 milliseconds",
   "monitor_ok": 9,
   "monitor_failed": 0
  },
  "stats": {
-  "signals": 2735,
-  "entries": 2735,
-  "exits": 2741,
-  "ws_msgs": 34646484,
-  "ws_ticks": 34646484,
-  "signal_scans": 26697,
+  "signals": 2736,
+  "entries": 2736,
+  "exits": 2742,
+  "ws_msgs": 34647725,
+  "ws_ticks": 34647725,
+  "signal_scans": 26703,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-09-24T14:05:15Z",
+  "last_ok": "2026-09-24T14:10:14Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15006 milliseconds"
  },
  "mode": "hybrid_spotws_futures_rest"
