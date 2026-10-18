@@ -1,5 +1,5 @@
 {
- "equity": 463.2359162606645,
+ "equity": 469.7358512606645,
  "positions": {},
  "trades": [
   {
@@ -51187,6 +51187,25 @@
    "mark": 0.02473,
    "mark_src": "fapi",
    "dir_long": true
+  },
+  {
+   "sym": "QUSDT",
+   "entry": 0.11523,
+   "exit": 0.1175346,
+   "ret": 0.0195,
+   "pnl": 6.499935,
+   "reason": "tp_fapi",
+   "opened": "2026-10-18T09:35:15Z",
+   "opened_ms": 1792316115578,
+   "closed_ms": 1792316135029,
+   "age_h": 0.005,
+   "tf": "5m",
+   "signal_bar": 1792315800000,
+   "rsi": 13.985,
+   "vol_ratio": 3.661,
+   "mark": 0.118539,
+   "mark_src": "fapi",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -51394,8 +51413,8 @@
   "EDGEUSDT:5m": "1788633900000",
   "BUSDT": "1788600900000",
   "BUSDT:5m": "1788600900000",
-  "QUSDT": "1792115100000",
-  "QUSDT:5m": "1792115100000",
+  "QUSDT": "1792315800000",
+  "QUSDT:5m": "1792315800000",
   "PORTALUSDT": "1788608100000",
   "PORTALUSDT:5m": "1788608100000",
   "COLLECTUSDT": "1788854400000",
@@ -51930,8 +51949,8 @@
    "SIRENUSDT",
    "APRUSDT",
    "HBARUSDT",
-   "BCHUSDT",
    "FETUSDT",
+   "BCHUSDT",
    "EPICUSDT",
    "BATUSDT",
    "TRUMPUSDT",
@@ -51953,8 +51972,8 @@
    "PONSUSDT",
    "RSRUSDT",
    "XLMUSDT",
-   "WALUSDT",
    "AKEUSDT",
+   "WALUSDT",
    "PROMUSDT",
    "AUSDT",
    "XPLUSDT",
@@ -51965,8 +51984,8 @@
    "CRVUSDT",
    "AEROUSDT",
    "MUBARAKUSDT",
-   "WUSDT",
    "CTUSDT",
+   "WUSDT",
    "MAGICUSDT",
    "DUSKUSDT",
    "1000SHIBUSDT",
@@ -51975,25 +51994,25 @@
    "MANAUSDT",
    "DASHUSDT"
   ],
-  "eligible_count": 496,
+  "eligible_count": 497,
   "spot_mapped": 64,
-  "scanned_at": "2026-10-18T09:35:00Z"
+  "scanned_at": "2026-10-18T09:40:04Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-18T09:35:08Z",
+  "last_ok": "2026-10-18T09:40:04Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 12009234 out of 17767672 bytes received"
  },
  "stats": {
-  "signals": 2694,
-  "entries": 2694,
-  "exits": 2694,
-  "ws_msgs": 60000033,
-  "ws_ticks": 60000033,
-  "signal_scans": 70702,
+  "signals": 2695,
+  "entries": 2695,
+  "exits": 2695,
+  "ws_msgs": 60017384,
+  "ws_ticks": 60017384,
+  "signal_scans": 70707,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-10-18T09:35:08Z",
+  "last_ok": "2026-10-18T09:40:04Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 12009234 out of 17767672 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest",
