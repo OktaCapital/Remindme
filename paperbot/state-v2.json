@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792405500000,
-   "mark": 0.4364,
+   "mark": 0.4353,
    "mark_src": "fapi",
-   "u_pnl": 2.1525,
+   "u_pnl": 1.3069,
    "spot": "ONDOUSDT",
-   "last_mark_ms": 1792426813226,
-   "age_h": 5.834
+   "last_mark_ms": 1792427117252,
+   "age_h": 5.918
   },
   "AAVEUSDT": {
    "entry": 151.33,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792405500000,
-   "mark": 148.95,
+   "mark": 148.83,
    "mark_src": "spot",
-   "u_pnl": -5.2424,
+   "u_pnl": -5.5067,
    "spot": "AAVEUSDT",
-   "last_mark_ms": 1792426816057,
-   "age_h": 5.834
+   "last_mark_ms": 1792427119363,
+   "age_h": 5.919
   },
   "XPLUSDT": {
    "entry": 0.07694,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792405500000,
-   "mark": 0.07686,
-   "mark_src": "fapi",
-   "u_pnl": -0.3466,
+   "mark": 0.07652,
+   "mark_src": "spot",
+   "u_pnl": -1.8196,
    "spot": "XPLUSDT",
-   "last_mark_ms": 1792426810710,
-   "age_h": 5.832
+   "last_mark_ms": 1792427116525,
+   "age_h": 5.917
   },
   "MONUSDT": {
    "entry": 0.02082,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792405500000,
-   "mark": 0.02094,
+   "mark": 0.02085,
    "mark_src": "fapi",
-   "u_pnl": 1.9212,
+   "u_pnl": 0.4803,
    "spot": null,
-   "last_mark_ms": 1792426815433,
-   "age_h": 5.765
+   "last_mark_ms": 1792427119451,
+   "age_h": 5.849
   },
   "WALUSDT": {
    "entry": 0.03847,
@@ -89,12 +89,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792418400000,
-   "mark": 0.03832,
+   "mark": 0.03818,
    "mark_src": "fapi",
-   "u_pnl": -1.2997,
+   "u_pnl": -2.5128,
    "spot": "WALUSDT",
-   "last_mark_ms": 1792426810710,
-   "age_h": 2.23
+   "last_mark_ms": 1792427115057,
+   "age_h": 2.315
   },
   "ASTERUSDT": {
    "entry": 0.6972,
@@ -108,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792418400000,
-   "mark": 0.7103,
-   "mark_src": "spot",
-   "u_pnl": 6.2631,
+   "mark": 0.7069,
+   "mark_src": "fapi",
+   "u_pnl": 4.6376,
    "spot": "ASTERUSDT",
-   "last_mark_ms": 1792426810351,
-   "age_h": 2.224
+   "last_mark_ms": 1792427117252,
+   "age_h": 2.31
   },
   "WLFIUSDT": {
    "entry": 0.05464,
@@ -127,12 +127,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1792418400000,
-   "mark": 0.0549,
-   "mark_src": "spot",
-   "u_pnl": 1.5861,
+   "mark": 0.05491,
+   "mark_src": "fapi",
+   "u_pnl": 1.6471,
    "spot": "WLFIUSDT",
-   "last_mark_ms": 1792426814804,
-   "age_h": 1.567
+   "last_mark_ms": 1792427117252,
+   "age_h": 1.651
   }
  },
  "trades": [
@@ -53175,8 +53175,8 @@
    "SIRENUSDT",
    "ONDOUSDT",
    "AAVEUSDT",
-   "ICNTUSDT",
    "ZROUSDT",
+   "ICNTUSDT",
    "LTCUSDT",
    "BCHUSDT",
    "AVAUSDT",
@@ -53202,8 +53202,8 @@
    "XPLUSDT",
    "BATUSDT",
    "ETHFIUSDT",
-   "LDOUSDT",
    "AEROUSDT",
+   "LDOUSDT",
    "FARTCOINUSDT",
    "WLFIUSDT",
    "1000SHIBUSDT",
@@ -53217,28 +53217,28 @@
    "DASHUSDT",
    "RLCUSDT",
    "EPICUSDT",
-   "ETCUSDT",
-   "ATOMUSDT"
+   "ATOMUSDT",
+   "ETCUSDT"
   ],
-  "eligible_count": 509,
+  "eligible_count": 508,
   "spot_mapped": 61,
-  "scanned_at": "2026-10-19T16:17:37Z"
+  "scanned_at": "2026-10-19T16:22:41Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-19T16:20:16Z",
+  "last_ok": "2026-10-19T16:25:19Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "stats": {
   "signals": 2759,
   "entries": 2759,
   "exits": 2752,
-  "ws_msgs": 61751098,
-  "ws_ticks": 61751098,
-  "signal_scans": 72078,
+  "ws_msgs": 61753445,
+  "ws_ticks": 61753445,
+  "signal_scans": 72082,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-10-19T16:20:16Z",
+  "last_ok": "2026-10-19T16:25:19Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest",
