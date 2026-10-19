@@ -17,8 +17,8 @@
    "mark_src": "fapi",
    "u_pnl": 0.7779,
    "spot": "TRUMPUSDT",
-   "last_mark_ms": 1792383007859,
-   "age_h": 0.081
+   "last_mark_ms": 1792383310555,
+   "age_h": 0.165
   },
   "USELESSUSDT": {
    "entry": 0.14287,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792382400000,
-   "mark": 0.14327,
+   "mark": 0.14266,
    "mark_src": "fapi",
-   "u_pnl": 0.9332,
+   "u_pnl": -0.49,
    "spot": null,
-   "last_mark_ms": 1792383012220,
-   "age_h": 0.08
+   "last_mark_ms": 1792383312918,
+   "age_h": 0.164
   }
  },
  "trades": [
@@ -52783,8 +52783,8 @@
    "AVAUSDT",
    "ERAUSDT",
    "INJUSDT",
-   "BRUSDT",
    "ADAUSDT",
+   "BRUSDT",
    "STRKUSDT",
    "TAOUSDT",
    "HBARUSDT",
@@ -52796,8 +52796,8 @@
    "ARBUSDT",
    "TRUMPUSDT",
    "ONDOUSDT",
-   "AAVEUSDT",
    "SIRENUSDT",
+   "AAVEUSDT",
    "BCHUSDT",
    "FETUSDT",
    "APTUSDT",
@@ -52840,23 +52840,23 @@
   ],
   "eligible_count": 509,
   "spot_mapped": 57,
-  "scanned_at": "2026-10-19T04:08:38Z"
+  "scanned_at": "2026-10-19T04:13:41Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-19T04:10:12Z",
+  "last_ok": "2026-10-19T04:15:14Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "stats": {
   "signals": 2739,
   "entries": 2739,
   "exits": 2737,
-  "ws_msgs": 61541035,
-  "ws_ticks": 61541035,
-  "signal_scans": 71488,
+  "ws_msgs": 61547593,
+  "ws_ticks": 61547593,
+  "signal_scans": 71494,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-10-19T04:10:12Z",
+  "last_ok": "2026-10-19T04:15:14Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest",
