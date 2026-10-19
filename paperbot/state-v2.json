@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792382400000,
-   "mark": 1.717,
+   "mark": 1.713,
    "mark_src": "fapi",
-   "u_pnl": 0.5834,
+   "u_pnl": -0.1945,
    "spot": "TRUMPUSDT",
-   "last_mark_ms": 1792386612659,
-   "age_h": 1.082
+   "last_mark_ms": 1792386916847,
+   "age_h": 1.167
   },
   "USELESSUSDT": {
    "entry": 0.14287,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792382400000,
-   "mark": 0.14436,
+   "mark": 0.14418,
    "mark_src": "fapi",
-   "u_pnl": 3.4763,
+   "u_pnl": 3.0564,
    "spot": null,
-   "last_mark_ms": 1792386612659,
-   "age_h": 1.081
+   "last_mark_ms": 1792386916847,
+   "age_h": 1.165
   }
  },
  "trades": [
@@ -52772,8 +52772,8 @@
    "SANDUSDT",
    "SUIUSDT",
    "1000PEPEUSDT",
-   "BTWUSDT",
    "ARIAUSDT",
+   "BTWUSDT",
    "UNIUSDT",
    "GTCUSDT",
    "TIAUSDT",
@@ -52818,8 +52818,8 @@
    "AKEUSDT",
    "STBLUSDT",
    "BATUSDT",
-   "AEROUSDT",
    "TRXUSDT",
+   "AEROUSDT",
    "LDOUSDT",
    "PYTHUSDT",
    "FARTCOINUSDT",
@@ -52840,23 +52840,23 @@
   ],
   "eligible_count": 510,
   "spot_mapped": 57,
-  "scanned_at": "2026-10-19T05:10:14Z"
+  "scanned_at": "2026-10-19T05:15:17Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-19T05:10:14Z",
+  "last_ok": "2026-10-19T05:15:17Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "stats": {
   "signals": 2739,
   "entries": 2739,
   "exits": 2737,
-  "ws_msgs": 61587672,
-  "ws_ticks": 61587672,
-  "signal_scans": 71559,
+  "ws_msgs": 61587767,
+  "ws_ticks": 61587767,
+  "signal_scans": 71564,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-10-19T05:10:09Z",
+  "last_ok": "2026-10-19T05:14:56Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest",
