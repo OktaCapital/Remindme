@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792382400000,
-   "mark": 1.719,
+   "mark": 1.72,
    "mark_src": "spot",
-   "u_pnl": 0.9724,
+   "u_pnl": 1.1668,
    "spot": "TRUMPUSDT",
-   "last_mark_ms": 1792384814940,
-   "age_h": 0.583
+   "last_mark_ms": 1792385114158,
+   "age_h": 0.666
   },
   "USELESSUSDT": {
    "entry": 0.14287,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792382400000,
-   "mark": 0.14352,
+   "mark": 0.14394,
    "mark_src": "fapi",
-   "u_pnl": 1.5165,
+   "u_pnl": 2.4964,
    "spot": null,
-   "last_mark_ms": 1792384814104,
-   "age_h": 0.581
+   "last_mark_ms": 1792385112398,
+   "age_h": 0.664
   }
  },
  "trades": [
@@ -52799,10 +52799,10 @@
    "ONDOUSDT",
    "AAVEUSDT",
    "BCHUSDT",
+   "ZEREBROUSDT",
    "APTUSDT",
    "FETUSDT",
    "ZROUSDT",
-   "ZEREBROUSDT",
    "ELSAUSDT",
    "LITUSDT",
    "\u9f99\u867eUSDT",
@@ -52830,8 +52830,8 @@
    "ETHFIUSDT",
    "LSKUSDT",
    "AUSDT",
-   "SUSDT",
    "USELESSUSDT",
+   "SUSDT",
    "USUSDT",
    "MONUSDT",
    "OGNUSDT",
@@ -52840,23 +52840,23 @@
   ],
   "eligible_count": 510,
   "spot_mapped": 57,
-  "scanned_at": "2026-10-19T04:39:53Z"
+  "scanned_at": "2026-10-19T04:44:56Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-19T04:40:15Z",
+  "last_ok": "2026-10-19T04:45:14Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "stats": {
   "signals": 2739,
   "entries": 2739,
   "exits": 2737,
-  "ws_msgs": 61586829,
-  "ws_ticks": 61586829,
-  "signal_scans": 71523,
+  "ws_msgs": 61587023,
+  "ws_ticks": 61587023,
+  "signal_scans": 71529,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-10-19T04:40:15Z",
+  "last_ok": "2026-10-19T04:45:14Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest",
