@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792405500000,
-   "mark": 0.438,
+   "mark": 0.4371,
    "mark_src": "spot",
-   "u_pnl": 3.3825,
+   "u_pnl": 2.6906,
    "spot": "ONDOUSDT",
-   "last_mark_ms": 1792448412322,
-   "age_h": 11.833
+   "last_mark_ms": 1792448712331,
+   "age_h": 11.917
   },
   "AAVEUSDT": {
    "entry": 151.33,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792405500000,
-   "mark": 150.15,
+   "mark": 149.79,
    "mark_src": "spot",
-   "u_pnl": -2.5992,
+   "u_pnl": -3.3921,
    "spot": "AAVEUSDT",
-   "last_mark_ms": 1792448414348,
-   "age_h": 11.834
+   "last_mark_ms": 1792448713527,
+   "age_h": 11.917
   },
   "XPLUSDT": {
    "entry": 0.07694,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792405500000,
-   "mark": 0.07711,
+   "mark": 0.07686,
    "mark_src": "spot",
-   "u_pnl": 0.7365,
+   "u_pnl": -0.3466,
    "spot": "XPLUSDT",
-   "last_mark_ms": 1792448413820,
-   "age_h": 11.833
+   "last_mark_ms": 1792448710482,
+   "age_h": 11.915
   },
   "MONUSDT": {
    "entry": 0.02082,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792405500000,
-   "mark": 0.02097,
+   "mark": 0.02092,
    "mark_src": "fapi",
-   "u_pnl": 2.4015,
+   "u_pnl": 1.601,
    "spot": null,
-   "last_mark_ms": 1792448412380,
-   "age_h": 11.764
+   "last_mark_ms": 1792448714636,
+   "age_h": 11.848
   },
   "WALUSDT": {
    "entry": 0.03847,
@@ -89,12 +89,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792418400000,
-   "mark": 0.03852,
-   "mark_src": "fapi",
-   "u_pnl": 0.4332,
+   "mark": 0.0385,
+   "mark_src": "spot",
+   "u_pnl": 0.2599,
    "spot": "WALUSDT",
-   "last_mark_ms": 1792448410202,
-   "age_h": 8.23
+   "last_mark_ms": 1792448714679,
+   "age_h": 8.315
   },
   "WLFIUSDT": {
    "entry": 0.05464,
@@ -108,12 +108,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1792418400000,
-   "mark": 0.05429,
+   "mark": 0.05407,
    "mark_src": "fapi",
-   "u_pnl": -2.1352,
+   "u_pnl": -3.4773,
    "spot": "WLFIUSDT",
-   "last_mark_ms": 1792448408026,
-   "age_h": 7.565
+   "last_mark_ms": 1792448714636,
+   "age_h": 7.65
   },
   "SEIUSDT": {
    "entry": 0.06025,
@@ -127,12 +127,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792430700000,
-   "mark": 0.06105,
+   "mark": 0.06087,
    "mark_src": "spot",
-   "u_pnl": 4.426,
+   "u_pnl": 3.4301,
    "spot": "SEIUSDT",
-   "last_mark_ms": 1792448410909,
-   "age_h": 4.829
+   "last_mark_ms": 1792448710768,
+   "age_h": 4.913
   }
  },
  "trades": [
@@ -53224,8 +53224,8 @@
    "BRUSDT",
    "AGTUSDT",
    "WLDUSDT",
-   "GTCUSDT",
    "PUMPUSDT",
+   "GTCUSDT",
    "BTWUSDT",
    "DOGEUSDT",
    "1000PEPEUSDT",
@@ -53248,8 +53248,8 @@
    "QNTUSDT",
    "ARIAUSDT",
    "XMRUSDT",
-   "ZROUSDT",
    "PHAUSDT",
+   "ZROUSDT",
    "AVAUSDT",
    "ONDOUSDT",
    "AAVEUSDT",
@@ -53286,35 +53286,35 @@
    "RLCUSDT",
    "LSKUSDT",
    "MARSCOINUSDT",
-   "AEROUSDT",
-   "SUSDT",
    "DASHUSDT",
+   "SUSDT",
    "1000SHIBUSDT",
+   "AEROUSDT",
    "ATOMUSDT",
    "ELSAUSDT",
    "PYTHUSDT",
    "SEIUSDT",
-   "FARTCOINUSDT"
+   "EPICUSDT"
   ],
-  "eligible_count": 497,
-  "spot_mapped": 60,
-  "scanned_at": "2026-10-19T22:17:18Z"
+  "eligible_count": 498,
+  "spot_mapped": 61,
+  "scanned_at": "2026-10-19T22:22:50Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-19T22:20:14Z",
+  "last_ok": "2026-10-19T22:25:14Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "stats": {
   "signals": 2763,
   "entries": 2763,
   "exits": 2756,
-  "ws_msgs": 61867250,
-  "ws_ticks": 61867250,
-  "signal_scans": 72179,
+  "ws_msgs": 61868829,
+  "ws_ticks": 61868829,
+  "signal_scans": 72186,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-10-19T22:20:14Z",
+  "last_ok": "2026-10-19T22:25:14Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest",
