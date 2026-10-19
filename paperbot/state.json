@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792419600000,
-   "mark": 0.0545,
-   "mark_src": "spot",
-   "u_pnl": -0.6105,
+   "mark": 0.05451,
+   "mark_src": "fapi",
+   "u_pnl": -0.5494,
    "spot": "WLFIUSDT",
-   "last_mark_ms": 1792452012514,
-   "age_h": 8.912
+   "last_mark_ms": 1792452303712,
+   "age_h": 8.992
   },
   "FILUSDT": {
    "entry": 1.0287,
@@ -32,12 +32,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1792418400000,
-   "mark": 1.0167,
+   "mark": 1.0179,
    "mark_src": "spot",
-   "u_pnl": -3.8884,
+   "u_pnl": -3.4995,
    "spot": "FILUSDT",
-   "last_mark_ms": 1792452008426,
-   "age_h": 8.563
+   "last_mark_ms": 1792452304813,
+   "age_h": 8.646
   },
   "ARIAUSDT": {
    "entry": 0.04265,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792444500000,
-   "mark": 0.04247,
+   "mark": 0.04235,
    "mark_src": "fapi",
-   "u_pnl": -1.4068,
+   "u_pnl": -2.3446,
    "spot": null,
-   "last_mark_ms": 1792452011834,
-   "age_h": 1.99
+   "last_mark_ms": 1792452303712,
+   "age_h": 2.071
   },
   "BTWUSDT": {
    "entry": 1.998,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792450800000,
-   "mark": 1.9611,
+   "mark": 1.978,
    "mark_src": "fapi",
-   "u_pnl": -6.1561,
+   "u_pnl": -3.3366,
    "spot": null,
-   "last_mark_ms": 1792452011834,
-   "age_h": 0.246
+   "last_mark_ms": 1792452303712,
+   "age_h": 0.327
   }
  },
  "trades": [
@@ -100742,9 +100742,9 @@
    "BRUSDT",
    "AGTUSDT",
    "WLDUSDT",
+   "BTWUSDT",
    "GTCUSDT",
    "PUMPUSDT",
-   "BTWUSDT",
    "DOGEUSDT",
    "SUIUSDT",
    "1000PEPEUSDT",
@@ -100779,8 +100779,8 @@
    "LTCUSDT",
    "VVVUSDT",
    "APTUSDT",
-   "HBARUSDT",
    "FETUSDT",
+   "HBARUSDT",
    "ZEREBROUSDT",
    "PENGUUSDT",
    "CRVUSDT",
@@ -100789,11 +100789,11 @@
    "ASTERUSDT",
    "XLMUSDT",
    "WLFIUSDT",
-   "\u9f99\u867eUSDT",
    "NILUSDT",
+   "\u9f99\u867eUSDT",
    "LITUSDT",
-   "AKEUSDT",
    "OPUSDT",
+   "AKEUSDT",
    "TRXUSDT",
    "CTRUSDT",
    "ETHFIUSDT",
@@ -100816,12 +100816,12 @@
   ],
   "eligible_count": 494,
   "spot_mapped": 61,
-  "scanned_at": "2026-10-19T23:15:42Z"
+  "scanned_at": "2026-10-19T23:21:15Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-19T23:20:12Z",
+  "last_ok": "2026-10-19T23:25:04Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 12334206 out of 17767703 bytes received",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -100830,12 +100830,12 @@
   "signals": 5183,
   "entries": 5183,
   "exits": 5189,
-  "ws_msgs": 65321439,
-  "ws_ticks": 65321439,
-  "signal_scans": 46342,
+  "ws_msgs": 65321743,
+  "ws_ticks": 65321743,
+  "signal_scans": 46347,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-10-19T23:20:12Z",
+  "last_ok": "2026-10-19T23:25:04Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 12334206 out of 17767703 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest"
