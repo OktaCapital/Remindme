@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792382400000,
-   "mark": 1.71,
+   "mark": 1.713,
    "mark_src": "spot",
-   "u_pnl": -0.7779,
+   "u_pnl": -0.1945,
    "spot": "TRUMPUSDT",
-   "last_mark_ms": 1792393514243,
-   "age_h": 2.999
+   "last_mark_ms": 1792393812666,
+   "age_h": 3.082
   },
   "AKEUSDT": {
    "entry": 0.028642,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792386600000,
-   "mark": 0.027835,
+   "mark": 0.027967,
    "mark_src": "fapi",
-   "u_pnl": -9.3917,
+   "u_pnl": -7.8555,
    "spot": null,
-   "last_mark_ms": 1792393516356,
-   "age_h": 1.829
+   "last_mark_ms": 1792393810741,
+   "age_h": 1.911
   },
   "CTUSDT": {
    "entry": 0.30196,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792386900000,
-   "mark": 0.30112,
+   "mark": 0.29922,
    "mark_src": "fapi",
-   "u_pnl": -0.9273,
+   "u_pnl": -3.0247,
    "spot": null,
-   "last_mark_ms": 1792393516356,
-   "age_h": 1.742
+   "last_mark_ms": 1792393810741,
+   "age_h": 1.824
   },
   "SIRENUSDT": {
    "entry": 0.02491,
@@ -70,12 +70,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1792391400000,
-   "mark": 0.02495,
+   "mark": 0.02468,
    "mark_src": "fapi",
-   "u_pnl": 0.5353,
+   "u_pnl": -3.0777,
    "spot": null,
-   "last_mark_ms": 1792393516356,
-   "age_h": 0.084
+   "last_mark_ms": 1792393810741,
+   "age_h": 0.166
   }
  },
  "trades": [
@@ -52902,19 +52902,19 @@
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-19T07:05:16Z",
+  "last_ok": "2026-10-19T07:10:12Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "stats": {
   "signals": 2742,
   "entries": 2742,
   "exits": 2738,
-  "ws_msgs": 61590243,
-  "ws_ticks": 61590243,
-  "signal_scans": 71695,
+  "ws_msgs": 61590395,
+  "ws_ticks": 61590395,
+  "signal_scans": 71701,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-10-19T07:05:14Z",
+  "last_ok": "2026-10-19T07:10:12Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest",
