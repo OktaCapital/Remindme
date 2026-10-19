@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792329600000,
-   "mark": 0.3326,
-   "mark_src": "spot",
-   "u_pnl": 0.1203,
+   "mark": 0.33243,
+   "mark_src": "fapi",
+   "u_pnl": -0.0501,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1792368315415,
-   "age_h": 10.659
+   "last_mark_ms": 1792368614749,
+   "age_h": 10.743
   },
   "SOLUSDT": {
    "entry": 103.31,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792329600000,
-   "mark": 104.07,
+   "mark": 104.23,
    "mark_src": "spot",
-   "u_pnl": 2.4521,
+   "u_pnl": 2.9684,
    "spot": "SOLUSDT",
-   "last_mark_ms": 1792368314587,
-   "age_h": 10.658
+   "last_mark_ms": 1792368613976,
+   "age_h": 10.741
   },
   "HYPEUSDT": {
    "entry": 77.968,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792330200000,
-   "mark": 78.876,
-   "mark_src": "fapi",
-   "u_pnl": 3.8819,
+   "mark": 79.11,
+   "mark_src": "spot",
+   "u_pnl": 4.8823,
    "spot": "HYPEUSDT",
-   "last_mark_ms": 1792368310252,
-   "age_h": 10.486
+   "last_mark_ms": 1792368611884,
+   "age_h": 10.569
   },
   "BNBUSDT": {
    "entry": 711.46,
@@ -70,12 +70,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1792339200000,
-   "mark": 723.26,
+   "mark": 724.24,
    "mark_src": "spot",
-   "u_pnl": 5.5285,
+   "u_pnl": 5.9876,
    "spot": "BNBUSDT",
-   "last_mark_ms": 1792368315523,
-   "age_h": 7.544
+   "last_mark_ms": 1792368615129,
+   "age_h": 7.628
   }
  },
  "trades": [
@@ -52690,19 +52690,19 @@
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-19T00:05:16Z",
+  "last_ok": "2026-10-19T00:10:15Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "stats": {
   "signals": 2731,
   "entries": 2731,
   "exits": 2727,
-  "ws_msgs": 61351010,
-  "ws_ticks": 61351010,
-  "signal_scans": 71164,
+  "ws_msgs": 61355534,
+  "ws_ticks": 61355534,
+  "signal_scans": 71171,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-10-19T00:05:13Z",
+  "last_ok": "2026-10-19T00:10:15Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest",
