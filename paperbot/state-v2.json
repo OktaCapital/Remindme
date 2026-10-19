@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792382400000,
-   "mark": 1.718,
+   "mark": 1.72,
    "mark_src": "spot",
-   "u_pnl": 0.7779,
+   "u_pnl": 1.1668,
    "spot": "TRUMPUSDT",
-   "last_mark_ms": 1792396517693,
-   "age_h": 3.834
+   "last_mark_ms": 1792396812307,
+   "age_h": 3.915
   },
   "AKEUSDT": {
    "entry": 0.028642,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792386600000,
-   "mark": 0.02803,
+   "mark": 0.028244,
    "mark_src": "fapi",
-   "u_pnl": -7.1223,
+   "u_pnl": -4.6318,
    "spot": null,
-   "last_mark_ms": 1792396515908,
-   "age_h": 2.662
+   "last_mark_ms": 1792396810729,
+   "age_h": 2.744
   }
  },
  "trades": [
@@ -52839,8 +52839,8 @@
    "FILUSDT",
    "INJUSDT",
    "ICNTUSDT",
-   "AVAUSDT",
    "ADAUSDT",
+   "AVAUSDT",
    "APRUSDT",
    "TAOUSDT",
    "STRKUSDT",
@@ -52866,10 +52866,10 @@
    "LITUSDT",
    "DOTUSDT",
    "GWEIUSDT",
-   "VVVUSDT",
-   "ASTERUSDT",
-   "PONSUSDT",
    "CTUSDT",
+   "VVVUSDT",
+   "PONSUSDT",
+   "ASTERUSDT",
    "XLMUSDT",
    "AKEUSDT",
    "PENGUUSDT",
@@ -52890,31 +52890,31 @@
    "SUSDT",
    "AUSDT",
    "USELESSUSDT",
-   "EPICUSDT",
    "USUSDT",
+   "EPICUSDT",
    "MONUSDT",
    "ETCUSDT",
    "OGNUSDT"
   ],
   "eligible_count": 510,
   "spot_mapped": 58,
-  "scanned_at": "2026-10-19T07:51:40Z"
+  "scanned_at": "2026-10-19T07:56:42Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-19T07:55:17Z",
+  "last_ok": "2026-10-19T08:00:12Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "stats": {
   "signals": 2742,
   "entries": 2742,
   "exits": 2740,
-  "ws_msgs": 61592950,
-  "ws_ticks": 61592950,
-  "signal_scans": 71754,
+  "ws_msgs": 61593040,
+  "ws_ticks": 61593040,
+  "signal_scans": 71759,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-10-19T07:55:17Z",
+  "last_ok": "2026-10-19T08:00:12Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest",
