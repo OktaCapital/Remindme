@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792382400000,
-   "mark": 1.714,
+   "mark": 1.717,
    "mark_src": "fapi",
-   "u_pnl": 0.0,
+   "u_pnl": 0.5834,
    "spot": "TRUMPUSDT",
-   "last_mark_ms": 1792384210710,
-   "age_h": 0.415
+   "last_mark_ms": 1792384508635,
+   "age_h": 0.498
   },
   "USELESSUSDT": {
    "entry": 0.14287,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792382400000,
-   "mark": 0.14244,
+   "mark": 0.14372,
    "mark_src": "fapi",
-   "u_pnl": -1.0032,
+   "u_pnl": 1.9831,
    "spot": null,
-   "last_mark_ms": 1792384215161,
-   "age_h": 0.415
+   "last_mark_ms": 1792384513240,
+   "age_h": 0.497
   }
  },
  "trades": [
@@ -52775,10 +52775,10 @@
    "1000PEPEUSDT",
    "ARIAUSDT",
    "GTCUSDT",
-   "TIAUSDT",
    "UNIUSDT",
-   "APRUSDT",
+   "TIAUSDT",
    "ICNTUSDT",
+   "APRUSDT",
    "FILUSDT",
    "AVAUSDT",
    "ERAUSDT",
@@ -52800,10 +52800,10 @@
    "AAVEUSDT",
    "BCHUSDT",
    "FETUSDT",
-   "ZROUSDT",
    "APTUSDT",
-   "ELSAUSDT",
+   "ZROUSDT",
    "ZEREBROUSDT",
+   "ELSAUSDT",
    "LITUSDT",
    "\u9f99\u867eUSDT",
    "DOTUSDT",
@@ -52840,23 +52840,23 @@
   ],
   "eligible_count": 510,
   "spot_mapped": 57,
-  "scanned_at": "2026-10-19T04:29:17Z"
+  "scanned_at": "2026-10-19T04:34:20Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-19T04:30:16Z",
+  "last_ok": "2026-10-19T04:35:14Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "stats": {
   "signals": 2739,
   "entries": 2739,
   "exits": 2737,
-  "ws_msgs": 61568209,
-  "ws_ticks": 61568209,
-  "signal_scans": 71511,
+  "ws_msgs": 61580341,
+  "ws_ticks": 61580341,
+  "signal_scans": 71517,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-10-19T04:30:16Z",
+  "last_ok": "2026-10-19T04:35:14Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest",
