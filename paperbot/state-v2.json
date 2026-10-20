@@ -17,8 +17,8 @@
    "mark_src": "spot",
    "u_pnl": 0.7062,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1792510817172,
-   "age_h": 1.752
+   "last_mark_ms": 1792511115460,
+   "age_h": 1.835
   },
   "STRKUSDT": {
    "entry": 0.05578,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792509000000,
-   "mark": 0.05543,
+   "mark": 0.05504,
    "mark_src": "fapi",
-   "u_pnl": -2.0915,
+   "u_pnl": -4.4221,
    "spot": "STRKUSDT",
-   "last_mark_ms": 1792510814932,
-   "age_h": 0.41
+   "last_mark_ms": 1792511115262,
+   "age_h": 0.493
   }
  },
  "trades": [
@@ -53914,8 +53914,8 @@
    "LINKUSDT",
    "FILUSDT",
    "XMRUSDT",
-   "APRUSDT",
    "AAVEUSDT",
+   "APRUSDT",
    "STRKUSDT",
    "ALTUSDT",
    "ZROUSDT",
@@ -53936,17 +53936,17 @@
    "SANDUSDT",
    "HBARUSDT",
    "LITUSDT",
-   "SIRENUSDT",
    "CTUSDT",
+   "SIRENUSDT",
    "OPUSDT",
    "ASTERUSDT",
-   "CRVUSDT",
+   "DOODUSDT",
    "XLMUSDT",
+   "CRVUSDT",
    "WLFIUSDT",
    "PENGUUSDT",
    "SUSDT",
    "NILUSDT",
-   "DOODUSDT",
    "\u9f99\u867eUSDT",
    "AEROUSDT",
    "TRXUSDT",
@@ -53959,32 +53959,32 @@
    "ICNTUSDT",
    "XPLUSDT",
    "USELESSUSDT",
-   "CHIPUSDT",
    "IOSTUSDT",
+   "CHIPUSDT",
    "PYTHUSDT",
    "XNYUSDT",
    "ETHFIUSDT",
-   "ATOMUSDT"
+   "BMTUSDT"
   ],
-  "eligible_count": 498,
+  "eligible_count": 499,
   "spot_mapped": 59,
-  "scanned_at": "2026-10-20T15:37:46Z"
+  "scanned_at": "2026-10-20T15:42:54Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-20T15:40:17Z",
+  "last_ok": "2026-10-20T15:45:15Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "stats": {
   "signals": 2798,
   "entries": 2798,
   "exits": 2796,
-  "ws_msgs": 62185767,
-  "ws_ticks": 62185767,
-  "signal_scans": 73045,
+  "ws_msgs": 62185887,
+  "ws_ticks": 62185887,
+  "signal_scans": 73051,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-10-20T15:40:17Z",
+  "last_ok": "2026-10-20T15:45:15Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest",
