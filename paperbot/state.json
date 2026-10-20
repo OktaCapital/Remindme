@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792504200000,
-   "mark": 0.331,
-   "mark_src": "fapi",
-   "u_pnl": 0.6154,
+   "mark": 0.3312,
+   "mark_src": "spot",
+   "u_pnl": 0.8172,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1792523708937,
-   "age_h": 5.324
+   "last_mark_ms": 1792524011934,
+   "age_h": 5.408
   },
   "GTCUSDT": {
    "entry": 0.30929,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792512300000,
-   "mark": 0.30385,
+   "mark": 0.30072,
    "mark_src": "spot",
-   "u_pnl": -5.8628,
+   "u_pnl": -9.2361,
    "spot": "GTCUSDT",
-   "last_mark_ms": 1792523711639,
-   "age_h": 3.084
+   "last_mark_ms": 1792524009209,
+   "age_h": 3.167
   },
   "ALTUSDT": {
    "entry": 0.009889,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792522500000,
-   "mark": 0.00982,
-   "mark_src": "spot",
-   "u_pnl": -2.3258,
+   "mark": 0.009815,
+   "mark_src": "fapi",
+   "u_pnl": -2.4943,
    "spot": "ALTUSDT",
-   "last_mark_ms": 1792523710378,
-   "age_h": 0.243
+   "last_mark_ms": 1792524011983,
+   "age_h": 0.327
   }
  },
  "trades": [
@@ -102101,8 +102101,8 @@
    "\u9f99\u867eUSDT",
    "BMTUSDT",
    "NILUSDT",
-   "DASHUSDT",
    "USELESSUSDT",
+   "DASHUSDT",
    "ICNTUSDT",
    "PONSUSDT",
    "1000SHIBUSDT",
@@ -102114,12 +102114,12 @@
   ],
   "eligible_count": 504,
   "spot_mapped": 60,
-  "scanned_at": "2026-10-20T19:12:01Z"
+  "scanned_at": "2026-10-20T19:17:34Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-20T19:15:11Z",
+  "last_ok": "2026-10-20T19:20:12Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 12334206 out of 17767703 bytes received",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -102128,12 +102128,12 @@
   "signals": 5251,
   "entries": 5251,
   "exits": 5258,
-  "ws_msgs": 65700793,
-  "ws_ticks": 65700793,
-  "signal_scans": 47043,
+  "ws_msgs": 65701559,
+  "ws_ticks": 65701559,
+  "signal_scans": 47047,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-10-20T19:15:11Z",
+  "last_ok": "2026-10-20T19:20:12Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 12334206 out of 17767703 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest"
