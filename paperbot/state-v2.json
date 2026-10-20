@@ -13,12 +13,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1792418400000,
-   "mark": 0.05385,
+   "mark": 0.05389,
    "mark_src": "fapi",
-   "u_pnl": -4.8194,
+   "u_pnl": -4.5754,
    "spot": "WLFIUSDT",
-   "last_mark_ms": 1792464011845,
-   "age_h": 11.9
+   "last_mark_ms": 1792464306878,
+   "age_h": 11.982
   },
   "SEIUSDT": {
    "entry": 0.06025,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792430700000,
-   "mark": 0.06027,
+   "mark": 0.0603,
    "mark_src": "spot",
-   "u_pnl": 0.1106,
+   "u_pnl": 0.2766,
    "spot": "SEIUSDT",
-   "last_mark_ms": 1792464014789,
-   "age_h": 9.164
+   "last_mark_ms": 1792464311465,
+   "age_h": 9.246
   }
  },
  "trades": [
@@ -53411,8 +53411,8 @@
    "ADAUSDT",
    "FILUSDT",
    "INJUSDT",
-   "TAOUSDT",
    "PHAUSDT",
+   "TAOUSDT",
    "LINKUSDT",
    "TIAUSDT",
    "AVAXUSDT",
@@ -53455,8 +53455,8 @@
    "AUSDT",
    "PONSUSDT",
    "RLCUSDT",
-   "ETHFIUSDT",
    "AEROUSDT",
+   "ETHFIUSDT",
    "DASHUSDT",
    "XPLUSDT",
    "ATOMUSDT",
@@ -53471,23 +53471,23 @@
   ],
   "eligible_count": 492,
   "spot_mapped": 61,
-  "scanned_at": "2026-10-20T02:39:06Z"
+  "scanned_at": "2026-10-20T02:44:40Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-20T02:40:14Z",
+  "last_ok": "2026-10-20T02:45:11Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "stats": {
   "signals": 2772,
   "entries": 2772,
   "exits": 2770,
-  "ws_msgs": 61896271,
-  "ws_ticks": 61896271,
-  "signal_scans": 72489,
+  "ws_msgs": 61896657,
+  "ws_ticks": 61896657,
+  "signal_scans": 72495,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-10-20T02:40:14Z",
+  "last_ok": "2026-10-20T02:45:11Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest",
