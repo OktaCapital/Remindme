@@ -1,5 +1,5 @@
 {
- "equity": 614.9617765147982,
+ "equity": 604.7952115147982,
  "positions": {
   "XLMUSDT": {
    "entry": 0.18204,
@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792539900000,
-   "mark": 0.1826,
-   "mark_src": "spot",
-   "u_pnl": 1.0254,
+   "mark": 0.18262,
+   "mark_src": "fapi",
+   "u_pnl": 1.062,
    "spot": "XLMUSDT",
-   "last_mark_ms": 1792565114033,
-   "age_h": 6.911
+   "last_mark_ms": 1792565415426,
+   "age_h": 6.994
   },
   "AUSDT": {
    "entry": 0.09553,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792544700000,
-   "mark": 0.09553,
+   "mark": 0.09574,
    "mark_src": "fapi",
-   "u_pnl": 0.0,
+   "u_pnl": 0.7327,
    "spot": "AUSDT",
-   "last_mark_ms": 1792565113962,
-   "age_h": 5.577
+   "last_mark_ms": 1792565410976,
+   "age_h": 5.659
   },
   "STRKUSDT": {
    "entry": 0.05641,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792559700000,
-   "mark": 0.0565,
+   "mark": 0.05674,
    "mark_src": "spot",
-   "u_pnl": 0.5318,
+   "u_pnl": 1.95,
    "spot": "STRKUSDT",
-   "last_mark_ms": 1792565109312,
-   "age_h": 1.407
+   "last_mark_ms": 1792565415199,
+   "age_h": 1.492
   }
  },
  "trades": [
@@ -53525,6 +53525,25 @@
    "mark": 0.6317,
    "mark_src": "spot",
    "dir_long": true
+  },
+  {
+   "sym": "AGTUSDT",
+   "entry": 0.042322,
+   "exit": 0.04105234,
+   "ret": -0.0305,
+   "pnl": -10.166564999999999,
+   "reason": "sl_fapi",
+   "opened": "2026-10-21T06:45:43Z",
+   "opened_ms": 1792565143051,
+   "closed_ms": 1792565415426,
+   "age_h": 0.076,
+   "tf": "5m",
+   "signal_bar": 1792564800000,
+   "rsi": 14.812,
+   "vol_ratio": 3.043,
+   "mark": 0.041051,
+   "mark_src": "fapi",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -53990,8 +54009,8 @@
   "COTIUSDT:30m": "1790038800000",
   "RENDERUSDT": "1791935400000",
   "RENDERUSDT:5m": "1791935400000",
-  "AGTUSDT": "1792563000000",
-  "AGTUSDT:5m": "1792563000000",
+  "AGTUSDT": "1792564800000",
+  "AGTUSDT:5m": "1792564800000",
   "GRASSUSDT": "1791898200000",
   "GRASSUSDT:5m": "1791306900000",
   "CHRUSDT": "1790127900000",
@@ -54275,8 +54294,8 @@
    "INJUSDT",
    "GTCUSDT",
    "ADAUSDT",
-   "TIAUSDT",
    "AVAXUSDT",
+   "TIAUSDT",
    "TAOUSDT",
    "FILUSDT",
    "LINKUSDT",
@@ -54297,8 +54316,8 @@
    "APTUSDT",
    "ERAUSDT",
    "AKEUSDT",
-   "LITUSDT",
    "ICNTUSDT",
+   "LITUSDT",
    "BATUSDT",
    "PHAUSDT",
    "XLMUSDT",
@@ -54321,35 +54340,35 @@
    "PONSUSDT",
    "CHIPUSDT",
    "SIRENUSDT",
-   "WLFIUSDT",
    "DASHUSDT",
-   "GRVTUSDT",
+   "WLFIUSDT",
    "NILUSDT",
+   "GRVTUSDT",
    "ETHFIUSDT",
    "PYTHUSDT",
    "ICPUSDT",
-   "CTRUSDT",
-   "XPLUSDT"
+   "XPLUSDT",
+   "RAYSOLUSDT"
   ],
   "eligible_count": 506,
   "spot_mapped": 59,
-  "scanned_at": "2026-10-21T06:39:46Z"
+  "scanned_at": "2026-10-21T06:45:19Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-21T06:45:14Z",
+  "last_ok": "2026-10-21T06:50:15Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "stats": {
-  "signals": 2817,
-  "entries": 2817,
-  "exits": 2814,
-  "ws_msgs": 62362739,
-  "ws_ticks": 62362739,
-  "signal_scans": 74133,
+  "signals": 2818,
+  "entries": 2818,
+  "exits": 2815,
+  "ws_msgs": 62363676,
+  "ws_ticks": 62363676,
+  "signal_scans": 74139,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-10-21T06:45:14Z",
+  "last_ok": "2026-10-21T06:50:15Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest",
