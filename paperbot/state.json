@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792536900000,
-   "mark": 0.616,
+   "mark": 0.6126,
    "mark_src": "spot",
-   "u_pnl": -1.7762,
+   "u_pnl": -3.6062,
    "spot": "TIAUSDT",
-   "last_mark_ms": 1792549213003,
-   "age_h": 3.322
+   "last_mark_ms": 1792549513102,
+   "age_h": 3.405
   },
   "XLMUSDT": {
    "entry": 0.18201,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792539900000,
-   "mark": 0.18248,
+   "mark": 0.18207,
    "mark_src": "fapi",
-   "u_pnl": 0.8607,
+   "u_pnl": 0.1099,
    "spot": "XLMUSDT",
-   "last_mark_ms": 1792549211391,
-   "age_h": 2.49
+   "last_mark_ms": 1792549512037,
+   "age_h": 2.573
   },
   "AUSDT": {
    "entry": 0.09552,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792544700000,
-   "mark": 0.09428,
+   "mark": 0.09412,
    "mark_src": "fapi",
-   "u_pnl": -4.3271,
+   "u_pnl": -4.8855,
    "spot": "AUSDT",
-   "last_mark_ms": 1792549207201,
-   "age_h": 1.164
+   "last_mark_ms": 1792549512037,
+   "age_h": 1.249
   }
  },
  "trades": [
@@ -102317,8 +102317,8 @@
    "ENAUSDT",
    "BNBUSDT",
    "UNIUSDT",
-   "SUIUSDT",
    "PUMPUSDT",
+   "SUIUSDT",
    "AGTUSDT",
    "ARBUSDT",
    "GTCUSDT",
@@ -102372,24 +102372,24 @@
    "\u9f99\u867eUSDT",
    "WLFIUSDT",
    "NILUSDT",
-   "DASHUSDT",
    "1000SHIBUSDT",
+   "DASHUSDT",
    "PONSUSDT",
    "CHIPUSDT",
    "ETHFIUSDT",
    "XPLUSDT",
    "PYTHUSDT",
    "RAYSOLUSDT",
-   "ICPUSDT"
+   "BIRBUSDT"
   ],
   "eligible_count": 503,
-  "spot_mapped": 59,
-  "scanned_at": "2026-10-21T02:18:01Z"
+  "spot_mapped": 58,
+  "scanned_at": "2026-10-21T02:23:03Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-21T02:20:13Z",
+  "last_ok": "2026-10-21T02:25:13Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 12334206 out of 17767703 bytes received",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -102398,12 +102398,12 @@
   "signals": 5265,
   "entries": 5265,
   "exits": 5272,
-  "ws_msgs": 65767674,
-  "ws_ticks": 65767674,
-  "signal_scans": 47455,
+  "ws_msgs": 65768223,
+  "ws_ticks": 65768223,
+  "signal_scans": 47460,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-10-21T02:20:13Z",
+  "last_ok": "2026-10-21T02:25:13Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 12334206 out of 17767703 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest"
