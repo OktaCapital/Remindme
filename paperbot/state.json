@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792577700000,
-   "mark": 0.8217,
+   "mark": 0.8262,
    "mark_src": "spot",
-   "u_pnl": 1.0581,
+   "u_pnl": 2.8893,
    "spot": "APTUSDT",
-   "last_mark_ms": 1792592413586,
-   "age_h": 3.985
+   "last_mark_ms": 1792592705883,
+   "age_h": 4.066
   },
   "BCHUSDT": {
    "entry": 285.95,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792584900000,
-   "mark": 284.95,
+   "mark": 286.05,
    "mark_src": "fapi",
-   "u_pnl": -1.1657,
+   "u_pnl": 0.1166,
    "spot": "BCHUSDT",
-   "last_mark_ms": 1792592406787,
-   "age_h": 1.989
+   "last_mark_ms": 1792592709141,
+   "age_h": 2.073
   },
   "APRUSDT": {
    "entry": 0.02761,
@@ -51,12 +51,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1792587600000,
-   "mark": 0.02731,
+   "mark": 0.02761,
    "mark_src": "fapi",
-   "u_pnl": -3.6218,
+   "u_pnl": 0.0,
    "spot": null,
-   "last_mark_ms": 1792592411543,
-   "age_h": 0.834
+   "last_mark_ms": 1792592709141,
+   "age_h": 0.917
   },
   "AEROUSDT": {
    "entry": 0.8541,
@@ -70,12 +70,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1792587600000,
-   "mark": 0.8516,
-   "mark_src": "fapi",
-   "u_pnl": -0.9757,
+   "mark": 0.855,
+   "mark_src": "spot",
+   "u_pnl": 0.3512,
    "spot": "AEROUSDT",
-   "last_mark_ms": 1792592409088,
-   "age_h": 0.322
+   "last_mark_ms": 1792592711091,
+   "age_h": 0.405
   },
   "BTWUSDT": {
    "entry": 1.5132,
@@ -89,12 +89,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1792587600000,
-   "mark": 1.5174,
+   "mark": 1.4963,
    "mark_src": "fapi",
-   "u_pnl": 0.9252,
+   "u_pnl": -3.7228,
    "spot": null,
-   "last_mark_ms": 1792592411543,
-   "age_h": 0.026
+   "last_mark_ms": 1792592709141,
+   "age_h": 0.108
   }
  },
  "trades": [
@@ -103645,7 +103645,7 @@
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-21T14:20:13Z",
+  "last_ok": "2026-10-21T14:25:11Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 12334206 out of 17767703 bytes received",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -103654,12 +103654,12 @@
   "signals": 5331,
   "entries": 5331,
   "exits": 5336,
-  "ws_msgs": 65919004,
-  "ws_ticks": 65919004,
-  "signal_scans": 48140,
+  "ws_msgs": 65919897,
+  "ws_ticks": 65919897,
+  "signal_scans": 48145,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-10-21T14:20:13Z",
+  "last_ok": "2026-10-21T14:25:11Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 12334206 out of 17767703 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest"
