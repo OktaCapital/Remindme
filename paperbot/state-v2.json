@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792504200000,
-   "mark": 0.3314,
+   "mark": 0.3313,
    "mark_src": "spot",
-   "u_pnl": 1.0089,
+   "u_pnl": 0.908,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1792543815425,
-   "age_h": 10.918
+   "last_mark_ms": 1792544114197,
+   "age_h": 11.001
   },
   "TIAUSDT": {
    "entry": 0.6193,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792536900000,
-   "mark": 0.6143,
-   "mark_src": "fapi",
-   "u_pnl": -2.6912,
+   "mark": 0.6126,
+   "mark_src": "spot",
+   "u_pnl": -3.6062,
    "spot": "TIAUSDT",
-   "last_mark_ms": 1792543814257,
-   "age_h": 1.822
+   "last_mark_ms": 1792544113095,
+   "age_h": 1.905
   },
   "COMPUSDT": {
    "entry": 25.96,
@@ -55,8 +55,8 @@
    "mark_src": "spot",
    "u_pnl": -3.7236,
    "spot": "COMPUSDT",
-   "last_mark_ms": 1792543817658,
-   "age_h": 1.658
+   "last_mark_ms": 1792544112134,
+   "age_h": 1.74
   },
   "XLMUSDT": {
    "entry": 0.18204,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792539900000,
-   "mark": 0.1821,
-   "mark_src": "spot",
-   "u_pnl": 0.1099,
+   "mark": 0.18213,
+   "mark_src": "fapi",
+   "u_pnl": 0.1648,
    "spot": "XLMUSDT",
-   "last_mark_ms": 1792543816870,
-   "age_h": 0.995
+   "last_mark_ms": 1792544110638,
+   "age_h": 1.076
   }
  },
  "trades": [
@@ -54153,8 +54153,8 @@
    "SUIUSDT",
    "PUMPUSDT",
    "UNIUSDT",
-   "AGTUSDT",
    "DOODUSDT",
+   "AGTUSDT",
    "GTCUSDT",
    "ARBUSDT",
    "TIAUSDT",
@@ -54167,8 +54167,8 @@
    "TAOUSDT",
    "LINKUSDT",
    "AAVEUSDT",
-   "PHAUSDT",
    "APRUSDT",
+   "PHAUSDT",
    "ALTUSDT",
    "COMPUSDT",
    "STRKUSDT",
@@ -54189,8 +54189,8 @@
    "VVVUSDT",
    "ARIAUSDT",
    "CTRUSDT",
-   "OPUSDT",
    "HBARUSDT",
+   "OPUSDT",
    "XLMUSDT",
    "ICNTUSDT",
    "SANDUSDT",
@@ -54199,8 +54199,8 @@
    "SIRENUSDT",
    "CRVUSDT",
    "CTUSDT",
-   "AVAUSDT",
    "GRVTUSDT",
+   "AVAUSDT",
    "BMTUSDT",
    "USELESSUSDT",
    "TRXUSDT",
@@ -54217,25 +54217,25 @@
    "XPLUSDT",
    "SUSDT"
   ],
-  "eligible_count": 505,
+  "eligible_count": 504,
   "spot_mapped": 60,
-  "scanned_at": "2026-10-21T00:48:37Z"
+  "scanned_at": "2026-10-21T00:53:39Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-21T00:50:17Z",
+  "last_ok": "2026-10-21T00:55:14Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "stats": {
   "signals": 2811,
   "entries": 2811,
   "exits": 2807,
-  "ws_msgs": 62280957,
-  "ws_ticks": 62280957,
-  "signal_scans": 73703,
+  "ws_msgs": 62281865,
+  "ws_ticks": 62281865,
+  "signal_scans": 73709,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-10-21T00:50:17Z",
+  "last_ok": "2026-10-21T00:55:14Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest",
