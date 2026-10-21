@@ -17,8 +17,8 @@
    "mark_src": "spot",
    "u_pnl": 0.9181,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1792546812366,
-   "age_h": 11.741
+   "last_mark_ms": 1792547109592,
+   "age_h": 11.824
   },
   "TIAUSDT": {
    "entry": 0.6193,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792536900000,
-   "mark": 0.6147,
-   "mark_src": "spot",
-   "u_pnl": -2.4759,
+   "mark": 0.617,
+   "mark_src": "fapi",
+   "u_pnl": -1.2379,
    "spot": "TIAUSDT",
-   "last_mark_ms": 1792546809321,
-   "age_h": 2.654
+   "last_mark_ms": 1792547111213,
+   "age_h": 2.738
   },
   "COMPUSDT": {
    "entry": 25.89,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792537500000,
-   "mark": 25.84,
-   "mark_src": "fapi",
-   "u_pnl": -0.6437,
+   "mark": 26.12,
+   "mark_src": "spot",
+   "u_pnl": 2.9612,
    "spot": "COMPUSDT",
-   "last_mark_ms": 1792546808496,
-   "age_h": 2.501
+   "last_mark_ms": 1792547111213,
+   "age_h": 2.585
   },
   "XLMUSDT": {
    "entry": 0.18201,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792539900000,
-   "mark": 0.1825,
-   "mark_src": "spot",
-   "u_pnl": 0.8974,
+   "mark": 0.18313,
+   "mark_src": "fapi",
+   "u_pnl": 2.0511,
    "spot": "XLMUSDT",
-   "last_mark_ms": 1792546810100,
-   "age_h": 1.823
+   "last_mark_ms": 1792547111213,
+   "age_h": 1.906
   },
   "AUSDT": {
    "entry": 0.09552,
@@ -89,12 +89,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792544700000,
-   "mark": 0.09534,
+   "mark": 0.09567,
    "mark_src": "fapi",
-   "u_pnl": -0.6281,
+   "u_pnl": 0.5234,
    "spot": "AUSDT",
-   "last_mark_ms": 1792546810729,
-   "age_h": 0.498
+   "last_mark_ms": 1792547111213,
+   "age_h": 0.582
   }
  },
  "trades": [
@@ -102322,8 +102322,8 @@
    "AGTUSDT",
    "GTCUSDT",
    "ARBUSDT",
-   "TIAUSDT",
    "XMRUSDT",
+   "TIAUSDT",
    "ADAUSDT",
    "INJUSDT",
    "AVAXUSDT",
@@ -102355,8 +102355,8 @@
    "VVVUSDT",
    "CTRUSDT",
    "OPUSDT",
-   "HBARUSDT",
    "ICNTUSDT",
+   "HBARUSDT",
    "XLMUSDT",
    "SANDUSDT",
    "AEROUSDT",
@@ -102384,12 +102384,12 @@
   ],
   "eligible_count": 503,
   "spot_mapped": 59,
-  "scanned_at": "2026-10-21T01:35:40Z"
+  "scanned_at": "2026-10-21T01:41:15Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-21T01:40:12Z",
+  "last_ok": "2026-10-21T01:45:11Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 12334206 out of 17767703 bytes received",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -102398,12 +102398,12 @@
   "signals": 5265,
   "entries": 5265,
   "exits": 5270,
-  "ws_msgs": 65759299,
-  "ws_ticks": 65759299,
-  "signal_scans": 47417,
+  "ws_msgs": 65760369,
+  "ws_ticks": 65760369,
+  "signal_scans": 47422,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-10-21T01:40:12Z",
+  "last_ok": "2026-10-21T01:45:11Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 12334206 out of 17767703 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest"
