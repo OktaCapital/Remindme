@@ -1,5 +1,5 @@
 {
- "equity": 671.9634973309271,
+ "equity": 691.4633023309273,
  "positions": {
   "XLMUSDT": {
    "entry": 0.18201,
@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792539900000,
-   "mark": 0.18358,
-   "mark_src": "fapi",
-   "u_pnl": 2.8753,
+   "mark": 0.1834,
+   "mark_src": "spot",
+   "u_pnl": 2.5456,
    "spot": "XLMUSDT",
-   "last_mark_ms": 1792571111901,
-   "age_h": 8.573
+   "last_mark_ms": 1792571402446,
+   "age_h": 8.654
   },
   "AUSDT": {
    "entry": 0.09552,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792544700000,
-   "mark": 0.09532,
-   "mark_src": "fapi",
-   "u_pnl": -0.6979,
+   "mark": 0.095,
+   "mark_src": "spot",
+   "u_pnl": -1.8146,
    "spot": "AUSDT",
-   "last_mark_ms": 1792571109730,
-   "age_h": 7.248
+   "last_mark_ms": 1792571405672,
+   "age_h": 7.33
   },
   "STRKUSDT": {
    "entry": 0.05642,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792559700000,
-   "mark": 0.05711,
+   "mark": 0.05706,
    "mark_src": "spot",
-   "u_pnl": 4.0765,
+   "u_pnl": 3.7811,
    "spot": "STRKUSDT",
-   "last_mark_ms": 1792571109641,
-   "age_h": 3.074
+   "last_mark_ms": 1792571405043,
+   "age_h": 3.156
   },
   "AGTUSDT": {
    "entry": 0.045899,
@@ -70,12 +70,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1792566000000,
-   "mark": 0.046304,
+   "mark": 0.044912,
    "mark_src": "fapi",
-   "u_pnl": 2.9412,
+   "u_pnl": -7.1678,
    "spot": null,
-   "last_mark_ms": 1792571111901,
-   "age_h": 0.328
+   "last_mark_ms": 1792571407710,
+   "age_h": 0.41
   },
   "AVAUSDT": {
    "entry": 0.3497,
@@ -89,12 +89,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1792566000000,
-   "mark": 0.3461,
+   "mark": 0.3507,
    "mark_src": "spot",
-   "u_pnl": -3.4315,
+   "u_pnl": 0.9532,
    "spot": "AVAUSDT",
-   "last_mark_ms": 1792571112643,
-   "age_h": 0.069
+   "last_mark_ms": 1792571409391,
+   "age_h": 0.152
   }
  },
  "trades": [
@@ -101899,6 +101899,63 @@
    "mark": 0.025238,
    "mark_src": "fapi",
    "dir_long": true
+  },
+  {
+   "sym": "ZEREBROUSDT",
+   "entry": 0.025346,
+   "exit": 0.02585292,
+   "ret": 0.0195,
+   "pnl": 6.499935,
+   "reason": "tp_fapi",
+   "opened": "2026-10-21T08:25:14Z",
+   "opened_ms": 1792571114313,
+   "closed_ms": 1792571217470,
+   "age_h": 0.029,
+   "tf": "1h",
+   "signal_bar": 1792566000000,
+   "rsi": 18.639,
+   "vol_ratio": 4.133,
+   "mark": 0.02586,
+   "mark_src": "fapi",
+   "dir_long": true
+  },
+  {
+   "sym": "ZEREBROUSDT",
+   "entry": 0.025964,
+   "exit": 0.02648328,
+   "ret": 0.0195,
+   "pnl": 6.499935,
+   "reason": "tp_fapi",
+   "opened": "2026-10-21T08:27:19Z",
+   "opened_ms": 1792571239929,
+   "closed_ms": 1792571331928,
+   "age_h": 0.026,
+   "tf": "1h",
+   "signal_bar": 1792566000000,
+   "rsi": 18.639,
+   "vol_ratio": 4.133,
+   "mark": 0.026502,
+   "mark_src": "fapi",
+   "dir_long": true
+  },
+  {
+   "sym": "ZEREBROUSDT",
+   "entry": 0.027007,
+   "exit": 0.02754714,
+   "ret": 0.0195,
+   "pnl": 6.499935,
+   "reason": "tp_fapi",
+   "opened": "2026-10-21T08:29:20Z",
+   "opened_ms": 1792571360959,
+   "closed_ms": 1792571393693,
+   "age_h": 0.009,
+   "tf": "1h",
+   "signal_bar": 1792566000000,
+   "rsi": 18.639,
+   "vol_ratio": 4.133,
+   "mark": 0.027599,
+   "mark_src": "fapi",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -102999,21 +103056,21 @@
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-21T08:25:12Z",
+  "last_ok": "2026-10-21T08:30:09Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 12334206 out of 17767703 bytes received",
   "monitor_ok": 9,
   "monitor_failed": 0
  },
  "stats": {
-  "signals": 5297,
-  "entries": 5297,
-  "exits": 5302,
-  "ws_msgs": 65845505,
-  "ws_ticks": 65845505,
-  "signal_scans": 47805,
+  "signals": 5300,
+  "entries": 5300,
+  "exits": 5305,
+  "ws_msgs": 65846729,
+  "ws_ticks": 65846729,
+  "signal_scans": 47810,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-10-21T08:25:12Z",
+  "last_ok": "2026-10-21T08:30:09Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 12334206 out of 17767703 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest"
