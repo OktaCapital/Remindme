@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792539900000,
-   "mark": 0.1836,
-   "mark_src": "fapi",
-   "u_pnl": 2.9119,
+   "mark": 0.1839,
+   "mark_src": "spot",
+   "u_pnl": 3.4613,
    "spot": "XLMUSDT",
-   "last_mark_ms": 1792577111485,
-   "age_h": 10.24
+   "last_mark_ms": 1792577411316,
+   "age_h": 10.323
   },
   "AUSDT": {
    "entry": 0.09552,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792544700000,
-   "mark": 0.09443,
+   "mark": 0.0945,
    "mark_src": "fapi",
-   "u_pnl": -3.8037,
+   "u_pnl": -3.5594,
    "spot": "AUSDT",
-   "last_mark_ms": 1792577111485,
-   "age_h": 8.915
+   "last_mark_ms": 1792577407062,
+   "age_h": 8.997
   },
   "STRKUSDT": {
    "entry": 0.05642,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792559700000,
-   "mark": 0.05614,
+   "mark": 0.05585,
    "mark_src": "spot",
-   "u_pnl": -1.6542,
+   "u_pnl": -3.3676,
    "spot": "STRKUSDT",
-   "last_mark_ms": 1792577112020,
-   "age_h": 4.741
+   "last_mark_ms": 1792577412216,
+   "age_h": 4.825
   },
   "ZROUSDT": {
    "entry": 2.001,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792576200000,
-   "mark": 1.9975,
+   "mark": 1.9972,
    "mark_src": "fapi",
-   "u_pnl": -0.583,
+   "u_pnl": -0.633,
    "spot": "ZROUSDT",
-   "last_mark_ms": 1792577109304,
-   "age_h": 0.151
+   "last_mark_ms": 1792577409301,
+   "age_h": 0.235
   }
  },
  "trades": [
@@ -103252,8 +103252,8 @@
    "BMTUSDT",
    "HBARUSDT",
    "ASTERUSDT",
-   "ERAUSDT",
    "MEWUSDT",
+   "ERAUSDT",
    "OPUSDT",
    "CRVUSDT",
    "AEROUSDT",
@@ -103267,24 +103267,24 @@
    "TRXUSDT",
    "PONSUSDT",
    "CHIPUSDT",
+   "PARTIUSDT",
    "DASHUSDT",
    "ETHFIUSDT",
-   "PARTIUSDT",
    "PYTHUSDT",
    "WLFIUSDT",
    "RAYSOLUSDT",
    "LDOUSDT",
    "ICPUSDT",
-   "NILUSDT"
+   "ETCUSDT"
   ],
   "eligible_count": 510,
   "spot_mapped": 60,
-  "scanned_at": "2026-10-21T10:03:56Z"
+  "scanned_at": "2026-10-21T10:09:00Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-21T10:05:12Z",
+  "last_ok": "2026-10-21T10:10:12Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 12334206 out of 17767703 bytes received",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -103293,12 +103293,12 @@
   "signals": 5312,
   "entries": 5312,
   "exits": 5318,
-  "ws_msgs": 65867997,
-  "ws_ticks": 65867997,
-  "signal_scans": 47899,
+  "ws_msgs": 65868557,
+  "ws_ticks": 65868557,
+  "signal_scans": 47904,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-10-21T10:05:12Z",
+  "last_ok": "2026-10-21T10:10:12Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 12334206 out of 17767703 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest"
