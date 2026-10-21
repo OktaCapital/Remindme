@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792584900000,
-   "mark": 288.61,
-   "mark_src": "fapi",
-   "u_pnl": 2.8774,
+   "mark": 288.8,
+   "mark_src": "spot",
+   "u_pnl": 3.0987,
    "spot": "BCHUSDT",
-   "last_mark_ms": 1792617015569,
-   "age_h": 8.835
+   "last_mark_ms": 1792617308153,
+   "age_h": 8.916
   },
   "BIRBUSDT": {
    "entry": 0.05409,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792597800000,
-   "mark": 0.05454,
+   "mark": 0.05448,
    "mark_src": "fapi",
-   "u_pnl": 2.7731,
+   "u_pnl": 2.4034,
    "spot": null,
-   "last_mark_ms": 1792617017748,
-   "age_h": 5.252
+   "last_mark_ms": 1792617310590,
+   "age_h": 5.333
   },
   "MEWUSDT": {
    "entry": 0.0004633,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792600200000,
-   "mark": 0.0004583,
+   "mark": 0.0004589,
    "mark_src": "fapi",
-   "u_pnl": -3.5973,
+   "u_pnl": -3.1657,
    "spot": null,
-   "last_mark_ms": 1792617017748,
-   "age_h": 4.585
+   "last_mark_ms": 1792617310590,
+   "age_h": 4.666
   },
   "ZEREBROUSDT": {
    "entry": 0.027956,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792610100000,
-   "mark": 0.027822,
+   "mark": 0.027843,
    "mark_src": "fapi",
-   "u_pnl": -1.5977,
+   "u_pnl": -1.3473,
    "spot": null,
-   "last_mark_ms": 1792617017748,
-   "age_h": 1.826
+   "last_mark_ms": 1792617310590,
+   "age_h": 1.908
   },
   "AEROUSDT": {
    "entry": 0.8412,
@@ -89,12 +89,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792611000000,
-   "mark": 0.8329,
-   "mark_src": "fapi",
-   "u_pnl": -3.2889,
+   "mark": 0.8311,
+   "mark_src": "spot",
+   "u_pnl": -4.0022,
    "spot": "AEROUSDT",
-   "last_mark_ms": 1792617015569,
-   "age_h": 1.584
+   "last_mark_ms": 1792617311646,
+   "age_h": 1.666
   },
   "BRUSDT": {
    "entry": 0.48028,
@@ -108,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792613400000,
-   "mark": 0.48755,
+   "mark": 0.48514,
    "mark_src": "fapi",
-   "u_pnl": 5.0456,
+   "u_pnl": 3.373,
    "spot": null,
-   "last_mark_ms": 1792617017748,
-   "age_h": 0.848
+   "last_mark_ms": 1792617310590,
+   "age_h": 0.929
   },
   "TRXUSDT": {
    "entry": 0.33134,
@@ -131,8 +131,8 @@
    "mark_src": "spot",
    "u_pnl": 0.0604,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1792617018388,
-   "age_h": 0.833
+   "last_mark_ms": 1792617308947,
+   "age_h": 0.914
   }
  },
  "trades": [
@@ -55003,19 +55003,19 @@
    "STRKUSDT",
    "AVAXUSDT",
    "FILUSDT",
-   "ARBUSDT",
    "IRYSUSDT",
-   "INJUSDT",
+   "ARBUSDT",
    "ALTUSDT",
-   "ADAUSDT",
+   "INJUSDT",
    "TAOUSDT",
+   "ADAUSDT",
    "BRUSDT",
    "LINKUSDT",
    "AKEUSDT",
    "QNTUSDT",
-   "TRUMPUSDT",
-   "TIAUSDT",
    "BIRBUSDT",
+   "TIAUSDT",
+   "TRUMPUSDT",
    "AAVEUSDT",
    "GTCUSDT",
    "BCHUSDT",
@@ -55036,9 +55036,9 @@
    "APTUSDT",
    "VVVUSDT",
    "BULLAUSDT",
+   "HBARUSDT",
    "COMPUSDT",
    "ASTERUSDT",
-   "HBARUSDT",
    "CTUSDT",
    "OPUSDT",
    "APRUSDT",
@@ -55062,23 +55062,23 @@
   ],
   "eligible_count": 501,
   "spot_mapped": 57,
-  "scanned_at": "2026-10-21T21:08:10Z"
+  "scanned_at": "2026-10-21T21:13:43Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-21T21:10:18Z",
+  "last_ok": "2026-10-21T21:15:11Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "stats": {
   "signals": 2855,
   "entries": 2855,
   "exits": 2848,
-  "ws_msgs": 62457788,
-  "ws_ticks": 62457788,
-  "signal_scans": 75160,
+  "ws_msgs": 62458204,
+  "ws_ticks": 62458204,
+  "signal_scans": 75167,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-10-21T21:10:18Z",
+  "last_ok": "2026-10-21T21:15:11Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 14205177 out of 17767705 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest",
