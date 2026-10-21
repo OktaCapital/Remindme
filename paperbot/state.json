@@ -1,5 +1,5 @@
 {
- "equity": 618.7973623309263,
+ "equity": 608.6307973309263,
  "positions": {
   "XLMUSDT": {
    "entry": 0.18201,
@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792539900000,
-   "mark": 0.1828,
+   "mark": 0.183,
    "mark_src": "spot",
-   "u_pnl": 1.4468,
+   "u_pnl": 1.8131,
    "spot": "XLMUSDT",
-   "last_mark_ms": 1792566306207,
-   "age_h": 7.238
+   "last_mark_ms": 1792566611336,
+   "age_h": 7.323
   },
   "AUSDT": {
    "entry": 0.09552,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792544700000,
-   "mark": 0.09494,
+   "mark": 0.09532,
    "mark_src": "fapi",
-   "u_pnl": -2.024,
+   "u_pnl": -0.6979,
    "spot": "AUSDT",
-   "last_mark_ms": 1792566303500,
-   "age_h": 5.913
+   "last_mark_ms": 1792566606263,
+   "age_h": 5.997
   },
   "STRKUSDT": {
    "entry": 0.05642,
@@ -51,31 +51,31 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792559700000,
-   "mark": 0.0564,
+   "mark": 0.0568,
    "mark_src": "spot",
-   "u_pnl": -0.1182,
+   "u_pnl": 2.245,
    "spot": "STRKUSDT",
-   "last_mark_ms": 1792566307229,
-   "age_h": 1.74
+   "last_mark_ms": 1792566608271,
+   "age_h": 1.824
   },
   "AGTUSDT": {
-   "entry": 0.041391,
+   "entry": 0.040504,
    "notional": 333.33,
-   "opened_ms": 1792566084425,
-   "opened": "2026-10-21T07:01:24Z",
-   "entry_time": "2026-10-21T07:01:24Z",
+   "opened_ms": 1792566406022,
+   "opened": "2026-10-21T07:06:46Z",
+   "entry_time": "2026-10-21T07:06:46Z",
    "dir_long": true,
    "rsi": 23.247,
    "vol_ratio": 8.031,
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1792562400000,
-   "mark": 0.041512,
+   "mark": 0.040668,
    "mark_src": "fapi",
-   "u_pnl": 0.9744,
+   "u_pnl": 1.3496,
    "spot": null,
-   "last_mark_ms": 1792566305794,
-   "age_h": 0.061
+   "last_mark_ms": 1792566610749,
+   "age_h": 0.057
   }
  },
  "trades": [
@@ -101481,6 +101481,25 @@
    "mark": 0.041174,
    "mark_src": "fapi",
    "dir_long": true
+  },
+  {
+   "sym": "AGTUSDT",
+   "entry": 0.041391,
+   "exit": 0.040149269999999994,
+   "ret": -0.0305,
+   "pnl": -10.166564999999999,
+   "reason": "sl_fapi",
+   "opened": "2026-10-21T07:01:24Z",
+   "opened_ms": 1792566084425,
+   "closed_ms": 1792566383942,
+   "age_h": 0.083,
+   "tf": "1h",
+   "signal_bar": 1792562400000,
+   "rsi": 23.247,
+   "vol_ratio": 8.031,
+   "mark": 0.039983,
+   "mark_src": "fapi",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -102502,8 +102521,8 @@
    "DOODUSDT",
    "IOSTUSDT",
    "DOGEUSDT",
-   "BRUSDT",
    "BTWUSDT",
+   "BRUSDT",
    "UNIUSDT",
    "ENAUSDT",
    "BNBUSDT",
@@ -102541,8 +102560,8 @@
    "LITUSDT",
    "AKEUSDT",
    "BATUSDT",
-   "PHAUSDT",
    "XLMUSDT",
+   "PHAUSDT",
    "DOTUSDT",
    "BIRBUSDT",
    "VVVUSDT",
@@ -102561,8 +102580,8 @@
    "1000SHIBUSDT",
    "PONSUSDT",
    "CHIPUSDT",
-   "SIRENUSDT",
    "DASHUSDT",
+   "SIRENUSDT",
    "WLFIUSDT",
    "NILUSDT",
    "ETHFIUSDT",
@@ -102574,26 +102593,26 @@
   ],
   "eligible_count": 506,
   "spot_mapped": 59,
-  "scanned_at": "2026-10-21T07:00:38Z"
+  "scanned_at": "2026-10-21T07:06:10Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-21T07:05:07Z",
+  "last_ok": "2026-10-21T07:10:11Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 12334206 out of 17767703 bytes received",
   "monitor_ok": 9,
   "monitor_failed": 0
  },
  "stats": {
-  "signals": 5275,
-  "entries": 5275,
-  "exits": 5281,
-  "ws_msgs": 65833452,
-  "ws_ticks": 65833452,
-  "signal_scans": 47730,
+  "signals": 5276,
+  "entries": 5276,
+  "exits": 5282,
+  "ws_msgs": 65833941,
+  "ws_ticks": 65833941,
+  "signal_scans": 47734,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-10-21T07:05:07Z",
+  "last_ok": "2026-10-21T07:10:11Z",
   "last_error": "universe: curl: (28) Operation timed out after 20000 milliseconds with 12334206 out of 17767703 bytes received"
  },
  "mode": "hybrid_spotws_futures_rest"
