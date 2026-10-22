@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792680300000,
-   "mark": 1.7972,
-   "mark_src": "fapi",
-   "u_pnl": -0.6664,
+   "mark": 1.796,
+   "mark_src": "spot",
+   "u_pnl": -0.8885,
    "spot": "ZROUSDT",
-   "last_mark_ms": 1792707610183,
-   "age_h": 7.492
+   "last_mark_ms": 1792707914745,
+   "age_h": 7.577
   },
   "PUMPUSDT": {
    "entry": 0.004645,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792681500000,
-   "mark": 0.004614,
+   "mark": 0.004611,
    "mark_src": "spot",
-   "u_pnl": -2.2246,
+   "u_pnl": -2.4399,
    "spot": "PUMPUSDT",
-   "last_mark_ms": 1792707612528,
-   "age_h": 7.159
+   "last_mark_ms": 1792707917335,
+   "age_h": 7.244
   },
   "INJUSDT": {
    "entry": 7.996,
@@ -55,8 +55,8 @@
    "mark_src": "spot",
    "u_pnl": -4.5022,
    "spot": "INJUSDT",
-   "last_mark_ms": 1792707609555,
-   "age_h": 7.158
+   "last_mark_ms": 1792707915433,
+   "age_h": 7.243
   },
   "XPLUSDT": {
    "entry": 0.07715,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792681500000,
-   "mark": 0.07605,
-   "mark_src": "spot",
-   "u_pnl": -4.7526,
+   "mark": 0.07586,
+   "mark_src": "fapi",
+   "u_pnl": -5.5735,
    "spot": "XPLUSDT",
-   "last_mark_ms": 1792707612500,
-   "age_h": 7.157
+   "last_mark_ms": 1792707911529,
+   "age_h": 7.24
   },
   "RUNEUSDT": {
    "entry": 0.6351,
@@ -89,12 +89,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792681800000,
-   "mark": 0.64,
+   "mark": 0.6387,
    "mark_src": "fapi",
-   "u_pnl": 2.5717,
+   "u_pnl": 1.8894,
    "spot": "RUNEUSDT",
-   "last_mark_ms": 1792707614590,
-   "age_h": 7.08
+   "last_mark_ms": 1792707913696,
+   "age_h": 7.163
   },
   "TRUMPUSDT": {
    "entry": 1.726,
@@ -108,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792701300000,
-   "mark": 1.734,
+   "mark": 1.732,
    "mark_src": "fapi",
-   "u_pnl": 1.545,
+   "u_pnl": 1.1587,
    "spot": "TRUMPUSDT",
-   "last_mark_ms": 1792707614590,
-   "age_h": 1.663
+   "last_mark_ms": 1792707911529,
+   "age_h": 1.745
   },
   "FARTCOINUSDT": {
    "entry": 0.1405,
@@ -127,12 +127,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792701600000,
-   "mark": 0.1427,
+   "mark": 0.1424,
    "mark_src": "fapi",
-   "u_pnl": 5.2194,
+   "u_pnl": 4.5077,
    "spot": null,
-   "last_mark_ms": 1792707614590,
-   "age_h": 1.574
+   "last_mark_ms": 1792707915932,
+   "age_h": 1.657
   },
   "XMRUSDT": {
    "entry": 588.85,
@@ -146,12 +146,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792704600000,
-   "mark": 593.74,
+   "mark": 597.76,
    "mark_src": "fapi",
-   "u_pnl": 2.7681,
+   "u_pnl": 5.0437,
    "spot": null,
-   "last_mark_ms": 1792707614590,
-   "age_h": 0.741
+   "last_mark_ms": 1792707915932,
+   "age_h": 0.825
   }
  },
  "trades": [
@@ -55945,10 +55945,10 @@
    "FETUSDT",
    "VVVUSDT",
    "XLMUSDT",
-   "ZROUSDT",
    "DASHUSDT",
-   "HBARUSDT",
+   "ZROUSDT",
    "DOTUSDT",
+   "HBARUSDT",
    "PENGUUSDT",
    "APTUSDT",
    "CRVUSDT",
@@ -55972,29 +55972,29 @@
    "ETHFIUSDT",
    "SANDUSDT",
    "FARTCOINUSDT",
-   "AVAUSDT",
    "PTBUSDT",
+   "AVAUSDT",
    "BIRBUSDT"
   ],
   "eligible_count": 511,
   "spot_mapped": 59,
-  "scanned_at": "2026-10-22T22:18:20Z"
+  "scanned_at": "2026-10-22T22:23:52Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-22T22:20:15Z",
+  "last_ok": "2026-10-22T22:25:17Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds"
  },
  "stats": {
   "signals": 2903,
   "entries": 2903,
   "exits": 2895,
-  "ws_msgs": 63821586,
-  "ws_ticks": 63821586,
-  "signal_scans": 75911,
+  "ws_msgs": 63823997,
+  "ws_ticks": 63823997,
+  "signal_scans": 75918,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-10-22T22:20:15Z",
+  "last_ok": "2026-10-22T22:25:17Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds"
  },
  "mode": "hybrid_spotws_futures_rest",
