@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792710000000,
-   "mark": 0.1287,
+   "mark": 0.1285,
    "mark_src": "fapi",
-   "u_pnl": -0.7752,
+   "u_pnl": -1.292,
    "spot": "ARKMUSDT",
-   "last_mark_ms": 1792736411092,
-   "age_h": 7.244
+   "last_mark_ms": 1792736711496,
+   "age_h": 7.327
   },
   "MASKUSDT": {
    "entry": 0.4256,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792730400000,
-   "mark": 0.425,
+   "mark": 0.4245,
    "mark_src": "fapi",
-   "u_pnl": -0.4699,
+   "u_pnl": -0.8615,
    "spot": "MASKUSDT",
-   "last_mark_ms": 1792736415290,
-   "age_h": 1.574
+   "last_mark_ms": 1792736713693,
+   "age_h": 1.657
   }
  },
  "trades": [
@@ -56148,8 +56148,8 @@
    "SUIUSDT",
    "XMRUSDT",
    "BTRUSDT",
-   "FILUSDT",
    "UNIUSDT",
+   "FILUSDT",
    "JCTUSDT",
    "ADAUSDT",
    "AVAXUSDT",
@@ -56157,8 +56157,8 @@
    "GTCUSDT",
    "TAOUSDT",
    "LINKUSDT",
-   "ALTUSDT",
    "BMTUSDT",
+   "ALTUSDT",
    "IOSTUSDT",
    "LITUSDT",
    "AAVEUSDT",
@@ -56199,8 +56199,8 @@
    "AEROUSDT",
    "XPLUSDT",
    "PTBUSDT",
-   "RUNEUSDT",
    "ICPUSDT",
+   "RUNEUSDT",
    "MEWUSDT",
    "ETHFIUSDT",
    "ETCUSDT",
@@ -56212,23 +56212,23 @@
   ],
   "eligible_count": 501,
   "spot_mapped": 59,
-  "scanned_at": "2026-10-23T06:17:11Z"
+  "scanned_at": "2026-10-23T06:22:13Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-23T06:20:15Z",
+  "last_ok": "2026-10-23T06:25:16Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds"
  },
  "stats": {
   "signals": 2915,
   "entries": 2915,
   "exits": 2913,
-  "ws_msgs": 63926974,
-  "ws_ticks": 63926974,
-  "signal_scans": 76414,
+  "ws_msgs": 63928071,
+  "ws_ticks": 63928071,
+  "signal_scans": 76420,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-10-23T06:20:15Z",
+  "last_ok": "2026-10-23T06:25:16Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds"
  },
  "mode": "hybrid_spotws_futures_rest",
