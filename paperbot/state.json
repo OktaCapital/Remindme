@@ -13,12 +13,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1792688400000,
-   "mark": 0.6992,
+   "mark": 0.6995,
    "mark_src": "fapi",
-   "u_pnl": 0.7645,
+   "u_pnl": 0.9079,
    "spot": "ASTERUSDT",
-   "last_mark_ms": 1792731608578,
-   "age_h": 10.956
+   "last_mark_ms": 1792731908531,
+   "age_h": 11.039
   },
   "TRXUSDT": {
    "entry": 0.32795,
@@ -36,8 +36,8 @@
    "mark_src": "spot",
    "u_pnl": 1.7787,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1792731605037,
-   "age_h": 10.158
+   "last_mark_ms": 1792731911064,
+   "age_h": 10.243
   },
   "CTUSDT": {
    "entry": 0.22081,
@@ -51,12 +51,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1792713600000,
-   "mark": 0.21879,
+   "mark": 0.21897,
    "mark_src": "fapi",
-   "u_pnl": -3.0493,
+   "u_pnl": -2.7776,
    "spot": null,
-   "last_mark_ms": 1792731608578,
-   "age_h": 3.167
+   "last_mark_ms": 1792731910715,
+   "age_h": 3.251
   },
   "DOODUSDT": {
    "entry": 0.001943,
@@ -70,12 +70,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1792719000000,
-   "mark": 0.00192,
+   "mark": 0.001925,
    "mark_src": "fapi",
-   "u_pnl": -3.9457,
+   "u_pnl": -3.088,
    "spot": null,
-   "last_mark_ms": 1792731608578,
-   "age_h": 2.555
+   "last_mark_ms": 1792731910715,
+   "age_h": 2.639
   },
   "MASKUSDT": {
    "entry": 0.425,
@@ -89,12 +89,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792730400000,
-   "mark": 0.427,
+   "mark": 0.4259,
    "mark_src": "fapi",
-   "u_pnl": 1.5686,
+   "u_pnl": 0.7059,
    "spot": "MASKUSDT",
-   "last_mark_ms": 1792731608578,
-   "age_h": 0.25
+   "last_mark_ms": 1792731906292,
+   "age_h": 0.333
   },
   "WLDUSDT": {
    "entry": 0.5462,
@@ -108,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792731000000,
-   "mark": 0.5468,
+   "mark": 0.5477,
    "mark_src": "fapi",
-   "u_pnl": 0.3662,
+   "u_pnl": 0.9154,
    "spot": "WLDUSDT",
-   "last_mark_ms": 1792731608578,
-   "age_h": 0.08
+   "last_mark_ms": 1792731906292,
+   "age_h": 0.163
   }
  },
  "trades": [
@@ -105204,8 +105204,8 @@
    "LTCUSDT",
    "QNTUSDT",
    "BCHUSDT",
-   "PHAUSDT",
    "TIAUSDT",
+   "PHAUSDT",
    "ONDOUSDT",
    "DOTUSDT",
    "BRUSDT",
@@ -105240,18 +105240,18 @@
    "MEWUSDT",
    "ETHFIUSDT",
    "FARTCOINUSDT",
+   "ETCUSDT",
    "SANDUSDT",
-   "AVAUSDT",
-   "ETCUSDT"
+   "AVAUSDT"
   ],
   "eligible_count": 503,
   "spot_mapped": 59,
-  "scanned_at": "2026-10-23T04:59:47Z"
+  "scanned_at": "2026-10-23T05:04:50Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-23T05:00:10Z",
+  "last_ok": "2026-10-23T05:05:11Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -105260,12 +105260,12 @@
   "signals": 5415,
   "entries": 5415,
   "exits": 5419,
-  "ws_msgs": 67841325,
-  "ws_ticks": 67841325,
-  "signal_scans": 48906,
+  "ws_msgs": 67842787,
+  "ws_ticks": 67842787,
+  "signal_scans": 48911,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-10-23T05:00:10Z",
+  "last_ok": "2026-10-23T05:05:11Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds"
  },
  "mode": "hybrid_spotws_futures_rest"
