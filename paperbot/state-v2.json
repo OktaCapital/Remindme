@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792738200000,
-   "mark": 604.09,
+   "mark": 604.73,
    "mark_src": "fapi",
-   "u_pnl": -2.1981,
+   "u_pnl": -1.8473,
    "spot": null,
-   "last_mark_ms": 1792776917717,
-   "age_h": 10.66
+   "last_mark_ms": 1792777215406,
+   "age_h": 10.743
   },
   "AAVEUSDT": {
    "entry": 147.83,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792747500000,
-   "mark": 148.21,
+   "mark": 148.03,
    "mark_src": "spot",
-   "u_pnl": 0.8568,
+   "u_pnl": 0.451,
    "spot": "AAVEUSDT",
-   "last_mark_ms": 1792776915032,
-   "age_h": 8.078
+   "last_mark_ms": 1792777210689,
+   "age_h": 8.16
   },
   "SANDUSDT": {
    "entry": 0.05289,
@@ -52,11 +52,11 @@
    "interval": "30m",
    "signal_bar": 1792751400000,
    "mark": 0.05174,
-   "mark_src": "fapi",
+   "mark_src": "spot",
    "u_pnl": -7.2477,
    "spot": "SANDUSDT",
-   "last_mark_ms": 1792776917717,
-   "age_h": 6.514
+   "last_mark_ms": 1792777214760,
+   "age_h": 6.596
   },
   "WLDUSDT": {
    "entry": 0.5319,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792760700000,
-   "mark": 0.5308,
+   "mark": 0.5309,
    "mark_src": "spot",
-   "u_pnl": -0.6893,
+   "u_pnl": -0.6267,
    "spot": "WLDUSDT",
-   "last_mark_ms": 1792776918039,
-   "age_h": 4.411
+   "last_mark_ms": 1792777213107,
+   "age_h": 4.493
   },
   "WLFIUSDT": {
    "entry": 0.05317,
@@ -89,12 +89,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1792760400000,
-   "mark": 0.05357,
+   "mark": 0.05344,
    "mark_src": "fapi",
-   "u_pnl": 2.5077,
+   "u_pnl": 1.6927,
    "spot": "WLFIUSDT",
-   "last_mark_ms": 1792776917717,
-   "age_h": 4.081
+   "last_mark_ms": 1792777211028,
+   "age_h": 4.163
   },
   "DOTUSDT": {
    "entry": 1.122,
@@ -108,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792764900000,
-   "mark": 1.1241,
+   "mark": 1.1228,
    "mark_src": "fapi",
-   "u_pnl": 0.6239,
+   "u_pnl": 0.2377,
    "spot": "DOTUSDT",
-   "last_mark_ms": 1792776915425,
-   "age_h": 3.243
+   "last_mark_ms": 1792777211028,
+   "age_h": 3.325
   },
   "TRXUSDT": {
    "entry": 0.32951,
@@ -127,12 +127,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792764900000,
-   "mark": 0.3297,
+   "mark": 0.3296,
    "mark_src": "spot",
-   "u_pnl": 0.1922,
+   "u_pnl": 0.091,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1792776913289,
-   "age_h": 3.241
+   "last_mark_ms": 1792777216270,
+   "age_h": 3.325
   }
  },
  "trades": [
@@ -56670,11 +56670,11 @@
    "HYPEUSDT",
    "BTWUSDT",
    "WLDUSDT",
-   "BNBUSDT",
    "BIRBUSDT",
+   "BNBUSDT",
    "DOGEUSDT",
-   "MAGMAUSDT",
    "ENAUSDT",
+   "MAGMAUSDT",
    "AKEUSDT",
    "BTRUSDT",
    "AGTUSDT",
@@ -56722,8 +56722,8 @@
    "1000BONKUSDT",
    "TRXUSDT",
    "APTUSDT",
-   "ASTERUSDT",
    "XLMUSDT",
+   "ASTERUSDT",
    "CTUSDT",
    "ATOMUSDT",
    "SKYAIUSDT",
@@ -56731,8 +56731,8 @@
    "VVVUSDT",
    "OPUSDT",
    "ARIAUSDT",
-   "MEWUSDT",
    "INITUSDT",
+   "MEWUSDT",
    "CRVUSDT",
    "SANDUSDT",
    "WLFIUSDT",
@@ -56740,27 +56740,27 @@
    "ETCUSDT",
    "ETHFIUSDT",
    "REZUSDT",
-   "ICPUSDT"
+   "COTIUSDT"
   ],
-  "eligible_count": 504,
+  "eligible_count": 503,
   "spot_mapped": 60,
-  "scanned_at": "2026-10-23T17:35:01Z"
+  "scanned_at": "2026-10-23T17:40:05Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-23T17:35:18Z",
+  "last_ok": "2026-10-23T17:40:16Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds"
  },
  "stats": {
   "signals": 2943,
   "entries": 2943,
   "exits": 2936,
-  "ws_msgs": 64238293,
-  "ws_ticks": 64238293,
-  "signal_scans": 76881,
+  "ws_msgs": 64239679,
+  "ws_ticks": 64239679,
+  "signal_scans": 76887,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-10-23T17:35:18Z",
+  "last_ok": "2026-10-23T17:40:16Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds"
  },
  "mode": "hybrid_spotws_futures_rest",
