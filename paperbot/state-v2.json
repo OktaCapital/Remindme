@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792710000000,
-   "mark": 0.1298,
+   "mark": 0.1301,
    "mark_src": "fapi",
-   "u_pnl": 2.0672,
+   "u_pnl": 2.8423,
    "spot": "ARKMUSDT",
-   "last_mark_ms": 1792733411483,
-   "age_h": 6.41
+   "last_mark_ms": 1792733707085,
+   "age_h": 6.493
   },
   "CTUSDT": {
    "entry": 0.22136,
@@ -32,12 +32,12 @@
    "tf": "4h",
    "interval": "4h",
    "signal_bar": 1792713600000,
-   "mark": 0.21902,
+   "mark": 0.21932,
    "mark_src": "fapi",
-   "u_pnl": -3.5236,
+   "u_pnl": -3.0719,
    "spot": null,
-   "last_mark_ms": 1792733415970,
-   "age_h": 1.486
+   "last_mark_ms": 1792733711492,
+   "age_h": 1.568
   },
   "MASKUSDT": {
    "entry": 0.4256,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792730400000,
-   "mark": 0.4262,
+   "mark": 0.4283,
    "mark_src": "fapi",
-   "u_pnl": 0.4699,
+   "u_pnl": 2.1146,
    "spot": "MASKUSDT",
-   "last_mark_ms": 1792733411483,
-   "age_h": 0.74
+   "last_mark_ms": 1792733707085,
+   "age_h": 0.822
   },
   "WLDUSDT": {
    "entry": 0.5466,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792731000000,
-   "mark": 0.5452,
+   "mark": 0.5473,
    "mark_src": "spot",
-   "u_pnl": -0.8538,
+   "u_pnl": 0.4269,
    "spot": "WLDUSDT",
-   "last_mark_ms": 1792733413818,
-   "age_h": 0.576
+   "last_mark_ms": 1792733712841,
+   "age_h": 0.66
   }
  },
  "trades": [
@@ -56216,19 +56216,19 @@
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-23T05:30:16Z",
+  "last_ok": "2026-10-23T05:35:12Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds"
  },
  "stats": {
   "signals": 2915,
   "entries": 2915,
   "exits": 2911,
-  "ws_msgs": 63917007,
-  "ws_ticks": 63917007,
-  "signal_scans": 76355,
+  "ws_msgs": 63917725,
+  "ws_ticks": 63917725,
+  "signal_scans": 76361,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-10-23T05:30:11Z",
+  "last_ok": "2026-10-23T05:35:12Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds"
  },
  "mode": "hybrid_spotws_futures_rest",
