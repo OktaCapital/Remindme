@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792710000000,
-   "mark": 0.1284,
+   "mark": 0.1285,
    "mark_src": "spot",
-   "u_pnl": -1.5504,
+   "u_pnl": -1.292,
    "spot": "ARKMUSDT",
-   "last_mark_ms": 1792745709708,
-   "age_h": 9.827
+   "last_mark_ms": 1792746008720,
+   "age_h": 9.91
   },
   "XMRUSDT": {
    "entry": 608.1,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792738200000,
-   "mark": 615.48,
+   "mark": 614.65,
    "mark_src": "fapi",
-   "u_pnl": 4.0453,
+   "u_pnl": 3.5904,
    "spot": null,
-   "last_mark_ms": 1792745708451,
-   "age_h": 1.991
+   "last_mark_ms": 1792746006559,
+   "age_h": 2.074
   }
  },
  "trades": [
@@ -56197,8 +56197,8 @@
    "VVVUSDT",
    "MASKUSDT",
    "FETUSDT",
-   "ZROUSDT",
    "HBARUSDT",
+   "ZROUSDT",
    "PHAUSDT",
    "XLMUSDT",
    "PENGUUSDT",
@@ -56210,8 +56210,8 @@
    "TRXUSDT",
    "SKYAIUSDT",
    "OPUSDT",
-   "MUSDT",
    "1000SHIBUSDT",
+   "MUSDT",
    "ATOMUSDT",
    "AEROUSDT",
    "XPLUSDT",
@@ -56231,23 +56231,23 @@
   ],
   "eligible_count": 499,
   "spot_mapped": 59,
-  "scanned_at": "2026-10-23T08:53:07Z"
+  "scanned_at": "2026-10-23T08:58:09Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-23T08:55:09Z",
+  "last_ok": "2026-10-23T09:00:08Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds"
  },
  "stats": {
   "signals": 2916,
   "entries": 2916,
   "exits": 2914,
-  "ws_msgs": 63933041,
-  "ws_ticks": 63933041,
-  "signal_scans": 76594,
+  "ws_msgs": 63933091,
+  "ws_ticks": 63933091,
+  "signal_scans": 76600,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-10-23T08:55:09Z",
+  "last_ok": "2026-10-23T09:00:08Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds"
  },
  "mode": "hybrid_spotws_futures_rest",
