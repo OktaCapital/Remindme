@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792730400000,
-   "mark": 0.4284,
+   "mark": 0.4282,
    "mark_src": "fapi",
-   "u_pnl": 2.6666,
+   "u_pnl": 2.5098,
    "spot": "MASKUSDT",
-   "last_mark_ms": 1792740597622,
-   "age_h": 2.747
+   "last_mark_ms": 1792740909230,
+   "age_h": 2.834
   },
   "CTUSDT": {
    "entry": 0.22646,
@@ -32,12 +32,12 @@
    "tf": "4h",
    "interval": "4h",
    "signal_bar": 1792713600000,
-   "mark": 0.22024,
+   "mark": 0.2212,
    "mark_src": "fapi",
-   "u_pnl": -9.1553,
+   "u_pnl": -7.7423,
    "spot": null,
-   "last_mark_ms": 1792740606779,
-   "age_h": 1.732
+   "last_mark_ms": 1792740911415,
+   "age_h": 1.817
   },
   "XMRUSDT": {
    "entry": 607.96,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792738200000,
-   "mark": 609.4,
+   "mark": 609.3,
    "mark_src": "fapi",
-   "u_pnl": 0.7895,
+   "u_pnl": 0.7347,
    "spot": null,
-   "last_mark_ms": 1792740606779,
-   "age_h": 0.576
+   "last_mark_ms": 1792740911415,
+   "age_h": 0.661
   }
  },
  "trades": [
@@ -105233,15 +105233,15 @@
    "LINKUSDT",
    "ALTUSDT",
    "AAVEUSDT",
-   "IOSTUSDT",
-   "LITUSDT",
    "INJUSDT",
+   "LITUSDT",
+   "IOSTUSDT",
    "ARBUSDT",
    "DOODUSDT",
    "DASHUSDT",
    "STRKUSDT",
-   "LTCUSDT",
    "BCHUSDT",
+   "LTCUSDT",
    "DOTUSDT",
    "QNTUSDT",
    "TIAUSDT",
@@ -105260,8 +105260,8 @@
    "APTUSDT",
    "ASTERUSDT",
    "CTUSDT",
-   "TRXUSDT",
    "SKYAIUSDT",
+   "TRXUSDT",
    "MUSDT",
    "BIRBUSDT",
    "OPUSDT",
@@ -105278,19 +105278,19 @@
    "ETHFIUSDT",
    "FARTCOINUSDT",
    "USELESSUSDT",
-   "WLFIUSDT",
    "ARKMUSDT",
    "SANDUSDT",
+   "WLFIUSDT",
    "PONSUSDT"
   ],
   "eligible_count": 501,
   "spot_mapped": 57,
-  "scanned_at": "2026-10-23T07:30:09Z"
+  "scanned_at": "2026-10-23T07:35:11Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-23T07:30:09Z",
+  "last_ok": "2026-10-23T07:35:11Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -105299,12 +105299,12 @@
   "signals": 5417,
   "entries": 5417,
   "exits": 5424,
-  "ws_msgs": 67865091,
-  "ws_ticks": 67865091,
-  "signal_scans": 49049,
+  "ws_msgs": 67865125,
+  "ws_ticks": 67865125,
+  "signal_scans": 49053,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-10-23T07:29:57Z",
+  "last_ok": "2026-10-23T07:34:11Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds"
  },
  "mode": "hybrid_spotws_futures_rest"
