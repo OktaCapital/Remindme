@@ -1,5 +1,5 @@
 {
- "equity": 562.1439387507139,
+ "equity": 568.643873750714,
  "positions": {
   "ZROUSDT": {
    "entry": 1.8008,
@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792680300000,
-   "mark": 1.795,
+   "mark": 1.809,
    "mark_src": "spot",
-   "u_pnl": -1.0736,
+   "u_pnl": 1.5178,
    "spot": "ZROUSDT",
-   "last_mark_ms": 1792722614339,
-   "age_h": 11.66
+   "last_mark_ms": 1792722912548,
+   "age_h": 11.743
   },
   "PUMPUSDT": {
    "entry": 0.004645,
@@ -32,31 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792681500000,
-   "mark": 0.004634,
+   "mark": 0.004673,
    "mark_src": "spot",
-   "u_pnl": -0.7894,
+   "u_pnl": 2.0093,
    "spot": "PUMPUSDT",
-   "last_mark_ms": 1792722615230,
-   "age_h": 11.327
-  },
-  "INJUSDT": {
-   "entry": 7.996,
-   "notional": 333.33,
-   "opened_ms": 1792681842372,
-   "opened": "2026-10-22T15:10:42Z",
-   "entry_time": "2026-10-22T15:10:42Z",
-   "dir_long": true,
-   "rsi": 14.554,
-   "vol_ratio": 1.492,
-   "tf": "5m",
-   "interval": "5m",
-   "signal_bar": 1792681500000,
-   "mark": 8.146,
-   "mark_src": "spot",
-   "u_pnl": 6.2531,
-   "spot": "INJUSDT",
-   "last_mark_ms": 1792722611792,
-   "age_h": 11.325
+   "last_mark_ms": 1792722913013,
+   "age_h": 11.409
   },
   "XPLUSDT": {
    "entry": 0.07715,
@@ -70,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792681500000,
-   "mark": 0.07701,
-   "mark_src": "fapi",
-   "u_pnl": -0.6049,
+   "mark": 0.07769,
+   "mark_src": "spot",
+   "u_pnl": 2.3331,
    "spot": "XPLUSDT",
-   "last_mark_ms": 1792722611919,
-   "age_h": 11.324
+   "last_mark_ms": 1792722913014,
+   "age_h": 11.407
   },
   "ARKMUSDT": {
    "entry": 0.129,
@@ -89,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792710000000,
-   "mark": 0.1286,
-   "mark_src": "fapi",
-   "u_pnl": -1.0336,
+   "mark": 0.1294,
+   "mark_src": "spot",
+   "u_pnl": 1.0336,
    "spot": "ARKMUSDT",
-   "last_mark_ms": 1792722614378,
-   "age_h": 3.411
+   "last_mark_ms": 1792722915789,
+   "age_h": 3.495
   },
   "JCTUSDT": {
    "entry": 0.004363,
@@ -108,12 +89,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792719000000,
-   "mark": 0.004371,
+   "mark": 0.004351,
    "mark_src": "fapi",
-   "u_pnl": 0.6112,
+   "u_pnl": -0.9168,
    "spot": null,
-   "last_mark_ms": 1792722614378,
-   "age_h": 0.904
+   "last_mark_ms": 1792722915892,
+   "age_h": 0.988
   },
   "DOODUSDT": {
    "entry": 0.001971,
@@ -127,12 +108,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1792719000000,
-   "mark": 0.001945,
+   "mark": 0.00194,
    "mark_src": "fapi",
-   "u_pnl": -4.397,
+   "u_pnl": -5.2426,
    "spot": null,
-   "last_mark_ms": 1792722614378,
-   "age_h": 0.484
+   "last_mark_ms": 1792722915892,
+   "age_h": 0.568
   }
  },
  "trades": [
@@ -55311,6 +55292,25 @@
    "mark": 0.648,
    "mark_src": "spot",
    "dir_long": true
+  },
+  {
+   "sym": "INJUSDT",
+   "entry": 7.996,
+   "exit": 8.15592,
+   "ret": 0.0195,
+   "pnl": 6.499935,
+   "reason": "tp_spot",
+   "opened": "2026-10-22T15:10:42Z",
+   "opened_ms": 1792681842372,
+   "closed_ms": 1792722627031,
+   "age_h": 11.329,
+   "tf": "5m",
+   "signal_bar": 1792681500000,
+   "rsi": 14.554,
+   "vol_ratio": 1.492,
+   "mark": 8.156,
+   "mark_src": "spot",
+   "dir_long": true
   }
  ],
  "last_signal_bar": {
@@ -56137,19 +56137,19 @@
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-23T02:30:15Z",
+  "last_ok": "2026-10-23T02:35:17Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds"
  },
  "stats": {
   "signals": 2911,
   "entries": 2911,
-  "exits": 2904,
-  "ws_msgs": 63892892,
-  "ws_ticks": 63892892,
-  "signal_scans": 76138,
+  "exits": 2905,
+  "ws_msgs": 63896225,
+  "ws_ticks": 63896225,
+  "signal_scans": 76144,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-10-23T02:30:15Z",
+  "last_ok": "2026-10-23T02:35:17Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds"
  },
  "mode": "hybrid_spotws_futures_rest",
