@@ -13,12 +13,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1792688400000,
-   "mark": 0.6996,
+   "mark": 0.7,
    "mark_src": "fapi",
-   "u_pnl": 0.9556,
+   "u_pnl": 1.1468,
    "spot": "ASTERUSDT",
-   "last_mark_ms": 1792734010050,
-   "age_h": 11.623
+   "last_mark_ms": 1792734313477,
+   "age_h": 11.707
   },
   "TRXUSDT": {
    "entry": 0.32795,
@@ -32,12 +32,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1792688400000,
-   "mark": 0.3297,
+   "mark": 0.3296,
    "mark_src": "spot",
-   "u_pnl": 1.7787,
+   "u_pnl": 1.6771,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1792734013096,
-   "age_h": 10.827
+   "last_mark_ms": 1792734313853,
+   "age_h": 10.91
   },
   "CTUSDT": {
    "entry": 0.22081,
@@ -51,12 +51,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1792713600000,
-   "mark": 0.22194,
+   "mark": 0.22496,
    "mark_src": "fapi",
-   "u_pnl": 1.7058,
+   "u_pnl": 6.2648,
    "spot": null,
-   "last_mark_ms": 1792734012236,
-   "age_h": 3.835
+   "last_mark_ms": 1792734313477,
+   "age_h": 3.918
   },
   "DOODUSDT": {
    "entry": 0.001943,
@@ -70,12 +70,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1792719000000,
-   "mark": 0.001937,
+   "mark": 0.001935,
    "mark_src": "fapi",
-   "u_pnl": -1.0293,
+   "u_pnl": -1.3724,
    "spot": null,
-   "last_mark_ms": 1792734012236,
-   "age_h": 3.223
+   "last_mark_ms": 1792734313477,
+   "age_h": 3.306
   },
   "MASKUSDT": {
    "entry": 0.425,
@@ -89,12 +89,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792730400000,
-   "mark": 0.4296,
+   "mark": 0.4292,
    "mark_src": "fapi",
-   "u_pnl": 3.6078,
+   "u_pnl": 3.2941,
    "spot": "MASKUSDT",
-   "last_mark_ms": 1792734007855,
-   "age_h": 0.917
+   "last_mark_ms": 1792734313477,
+   "age_h": 1.002
   },
   "WLDUSDT": {
    "entry": 0.5462,
@@ -108,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792731000000,
-   "mark": 0.547,
-   "mark_src": "fapi",
-   "u_pnl": 0.4882,
+   "mark": 0.5477,
+   "mark_src": "spot",
+   "u_pnl": 0.9154,
    "spot": "WLDUSDT",
-   "last_mark_ms": 1792734012236,
-   "age_h": 0.748
+   "last_mark_ms": 1792734312303,
+   "age_h": 0.831
   }
  },
  "trades": [
@@ -105183,8 +105183,8 @@
    "SUIUSDT",
    "UNIUSDT",
    "FILUSDT",
-   "JCTUSDT",
    "BTRUSDT",
+   "JCTUSDT",
    "ADAUSDT",
    "QUSDT",
    "AVAXUSDT",
@@ -105196,8 +105196,8 @@
    "IOSTUSDT",
    "LITUSDT",
    "AAVEUSDT",
-   "ARBUSDT",
    "INJUSDT",
+   "ARBUSDT",
    "DOODUSDT",
    "STRKUSDT",
    "DASHUSDT",
@@ -105207,8 +105207,8 @@
    "DOTUSDT",
    "ONDOUSDT",
    "TIAUSDT",
-   "PHAUSDT",
    "BRUSDT",
+   "PHAUSDT",
    "TRUMPUSDT",
    "FETUSDT",
    "VVVUSDT",
@@ -105226,8 +105226,8 @@
    "CTUSDT",
    "SKYAIUSDT",
    "MUSDT",
-   "1000SHIBUSDT",
    "BIRBUSDT",
+   "1000SHIBUSDT",
    "CRVUSDT",
    "AEROUSDT",
    "ATOMUSDT",
@@ -105235,10 +105235,10 @@
    "PTBUSDT",
    "RUNEUSDT",
    "ICPUSDT",
-   "ARKMUSDT",
    "MEWUSDT",
-   "PROMUSDT",
+   "ARKMUSDT",
    "ETHFIUSDT",
+   "PROMUSDT",
    "ETCUSDT",
    "FARTCOINUSDT",
    "AVAUSDT",
@@ -105246,12 +105246,12 @@
   ],
   "eligible_count": 503,
   "spot_mapped": 59,
-  "scanned_at": "2026-10-23T05:36:16Z"
+  "scanned_at": "2026-10-23T05:41:18Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-23T05:40:13Z",
+  "last_ok": "2026-10-23T05:45:13Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -105260,12 +105260,12 @@
   "signals": 5415,
   "entries": 5415,
   "exits": 5419,
-  "ws_msgs": 67851178,
-  "ws_ticks": 67851178,
-  "signal_scans": 48946,
+  "ws_msgs": 67851930,
+  "ws_ticks": 67851930,
+  "signal_scans": 48951,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-10-23T05:40:13Z",
+  "last_ok": "2026-10-23T05:45:13Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds"
  },
  "mode": "hybrid_spotws_futures_rest"
