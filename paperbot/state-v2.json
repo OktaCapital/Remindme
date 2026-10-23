@@ -13,12 +13,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792738200000,
-   "mark": 594.48,
+   "mark": 595.02,
    "mark_src": "fapi",
-   "u_pnl": -7.4658,
+   "u_pnl": -7.1698,
    "spot": null,
-   "last_mark_ms": 1792781413730,
-   "age_h": 11.909
+   "last_mark_ms": 1792781712322,
+   "age_h": 11.992
   },
   "AAVEUSDT": {
    "entry": 147.83,
@@ -32,12 +32,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792747500000,
-   "mark": 147.47,
-   "mark_src": "fapi",
-   "u_pnl": -0.8117,
+   "mark": 147.65,
+   "mark_src": "spot",
+   "u_pnl": -0.4059,
    "spot": "AAVEUSDT",
-   "last_mark_ms": 1792781413730,
-   "age_h": 9.328
+   "last_mark_ms": 1792781712383,
+   "age_h": 9.411
   },
   "SANDUSDT": {
    "entry": 0.05289,
@@ -51,12 +51,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1792751400000,
-   "mark": 0.05252,
-   "mark_src": "fapi",
-   "u_pnl": -2.3319,
+   "mark": 0.05269,
+   "mark_src": "spot",
+   "u_pnl": -1.2605,
    "spot": "SANDUSDT",
-   "last_mark_ms": 1792781411486,
-   "age_h": 7.762
+   "last_mark_ms": 1792781707801,
+   "age_h": 7.844
   },
   "WLDUSDT": {
    "entry": 0.5319,
@@ -70,12 +70,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792760700000,
-   "mark": 0.5294,
+   "mark": 0.5292,
    "mark_src": "spot",
-   "u_pnl": -1.5667,
+   "u_pnl": -1.692,
    "spot": "WLDUSDT",
-   "last_mark_ms": 1792781411528,
-   "age_h": 5.66
+   "last_mark_ms": 1792781709663,
+   "age_h": 5.742
   },
   "WLFIUSDT": {
    "entry": 0.05317,
@@ -89,12 +89,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1792760400000,
-   "mark": 0.05353,
+   "mark": 0.05341,
    "mark_src": "fapi",
-   "u_pnl": 2.2569,
+   "u_pnl": 1.5046,
    "spot": "WLFIUSDT",
-   "last_mark_ms": 1792781411486,
-   "age_h": 5.329
+   "last_mark_ms": 1792781710128,
+   "age_h": 5.412
   },
   "DOTUSDT": {
    "entry": 1.122,
@@ -108,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792764900000,
-   "mark": 1.1229,
+   "mark": 1.1241,
    "mark_src": "fapi",
-   "u_pnl": 0.2674,
+   "u_pnl": 0.6239,
    "spot": "DOTUSDT",
-   "last_mark_ms": 1792781409265,
-   "age_h": 4.491
+   "last_mark_ms": 1792781710128,
+   "age_h": 4.575
   },
   "TRXUSDT": {
    "entry": 0.32951,
@@ -127,12 +127,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792764900000,
-   "mark": 0.33,
-   "mark_src": "spot",
-   "u_pnl": 0.4957,
+   "mark": 0.32995,
+   "mark_src": "fapi",
+   "u_pnl": 0.4451,
    "spot": "TRXUSDT",
-   "last_mark_ms": 1792781414055,
-   "age_h": 4.491
+   "last_mark_ms": 1792781712322,
+   "age_h": 4.574
   }
  },
  "trades": [
@@ -56728,13 +56728,13 @@
    "BTWUSDT",
    "BIRBUSDT",
    "BNBUSDT",
-   "WLDUSDT",
    "ENAUSDT",
+   "WLDUSDT",
    "DOGEUSDT",
    "AKEUSDT",
    "MAGMAUSDT",
-   "AGTUSDT",
    "JCTUSDT",
+   "AGTUSDT",
    "BTRUSDT",
    "SUIUSDT",
    "PUMPUSDT",
@@ -56765,8 +56765,8 @@
    "DOODUSDT",
    "TRUMPUSDT",
    "ARKUSDT",
-   "ONDOUSDT",
    "SOPHUSDT",
+   "ONDOUSDT",
    "PENGUUSDT",
    "BRUSDT",
    "ZROUSDT",
@@ -56781,8 +56781,8 @@
    "TRXUSDT",
    "XLMUSDT",
    "ATOMUSDT",
-   "CTUSDT",
    "USELESSUSDT",
+   "CTUSDT",
    "INITUSDT",
    "VVVUSDT",
    "ASTERUSDT",
@@ -56799,25 +56799,25 @@
    "REZUSDT",
    "COTIUSDT"
   ],
-  "eligible_count": 503,
+  "eligible_count": 504,
   "spot_mapped": 60,
-  "scanned_at": "2026-10-23T18:48:18Z"
+  "scanned_at": "2026-10-23T18:53:21Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-23T18:50:14Z",
+  "last_ok": "2026-10-23T18:55:12Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds"
  },
  "stats": {
   "signals": 2946,
   "entries": 2946,
   "exits": 2939,
-  "ws_msgs": 64256579,
-  "ws_ticks": 64256579,
-  "signal_scans": 76976,
+  "ws_msgs": 64257680,
+  "ws_ticks": 64257680,
+  "signal_scans": 76983,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-10-23T18:50:14Z",
+  "last_ok": "2026-10-23T18:55:12Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds"
  },
  "mode": "hybrid_spotws_futures_rest",
