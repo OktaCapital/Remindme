@@ -13,12 +13,12 @@
    "tf": "4h",
    "interval": "4h",
    "signal_bar": 1792843200000,
-   "mark": 0.6941,
+   "mark": 0.6964,
    "mark_src": "spot",
-   "u_pnl": 0.5773,
+   "u_pnl": 1.6837,
    "spot": "AEROUSDT",
-   "last_mark_ms": 1792895410745,
-   "age_h": 9.019
+   "last_mark_ms": 1792895714647,
+   "age_h": 9.104
   },
   "NEARUSDT": {
    "entry": 4.476,
@@ -32,12 +32,12 @@
    "tf": "4h",
    "interval": "4h",
    "signal_bar": 1792843200000,
-   "mark": 4.474,
+   "mark": 4.481,
    "mark_src": "spot",
-   "u_pnl": -0.1489,
+   "u_pnl": 0.3724,
    "spot": "NEARUSDT",
-   "last_mark_ms": 1792895415771,
-   "age_h": 8.028
+   "last_mark_ms": 1792895712635,
+   "age_h": 8.11
   },
   "ATOMUSDT": {
    "entry": 1.622,
@@ -51,12 +51,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792876200000,
-   "mark": 1.628,
+   "mark": 1.626,
    "mark_src": "fapi",
-   "u_pnl": 1.233,
+   "u_pnl": 0.822,
    "spot": "ATOMUSDT",
-   "last_mark_ms": 1792895410090,
-   "age_h": 5.242
+   "last_mark_ms": 1792895711620,
+   "age_h": 5.325
   },
   "ERAUSDT": {
    "entry": 0.07289,
@@ -70,12 +70,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1792886400000,
-   "mark": 0.0722,
+   "mark": 0.0724,
    "mark_src": "spot",
-   "u_pnl": -3.1554,
+   "u_pnl": -2.2408,
    "spot": "ERAUSDT",
-   "last_mark_ms": 1792895414916,
-   "age_h": 1.525
+   "last_mark_ms": 1792895718059,
+   "age_h": 1.609
   },
   "TREEUSDT": {
    "entry": 0.03851,
@@ -89,12 +89,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1792890000000,
-   "mark": 0.03805,
-   "mark_src": "fapi",
-   "u_pnl": -3.9816,
+   "mark": 0.0382,
+   "mark_src": "spot",
+   "u_pnl": -2.6833,
    "spot": "TREEUSDT",
-   "last_mark_ms": 1792895412264,
-   "age_h": 0.99
+   "last_mark_ms": 1792895714872,
+   "age_h": 1.074
   },
   "ZBTUSDT": {
    "entry": 0.06742,
@@ -108,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792892400000,
-   "mark": 0.06793,
+   "mark": 0.06788,
    "mark_src": "fapi",
-   "u_pnl": 2.5215,
+   "u_pnl": 2.2743,
    "spot": "ZBTUSDT",
-   "last_mark_ms": 1792895414472,
-   "age_h": 0.75
+   "last_mark_ms": 1792895715987,
+   "age_h": 0.834
   },
   "ZROUSDT": {
    "entry": 1.7294,
@@ -127,12 +127,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792892700000,
-   "mark": 1.7233,
+   "mark": 1.7249,
    "mark_src": "fapi",
-   "u_pnl": -1.1757,
+   "u_pnl": -0.8673,
    "spot": "ZROUSDT",
-   "last_mark_ms": 1792895412264,
-   "age_h": 0.662
+   "last_mark_ms": 1792895713809,
+   "age_h": 0.746
   }
  },
  "trades": [
@@ -58361,8 +58361,8 @@
    "AAVEUSDT",
    "APRUSDT",
    "ANIMEUSDT",
-   "KATUSDT",
    "LIGHTUSDT",
+   "KATUSDT",
    "TIAUSDT",
    "ARBUSDT",
    "XMRUSDT",
@@ -58376,8 +58376,8 @@
    "DOTUSDT",
    "STRKUSDT",
    "PENGUUSDT",
-   "INJUSDT",
    "CTUSDT",
+   "INJUSDT",
    "QNTUSDT",
    "DOSUSDT",
    "FARTCOINUSDT",
@@ -58395,14 +58395,14 @@
    "APTUSDT",
    "HBARUSDT",
    "INITUSDT",
-   "ZBTUSDT",
    "MUSDT",
+   "ZBTUSDT",
    "ARIAUSDT",
    "1000SHIBUSDT",
    "OPUSDT",
-   "DOODUSDT",
-   "ALTUSDT",
    "NILUSDT",
+   "ALTUSDT",
+   "DOODUSDT",
    "REZUSDT",
    "ELSAUSDT",
    "XPLUSDT",
@@ -58410,23 +58410,23 @@
   ],
   "eligible_count": 508,
   "spot_mapped": 57,
-  "scanned_at": "2026-10-25T02:25:45Z"
+  "scanned_at": "2026-10-25T02:31:17Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-25T02:30:15Z",
+  "last_ok": "2026-10-25T02:35:18Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds"
  },
  "stats": {
   "signals": 3030,
   "entries": 3030,
   "exits": 3023,
-  "ws_msgs": 65577110,
-  "ws_ticks": 65577110,
-  "signal_scans": 77496,
+  "ws_msgs": 65579252,
+  "ws_ticks": 65579252,
+  "signal_scans": 77502,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-10-25T02:30:15Z",
+  "last_ok": "2026-10-25T02:35:18Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds"
  },
  "mode": "hybrid_spotws_futures_rest",
