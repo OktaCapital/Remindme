@@ -13,12 +13,12 @@
    "tf": "4h",
    "interval": "4h",
    "signal_bar": 1792843200000,
-   "mark": 0.6943,
+   "mark": 0.6941,
    "mark_src": "spot",
-   "u_pnl": 0.6735,
+   "u_pnl": 0.5773,
    "spot": "AEROUSDT",
-   "last_mark_ms": 1792895117555,
-   "age_h": 8.938
+   "last_mark_ms": 1792895410745,
+   "age_h": 9.019
   },
   "NEARUSDT": {
    "entry": 4.476,
@@ -32,12 +32,12 @@
    "tf": "4h",
    "interval": "4h",
    "signal_bar": 1792843200000,
-   "mark": 4.466,
-   "mark_src": "fapi",
-   "u_pnl": -0.7447,
+   "mark": 4.474,
+   "mark_src": "spot",
+   "u_pnl": -0.1489,
    "spot": "NEARUSDT",
-   "last_mark_ms": 1792895114899,
-   "age_h": 7.944
+   "last_mark_ms": 1792895415771,
+   "age_h": 8.028
   },
   "ATOMUSDT": {
    "entry": 1.622,
@@ -55,8 +55,8 @@
    "mark_src": "fapi",
    "u_pnl": 1.233,
    "spot": "ATOMUSDT",
-   "last_mark_ms": 1792895112755,
-   "age_h": 5.159
+   "last_mark_ms": 1792895410090,
+   "age_h": 5.242
   },
   "ERAUSDT": {
    "entry": 0.07289,
@@ -70,12 +70,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1792886400000,
-   "mark": 0.07182,
-   "mark_src": "fapi",
-   "u_pnl": -4.8932,
+   "mark": 0.0722,
+   "mark_src": "spot",
+   "u_pnl": -3.1554,
    "spot": "ERAUSDT",
-   "last_mark_ms": 1792895117038,
-   "age_h": 1.442
+   "last_mark_ms": 1792895414916,
+   "age_h": 1.525
   },
   "TREEUSDT": {
    "entry": 0.03851,
@@ -89,12 +89,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1792890000000,
-   "mark": 0.03787,
+   "mark": 0.03805,
    "mark_src": "fapi",
-   "u_pnl": -5.5396,
+   "u_pnl": -3.9816,
    "spot": "TREEUSDT",
-   "last_mark_ms": 1792895117038,
-   "age_h": 0.908
+   "last_mark_ms": 1792895412264,
+   "age_h": 0.99
   },
   "ZBTUSDT": {
    "entry": 0.06742,
@@ -108,12 +108,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792892400000,
-   "mark": 0.0678,
-   "mark_src": "spot",
-   "u_pnl": 1.8788,
+   "mark": 0.06793,
+   "mark_src": "fapi",
+   "u_pnl": 2.5215,
    "spot": "ZBTUSDT",
-   "last_mark_ms": 1792895115735,
-   "age_h": 0.667
+   "last_mark_ms": 1792895414472,
+   "age_h": 0.75
   },
   "ZROUSDT": {
    "entry": 1.7294,
@@ -127,12 +127,12 @@
    "tf": "5m",
    "interval": "5m",
    "signal_bar": 1792892700000,
-   "mark": 1.7204,
+   "mark": 1.7233,
    "mark_src": "fapi",
-   "u_pnl": -1.7347,
+   "u_pnl": -1.1757,
    "spot": "ZROUSDT",
-   "last_mark_ms": 1792895114899,
-   "age_h": 0.579
+   "last_mark_ms": 1792895412264,
+   "age_h": 0.662
   }
  },
  "trades": [
@@ -58355,8 +58355,8 @@
    "TAOUSDT",
    "AVAXUSDT",
    "LINKUSDT",
-   "AGTUSDT",
    "TUSDT",
+   "AGTUSDT",
    "FILUSDT",
    "AAVEUSDT",
    "APRUSDT",
@@ -58366,8 +58366,8 @@
    "TIAUSDT",
    "ARBUSDT",
    "XMRUSDT",
-   "BCHUSDT",
    "GTCUSDT",
+   "BCHUSDT",
    "LAUSDT",
    "BTWUSDT",
    "LTCUSDT",
@@ -58376,18 +58376,18 @@
    "DOTUSDT",
    "STRKUSDT",
    "PENGUUSDT",
-   "CTUSDT",
    "INJUSDT",
+   "CTUSDT",
    "QNTUSDT",
    "DOSUSDT",
-   "ARKUSDT",
    "FARTCOINUSDT",
+   "ARKUSDT",
    "WETUSDT",
    "FETUSDT",
    "DASHUSDT",
    "AVAUSDT",
-   "LITUSDT",
    "ASTERUSDT",
+   "LITUSDT",
    "USELESSUSDT",
    "XLMUSDT",
    "IOSTUSDT",
@@ -58410,23 +58410,23 @@
   ],
   "eligible_count": 508,
   "spot_mapped": 57,
-  "scanned_at": "2026-10-25T02:20:41Z"
+  "scanned_at": "2026-10-25T02:25:45Z"
  },
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-25T02:25:17Z",
+  "last_ok": "2026-10-25T02:30:15Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds"
  },
  "stats": {
   "signals": 3030,
   "entries": 3030,
   "exits": 3023,
-  "ws_msgs": 65575710,
-  "ws_ticks": 65575710,
-  "signal_scans": 77489,
+  "ws_msgs": 65577110,
+  "ws_ticks": 65577110,
+  "signal_scans": 77496,
   "started": "2026-08-31T11:26:40Z",
   "note": "v2 clean ledger: state-v2.json; 1h disabled; same-signal re-entry blocked; spot WS + futures REST",
-  "last_ok": "2026-10-25T02:25:17Z",
+  "last_ok": "2026-10-25T02:30:15Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds"
  },
  "mode": "hybrid_spotws_futures_rest",
