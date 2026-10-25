@@ -13,12 +13,12 @@
    "tf": "1h",
    "interval": "1h",
    "signal_bar": 1792861200000,
-   "mark": 1.0435,
-   "mark_src": "fapi",
-   "u_pnl": 0.2557,
+   "mark": 1.047,
+   "mark_src": "spot",
+   "u_pnl": 1.3746,
    "spot": "DOTUSDT",
-   "last_mark_ms": 1792895710852,
-   "age_h": 8.126
+   "last_mark_ms": 1792896008476,
+   "age_h": 8.208
   },
   "NEARUSDT": {
    "entry": 4.473,
@@ -32,12 +32,12 @@
    "tf": "4h",
    "interval": "4h",
    "signal_bar": 1792843200000,
-   "mark": 4.482,
+   "mark": 4.499,
    "mark_src": "spot",
-   "u_pnl": 0.6707,
+   "u_pnl": 1.9375,
    "spot": "NEARUSDT",
-   "last_mark_ms": 1792895712116,
-   "age_h": 7.699
+   "last_mark_ms": 1792896007891,
+   "age_h": 7.782
   },
   "LTCUSDT": {
    "entry": 56.5,
@@ -51,12 +51,12 @@
    "tf": "4h",
    "interval": "4h",
    "signal_bar": 1792843200000,
-   "mark": 57.12,
+   "mark": 57.23,
    "mark_src": "spot",
-   "u_pnl": 3.6578,
+   "u_pnl": 4.3067,
    "spot": "LTCUSDT",
-   "last_mark_ms": 1792895705966,
-   "age_h": 7.631
+   "last_mark_ms": 1792896004129,
+   "age_h": 7.713
   },
   "ERAUSDT": {
    "entry": 0.07296,
@@ -70,12 +70,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1792886400000,
-   "mark": 0.0724,
+   "mark": 0.0727,
    "mark_src": "spot",
-   "u_pnl": -2.5585,
+   "u_pnl": -1.1879,
    "spot": "ERAUSDT",
-   "last_mark_ms": 1792895709579,
-   "age_h": 1.629
+   "last_mark_ms": 1792896004967,
+   "age_h": 1.711
   },
   "TREEUSDT": {
    "entry": 0.03812,
@@ -89,12 +89,12 @@
    "tf": "30m",
    "interval": "30m",
    "signal_bar": 1792890000000,
-   "mark": 0.03804,
-   "mark_src": "fapi",
-   "u_pnl": -0.6995,
+   "mark": 0.0383,
+   "mark_src": "spot",
+   "u_pnl": 1.574,
    "spot": "TREEUSDT",
-   "last_mark_ms": 1792895710852,
-   "age_h": 0.908
+   "last_mark_ms": 1792896007938,
+   "age_h": 0.991
   }
  },
  "trades": [
@@ -108045,8 +108045,8 @@
    "TUSDT",
    "AGTUSDT",
    "FILUSDT",
-   "AAVEUSDT",
    "APRUSDT",
+   "AAVEUSDT",
    "ANIMEUSDT",
    "LIGHTUSDT",
    "KATUSDT",
@@ -108072,9 +108072,9 @@
    "WETUSDT",
    "FETUSDT",
    "DASHUSDT",
+   "LITUSDT",
    "AVAUSDT",
    "ASTERUSDT",
-   "LITUSDT",
    "USELESSUSDT",
    "XLMUSDT",
    "IOSTUSDT",
@@ -108097,12 +108097,12 @@
   ],
   "eligible_count": 508,
   "spot_mapped": 57,
-  "scanned_at": "2026-10-25T02:31:36Z"
+  "scanned_at": "2026-10-25T02:36:39Z"
  },
  "schema_version": 2,
  "health": {
   "status": "ok",
-  "last_ok": "2026-10-25T02:35:12Z",
+  "last_ok": "2026-10-25T02:40:09Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds",
   "monitor_ok": 9,
   "monitor_failed": 0
@@ -108111,12 +108111,12 @@
   "signals": 5564,
   "entries": 5564,
   "exits": 5569,
-  "ws_msgs": 69696112,
-  "ws_ticks": 69696112,
-  "signal_scans": 49584,
+  "ws_msgs": 69698100,
+  "ws_ticks": 69698100,
+  "signal_scans": 49589,
   "started": "2026-08-28T08:27:11Z",
   "note": "v1 legacy lane: state.json; original layered forward test",
-  "last_ok": "2026-10-25T02:35:12Z",
+  "last_ok": "2026-10-25T02:40:09Z",
   "last_error": "rest_fallback: curl: (28) Connection timed out after 15002 milliseconds"
  },
  "mode": "hybrid_spotws_futures_rest"
